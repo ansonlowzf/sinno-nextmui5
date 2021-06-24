@@ -7,6 +7,8 @@ import createCache from "@emotion/cache";
 import theme from "../styles/theme";
 import "/styles/globals.css";
 
+import Header from "../components/Header";
+
 export const cache = createCache({ key: "css", prepend: true });
 
 export default function MyApp(props) {
@@ -27,6 +29,7 @@ export default function MyApp(props) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <Header />
         <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>
