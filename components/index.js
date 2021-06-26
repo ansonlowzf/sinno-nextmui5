@@ -6,3 +6,6 @@ export * from "./SectionImage";
 export * from "./SectionProduct";
 export * from "./SectionBlog";
 export * from "./StoneCard";
+export * from "./SubNavbar";
+
+export * from "./QuartzStone/SectionP";
