@@ -6,3 +6,9 @@ export const mainRoutes = [
   { name: "blog", path: "/blog" },
   { name: "contact us", path: "/contact-us" },
 ];
+
+export const qsRoutes = [
+  { name: "caesarstone", path: "/quartz-stone/caesarstone" },
+  { name: "silestone", path: "/quartz-stone/silestone" },
+  { name: "zenstone", path: "/quartz-stone/zenstone" },
+];
