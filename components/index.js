@@ -9,3 +9,4 @@ export * from "./StoneCard";
 export * from "./SubNavbar";
 
 export * from "./QuartzStone/SectionP";
+export * from "./QuartzStone/SectionA";

@@ -1,8 +1,8 @@
 import { Heading2, TextWrapper } from "../../element";
-import { Typography } from "@material-ui/core";
+import { Box, Typography } from "@material-ui/core";
 
 export const SectionP = () => (
-  <>
+  <Box mt={15}>
     <Heading2>Genuine Quartz Stone</Heading2>
     <TextWrapper>
       <Typography paragraph>
@@ -42,5 +42,5 @@ export const SectionP = () => (
         their seller blocked their phone or disappeared.
       </Typography>
     </TextWrapper>
-  </>
+  </Box>
 );

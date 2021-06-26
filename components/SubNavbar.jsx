@@ -11,6 +11,7 @@ export const SubNavbar = ({ routes }) => {
               component={MuiNextLink}
               key={`${name}${index}`}
               href={path}
+              underline="hover"
               sx={{
                 py: 2.5,
                 color: (theme) => theme.palette.common.black,
