@@ -1,25 +1,18 @@
-import * as React from "react";
-import {
-  Box,
-  AppBar,
-  Container,
-  Fab,
-  Toolbar,
-  IconButton,
-} from "@material-ui/core";
-import { Home, KeyboardArrowUp } from "@material-ui/icons";
+import { AppBar, Container, Fab, IconButton, Toolbar } from "@material-ui/core";
 import { experimentalStyled as styled } from "@material-ui/core/styles";
+import { Home, KeyboardArrowUp } from "@material-ui/icons";
+import * as React from "react";
 import { MuiNextLink } from "../../components";
+import BackToTop from "./BackToTop";
+import HideOnScroll from "./HideOnScroll";
 import MainNav from "./MainNav";
 import SideDrawer from "./SideDrawer";
-import HideOnScroll from "./HideOnScroll";
-import BackToTop from "./BackToTop";
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
 const Header = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <>
       <HideOnScroll>
         <AppBar position="fixed">
           <Toolbar>
@@ -50,7 +43,7 @@ const Header = () => {
           <KeyboardArrowUp />
         </Fab>
       </BackToTop>
-    </Box>
+    </>
   );
 };
 
