@@ -8,6 +8,7 @@ import theme from "../styles/theme";
 import "/styles/globals.css";
 
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const cache = createCache({ key: "css", prepend: true });
 
@@ -31,6 +32,7 @@ export default function MyApp(props) {
         <CssBaseline />
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </CacheProvider>
   );
