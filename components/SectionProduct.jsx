@@ -6,7 +6,7 @@ export const SectionProduct = () => {
   return (
     <>
       <Container maxWidth="lg">
-        <Heading2>Stone Products</Heading2>
+        <Heading2>Type of Stones</Heading2>
         <Grid container>
           <Grid item xs={12} sm={6} md={4}>
             <StoneCard
