@@ -3,7 +3,7 @@ import { MuiNextLink } from ".";
 
 export const SubNavbar = ({ routes }) => {
   return (
-    <AppBar position="sticky" color="secondary" sx={{ mb: 5 }}>
+    <AppBar position="sticky" color="secondary">
       <Container maxWidth="md">
         <Grid container item justifyContent="space-evenly">
           {routes.map(({ name, path }, index) => (
