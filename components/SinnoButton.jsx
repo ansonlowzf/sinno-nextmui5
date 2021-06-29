@@ -4,8 +4,8 @@ import { MuiNextLink } from "../components";
 export const SinnoButton = ({ linkUrl, btnText }) => {
   return (
     <Grid container item justifyContent="center">
-      <MuiNextLink href={linkUrl}>
-        <Button variant="outlined" aria-label={btnText}>
+      <MuiNextLink href={linkUrl} underline="none" sx={{ mb: 5 }}>
+        <Button variant="outlined" size="large" aria-label={btnText}>
           {btnText}
         </Button>
       </MuiNextLink>
