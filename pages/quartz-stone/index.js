@@ -7,9 +7,12 @@ import {
   SectionS,
   SectionBenefit,
   SectionWarranty,
+  FaqAccordion,
 } from "../../components";
-import { qsRoutes } from "../../const/nav-links";
 import { SectionWrapper } from "../../element";
+import { qsRoutes } from "../../const/nav-links";
+import { faqQuartzStone } from "../../const/faq";
+import { Container } from "@material-ui/core";
 
 const QuartzStone = () => {
   return (
@@ -34,6 +37,13 @@ const QuartzStone = () => {
       <SectionBenefit />
 
       <SectionWarranty />
+      <SectionWrapper>
+        <Container maxWidth="sm">
+          {faqQuartzStone.map(({ question, answer, id }) => (
+            <FaqAccordion key={id} question={question} answer={answer} />
+          ))}
+        </Container>
+      </SectionWrapper>
     </>
   );
 };
