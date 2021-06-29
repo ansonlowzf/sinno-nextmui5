@@ -5,10 +5,10 @@ export const Heading2 = ({ children }) => (
     component="h2"
     variant="h4"
     color="primary"
-    textAlign="center"
+    align="center"
     sx={{
       fontWeight: "bold",
-      mb: 3,
+      mb: 5,
     }}
   >
     {children}
