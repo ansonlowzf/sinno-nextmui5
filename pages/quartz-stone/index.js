@@ -1,4 +1,13 @@
-import { Hero, SubNavbar, SectionP, SectionA } from "../../components";
+import {
+  Hero,
+  SubNavbar,
+  SectionContact,
+  SectionP,
+  SectionA,
+  SectionS,
+  SectionBenefit,
+  SectionWarranty,
+} from "../../components";
 import { qsRoutes } from "../../const/nav-links";
 import { SectionWrapper } from "../../element";
 
@@ -14,13 +23,17 @@ const QuartzStone = () => {
 
       <SubNavbar routes={qsRoutes} />
 
-      <SectionWrapper>
-        <SectionP />
-      </SectionWrapper>
+      <SectionP />
+      <SectionA />
+      <SectionS />
 
       <SectionWrapper>
-        <SectionA />
+        <SectionContact stone="Quartz Stone" />
       </SectionWrapper>
+
+      <SectionBenefit />
+
+      <SectionWarranty />
     </>
   );
 };
