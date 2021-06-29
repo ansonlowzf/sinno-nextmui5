@@ -14,9 +14,7 @@ export const FaqAccordion = ({ id, question, answer }) => {
         aria-controls={`${id}-content`}
         id={`${id}-header`}
       >
-        <Typography component="p" variant="h6">
-          {question}
-        </Typography>
+        <Typography fontWeight="bold">{question}</Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Typography>{answer}</Typography>
