@@ -9,6 +9,7 @@ export * from "./StoneCard";
 export * from "./SubNavbar";
 export * from "./Benefit";
 export * from "./SinnoButton";
+export * from "./FaqAccordion";
 
 export * from "./QuartzStone/SectionP";
 export * from "./QuartzStone/SectionA";
