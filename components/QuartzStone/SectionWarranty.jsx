@@ -11,11 +11,10 @@ export const SectionWarranty = () => (
         mildew growth, colour dimming without any impact?
       </Typography>
       <Typography component="p" variant="body1" align="center" paragraph>
-        First, check out the warranty1
+        First, check out
       </Typography>
-      <SectionWrapper>
-        <SinnoButton linkUrl="/blog/warranty" btnText="Warranty" />
-      </SectionWrapper>
+
+      <SinnoButton linkUrl="/blog/warranty" btnText="Warranty" />
       <Typography variant="h6" align="center">
         If under warranty, we replace a new set for you - FREE OF CHARGE!
       </Typography>
