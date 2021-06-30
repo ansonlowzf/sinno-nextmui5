@@ -13,6 +13,7 @@ export * from "./FaqAccordion";
 export * from "./ZenstoneDisplay";
 export * from "./SlabDisplay";
 export * from "./ColourWarning";
+export * from "./PriceTerm";
 
 export * from "./QuartzStone/SectionP";
 export * from "./QuartzStone/SectionA";

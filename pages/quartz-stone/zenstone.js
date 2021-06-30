@@ -1,11 +1,13 @@
 import { Container, Grid, Typography } from "@material-ui/core";
 import Image from "next/image";
 import {
+  ColourWarning,
   Hero,
+  PriceTerm,
+  SectionContact,
+  SlabDisplay,
   SubNavbar,
   ZenstoneDisplay,
-  SlabDisplay,
-  ColourWarning,
 } from "../../components";
 import { qsRoutes } from "../../const/nav-links";
 import { zenstone } from "../../const/pricing";
@@ -291,6 +293,14 @@ const ZenstonePage = () => {
 
       <SectionWrapper>
         <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <PriceTerm />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <SectionContact stone="Quartz Stone" />
       </SectionWrapper>
     </>
   );
