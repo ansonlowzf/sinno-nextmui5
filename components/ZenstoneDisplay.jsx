@@ -13,12 +13,12 @@ export const ZenstoneDisplay = ({ imgSrc, stoneName, price }) => {
       />
       <Grid container item justifyContent="space-between" sx={{ mt: 1, mb: 3 }}>
         <Grid item xs={12} sm={6}>
-          <Typography component="p" variant="subtitle2">
+          <Typography component="p" variant="subtitle2" align="center">
             {stoneName}
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Typography component="p" variant="subtitle2">
+          <Typography component="p" variant="subtitle2" align="center">
             {price}
           </Typography>
         </Grid>
