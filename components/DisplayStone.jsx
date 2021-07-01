@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@material-ui/core";
 import Image from "next/image";
 
-export const CaesarstoneDisplay = ({ imgSrc, stoneName, price }) => {
+export const DisplayStone = ({ imgSrc, stoneName, price }) => {
   return (
     <Grid item xs={12} md={6}>
       <Image src={imgSrc} alt={stoneName} width={620} height={350} />

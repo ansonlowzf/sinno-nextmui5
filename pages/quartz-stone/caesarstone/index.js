@@ -1,15 +1,14 @@
+import { Typography, Grid } from "@material-ui/core";
 import {
-  Hero,
-  SubNavbar,
   ColourPricing,
   ColourWarning,
+  Hero,
   SectionContact,
-  FaqAccordion,
+  SubNavbar,
 } from "../../../components";
-import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
 import { qsRoutes } from "../../../const/nav-links";
-import { faqCaesarstone } from "../../../const/faq";
-import { Typography } from "@material-ui/core";
+import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
+import Image from "next/image";
 
 const CaesarstonePage = () => {
   return (
@@ -22,6 +21,25 @@ const CaesarstonePage = () => {
       />
 
       <SubNavbar routes={qsRoutes} />
+
+      <SectionWrapper>
+        <Grid
+          container
+          justifyContent="center"
+          alignItems="center"
+          sx={{ mt: 15 }}
+        >
+          <Grid item xs={6} sx={{ position: "relative" }}>
+            <Image
+              src="/caesarstone/logo.png"
+              alt="caesarstone logo"
+              layout="responsive"
+              width={469}
+              height={75}
+            />
+          </Grid>
+        </Grid>
+      </SectionWrapper>
 
       <SectionWrapper>
         <Heading2>Caesarstone Quartz Surface</Heading2>
