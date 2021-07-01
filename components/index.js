@@ -20,3 +20,6 @@ export * from "./QuartzStone/SectionA";
 export * from "./QuartzStone/SectionS";
 export * from "./QuartzStone/SectionBenefit";
 export * from "./QuartzStone/SectionWarranty";
+
+export * from "./Caesarstone/ColourPricing";
+export * from "./Caesarstone/Commitment";

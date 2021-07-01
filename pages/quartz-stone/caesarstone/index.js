@@ -1,6 +1,14 @@
-import { Hero, SubNavbar } from "../../../components";
+import {
+  Hero,
+  SubNavbar,
+  ColourPricing,
+  ColourWarning,
+  SectionContact,
+  FaqAccordion,
+} from "../../../components";
 import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
 import { qsRoutes } from "../../../const/nav-links";
+import { faqCaesarstone } from "../../../const/faq";
 import { Typography } from "@material-ui/core";
 
 const CaesarstonePage = () => {
@@ -14,6 +22,7 @@ const CaesarstonePage = () => {
       />
 
       <SubNavbar routes={qsRoutes} />
+
       <SectionWrapper>
         <Heading2>Caesarstone Quartz Surface</Heading2>
         <TextWrapper>
@@ -41,11 +50,23 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Typography align="center">
-          The price shown below is for all the 34 Caesarstone colours available
-          in Malaysia in 20mm thick. 13mm is also available for a 10% lower
-          price.
-        </Typography>
+        <Heading2>Colour &amp; Pricing</Heading2>
+        <TextWrapper>
+          <Typography align="center" sx={{ mb: 5 }}>
+            The price shown below is for all the 34 Caesarstone colours
+            available in Malaysia in 20mm thick. 13mm is also available for a
+            10% lower price.
+          </Typography>
+        </TextWrapper>
+        <ColourPricing />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <SectionContact stone="Caesarstone" />
       </SectionWrapper>
     </>
   );
