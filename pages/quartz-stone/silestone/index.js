@@ -1,6 +1,12 @@
 import { Grid, Container } from "@material-ui/core";
 import Image from "next/image";
-import { Hero, SubNavbar, DisplayStone } from "../../../components";
+import {
+  Hero,
+  SubNavbar,
+  DisplayStone,
+  ColourWarning,
+  PriceTerm,
+} from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import {
   silestonePricing20,
@@ -308,6 +314,13 @@ const SilestonePage = () => {
             />
           </Grid>
         </Container>
+      </SectionWrapper>
+      <SectionWrapper>
+        <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <PriceTerm />
       </SectionWrapper>
     </>
   );
