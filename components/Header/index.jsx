@@ -1,12 +1,13 @@
 import { AppBar, Container, Fab, IconButton, Toolbar } from "@material-ui/core";
-import { experimentalStyled as styled } from "@material-ui/core/styles";
-import { Home, KeyboardArrowUp } from "@material-ui/icons";
-import * as React from "react";
+import { styled } from "@material-ui/core/styles";
+import { KeyboardArrowUp } from "@material-ui/icons";
 import { MuiNextLink } from "../../components";
 import BackToTop from "./BackToTop";
 import HideOnScroll from "./HideOnScroll";
 import MainNav from "./MainNav";
 import SideDrawer from "./SideDrawer";
+import SinnoLogo from "../../public/favicon.png";
+import Image from "next/image";
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
@@ -20,16 +21,16 @@ const Header = () => {
               maxWidth="lg"
               sx={{ display: `flex`, justifyContent: `space-between` }}
             >
-              <IconButton edge="start" aria-label="home">
-                <MuiNextLink activeClassName="active" href="/">
-                  <Home
-                    sx={{
-                      color: (theme) => theme.palette.common.white,
-                    }}
-                    fontSize="large"
+              <MuiNextLink href="/">
+                <IconButton aria-label="home">
+                  <Image
+                    src={SinnoLogo}
+                    alt="Stone Innovations Enterprise Logo"
+                    width={48}
+                    height={48}
                   />
-                </MuiNextLink>
-              </IconButton>
+                </IconButton>
+              </MuiNextLink>
               <MainNav />
               <SideDrawer />
             </Container>
