@@ -12,3 +12,13 @@ export const qsRoutes = [
   { name: "silestone", path: "/quartz-stone/silestone" },
   { name: "zenstone", path: "/quartz-stone/zenstone" },
 ];
+
+export const ssRoutes = [
+  { name: "dekton", path: "/sintered-stone/dekton" },
+  { name: "moca", path: "/sintered-stone/moca" },
+];
+
+export const graniteRoutes = [
+  { name: "granite", link: "/granite" },
+  { name: "sensa", link: "/granite/sensa" },
+];

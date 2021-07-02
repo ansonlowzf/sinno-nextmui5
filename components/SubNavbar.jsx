@@ -13,10 +13,11 @@ export const SubNavbar = ({ routes }) => {
               href={path}
               underline="hover"
               sx={{
-                py: 2.5,
+                py: 2.3,
                 color: (theme) => theme.palette.common.black,
                 opacity: "0.7",
                 textTransform: "uppercase",
+                fontWeight: "bold",
               }}
             >
               {name}

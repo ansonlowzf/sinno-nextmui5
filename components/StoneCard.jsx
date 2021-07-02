@@ -7,7 +7,7 @@ import {
   CardContent,
   Typography,
 } from "@material-ui/core";
-import MuiNextLink from "../components";
+import { MuiNextLink } from "../components";
 
 export const StoneCard = ({ imgSrc, stone, desc, linkUrl }) => (
   <Card sx={{ maxWidth: 345 }}>
@@ -28,9 +28,9 @@ export const StoneCard = ({ imgSrc, stone, desc, linkUrl }) => (
       </CardContent>
     </CardActionArea>
     <CardActions>
-      <Button size="small" color="primary">
-        Check Out
-      </Button>
+      <MuiNextLink href={linkUrl} underline="hover">
+        <Button color="primary">Check Out</Button>
+      </MuiNextLink>
     </CardActions>
   </Card>
 );

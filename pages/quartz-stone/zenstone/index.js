@@ -8,10 +8,10 @@ import {
   SlabDisplay,
   SubNavbar,
   ZenstoneDisplay,
-} from "../../components";
-import { qsRoutes } from "../../const/nav-links";
-import { zenstone } from "../../const/pricing";
-import { Heading2, SectionWrapper, TextWrapper } from "../../element";
+} from "../../../components";
+import { qsRoutes } from "../../../const/nav-links";
+import { zenstone } from "../../../const/pricing";
+import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
 
 const { classic, premium, noble, marble } = zenstone;
 
@@ -300,7 +300,7 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Quartz Stone" />
+        <SectionContact stone="Zenstone" />
       </SectionWrapper>
     </>
   );

@@ -20,6 +20,8 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
       <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" />
       <Grid
         container
+        justifyContent="center"
+        alignItems="center"
         sx={{
           position: "absolute",
           inset: 0,
@@ -32,6 +34,9 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
+          xs={12}
+          sm={10}
+          md={8}
         >
           <Typography
             variant="h1"

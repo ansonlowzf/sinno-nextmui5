@@ -6,6 +6,7 @@ import {
   DisplayStone,
   ColourWarning,
   PriceTerm,
+  SectionContact,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import {
@@ -321,6 +322,10 @@ const SilestonePage = () => {
 
       <SectionWrapper>
         <PriceTerm />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <SectionContact stone="Silestone" />
       </SectionWrapper>
     </>
   );
