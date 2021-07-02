@@ -27,6 +27,7 @@ export default function MyApp(props) {
       <Head>
         <title>Stone Innovations Enterprise</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
