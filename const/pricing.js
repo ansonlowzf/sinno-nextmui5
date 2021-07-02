@@ -58,3 +58,8 @@ export const zenstone = {
   noble: "RM 280 /FR or RM 150 /SF",
   marble: "RM 310 /FR or RM 165 /SF",
 };
+
+export const moca = {
+  small: "RM 200 /FR or RM 110 /SF",
+  big: "RM 300 /FR or RM 160 /SF",
+};
