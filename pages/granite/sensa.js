@@ -1,6 +1,13 @@
 import { Box, Container, Grid } from "@material-ui/core";
 import { Heading2, SectionWrapper } from "../../element";
-import { DisplayStone, Hero, SubNavbar } from "../../components";
+import {
+  DisplayStone,
+  Hero,
+  SubNavbar,
+  ColourWarning,
+  PriceTerm,
+  SectionContact,
+} from "../../components";
 import { graniteRoutes } from "../../const/nav-links";
 
 const SensaPage = () => {
@@ -38,7 +45,7 @@ const SensaPage = () => {
               price="RM 685 /FR or RM 352.50 /SF"
             />
             <DisplayStone
-              imgSrc="/sensa/colour/ice-blue.png"
+              imgSrc="/sensa/colour/icy-blue.png"
               stoneName="Ice Blue (Polished) 20mm"
               price="RM 680 /FR or RM 350 /SF"
             />
@@ -69,6 +76,18 @@ const SensaPage = () => {
             />
           </Grid>
         </Container>
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <PriceTerm />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <SectionContact stone="Sensa" />
       </SectionWrapper>
     </>
   );
