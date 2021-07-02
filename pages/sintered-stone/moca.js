@@ -1,7 +1,13 @@
-import { DisplayStone, SubNavbar } from "../../components";
+import {
+  DisplayStone,
+  SubNavbar,
+  ColourWarning,
+  PriceTerm,
+  SectionContact,
+} from "../../components";
 import { SectionWrapper, Heading2 } from "../../element";
 import { ssRoutes } from "../../const/nav-links";
-import { Grid, Container } from "@material-ui/core";
+import { Box, Grid, Container } from "@material-ui/core";
 import Image from "next/image";
 import { moca } from "../../const/pricing";
 
@@ -23,10 +29,13 @@ const MocaPage = () => {
           </Grid>
         </Grid>
       </SectionWrapper>
+
       <SubNavbar routes={ssRoutes} />
-      <SectionWrapper>
+
+      <Box sx={{ my: { xs: 15, sm: 20 } }}>
         <Heading2>Colour &amp; Pricing</Heading2>
-      </SectionWrapper>
+      </Box>
+
       <SectionWrapper>
         <Container maxWidth="lg">
           <Grid container spacing={2} justifyContent="center">
@@ -92,6 +101,18 @@ const MocaPage = () => {
             />
           </Grid>
         </Container>
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <PriceTerm />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <SectionContact stone="Moca Compact Stone" />
       </SectionWrapper>
     </>
   );

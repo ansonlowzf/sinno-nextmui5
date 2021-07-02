@@ -19,6 +19,6 @@ export const ssRoutes = [
 ];
 
 export const graniteRoutes = [
-  { name: "granite", link: "/granite" },
-  { name: "sensa", link: "/granite/sensa" },
+  { name: "granite", path: "/granite" },
+  { name: "sensa", path: "/granite/sensa" },
 ];

@@ -15,7 +15,7 @@ export const SubNavbar = ({ routes }) => {
               sx={{
                 py: 2.3,
                 color: (theme) => theme.palette.common.black,
-                opacity: "0.7",
+                opacity: "0.5",
                 textTransform: "uppercase",
                 fontWeight: "bold",
               }}

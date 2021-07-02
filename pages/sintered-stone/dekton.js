@@ -22,6 +22,7 @@ const DektonPage = () => {
         title="Dekton"
         subtitle="Ultra-Compact Surface Kitchen Top"
       />
+
       <SubNavbar routes={ssRoutes} />
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
