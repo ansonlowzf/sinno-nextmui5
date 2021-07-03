@@ -14,7 +14,7 @@ const Homepage = () => {
     <>
       <SectionWrapper>
         <Hero
-          imgSrc="/image-home/home-hero1.png"
+          imgSrc="/image-home/hero.png"
           imgAlt="factory entrance"
           title="Stone Innovations Enterprise"
           subtitle="Specializing in Genuine Stone Kitchen Top"

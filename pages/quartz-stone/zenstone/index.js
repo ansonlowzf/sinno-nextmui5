@@ -19,7 +19,7 @@ const ZenstonePage = () => {
   return (
     <>
       <Hero
-        imgSrc="/image-zenstone/hero.png"
+        imgSrc="/zenstone/hero.png"
         imgText="Zenstone Calacatta Black"
         title="Zenstone Malaysia"
         subtitle="Malaysia's Brand OEM China Genuine Quartz Stone"
@@ -31,7 +31,7 @@ const ZenstonePage = () => {
         <Grid container justifyContent="center" sx={{ mt: 15 }}>
           <Grid item xs={10} md={2}>
             <Image
-              src="/image-zenstone/logo.png"
+              src="/zenstone/logo.png"
               alt="zenstone logo"
               layout="responsive"
               width={800}
