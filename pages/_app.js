@@ -5,6 +5,8 @@ import { CacheProvider } from "@emotion/react";
 import { CssBaseline } from "@material-ui/core";
 import createCache from "@emotion/cache";
 import theme from "../styles/theme";
+import { useRouter } from "next/router";
+import * as gtag from "../lib/gtag";
 import "/styles/globals.css";
 
 import Header from "../components/Header";
@@ -12,8 +14,8 @@ import Footer from "../components/Footer";
 
 export const cache = createCache({ key: "css", prepend: true });
 
-export default function MyApp(props) {
-  const { Component, pageProps } = props;
+export default function MyApp({ Component, pageProps }) {
+  const router = useRouter();
 
   React.useEffect(() => {
     const jssStyles = document.querySelector("#jss-server-side");
@@ -21,6 +23,16 @@ export default function MyApp(props) {
       jssStyles.parentElement.removeChild(jssStyles);
     }
   }, []);
+
+  React.useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <CacheProvider value={cache}>

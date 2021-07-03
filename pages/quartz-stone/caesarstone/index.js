@@ -5,6 +5,7 @@ import {
   Hero,
   SectionContact,
   SubNavbar,
+  PriceTerm,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
@@ -81,6 +82,10 @@ const CaesarstonePage = () => {
 
       <SectionWrapper>
         <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <PriceTerm />
       </SectionWrapper>
 
       <SectionWrapper>

@@ -4,7 +4,7 @@ export const mainRoutes = [
   { name: "sintered stone", path: "/sintered-stone" },
   { name: "granite", path: "/granite" },
   { name: "blog", path: "/blog" },
-  { name: "contact us", path: "/contact-us" },
+  { name: "contact us", path: "/contact" },
 ];
 
 export const qsRoutes = [
