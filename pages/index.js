@@ -6,12 +6,19 @@ import {
   SectionImage,
   SectionProduct,
   SectionBlog,
+  MetaSEO,
 } from "../components";
 import { SectionWrapper } from "../element";
 
 const Homepage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Home"
+        pageDesc="We're a stonemason and factory that fabricate, custom-made, supply and install quartz stone, sintered stone and granite countertops for the kitchen."
+        pagePath="home"
+        metaImg="/image-home/hero.png"
+      />
       <SectionWrapper>
         <Hero
           imgSrc="/image-home/hero.png"

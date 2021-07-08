@@ -1,5 +1,6 @@
 export const mainRoutes = [
-  { name: "Home", path: "/" },
+  { name: "home", path: "/" },
+  { name: "about us", path: "/about" },
   { name: "quartz stone", path: "/quartz-stone" },
   { name: "sintered stone", path: "/sintered-stone" },
   { name: "granite", path: "/granite" },

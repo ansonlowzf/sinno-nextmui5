@@ -15,6 +15,7 @@ export * from "./SlabDisplay";
 export * from "./ColourWarning";
 export * from "./PriceTerm";
 export * from "./DisplayStone";
+export * from "./MetaSEO";
 
 export * from "./QuartzStone/SectionP";
 export * from "./QuartzStone/SectionA";

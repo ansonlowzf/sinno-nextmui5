@@ -7,8 +7,8 @@ export const SectionProduct = () => {
     <>
       <Container maxWidth="lg">
         <Heading2>Type of Stones</Heading2>
-        <Grid container>
-          <Grid item xs={12} sm={6} md={4}>
+        <Grid container spacing={2} justifyContent="center">
+          <Grid container item xs={12} sm={6} md={4} justifyContent="center">
             <StoneCard
               imgSrc="/image-home/grey_mirror.jpg"
               stone="Quartz Stone"
@@ -16,7 +16,7 @@ export const SectionProduct = () => {
               linkUrl="/quartz-stone"
             />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid container item xs={12} sm={6} md={4} justifyContent="center">
             <StoneCard
               imgSrc="/image-home/granite.jpg"
               stone="Granite"
@@ -24,7 +24,7 @@ export const SectionProduct = () => {
               linkUrl="/granite"
             />
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid container item xs={12} sm={6} md={4} justifyContent="center">
             <StoneCard
               imgSrc="/image-home/sintered-stone.jpg"
               stone="Sintered Stone"

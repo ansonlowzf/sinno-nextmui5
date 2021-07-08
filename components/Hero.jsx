@@ -12,7 +12,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
       sx={{
         position: `relative`,
         height: "100vh",
-        width: `100vw`,
+        width: `100%`,
         overflow: `hidden`,
         zIndex: -100,
       }}

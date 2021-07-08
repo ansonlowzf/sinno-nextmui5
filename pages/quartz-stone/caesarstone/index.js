@@ -6,6 +6,7 @@ import {
   SectionContact,
   SubNavbar,
   PriceTerm,
+  MetaSEO,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
@@ -14,6 +15,12 @@ import Image from "next/image";
 const CaesarstonePage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Caesarstone Quartz Surface"
+        pageDesc="We are one of the Caesarstone distributor in Malaysia. We fabricate, supply &amp; install Caesarstone Kitchen Top"
+        pagePath="quartz-stone/caesarstone"
+        metaImg="/caesarstone/hero.png"
+      />
       <Hero
         imgSrc="/caesarstone/hero.png"
         imgText="Caesarstone Empira White"
