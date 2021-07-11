@@ -1,5 +1,5 @@
 ---
-title: The warranty of the stones
+title: The Warranty Of The Stone & Workmanship
 date: "December 7, 2020"
 excerpt: This is the excerpt
 coverImage: "/blog/cover/warranty.png"

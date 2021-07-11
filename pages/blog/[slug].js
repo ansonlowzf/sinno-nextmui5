@@ -1,20 +1,52 @@
+import { Button, Container, Typography } from "@material-ui/core";
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
 import marked from "marked";
+import path from "path";
 import { MuiNextLink } from "../../components";
+import { SectionWrapper } from "../../element";
+import Image from "next/image";
 
 const PostPage = ({
-  frontmatter: { title, date, coverImage },
+  frontmatter: { title, date, coverImage, imgAlt },
   slug,
   content,
 }) => {
   return (
     <>
-      <MuiNextLink href="/blog">Go Back</MuiNextLink>
-      <h1>{title}</h1>
-      <div>Posted on {date}</div>
-      <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+      <Container maxWidth="sm" sx={{ mt: 10 }}>
+        <SectionWrapper>
+          <MuiNextLink href="/blog#blog" underline="none">
+            <Button variant="outlined" sx={{ mb: 5 }}>
+              Go Back
+            </Button>
+          </MuiNextLink>
+          <Image
+            src={coverImage}
+            alt={imgAlt}
+            layout="responsive"
+            width={960}
+            height={720}
+          />
+          <Typography
+            component="h1"
+            variant="h2"
+            fontWeight="bold"
+            sx={{ mt: 5 }}
+          >
+            {title}
+          </Typography>
+          <Typography component="p" variant="subtitle1 " sx={{ mb: 5 }}>
+            Posted on {date}
+          </Typography>
+          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <MuiNextLink href="/blog#blog" underline="none">
+            <Button variant="outlined" sx={{ mt: 5 }}>
+              Go Back
+            </Button>
+          </MuiNextLink>
+        </SectionWrapper>
+      </Container>
     </>
   );
 };
