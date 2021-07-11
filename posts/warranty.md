@@ -1,8 +1,8 @@
 ---
 title: The Warranty Of The Stone & Workmanship
 date: "2020-12-07"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "What warranty do we cover? Read the terms and conditions."
+coverImage: "/blog/warranty/cover.png"
 ---
 
 ## The Products & Warranty Period

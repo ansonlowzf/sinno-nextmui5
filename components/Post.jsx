@@ -1,10 +1,18 @@
-import { Box, Button, Grid, Typography } from "@material-ui/core";
+import { Box, Button, Grid, Typography, Paper } from "@material-ui/core";
 import Image from "next/image";
 import { MuiNextLink } from ".";
 
 const Post = ({ post }) => {
   return (
-    <Grid container sx={{ p: 2 }}>
+    <Grid
+      container
+      spacing={1}
+      sx={{
+        p: 2,
+        mb: 5,
+        boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+      }}
+    >
       <Grid item xs={12} sm={4} sx={{ mb: { xs: 2.5, sm: 0 }, zIndex: "-100" }}>
         <Image
           src={post.frontmatter.coverImage}
@@ -18,15 +26,17 @@ const Post = ({ post }) => {
         container
         item
         flexDirection="column"
-        justifyContent="space-evenly"
+        justifyContent="space-between"
         xs={12}
         sm={8}
         sx={{ px: { xs: 0, sm: 3 } }}
       >
         <Box>
-          <Typography component="h3" variant="h5" gutterBottom>
-            {post.frontmatter.title}
-          </Typography>
+          <MuiNextLink href={`/blog/${post.slug}`} underline="none">
+            <Typography component="h3" variant="h5" gutterBottom>
+              {post.frontmatter.title}
+            </Typography>
+          </MuiNextLink>
           <Typography variant="subtitle2" gutterBottom>
             {post.frontmatter.date}
           </Typography>
@@ -35,9 +45,7 @@ const Post = ({ post }) => {
         <Typography gutterBottom>{post.frontmatter.excerpt}</Typography>
 
         <MuiNextLink href={`/blog/${post.slug}`} underline="none">
-          <Button size="large" sx={{ p: 0 }}>
-            Read More
-          </Button>
+          <Button variant="outlined">Read More</Button>
         </MuiNextLink>
       </Grid>
     </Grid>

@@ -1,8 +1,8 @@
 ---
 title: "Kitchen Top Material Rating Chart"
 date: "2020-11-07"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: ""
+coverImage: "/blog/rating/cover.png"
 ---
 
 # We Create A Material Rating Chart To Help You Choose The Kitchen Top

@@ -1,8 +1,8 @@
 ---
 title: "What is sintered stone?"
 date: "2021-01-19"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "How to differentiate sink install on top of the stone or below the stone? Check out this article to know more about it."
+coverImage: "/blog/sintered-stone/cover.png"
 ---
 
 Engineered stone is always evolving. Technology is getting more advanced every year. People always seek a better stone material solution for their home improvement application.

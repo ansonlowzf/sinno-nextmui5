@@ -1,8 +1,8 @@
 ---
 title: "FR VS SF"
 date: "2021-03-30"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "Why stonemason quote in two different units? Some in FR, some in SF. Read this article to know the difference and the reason behind it."
+coverImage: "/blog/fr-vs-sf/cover.png"
 ---
 
 If you are custom-make a kitchen top set, you’ll come across these two terms: the **Foot Run (FR)** or **Square Feet (SF)**.

@@ -1,8 +1,8 @@
 ---
 title: "Kitchen Top Materials Pros & Cons"
 date: "2020-11-07"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "We listed ten different often use the material for kitchen tops. What are the pros and cons of these materials?"
+coverImage: "/blog/material-pros-cons/cover.png"
 ---
 
 ![Which material you should choose?](/blog/material-pros-cons/which-material.jpg)

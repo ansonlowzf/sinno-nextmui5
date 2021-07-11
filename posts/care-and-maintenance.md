@@ -1,8 +1,8 @@
 ---
 title: "Care And Maintenance"
 date: "2020-12-08"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "Stone countertop required minimum effect of maintenance. Follow this guide to care for and maintenance your stone countertop."
+coverImage: "/blog/care-and-maintenance/cover.png"
 ---
 
 ## Easy Maintenance

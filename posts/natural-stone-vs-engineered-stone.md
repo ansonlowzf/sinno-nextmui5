@@ -1,8 +1,8 @@
 ---
 title: "Natural stone VS engineered stone"
 date: "2021-01-11"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "We know natural harvest from nature, but what is an engineered stone? What is the difference between them?"
+coverImage: "/blog/natural-vs-engineered/cover.png"
 ---
 
 People often ask, what is the difference between these 2 types of stone? Why shall we choose one over the other?

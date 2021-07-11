@@ -2,7 +2,7 @@
 title: "What is the difference between the top mount and under mount?"
 date: "2021-01-18"
 excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+coverImage: "/blog/sink-mount/undermount-1.jpg"
 ---
 
 To make it easier to understand, let’s show you the pictures.

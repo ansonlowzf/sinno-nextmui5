@@ -1,8 +1,8 @@
 ---
 title: "How To Test Whether It's Genuine Quartz Stone?"
 date: "2020-11-13"
-excerpt: This is the excerpt
-coverImage: "/blog/cover/warranty.png"
+excerpt: "How do we determine whether it is genuine or fake quartz stone? We show you some easy tests to find it out."
+coverImage: "/blog/qs-test/cover.png"
 ---
 
 The quartz stone market is a mess in Malaysia right now. The market is bloated with low quality and "pretended quartz stone".
