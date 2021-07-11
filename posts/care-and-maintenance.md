@@ -1,6 +1,6 @@
 ---
 title: "Care And Maintenance"
-date: "December 8, 2020"
+date: "2020-12-08"
 excerpt: This is the excerpt
 coverImage: "/blog/cover/warranty.png"
 ---

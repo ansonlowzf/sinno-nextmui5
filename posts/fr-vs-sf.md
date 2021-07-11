@@ -1,6 +1,6 @@
 ---
 title: "FR VS SF"
-date: "March 30, 2021"
+date: "2021-03-30"
 excerpt: This is the excerpt
 coverImage: "/blog/cover/warranty.png"
 ---
