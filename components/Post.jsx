@@ -6,9 +6,7 @@ const Post = ({ post }) => {
   return (
     <Grid
       container
-      spacing={1}
       sx={{
-        p: 2,
         mb: 5,
         boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
       }}
@@ -29,7 +27,8 @@ const Post = ({ post }) => {
         justifyContent="space-between"
         xs={12}
         sm={8}
-        sx={{ px: { xs: 0, sm: 3 } }}
+        spaincg={3}
+        sx={{ p: { xs: 0, sm: 2.5 } }}
       >
         <Box>
           <MuiNextLink href={`/blog/${post.slug}`} underline="none">
