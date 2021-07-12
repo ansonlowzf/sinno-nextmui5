@@ -5,6 +5,7 @@ export const mainRoutes = [
   { name: "sintered stone", path: "/sintered-stone/moca" },
   { name: "granite", path: "/granite" },
   { name: "blog", path: "/blog" },
+  { name: "faq", path: "/faq" },
   { name: "contact us", path: "/contact" },
 ];
 
