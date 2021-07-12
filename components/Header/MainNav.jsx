@@ -8,7 +8,7 @@ const MainNav = () => {
     <Toolbar
       component="nav"
       sx={{
-        display: { xs: `none`, md: `flex` },
+        display: { xs: `none`, lg: `flex` },
       }}
     >
       <Stack direction="row" spacing={4}>

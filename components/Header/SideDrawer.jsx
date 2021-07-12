@@ -53,7 +53,7 @@ const SideDrawer = () => {
         onClick={toggleDrawer("right", true)}
         sx={{
           color: `common.white`,
-          display: { xs: `inline`, md: `none` },
+          display: { lg: `none` },
         }}
       >
         <Menu fontSize="large" />
