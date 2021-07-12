@@ -2,7 +2,7 @@ import { Container, Typography } from "@material-ui/core";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import { Hero } from "../components";
+import { Hero, MetaSEO } from "../components";
 import Post from "../components/Post";
 import { SectionWrapper } from "../element";
 import { sortByDate } from "../utils/index";
@@ -10,6 +10,12 @@ import { sortByDate } from "../utils/index";
 const BlogPage = ({ posts }) => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Blog"
+        pageDesc="Articles about custom-made stone countertops. These articles help you make the right decision to custom made your stone countertop without hesitation."
+        pagePath="blog"
+        metaImg="/blog/hero.jpg"
+      />
       <Hero
         imgSrc="/blog/hero.jpg"
         imgAlt="blog hero image"

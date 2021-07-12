@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Top Material Rating Chart"
 date: "2020-11-07"
-excerpt: ""
+excerpt: "We compare ten different materials for the kitchen top and rate the resistance based on our perspective."
 coverImage: "/blog/rating/cover.png"
 ---
 

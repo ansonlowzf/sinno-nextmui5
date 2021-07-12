@@ -7,6 +7,7 @@ import {
   ColourWarning,
   PriceTerm,
   SectionContact,
+  MetaSEO,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import {
@@ -21,6 +22,12 @@ const { group5, group6 } = silestoneJumboPricing20;
 const SilestonePage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Silestone Quartz Surface"
+        pageDesc="We are one of the Silestone distributor in Malaysia. We fabricate, supply &amp; install Silestone Kitchen Top"
+        pagePath="quartz-stone/silestone"
+        metaImg="/silestone/hero.png"
+      />
       <Hero
         imgSrc="/silestone/hero.png"
         imgText="Silestone Arcilla Red"

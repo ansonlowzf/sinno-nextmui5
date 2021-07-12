@@ -6,6 +6,7 @@ import {
   ColourWarning,
   PriceTerm,
   SectionContact,
+  MetaSEO,
 } from "../../components";
 import { dekton12 } from "../../const/pricing";
 import { ssRoutes } from "../../const/nav-links";
@@ -16,6 +17,12 @@ const { group0, group1, group2, group3, group4 } = dekton12;
 const DektonPage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Dekton"
+        pageDesc="We are a sole distributor of Dekton in Malaysia. We fabricate, supply &amp; install Dekton Ultra-Compact Surface Kitchen Top"
+        pagePath="sintered-stone/dekton"
+        metaImg="/dekton/hero.png"
+      />
       <Hero
         imgSrc="/dekton/hero.png"
         imgText="Dekton Natura 18 Kitchen Top"

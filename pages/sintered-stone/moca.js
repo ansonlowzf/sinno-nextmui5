@@ -4,6 +4,7 @@ import {
   ColourWarning,
   PriceTerm,
   SectionContact,
+  MetaSEO,
 } from "../../components";
 import { SectionWrapper, Heading2 } from "../../element";
 import { ssRoutes } from "../../const/nav-links";
@@ -16,6 +17,12 @@ const { small, big } = moca;
 const MocaPage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Moca"
+        pageDesc="We are the distributor of Moca in Malaysia. We fabricate, supply &amp; install Moca Compact Stone Kitchen Top"
+        pagePath="sintered-stone/moca"
+        metaImg="/moca/logo.png"
+      />
       <SectionWrapper>
         <Grid container justifyContent="center" sx={{ mt: 15 }}>
           <Grid item xs={10} md={2}>

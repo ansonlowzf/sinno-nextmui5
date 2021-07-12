@@ -5,6 +5,7 @@ import {
   ColourWarning,
   PriceTerm,
   SectionContact,
+  MetaSEO,
 } from "../../components";
 import { graniteRoutes } from "../../const/nav-links";
 import { Box, Container, Grid } from "@material-ui/core";
@@ -13,6 +14,12 @@ import { SectionWrapper, Heading2 } from "../../element";
 const GranitePage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Granite"
+        pageDesc="Supply &amp; install granite kitchen top. There are seven colour and shades options."
+        pagePath="granite"
+        metaImg="/granite/hero.jpg"
+      />
       <Hero
         imgSrc="/granite/hero.jpg"
         imgText="Granite Blue Pearl"

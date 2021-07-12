@@ -8,6 +8,7 @@ import {
   SectionBenefit,
   SectionWarranty,
   FaqAccordion,
+  MetaSEO,
 } from "../../components";
 import { SectionWrapper } from "../../element";
 import { qsRoutes } from "../../const/nav-links";
@@ -17,6 +18,12 @@ import { Container } from "@material-ui/core";
 const QuartzStone = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Quartz Stone"
+        pageDesc="We distribute, fabricate, supply &amp; install Caesarstone, Silestone &amp; Zenstone Quartz Surface in Malaysia"
+        pagePath="quartz-stone"
+        metaImg="/quartz-stone/4735.jpg"
+      />
       <Hero
         imgSrc="/quartz-stone/4735.jpg"
         imgAlt="Caesarstone Oxidian"

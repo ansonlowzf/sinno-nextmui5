@@ -1,10 +1,18 @@
 import { Box, Container, Grid } from "@material-ui/core";
-import { Hero, StoneCard } from "../../components";
+import { Hero, StoneCard, MetaSEO } from "../../components";
 import { Heading2 } from "../../element";
+
+// Keep here in case I want to use it again
 
 const SinteredStonePage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Silestone Quartz Surface"
+        pageDesc="We are one of the Silestone distributor in Malaysia. We fabricate, supply &amp; install Silestone Kitchen Top"
+        pagePath="quartz-stone/silestone"
+        metaImg="//silestone/hero.png"
+      />
       <Hero
         imgSrc="/sintered-stone/hero.png"
         imgAlt="Dekton Entzo Kitchen Top"

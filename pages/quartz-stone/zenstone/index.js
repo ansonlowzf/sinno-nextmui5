@@ -8,6 +8,7 @@ import {
   SlabDisplay,
   SubNavbar,
   ZenstoneDisplay,
+  MetaSEO,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import { zenstone } from "../../../const/pricing";
@@ -18,6 +19,12 @@ const { classic, premium, noble, marble } = zenstone;
 const ZenstonePage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Zenstone Quartz Surface"
+        pageDesc="The main distributor of Zenstone quartz surface. We fabricate, supply &amp; install Zenstone Kitchen Top"
+        pagePath="quartz-stone/zenstone"
+        metaImg="/zenstone/hero.png"
+      />
       <Hero
         imgSrc="/zenstone/hero.png"
         imgText="Zenstone Calacatta Black"

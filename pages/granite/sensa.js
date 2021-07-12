@@ -7,12 +7,19 @@ import {
   ColourWarning,
   PriceTerm,
   SectionContact,
+  MetaSEO,
 } from "../../components";
 import { graniteRoutes } from "../../const/nav-links";
 
 const SensaPage = () => {
   return (
     <>
+      <MetaSEO
+        pageTitle="Sensa Granite"
+        pageDesc="Fabricate, supply &amp; install high-end granite imported from Spain as kitchen top."
+        pagePath="granite/sensa"
+        metaImg="/sensa/hero.png"
+      />
       <Hero
         imgSrc="/sensa/hero.png"
         imgText="Sensa Granite Orinoco"
