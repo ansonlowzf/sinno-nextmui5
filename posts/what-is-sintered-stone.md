@@ -1,7 +1,7 @@
 ---
 title: "What is sintered stone?"
 date: "2021-01-19"
-excerpt: "How to differentiate sink install on top of the stone or below the stone? Check out this article to know more about it."
+excerpt: "Sintered Stone? Porcelain Slab? Which name is correct? What is it, and why should we use it as our kitchen top?"
 coverImage: "/blog/sintered-stone/cover.png"
 ---
 

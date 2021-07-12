@@ -1,7 +1,7 @@
 ---
 title: "What is the difference between the top mount and under mount?"
 date: "2021-01-18"
-excerpt: This is the excerpt
+excerpt: "How to differentiate sink install on top of the stone or below the stone? Check out this article to know more about it."
 coverImage: "/blog/sink-mount/undermount-1.jpg"
 ---
 
