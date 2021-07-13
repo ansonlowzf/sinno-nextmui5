@@ -10,7 +10,7 @@ import {
 } from "../../components";
 import { dekton12 } from "../../const/pricing";
 import { ssRoutes } from "../../const/nav-links";
-import { Heading2, SectionWrapper } from "../../element";
+import { Heading3, SectionWrapper } from "../../element";
 
 const { group0, group1, group2, group3, group4 } = dekton12;
 
@@ -33,7 +33,7 @@ const DektonPage = () => {
       <SubNavbar routes={ssRoutes} />
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading2>Colour &amp; Pricing</Heading2>
+        <Heading3>Colour &amp; Pricing</Heading3>
       </Box>
 
       <SectionWrapper>

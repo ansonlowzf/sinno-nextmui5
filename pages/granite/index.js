@@ -9,7 +9,7 @@ import {
 } from "../../components";
 import { graniteRoutes } from "../../const/nav-links";
 import { Box, Container, Grid } from "@material-ui/core";
-import { SectionWrapper, Heading2 } from "../../element";
+import { SectionWrapper, Heading3 } from "../../element";
 
 const GranitePage = () => {
   return (
@@ -30,7 +30,7 @@ const GranitePage = () => {
       <SubNavbar routes={graniteRoutes} />
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading2>Colour &amp; Pricing</Heading2>
+        <Heading3>Colour &amp; Pricing</Heading3>
       </Box>
 
       <SectionWrapper>

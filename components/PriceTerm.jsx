@@ -1,10 +1,10 @@
-import { Heading2, TextWrapper } from "../element";
+import { Heading3, TextWrapper } from "../element";
 import { Typography } from "@material-ui/core";
 
 export const PriceTerm = () => {
   return (
     <>
-      <Heading2>Price Term</Heading2>
+      <Heading3>Price Term</Heading3>
       <TextWrapper>
         <Typography component="p" variant="h6">
           The Calculation:-

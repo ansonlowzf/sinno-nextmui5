@@ -6,7 +6,7 @@ import {
   SectionContact,
   MetaSEO,
 } from "../../components";
-import { SectionWrapper, Heading2 } from "../../element";
+import { SectionWrapper, Heading3 } from "../../element";
 import { ssRoutes } from "../../const/nav-links";
 import { Box, Grid, Container } from "@material-ui/core";
 import Image from "next/image";
@@ -40,7 +40,7 @@ const MocaPage = () => {
       <SubNavbar routes={ssRoutes} />
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading2>Colour &amp; Pricing</Heading2>
+        <Heading3>Colour &amp; Pricing</Heading3>
       </Box>
 
       <SectionWrapper>

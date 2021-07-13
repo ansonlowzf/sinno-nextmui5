@@ -1,12 +1,12 @@
 import { Container, Grid } from "@material-ui/core";
-import { Heading2 } from "../element";
+import { Heading3 } from "../element";
 import { StoneCard } from "../components";
 
 export const SectionProduct = () => {
   return (
     <>
       <Container maxWidth="lg">
-        <Heading2>Type of Stones</Heading2>
+        <Heading3>Type of Stones</Heading3>
         <Grid container spacing={2} justifyContent="center">
           <Grid container item xs={12} sm={6} md={4} justifyContent="center">
             <StoneCard

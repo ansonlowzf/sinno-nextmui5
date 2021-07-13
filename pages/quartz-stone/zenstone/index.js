@@ -12,7 +12,7 @@ import {
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import { zenstone } from "../../../const/pricing";
-import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
+import { Heading3, SectionWrapper, TextWrapper } from "../../../element";
 
 const { classic, premium, noble, marble } = zenstone;
 
@@ -61,7 +61,7 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Colour &amp; Shades</Heading2>
+        <Heading3>Colour &amp; Shades</Heading3>
         <SectionWrapper>
           <Container maxWidth="lg">
             <Grid container justifyContent="center" spacing={1}>

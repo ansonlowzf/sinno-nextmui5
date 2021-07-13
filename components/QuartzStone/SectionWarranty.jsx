@@ -1,10 +1,10 @@
-import { SectionWrapper, Heading2, TextWrapper } from "../../element";
+import { SectionWrapper, Heading3, TextWrapper } from "../../element";
 import { SinnoButton } from "../../components";
 import { Typography } from "@material-ui/core";
 
 export const SectionWarranty = () => (
   <SectionWrapper>
-    <Heading2>Warranty</Heading2>
+    <Heading3>Warranty</Heading3>
     <TextWrapper>
       <Typography align="center" paragraph>
         What if the quartz countertop you bought from us is crack, chip-off,

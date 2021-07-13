@@ -1,9 +1,9 @@
 import { Box, Container, Typography } from "@material-ui/core";
-import { SectionWrapper, Heading2 } from "../../element";
+import { SectionWrapper, Heading3 } from "../../element";
 
 export const SectionS = () => (
   <SectionWrapper>
-    <Heading2>Why Use Genuine Quartz Stone?</Heading2>
+    <Heading3>Why Use Genuine Quartz Stone?</Heading3>
     <Container maxWidth="sm">
       <Typography align="center" paragraph>
         Each video is 1 minute. We torture our quartz stone.
@@ -42,8 +42,7 @@ export const SectionS = () => (
         align="center"
         sx={{ mt: 5 }}
       >
-        After watching the videos, are you looking for a quartz stone kitchen
-        top of this quality?
+        Is this the quality you looking for?
       </Typography>
     </Container>
   </SectionWrapper>

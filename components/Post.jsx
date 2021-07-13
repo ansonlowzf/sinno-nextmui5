@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Typography, Paper } from "@material-ui/core";
+import { Box, Button, Grid, Typography } from "@material-ui/core";
 import Image from "next/image";
 import { MuiNextLink } from ".";
 
@@ -28,7 +28,7 @@ const Post = ({ post }) => {
         xs={12}
         sm={8}
         spaincg={3}
-        sx={{ p: { xs: 0, sm: 2.5 } }}
+        sx={{ p: 2.5 }}
       >
         <Box>
           <MuiNextLink href={`/blog/${post.slug}`} underline="none">
@@ -41,7 +41,9 @@ const Post = ({ post }) => {
           </Typography>
         </Box>
 
-        <Typography gutterBottom>{post.frontmatter.excerpt}</Typography>
+        <Typography sx={{ mb: { xs: 2, md: 0 } }}>
+          {post.frontmatter.excerpt}
+        </Typography>
 
         <MuiNextLink href={`/blog/${post.slug}`} underline="none">
           <Button variant="outlined">Read More</Button>

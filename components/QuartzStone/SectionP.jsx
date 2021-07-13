@@ -1,9 +1,9 @@
-import { Heading2, TextWrapper, SectionWrapper } from "../../element";
+import { Heading3, TextWrapper, SectionWrapper } from "../../element";
 import { Box, Typography } from "@material-ui/core";
 
 export const SectionP = () => (
   <Box mt={15}>
-    <Heading2>Genuine Quartz Stone</Heading2>
+    <Heading3>Genuine Quartz Stone</Heading3>
     <SectionWrapper>
       <TextWrapper>
         <Typography paragraph>

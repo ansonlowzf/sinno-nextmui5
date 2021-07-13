@@ -9,7 +9,7 @@ import {
   MetaSEO,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
-import { Heading2, SectionWrapper, TextWrapper } from "../../../element";
+import { Heading3, SectionWrapper, TextWrapper } from "../../../element";
 import Image from "next/image";
 
 const CaesarstonePage = () => {
@@ -50,7 +50,7 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Caesarstone Quartz Surface</Heading2>
+        <Heading3>Caesarstone Quartz Surface</Heading3>
         <TextWrapper>
           <Typography paragraph>
             Caesarstone is one of the highest quality quartz stone you could
@@ -76,7 +76,7 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Colour &amp; Pricing</Heading2>
+        <Heading3>Colour &amp; Pricing</Heading3>
         <TextWrapper>
           <Typography align="center" sx={{ mb: 5 }}>
             The price shown below is for all the 34 Caesarstone colours

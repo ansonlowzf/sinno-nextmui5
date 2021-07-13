@@ -1,6 +1,6 @@
 import { Box, Container, Grid } from "@material-ui/core";
 import { Hero, StoneCard, MetaSEO } from "../../components";
-import { Heading2 } from "../../element";
+import { Heading3 } from "../../element";
 
 // Keep here in case I want to use it again
 
@@ -21,7 +21,7 @@ const SinteredStonePage = () => {
       />
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading2>Sintered Stone</Heading2>
+        <Heading3>Sintered Stone</Heading3>
         <Container maxWidth="md">
           <Grid container justifyContent="center" alignItems="center">
             <Grid container item justifyContent="center" xs={12} md={6}>

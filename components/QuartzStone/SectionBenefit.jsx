@@ -1,11 +1,11 @@
 import { Container, Grid } from "@material-ui/core";
 import { Benefit } from "..";
-import { Heading2, SectionWrapper } from "../../element";
+import { Heading3, SectionWrapper } from "../../element";
 
 export const SectionBenefit = () => (
   <SectionWrapper>
     <Container maxWidth="lg">
-      <Heading2>Benefits of Quartz Stone</Heading2>
+      <Heading3>Benefits of Quartz Stone</Heading3>
       <Grid container spacing={3}>
         <Benefit
           imgSrc="/quartz-stone/benefit/stain_resistance.jpg"

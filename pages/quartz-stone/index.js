@@ -1,19 +1,16 @@
 import {
   Hero,
-  SubNavbar,
+  MetaSEO,
+  SectionA,
+  SectionBenefit,
   SectionContact,
   SectionP,
-  SectionA,
   SectionS,
-  SectionBenefit,
   SectionWarranty,
-  FaqAccordion,
-  MetaSEO,
+  SubNavbar,
 } from "../../components";
-import { SectionWrapper } from "../../element";
 import { qsRoutes } from "../../const/nav-links";
-import { faqQuartzStone } from "../../const/faq";
-import { Container } from "@material-ui/core";
+import { SectionWrapper } from "../../element";
 
 const QuartzStone = () => {
   return (
@@ -44,13 +41,6 @@ const QuartzStone = () => {
       <SectionBenefit />
 
       <SectionWarranty />
-      <SectionWrapper>
-        <Container maxWidth="sm">
-          {faqQuartzStone.map(({ question, answer, id }) => (
-            <FaqAccordion key={id} question={question} answer={answer} />
-          ))}
-        </Container>
-      </SectionWrapper>
     </>
   );
 };

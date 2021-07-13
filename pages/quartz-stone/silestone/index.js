@@ -14,7 +14,7 @@ import {
   silestonePricing20,
   silestoneJumboPricing20,
 } from "../../../const/pricing";
-import { SectionWrapper, Heading2 } from "../../../element";
+import { SectionWrapper, Heading3 } from "../../../element";
 
 const { group1, group2, group3, group4 } = silestonePricing20;
 const { group5, group6 } = silestoneJumboPricing20;
@@ -57,7 +57,7 @@ const SilestonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Colour &amp; Pricing</Heading2>
+        <Heading3>Colour &amp; Pricing</Heading3>
       </SectionWrapper>
 
       <SectionWrapper>

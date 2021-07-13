@@ -1,7 +1,7 @@
 import { Container, Grid, Typography } from "@material-ui/core";
 import Image from "next/image";
 import { Hero, MetaSEO } from "../components";
-import { Heading2, SectionWrapper } from "../element";
+import { Heading3, SectionWrapper } from "../element";
 
 import QsSlab from "../public/about/qs-slab.png";
 import KitchenTop from "../public/about/kitchen-top.png";
@@ -25,12 +25,12 @@ const AboutPage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Stone Surfacing To Countertop</Heading2>
-        <Typography>
-          Choose your favourite stone and colour, we turn it to the countertop
-        </Typography>
-        <Container maxWidth="md"></Container>
-        <Container maxWidth="lg">
+        <Container maxWidth="md">
+          <Heading3>Stone Surfacing To Countertop</Heading3>
+          <Typography align="center" sx={{ mb: 5 }}>
+            Choose your favourite stone and colour, we turn it to the countertop
+          </Typography>
+
           <Image src={QsSlab} alt="quartz stone slab" />
         </Container>
       </SectionWrapper>

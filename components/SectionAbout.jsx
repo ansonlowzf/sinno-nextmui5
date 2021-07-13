@@ -2,13 +2,13 @@ import { Button, Container, Grid, Typography } from "@material-ui/core";
 import * as React from "react";
 import Image from "next/image";
 import { MuiNextLink } from "../components";
-import { Heading2 } from "../element";
+import { Heading3 } from "../element";
 
 export const SectionAbout = () => {
   return (
     <Container component="section" maxWidth="false">
       <Grid container>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} md={6} sx={{ mb: { xs: 5, md: null } }}>
           <Image
             src="/image-home/posidonia-green.png"
             alt="silestone posidonia green kitchen top"
@@ -24,9 +24,10 @@ export const SectionAbout = () => {
           justifyContent="center"
           alignItems="center"
           xs={12}
-          sm={6}
+          md={6}
+          sx={{ px: { md: 5 } }}
         >
-          <Heading2>Natural &amp; Engineered Stone Surfacing Mason</Heading2>
+          <Heading3>Natural &amp; Engineered Stone Surfacing Mason</Heading3>
           <Typography textAlign="center" sx={{ mb: 5 }}>
             We fabricate, supply and install genuine stone kitchen top for
             kitchen cabinet

@@ -1,5 +1,5 @@
 import { Box, Container, Grid } from "@material-ui/core";
-import { Heading2, SectionWrapper } from "../../element";
+import { Heading3, SectionWrapper } from "../../element";
 import {
   DisplayStone,
   Hero,
@@ -30,7 +30,7 @@ const SensaPage = () => {
       <SubNavbar routes={graniteRoutes} />
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading2>Colour &amp; Pricing</Heading2>
+        <Heading3>Colour &amp; Pricing</Heading3>
       </Box>
 
       <SectionWrapper>
