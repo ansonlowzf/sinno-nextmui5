@@ -20,7 +20,7 @@ const FaqPage = () => {
       />
 
       <Container maxWitdh="lg" sx={{ mt: 10 }}>
-        <Heading3>Company</Heading3>
+        <Heading3>Company/Factory/Warehouse</Heading3>
         <SectionWrapper>
           <Container maxWidth="sm">
             {faqCompany.map(({ question, answer, id }) => (
