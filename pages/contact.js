@@ -61,12 +61,12 @@ const ContactPage = () => {
                 href="https://api.whatsapp.com/send?phone=+60193109773&text=&source=&data=&app_absent="
                 style={{ textDecoration: `none` }}
               >
-                <Typography align="center">
-                  <Box py={2} color="text.primary">
+                <Box py={2}>
+                  <Typography color="text.primary" align="center">
                     Anson Low @ 019-310 9773 <br />
                     WhatsApp
-                  </Box>
-                </Typography>
+                  </Typography>
+                </Box>
               </a>
             </Grid>
 
@@ -84,12 +84,12 @@ const ContactPage = () => {
                 href="https://api.whatsapp.com/send?phone=+60193109773&text=&source=&data=&app_absent="
                 style={{ textDecoration: `none` }}
               >
-                <Typography align="center">
-                  <Box py={2} color="text.primary">
+                <Box py={2}>
+                  <Typography color="text.primary" align="center">
                     Anson Low @ 019-310 9773 <br />
                     Call
-                  </Box>
-                </Typography>
+                  </Typography>
+                </Box>
               </a>
             </Grid>
 
@@ -107,11 +107,11 @@ const ContactPage = () => {
                 href="mailto:contact@stoneinnovations.com.my"
                 style={{ textDecoration: `none` }}
               >
-                <Typography align="center">
-                  <Box py={2} color="text.primary">
+                <Box py={2} color="text.primary">
+                  <Typography align="center">
                     contact@stoneinnovations.com.my
-                  </Box>
-                </Typography>
+                  </Typography>
+                </Box>
               </a>
             </Grid>
           </Grid>
