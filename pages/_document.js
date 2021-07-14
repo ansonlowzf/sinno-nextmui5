@@ -24,7 +24,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
@@ -59,13 +58,12 @@ MyDocument.getInitialProps = async (ctx) => {
 
   ctx.renderPage = () =>
     originalRenderPage({
-      // Take precedence over the CacheProvider in our custom _app.js
       enhanceComponent: (Component) => (props) =>
-        (MyDocument.displayName = "MyDocument"(
+        (
           <CacheProvider value={cache}>
             <Component {...props} />
           </CacheProvider>
-        )),
+        ),
     });
 
   const initialProps = await Document.getInitialProps(ctx);
