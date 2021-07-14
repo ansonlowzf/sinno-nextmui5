@@ -19,7 +19,7 @@ const FaqPage = () => {
         subtitle="Frequestly Ask Questions"
       />
 
-      <Container maxWitdh="lg" sx={{ mt: 10 }}>
+      <Container maxWidth="lg" sx={{ mt: 10 }}>
         <Heading3>Company/Factory/Warehouse</Heading3>
         <SectionWrapper>
           <Container maxWidth="sm">
@@ -30,7 +30,7 @@ const FaqPage = () => {
         </SectionWrapper>
       </Container>
 
-      <Container maxWitdh="lg" sx={{ mt: 10 }}>
+      <Container maxWidth="lg" sx={{ mt: 10 }}>
         <Heading3>Quartz Stone</Heading3>
         <SectionWrapper>
           <Container maxWidth="sm">
