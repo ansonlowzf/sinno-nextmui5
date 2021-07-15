@@ -1,10 +1,12 @@
 import * as React from "react";
+import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider } from "@material-ui/core/styles";
+import CssBaseline from "@material-ui/core/styles";
 import { CacheProvider } from "@emotion/react";
-import { CssBaseline } from "@material-ui/core";
 import createCache from "@emotion/cache";
 import theme from "../styles/theme";
+
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 import "/styles/globals.css";
@@ -12,17 +14,11 @@ import "/styles/globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-export const cache = createCache({ key: "css", prepend: true });
+const cache = createCache({ key: "css" });
+cache.compat = true;
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
-
-  React.useEffect(() => {
-    const jssStyles = document.querySelector("#jss-server-side");
-    if (jssStyles) {
-      jssStyles.parentElement.removeChild(jssStyles);
-    }
-  }, []);
 
   React.useEffect(() => {
     const handleRouteChange = (url) => {
@@ -41,6 +37,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <link rel="icon" href="/favicon.png" />
       </Head>
+
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Header />
@@ -50,3 +47,8 @@ export default function MyApp({ Component, pageProps }) {
     </CacheProvider>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
+};

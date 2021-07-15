@@ -14,8 +14,8 @@ const PostPage = ({
 }) => {
   return (
     <>
-      <Container maxWidth="sm" sx={{ mt: 10 }}>
-        <SectionWrapper>
+      <SectionWrapper>
+        <Container maxWidth="sm" sx={{ mt: 10 }}>
           <MuiNextLink href="/blog#blog" underline="none">
             <Button variant="outlined" sx={{ mb: 5 }}>
               Go Back
@@ -45,8 +45,8 @@ const PostPage = ({
               Go Back
             </Button>
           </MuiNextLink>
-        </SectionWrapper>
-      </Container>
+        </Container>
+      </SectionWrapper>
     </>
   );
 };
