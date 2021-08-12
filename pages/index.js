@@ -1,17 +1,14 @@
+import { Container, Typography } from "@material-ui/core";
+import Image from "next/image";
 import * as React from "react";
 import {
   Hero,
-  SectionAbout,
+  MetaSEO,
+  SectionBlog,
   SectionContact,
   SectionImage,
-  SectionProduct,
-  SectionBlog,
-  MetaSEO,
 } from "../components";
-import { SectionWrapper } from "../element";
-import { Container, Typography } from "@material-ui/core";
-import { Heading3 } from "../element";
-import Image from "next/image";
+import { Heading3, SectionWrapper } from "../element";
 
 const Homepage = () => {
   return (
@@ -49,7 +46,8 @@ const Homepage = () => {
       <SectionWrapper>
         <Container>
           <Heading3>
-            We Turn 10 FT by 4 FT Stone Surfacing To Various Top
+            We Turn 10 FT by 4 FT Stone Surfacing To Various Countertops &amp;
+            Stone Products
           </Heading3>
           <Typography
             component="ul"
@@ -80,7 +78,7 @@ const Homepage = () => {
 
       <SectionWrapper>
         <Container>
-          <Heading3>We Supply &amp; Install The Following Stones:</Heading3>
+          <Heading3>We Supply &amp; Install:</Heading3>
           <Typography
             component="ul"
             variant="body1"
@@ -93,10 +91,6 @@ const Homepage = () => {
             <li>Onyx - Natural Stone</li>
           </Typography>
         </Container>
-      </SectionWrapper>
-
-      <SectionWrapper>
-        <SectionProduct />
       </SectionWrapper>
 
       <SectionWrapper>
