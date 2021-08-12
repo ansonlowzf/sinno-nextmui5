@@ -7,14 +7,13 @@ import Image from "next/image";
 export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
     <Grid
-      component="section"
       container
       sx={{
         position: `relative`,
-        height: "100vh",
+        height: "calc(100vh - 64px)",
         width: `100%`,
         overflow: `hidden`,
-        zIndex: -100,
+        zIndex: "-100",
       }}
     >
       <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" />
@@ -26,6 +25,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
           position: "absolute",
           inset: 0,
           backgroundColor: "rgba(0,0,0, .7)",
+          zIndex: "100",
         }}
       >
         <Grid
@@ -37,6 +37,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
           xs={12}
           sm={10}
           md={8}
+          sx={{ zIndex: "101" }}
         >
           <Typography
             variant="h1"
@@ -45,6 +46,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
             sx={{
               color: "secondary.main",
               fontWeight: 400,
+              zIndex: "102",
             }}
           >
             {title}
@@ -56,6 +58,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
             color="common.white"
             sx={{
               mb: 10,
+              zIndex: "102",
             }}
           >
             {subtitle}
@@ -63,6 +66,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
           <Typography component="p" variant="h6" color="secondary" gutterBottom>
             Scroll
           </Typography>
+          {/* TODO: Add Bouncing effect to arrow */}
           <ArrowDownwardIcon fontSize="large" color="secondary" />
         </Grid>
       </Grid>
