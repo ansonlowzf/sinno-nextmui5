@@ -37,7 +37,7 @@ const SideDrawer = () => {
             textTransform: `uppercase`,
           }}
         >
-          <MuiNextLink sx={{ color: "common.white" }} href={path}>
+          <MuiNextLink color="primary" underline="none" href={path}>
             {name}
           </MuiNextLink>
         </Typography>
@@ -64,7 +64,7 @@ const SideDrawer = () => {
         onClose={toggleDrawer("right", false)}
         sx={{
           ".MuiDrawer-paper": {
-            bgcolor: "primary.main",
+            bgcolor: "secondary.main",
           },
         }}
       >

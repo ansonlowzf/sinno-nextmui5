@@ -1,4 +1,3 @@
-import * as React from "react";
 import { useScrollTrigger, Zoom, Box } from "@material-ui/core";
 
 const BackToTop = ({ children }) => {
@@ -21,7 +20,7 @@ const BackToTop = ({ children }) => {
     <Zoom in={trigger}>
       <Box
         onClick={handleClick}
-        role="presentation"
+        role="back to top"
         sx={{
           position: "fixed",
           bottom: { xs: 16, md: 48 },

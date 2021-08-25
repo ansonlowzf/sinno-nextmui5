@@ -3,7 +3,7 @@ import { MuiNextLink } from ".";
 
 export const SubNavbar = ({ routes }) => {
   return (
-    <AppBar position="sticky" color="secondary">
+    <AppBar position="sticky">
       <Container maxWidth="md">
         <Grid container item justifyContent="space-evenly">
           {routes.map(({ name, path }, index) => (
@@ -11,13 +11,15 @@ export const SubNavbar = ({ routes }) => {
               component={MuiNextLink}
               key={`${name}${index}`}
               href={path}
-              underline="hover"
+              underline="none"
               sx={{
                 py: 2.3,
-                color: (theme) => theme.palette.common.black,
-                opacity: "0.5",
+                color: "common.black",
                 textTransform: "uppercase",
-                fontWeight: "bold",
+
+                "&:hover": {
+                  color: "white",
+                },
               }}
             >
               {name}

@@ -1,10 +1,12 @@
+import { blue, blueGrey, grey } from "@material-ui/core/colors";
 import { createTheme, responsiveFontSizes } from "@material-ui/core/styles";
-import { deepPurple, amber } from "@material-ui/core/colors";
 
 let theme = createTheme({
   palette: {
-    primary: deepPurple,
-    secondary: amber,
+    primary: blue,
+    secondary: {
+      main: grey[900],
+    },
   },
 });
 

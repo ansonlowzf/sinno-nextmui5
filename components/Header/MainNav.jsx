@@ -17,7 +17,12 @@ const MainNav = () => {
             key={`${name}${i}`}
             href={path}
             variant="button"
-            sx={{ color: "white", opacity: 0.7 }}
+            underline="none"
+            sx={{
+              "&:hover": {
+                color: "white",
+              },
+            }}
           >
             {name}
           </MuiNextLink>

@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <HideOnScroll>
-        <AppBar position="fixed">
+        <AppBar position="fixed" color="secondary">
           <Toolbar>
             <Container
               maxWidth="lg"
@@ -40,7 +40,7 @@ const Header = () => {
       <Offset id="back-to-top-anchor" />
 
       <BackToTop>
-        <Fab color="secondary" size="large" aria-label="back to top">
+        <Fab color="primary" size="large" aria-label="back to top">
           <KeyboardArrowUp />
         </Fab>
       </BackToTop>

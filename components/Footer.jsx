@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Email } from "@material-ui/icons";
 
 const Footer = () => {
   return (
-    <Box component="footer" sx={{ py: 10, bgcolor: "primary.main" }}>
+    <Box component="footer" sx={{ py: 10, bgcolor: "secondary.main" }}>
       <Stack direction="row" justifyContent="center" spacing={4} sx={{ mb: 8 }}>
         <Box
           component="a"

@@ -1,4 +1,3 @@
-import * as React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
@@ -43,8 +42,8 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
             variant="h1"
             align="center"
             gutterBottom
+            color="primary"
             sx={{
-              color: "secondary.main",
               fontWeight: 400,
               zIndex: "102",
             }}
@@ -63,11 +62,11 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
           >
             {subtitle}
           </Typography>
-          <Typography component="p" variant="h6" color="secondary" gutterBottom>
+          <Typography component="p" variant="h6" color="primary" gutterBottom>
             Scroll
           </Typography>
           {/* TODO: Add Bouncing effect to arrow */}
-          <ArrowDownwardIcon fontSize="large" color="secondary" />
+          <ArrowDownwardIcon fontSize="large" color="primary" />
         </Grid>
       </Grid>
     </Grid>

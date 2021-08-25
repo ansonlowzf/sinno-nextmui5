@@ -6,10 +6,10 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import theme from "../styles/theme";
+import "/styles/globals.css";
 
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
-import "/styles/globals.css";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
