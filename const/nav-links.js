@@ -1,7 +1,7 @@
 export const mainRoutes = [
   { name: "home", path: "/" },
   { name: "quartz stone", path: "/quartz-stone" },
-  { name: "sintered stone", path: "/sintered-stone/moca" },
+  { name: "sintered stone", path: "/sintered-stone" },
   { name: "granite", path: "/granite" },
   { name: "blog", path: "/blog" },
   { name: "faq", path: "/faq" },
@@ -10,13 +10,7 @@ export const mainRoutes = [
 
 export const qsRoutes = [
   { name: "caesarstone", path: "/quartz-stone/caesarstone" },
-  { name: "silestone", path: "/quartz-stone/silestone" },
   { name: "zenstone", path: "/quartz-stone/zenstone" },
-];
-
-export const ssRoutes = [
-  { name: "dekton", path: "/sintered-stone/dekton" },
-  { name: "moca", path: "/sintered-stone/moca" },
 ];
 
 export const graniteRoutes = [

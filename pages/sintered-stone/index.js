@@ -1,50 +1,126 @@
-import { Box, Container, Grid } from "@material-ui/core";
-import { Hero, StoneCard, MetaSEO } from "../../components";
-import { Heading3 } from "../../element";
+import {
+  DisplayStone,
+  SubNavbar,
+  ColourWarning,
+  PriceTerm,
+  SectionContact,
+  MetaSEO,
+} from "../../components";
+import { SectionWrapper, Heading3 } from "../../element";
+import { ssRoutes } from "../../const/nav-links";
+import { Box, Grid, Container } from "@material-ui/core";
+import Image from "next/image";
+import { moca } from "../../const/pricing";
 
-// Keep here in case I want to use it again
+const { small, big } = moca;
 
-const SinteredStonePage = () => {
+const MocaPage = () => {
   return (
     <>
       <MetaSEO
-        pageTitle="Silestone Quartz Surface"
-        pageDesc="We are one of the Silestone distributor in Malaysia. We fabricate, supply &amp; install Silestone Kitchen Top"
-        pagePath="quartz-stone/silestone"
-        metaImg="//silestone/hero.png"
+        pageTitle="Moca"
+        pageDesc="We are the distributor of Moca in Malaysia. We fabricate, supply &amp; install Moca Compact Stone Kitchen Top"
+        pagePath="sintered-stone/moca"
+        metaImg="/moca/logo.png"
       />
-      <Hero
-        imgSrc="/sintered-stone/hero.png"
-        imgAlt="Dekton Entzo Kitchen Top"
-        title="Sintered Stone"
-        subtitle="AKA Porcelain Slab, Porcelain Surface, Compact Surface or Ultra-Compact Surface"
-      />
+      <SectionWrapper>
+        <Grid container justifyContent="center" sx={{ mt: 15 }}>
+          <Grid item xs={10} md={2}>
+            <Image
+              src="/moca/logo.png"
+              alt="moca compact stone logo"
+              layout="responsive"
+              width={800}
+              height={600}
+            />
+          </Grid>
+        </Grid>
+      </SectionWrapper>
 
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading3>Sintered Stone</Heading3>
-        <Container maxWidth="md">
-          <Grid container justifyContent="center" alignItems="center">
-            <Grid container item justifyContent="center" xs={12} md={6}>
-              <StoneCard
-                imgSrc="/sintered-stone/stonecard1.png"
-                stone="Dekton Ultra-Compact Stone"
-                desc="Product of Spain. All colours available in Malaysia. Subject to stock availability."
-                linkUrl="/sintered-stone/dekton"
-              />
-            </Grid>
-            <Grid container item justifyContent="center" xs={12} md={6}>
-              <StoneCard
-                imgSrc="/sintered-stone/stonecard2.png"
-                stone="Moca Compact Surface"
-                desc="Local Brand OEM China Sintered Stone. All colours available in Malaysia. Subject to stock availability."
-                linkUrl="/sintered-stone/moca"
-              />
-            </Grid>
+        <Heading3>Colour &amp; Pricing</Heading3>
+      </Box>
+
+      <SectionWrapper>
+        <Container maxWidth="lg">
+          <Grid container spacing={2} justifyContent="center">
+            <DisplayStone
+              imgSrc="/moca/pss/qp02.png"
+              stoneName="QP 02 (11mm) Smooth Matt"
+              price={small}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp03.png"
+              stoneName="QP 03 (11mm) Smooth Matt"
+              price={small}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp07.png"
+              stoneName="QP 07 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp12.png"
+              stoneName="QP 12 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp104.png"
+              stoneName="QP 104 (11mm) Smooth Matt"
+              price={small}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2013.png"
+              stoneName="QP 2013 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2031.png"
+              stoneName="QP 2031 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2032.png"
+              stoneName="QP 2032 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2033b.png"
+              stoneName="QP 07 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2034.png"
+              stoneName="QP 2034 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2035.png"
+              stoneName="QP 2035 (12mm) Smooth Matt"
+              price={big}
+            />
+            <DisplayStone
+              imgSrc="/moca/pss/qp2036a.png"
+              stoneName="QP 2036A (12mm) Smooth Matt"
+              price={big}
+            />
           </Grid>
         </Container>
-      </Box>
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <ColourWarning />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <PriceTerm />
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <SectionContact stone="Moca Compact Stone" />
+      </SectionWrapper>
     </>
   );
 };
 
-export default SinteredStonePage;
+export default MocaPage;
