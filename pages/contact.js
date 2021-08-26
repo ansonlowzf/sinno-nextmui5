@@ -6,7 +6,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import { Smartphone, WhatsApp, EmailOutlined } from "@material-ui/icons";
-import { SectionWrapper, Heading2, Heading3 } from "../element";
+import { SectionWrapper, Heading2, Heading3, TextWrapper } from "../element";
 import { Hero, MetaSEO } from "../components";
 
 const ContactPage = () => {
@@ -131,10 +131,12 @@ const ContactPage = () => {
               loading="lazy"
             />
           </Box>
-          <Typography align="center" sx={{ mt: 5 }}>
-            Address: 45-1-1, Jalan Medan Putra 6, Medan Putra Business Center,
-            Bandar Menjalara 52200 KL
-          </Typography>
+          <TextWrapper>
+            <Typography align="center" sx={{ mt: 5 }}>
+              Address: 45-1-1, Jalan Medan Putra 6, Medan Putra Business Center,
+              Bandar Menjalara 52200 KL
+            </Typography>
+          </TextWrapper>
         </SectionWrapper>
       </Container>
 
@@ -151,10 +153,12 @@ const ContactPage = () => {
               loading="lazy"
             />
           </Box>
-          <Typography align="center" sx={{ mt: 5 }}>
-            Address: Lot 2201, Jalan Industri 10, Kampung Baru Sungai Buloh,
-            40160 Shah Alam, Selangor
-          </Typography>
+          <TextWrapper>
+            <Typography align="center" sx={{ mt: 5 }}>
+              Address: Lot 2201, Jalan Industri 10, Kampung Baru Sungai Buloh,
+              40160 Shah Alam, Selangor
+            </Typography>
+          </TextWrapper>
         </SectionWrapper>
       </Container>
     </>
