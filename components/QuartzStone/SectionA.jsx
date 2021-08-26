@@ -8,7 +8,7 @@ export const SectionA = () => (
     <SectionWrapper>
       <Container maxWidth="lg">
         <Grid container spacing={1}>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/burnt-by-oil.jpg"
               alt="quartz stone with oil burnt mark"
@@ -17,7 +17,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/chemical.jpg"
               alt="discolouration by chemical"
@@ -26,7 +26,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/chip-off.jpg"
               alt="quartz stone chip off"
@@ -35,7 +35,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/low-end-materials.jpg"
               alt="quartz stone with low end materials"
@@ -44,7 +44,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/scratches.jpg"
               alt="quartz stone with scratches"
@@ -53,7 +53,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/discolouration.jpg"
               alt="quartz stone discolouration"
@@ -62,7 +62,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/stain.jpg"
               alt="quartz stone with stain"
@@ -71,7 +71,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/stain2.jpg"
               alt="quartz stone with stain"
@@ -80,7 +80,7 @@ export const SectionA = () => (
               height={720}
             />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Image
               src="/defectqs/burnt-mark.jpg"
               alt="quartz stone with burnt mark"
