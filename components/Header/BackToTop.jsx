@@ -23,6 +23,7 @@ const BackToTop = ({ children }) => {
         role="back to top"
         sx={{
           position: "fixed",
+          zIndex: 999,
           bottom: { xs: 16, md: 48 },
           right: { xs: 16, md: 48 },
         }}
