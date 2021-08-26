@@ -47,7 +47,7 @@ const Homepage = () => {
             <Typography gutterBottom sx={{ my: 5 }}>
               For natural stone, the quarry factory mine from a stone mountain
               and cut to a stone block. They either sell the stone block or cut
-              again and sell as a 11mm - 30mm stone slab.
+              it again and sell it as an 11mm - 30mm stone slab.
             </Typography>
           </TextWrapper>
           <Typography
@@ -71,7 +71,7 @@ const Homepage = () => {
             textAlign="center"
             sx={{ mt: 5, mb: 2.5 }}
           >
-            Common size of the stone slab
+            The typical size of the stone slab
           </Typography>
           <Image
             src="/image-home/stone-surfacing.jpg"
@@ -84,7 +84,7 @@ const Homepage = () => {
             <Typography sx={{ my: 5 }}>
               Stone Surfacing Specialist is a fabrication company which take the
               stone slab then mould, cut, polish, edging, detailing and turn
-              into a surfacing products such as:-
+              into surfacing products such as:-
             </Typography>
           </TextWrapper>
           <Typography
