@@ -1,57 +1,94 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container, Typography, Grid, Button } from "@material-ui/core";
 import Image from "next/image";
-import * as React from "react";
-import {
-  Hero,
-  MetaSEO,
-  SectionBlog,
-  SectionContact,
-  SectionImage,
-} from "../components";
-import { Heading3, SectionWrapper } from "../element";
+import { Hero, MetaSEO, SectionContact, SectionImage } from "../components";
+import { Heading2, Heading3, SectionWrapper, TextWrapper } from "../element";
+import { MuiNextLink } from "../components";
 
 const Homepage = () => {
   return (
     <>
       <MetaSEO
         pageTitle="Home"
-        pageDesc="We're a stonemason and factory that fabricate, supply and install genuine stone countertops for residential and commercial use."
+        pageDesc="We're a stonemason and factory that fabricate, supply and install stone surfacing products for residential and commercial use."
         pagePath="home"
         metaImg="/home/hero.jpg"
       />
       <SectionWrapper>
         <Hero
-          imgSrc="/home/hero.jpg"
+          imgSrc="/image-home/hero.jpg"
           imgAlt="factory entrance"
           title="Stone Innovations Enterprise"
-          subtitle="Specializing in Genuine Stone Surfacing Top &amp; Wall Cladding"
+          subtitle="Specializing in Stone Surfacing Products"
         />
       </SectionWrapper>
 
       <SectionWrapper>
         <Container>
-          <Heading3>
-            We Turn 10 FT by 4 FT Stone Surfacing To Various Top
-          </Heading3>
-          <Image
-            src="/home/stone2variousTop.png"
-            alt="various stone surfacing top"
-            layout="responsive"
-            width={1920}
-            height={1080}
-          />
-        </Container>
-      </SectionWrapper>
+          <Heading2>What Is A Stone Surfacing Specialist?</Heading2>
+          <TextWrapper>
+            <Typography
+              component="p"
+              variant="h6"
+              textAlign="center"
+              sx={{ mb: 2.5 }}
+            >
+              Mountain &gt; Stone Block &gt; Natural Stone Slab
+            </Typography>
+          </TextWrapper>
 
-      <SectionWrapper>
-        <Container>
-          <Heading3>
-            We Turn 10 FT by 4 FT Stone Surfacing To Various Countertops &amp;
-            Stone Products
-          </Heading3>
+          <Image
+            src="/image-home/marble-block.jpg"
+            alt="marble block"
+            layout="responsive"
+            width={960}
+            height={540}
+          />
+          <TextWrapper>
+            <Typography gutterBottom sx={{ my: 5 }}>
+              For natural stone, the quarry factory mine from a stone mountain
+              and cut to a stone block. They either sell the stone block or cut
+              again and sell as a 11mm - 30mm stone slab.
+            </Typography>
+          </TextWrapper>
+          <Typography
+            component="p"
+            variant="h6"
+            textAlign="center"
+            sx={{ mb: 2.5 }}
+          >
+            Minerals &gt; Manufactory &gt; Engineered Stone Slab
+          </Typography>
+          <Image
+            src="/image-home/stone-manufactory.jpg"
+            alt="stone manufactory"
+            layout="responsive"
+            width={960}
+            height={540}
+          />
+          <Typography
+            component="p"
+            variant="h6"
+            textAlign="center"
+            sx={{ mt: 5, mb: 2.5 }}
+          >
+            Common size of the stone slab
+          </Typography>
+          <Image
+            src="/image-home/stone-surfacing.jpg"
+            alt="stone surfacing"
+            layout="responsive"
+            width={960}
+            height={540}
+          />
+          <TextWrapper>
+            <Typography sx={{ my: 5 }}>
+              Stone Surfacing Specialist is a fabrication company which take the
+              stone slab then mould, cut, polish, edging, detailing and turn
+              into a surfacing products such as:-
+            </Typography>
+          </TextWrapper>
           <Typography
             component="ul"
-            variant="body1"
             sx={{ width: `fit-content`, marginInline: `auto` }}
           >
             <li>Kitchen Top</li>
@@ -63,22 +100,15 @@ const Homepage = () => {
             <li>Coffee Table Top</li>
             <li>Cashier Countertop</li>
             <li>Wall Cladding</li>
-            <li>Shelves</li>
+            <li>Stone Shelves</li>
             <li>And More</li>
           </Typography>
         </Container>
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionImage
-          imgSrc="/home/5101.jpg"
-          imgAlt="Caesarstone Empira Black"
-        />
-      </SectionWrapper>
-
-      <SectionWrapper>
         <Container>
-          <Heading3>We Supply &amp; Install:</Heading3>
+          <Heading2>{`The Stone Slab We're Specializing In:`}</Heading2>
           <Typography
             component="ul"
             variant="body1"
@@ -95,13 +125,45 @@ const Homepage = () => {
 
       <SectionWrapper>
         <SectionImage
-          imgSrc="/home/5151.jpg"
-          imgAlt="Caesarstone Empira White"
+          imgSrc="/home/5101.jpg"
+          imgAlt="Caesarstone Empira Black"
         />
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionBlog />
+        <Container>
+          <Grid container>
+            <Grid
+              container
+              item
+              flexDirection="column"
+              justifyContent="center"
+              alignItems="center"
+              xs={12}
+              md={6}
+              sx={{ mb: 5, px: { md: 5 } }}
+            >
+              <Heading3>Blog</Heading3>
+              <Typography textAlign="center" sx={{ mb: 5 }}>
+                Would like to know more about custom made stone kitchen top?
+              </Typography>
+              <MuiNextLink href="/about-us" underline="none">
+                <Button variant="outlined" size="large">
+                  Read Article
+                </Button>
+              </MuiNextLink>
+            </Grid>
+            <Grid item xs={12} md={6} sx={{ overflow: `hidden` }}>
+              <Image
+                src="/image-home/5151.jpg"
+                alt="Caesarstone white attica"
+                layout="responsive"
+                width={960}
+                height={540}
+              />
+            </Grid>
+          </Grid>
+        </Container>
       </SectionWrapper>
 
       <SectionWrapper>

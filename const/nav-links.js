@@ -12,8 +12,3 @@ export const qsRoutes = [
   { name: "caesarstone", path: "/quartz-stone/caesarstone" },
   { name: "zenstone", path: "/quartz-stone/zenstone" },
 ];
-
-export const graniteRoutes = [
-  { name: "granite", path: "/granite" },
-  { name: "sensa", path: "/granite/sensa" },
-];

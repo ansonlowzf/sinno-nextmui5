@@ -27,8 +27,6 @@ const GranitePage = () => {
         subtitle="Granite Kitchen Top"
       />
 
-      <SubNavbar routes={graniteRoutes} />
-
       <Box sx={{ my: { xs: 15, sm: 20 } }}>
         <Heading3>Colour &amp; Pricing</Heading3>
       </Box>
