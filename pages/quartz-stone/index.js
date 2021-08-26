@@ -34,13 +34,13 @@ const QuartzStone = () => {
       <SectionA />
       <SectionS />
 
-      <SectionWrapper>
-        <SectionContact stone="Quartz Stone" />
-      </SectionWrapper>
-
       <SectionBenefit />
 
       <SectionWarranty />
+
+      <SectionWrapper>
+        <SectionContact stone="Quartz Stone" />
+      </SectionWrapper>
     </>
   );
 };

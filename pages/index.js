@@ -125,7 +125,7 @@ const Homepage = () => {
 
       <SectionWrapper>
         <SectionImage
-          imgSrc="/home/5101.jpg"
+          imgSrc="/image-home/5101.jpg"
           imgAlt="Caesarstone Empira Black"
         />
       </SectionWrapper>
@@ -147,7 +147,7 @@ const Homepage = () => {
               <Typography textAlign="center" sx={{ mb: 5 }}>
                 Would like to know more about custom made stone kitchen top?
               </Typography>
-              <MuiNextLink href="/about-us" underline="none">
+              <MuiNextLink href="/blog" underline="none">
                 <Button variant="outlined" size="large">
                   Read Article
                 </Button>
