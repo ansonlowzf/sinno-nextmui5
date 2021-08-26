@@ -8,7 +8,7 @@ const Footer = () => {
         <Box
           component="a"
           sx={{ textDecoration: "none", color: "common.white" }}
-          href="YourFacebookLink"
+          href="https://www.facebook.com/SinnoENT"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -17,25 +17,7 @@ const Footer = () => {
         <Box
           component="a"
           sx={{ textDecoration: "none", color: "common.white" }}
-          href="YourInstagramLink"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Instagram fontSize="large" />
-        </Box>
-        <Box
-          component="a"
-          sx={{ textDecoration: "none", color: "common.white" }}
-          href="YourTwitterLink"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Twitter fontSize="large" />
-        </Box>
-        <Box
-          component="a"
-          sx={{ textDecoration: "none", color: "common.white" }}
-          href="YourEmailLink"
+          href="mailto:contact@stoneinnovations.com.my"
           target="_blank"
           rel="noopener noreferrer"
         >
