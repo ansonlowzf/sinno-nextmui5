@@ -32,7 +32,7 @@ const Homepage = () => {
               textAlign="center"
               sx={{ mb: 2.5 }}
             >
-              Mountain &gt; Stone Block &gt; Natural Stone Slab
+              Mountain Quarry &gt; Stone Block &gt; Natural Stone Slab
             </Typography>
           </TextWrapper>
 
@@ -56,7 +56,7 @@ const Homepage = () => {
             textAlign="center"
             sx={{ mb: 2.5 }}
           >
-            Minerals &gt; Manufactory &gt; Engineered Stone Slab
+            Minerals + Ingredients &gt; Manufactory &gt; Engineered Stone Slab
           </Typography>
           <Image
             src="/image-home/stone-manufactory.jpg"
@@ -71,7 +71,7 @@ const Homepage = () => {
             textAlign="center"
             sx={{ mt: 5, mb: 2.5 }}
           >
-            The typical size of the stone slab
+            The typical size of the engineered stone slab
           </Typography>
           <Image
             src="/image-home/stone-surfacing.jpg"
@@ -83,8 +83,8 @@ const Homepage = () => {
           <TextWrapper>
             <Typography sx={{ my: 5 }}>
               Stone Surfacing Specialist is a fabrication company which take the
-              stone slab then mould, cut, polish, edging, detailing and turn
-              into surfacing products such as:-
+              stone slab then cut, polish, edging, detailing and turn into stone
+              surfacing products such as:-
             </Typography>
           </TextWrapper>
           <Typography
@@ -145,7 +145,8 @@ const Homepage = () => {
             >
               <Heading3>Blog</Heading3>
               <Typography textAlign="center" sx={{ mb: 5 }}>
-                Would like to know more about custom made stone kitchen top?
+                Looking for more information about custom made stone kitchen
+                top?
               </Typography>
               <MuiNextLink href="/blog" underline="none">
                 <Button variant="outlined" size="large">
