@@ -1,5 +1,5 @@
 import { Box, Typography, Drawer, IconButton } from "@mui/material";
-import { Menu } from "@material-ui/icons";
+import { Menu } from "@mui/icons-material";
 import * as React from "react";
 import { mainRoutes } from "../../const/nav-links";
 import { MuiNextLink } from "../../components";

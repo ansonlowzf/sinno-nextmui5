@@ -1,5 +1,5 @@
-import { Box, Typography, Stack } from "@mui/material";
-import { Facebook, Instagram, Twitter, Email } from "@material-ui/icons";
+import { Email, Facebook } from "@mui/icons-material";
+import { Box, Stack, Typography } from "@mui/material";
 
 const Footer = () => {
   return (

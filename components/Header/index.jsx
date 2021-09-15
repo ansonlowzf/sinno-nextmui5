@@ -1,6 +1,6 @@
 import { AppBar, Container, Fab, IconButton, Toolbar } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import { KeyboardArrowUp } from "@material-ui/icons";
+import { KeyboardArrowUp } from "@mui/icons-material";
 import { MuiNextLink } from "../../components";
 import BackToTop from "./BackToTop";
 import HideOnScroll from "./HideOnScroll";

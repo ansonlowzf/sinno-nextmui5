@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
+import { ArrowDownward } from "@mui/icons-material";
 import Image from "next/image";
 
 export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
@@ -66,7 +66,7 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
             Scroll
           </Typography>
           {/* TODO: Add Bouncing effect to arrow */}
-          <ArrowDownwardIcon fontSize="large" color="primary" />
+          <ArrowDownward fontSize="large" color="primary" />
         </Grid>
       </Grid>
     </Grid>
