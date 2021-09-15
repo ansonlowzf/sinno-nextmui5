@@ -1,4 +1,4 @@
-import { Stack, Toolbar } from "@material-ui/core";
+import { Stack, Toolbar } from "@mui/material";
 import * as React from "react";
 import { MuiNextLink } from "../../components";
 import { mainRoutes } from "../../const/nav-links";

@@ -1,6 +1,6 @@
 import { DisplayStone } from "../../components";
 import { caesarstone20 } from "../../const/pricing";
-import { Container, Grid } from "@material-ui/core";
+import { Container, Grid } from "@mui/material";
 
 const {
   standard,

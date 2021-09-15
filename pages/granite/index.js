@@ -8,7 +8,7 @@ import {
   MetaSEO,
 } from "../../components";
 import { graniteRoutes } from "../../const/nav-links";
-import { Box, Container, Grid } from "@material-ui/core";
+import { Box, Container, Grid } from "@mui/material";
 import { SectionWrapper, Heading3 } from "../../element";
 
 const GranitePage = () => {

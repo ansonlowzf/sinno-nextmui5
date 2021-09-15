@@ -1,4 +1,4 @@
-import { useScrollTrigger, Zoom, Box } from "@material-ui/core";
+import { useScrollTrigger, Zoom, Box } from "@mui/material";
 
 const BackToTop = ({ children }) => {
   const trigger = useScrollTrigger();

@@ -3,7 +3,7 @@ import {
   AccordionDetails,
   AccordionSummary,
   Typography,
-} from "@material-ui/core";
+} from "@mui/material";
 import { ExpandMore } from "@material-ui/icons";
 
 export const FaqAccordion = ({ id, question, answer }) => {

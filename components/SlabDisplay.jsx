@@ -1,4 +1,4 @@
-import { Grid, Paper, Typography } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@mui/material";
 import Image from "next/image";
 
 export const SlabDisplay = ({ imgSrc, stoneName, price }) => {

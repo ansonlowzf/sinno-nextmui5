@@ -1,5 +1,5 @@
-import { AppBar, Container, Fab, IconButton, Toolbar } from "@material-ui/core";
-import { styled } from "@material-ui/core/styles";
+import { AppBar, Container, Fab, IconButton, Toolbar } from "@mui/material";
+import { styled } from "@mui/material/styles";
 import { KeyboardArrowUp } from "@material-ui/icons";
 import { MuiNextLink } from "../../components";
 import BackToTop from "./BackToTop";

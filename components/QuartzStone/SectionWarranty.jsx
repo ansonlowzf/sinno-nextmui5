@@ -1,6 +1,6 @@
 import { SectionWrapper, Heading3, TextWrapper } from "../../element";
 import { SinnoButton } from "../../components";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 
 export const SectionWarranty = () => (
   <SectionWrapper>

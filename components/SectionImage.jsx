@@ -1,4 +1,4 @@
-import { Box } from "@material-ui/core";
+import { Box } from "@mui/material";
 import Image from "next/image";
 
 export const SectionImage = ({ imgSrc, imgAlt }) => {

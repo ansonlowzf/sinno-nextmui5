@@ -1,4 +1,4 @@
-import { AppBar, Container, Grid, Typography } from "@material-ui/core";
+import { AppBar, Container, Grid, Typography } from "@mui/material";
 import { MuiNextLink } from ".";
 
 export const SubNavbar = ({ routes }) => {

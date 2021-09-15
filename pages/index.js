@@ -1,4 +1,4 @@
-import { Container, Typography, Grid, Button } from "@material-ui/core";
+import { Container, Typography, Grid, Button } from "@mui/material";
 import Image from "next/image";
 import { Hero, MetaSEO, SectionContact, SectionImage } from "../components";
 import { Heading2, Heading3, SectionWrapper, TextWrapper } from "../element";

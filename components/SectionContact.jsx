@@ -1,4 +1,4 @@
-import { Button, Container, Grid, Typography } from "@material-ui/core";
+import { Button, Container, Grid, Typography } from "@mui/material";
 import { MuiNextLink } from "../components";
 import { Heading3 } from "../element";
 

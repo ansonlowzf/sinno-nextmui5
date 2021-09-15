@@ -1,4 +1,4 @@
-import { Container } from "@material-ui/core";
+import { Container } from "@mui/material";
 import { MetaSEO, Hero, FaqAccordion } from "../components";
 import { SectionWrapper, Heading3 } from "../element";
 import { faqQuartzStone, faqCompany } from "../const/faq";

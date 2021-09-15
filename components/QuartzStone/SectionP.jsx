@@ -1,5 +1,5 @@
 import { Heading3, TextWrapper, SectionWrapper } from "../../element";
-import { Box, Typography } from "@material-ui/core";
+import { Box, Typography } from "@mui/material";
 
 export const SectionP = () => (
   <Box mt={15}>

@@ -1,4 +1,4 @@
-import { Container, Grid } from "@material-ui/core";
+import { Container, Grid } from "@mui/material";
 import { Benefit } from "..";
 import { Heading3, SectionWrapper } from "../../element";
 

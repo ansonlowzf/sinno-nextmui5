@@ -1,4 +1,4 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container, Typography } from "@mui/material";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";

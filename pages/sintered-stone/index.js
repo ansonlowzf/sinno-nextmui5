@@ -8,7 +8,7 @@ import {
 } from "../../components";
 import { SectionWrapper, Heading3 } from "../../element";
 import { ssRoutes } from "../../const/nav-links";
-import { Box, Grid, Container } from "@material-ui/core";
+import { Box, Grid, Container } from "@mui/material";
 import Image from "next/image";
 import { moca } from "../../const/pricing";
 

@@ -1,4 +1,4 @@
-import { Button, Container, Typography } from "@material-ui/core";
+import { Button, Container, Typography } from "@mui/material";
 import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";

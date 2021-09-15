@@ -1,4 +1,4 @@
-import { Box, Typography, Drawer, IconButton } from "@material-ui/core";
+import { Box, Typography, Drawer, IconButton } from "@mui/material";
 import { Menu } from "@material-ui/icons";
 import * as React from "react";
 import { mainRoutes } from "../../const/nav-links";

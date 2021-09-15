@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import { Hero, MetaSEO } from "../components";
 import { Heading3, SectionWrapper } from "../element";

@@ -6,7 +6,7 @@ import {
   CardMedia,
   CardContent,
   Typography,
-} from "@material-ui/core";
+} from "@mui/material";
 import { MuiNextLink } from "../components";
 
 export const StoneCard = ({ imgSrc, stone, desc, linkUrl }) => (

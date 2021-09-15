@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container, Grid, Typography } from "@mui/material";
 import { SectionWrapper, TextWrapper } from "../../element";
 import Image from "next/image";
 import { MuiNextLink } from "..";

@@ -1,5 +1,5 @@
 import { Heading3, TextWrapper } from "../element";
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 
 export const PriceTerm = () => {
   return (

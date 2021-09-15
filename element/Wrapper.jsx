@@ -1,4 +1,4 @@
-import { Box, Container } from "@material-ui/core";
+import { Box, Container } from "@mui/material";
 
 export const SectionWrapper = ({ children }) => (
   <Box component="section" sx={{ mb: { xs: 15, sm: 20 } }}>

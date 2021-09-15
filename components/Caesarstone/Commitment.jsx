@@ -1,4 +1,4 @@
-import { Typography } from "@material-ui/core";
+import { Typography } from "@mui/material";
 import { TextWrapper } from "../../element";
 // Change to blog
 export const Commitment = () => {
