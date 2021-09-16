@@ -40,7 +40,8 @@ export const SectionP = () => (
         <Typography paragraph>
           In the year of 2020, the problems start exposed on the surface. Owners
           send us these photos and ask for help to polish or repair them. Said
-          their seller blocked their phone or disappeared.
+          their seller not picking up the phone, blocked their phone or
+          disappeared.
         </Typography>
       </TextWrapper>
     </SectionWrapper>

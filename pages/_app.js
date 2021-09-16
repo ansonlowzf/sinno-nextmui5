@@ -3,7 +3,10 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import createCache from "@emotion/cache";
+
+import { CacheProvider } from "@emotion/react";
+import createEmotionCache from "../styles/createEmotionCache";
+
 import theme from "../styles/theme";
 import "/styles/globals.css";
 
@@ -13,10 +16,12 @@ import * as gtag from "../lib/gtag";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const cache = createCache({ key: "css" });
-cache.compat = true;
+// Client-side cache, shared for the whole session of the user in the browser.
+const clientSideEmotionCache = createEmotionCache();
 
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp(props) {
+  const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
+
   const router = useRouter();
 
   React.useEffect(() => {
@@ -29,16 +34,8 @@ export default function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
 
-  React.useEffect(() => {
-    // Remove the server-side injected CSS.
-    const jssStyles = document.querySelector("#jss-server-side");
-    if (jssStyles) {
-      jssStyles.parentElement.removeChild(jssStyles);
-    }
-  }, []);
-
   return (
-    <>
+    <CacheProvider value={emotionCache}>
       <Head>
         <title>Stone Innovations Enterprise</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
@@ -51,11 +48,12 @@ export default function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <Footer />
       </ThemeProvider>
-    </>
+    </CacheProvider>
   );
 }
 
 MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
+  emotionCache: PropTypes.object,
   pageProps: PropTypes.object.isRequired,
 };
