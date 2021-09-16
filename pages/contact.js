@@ -1,5 +1,5 @@
 import { Box, Container, Grid, IconButton, Typography } from "@mui/material";
-import { Smartphone, WhatsApp, EmailOutlined } from "@material-ui/icons";
+import { Smartphone, WhatsApp, EmailOutlined } from "@mui/icons-material";
 import { SectionWrapper, Heading2, Heading3, TextWrapper } from "../element";
 import { Hero, MetaSEO } from "../components";
 

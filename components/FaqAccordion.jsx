@@ -4,7 +4,7 @@ import {
   AccordionSummary,
   Typography,
 } from "@mui/material";
-import { ExpandMore } from "@mui/material";
+import { ExpandMore } from "@mui/icons-material";
 
 export const FaqAccordion = ({ id, question, answer }) => {
   return (
