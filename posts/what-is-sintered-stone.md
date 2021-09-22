@@ -1,21 +1,27 @@
 ---
-title: "What is sintered stone?"
-date: "2021-01-19"
-excerpt: "Sintered Stone? Porcelain Slab? Which name is correct? What is it, and why should we use it as our kitchen top?"
+title: "Sintered Stone VS Quartz Stone, Which Is Better Use For A Countertop?"
+date: "2021-09-22"
+excerpt: "Sintered stone? Porcelain slab? What is a sintered stone? Should we use it as a kitchen top instead of quartz stone?"
 coverImage: "/blog/sintered-stone/cover.png"
 ---
 
-Engineered stone constantly evolving. Technology getting more advance every year. People always seek better stone material solutions for their home improvement applications.
+## New Composition Stone - Sintered Stone
 
-Before inventing the engineered stone, we use natural stones such as granite and marble for kitchen top, wall cladding, and flooring.
+Engineered stone constantly evolving. Technology getting more advance every year. People always seek better stone materials and solutions for home improvement applications.
 
-The quartz surface was invented in 1960 to provide a better stone surfacing solution, which no sealant and maintenance is required.
+Sintered stone is one of the newer stone inventions. It uses sintering technology (compression), heat and pressure to form a solid stone material.
 
-Quartz surface covers up most of the disadvantages of natural stones. But, it also has a weakness.
+Hence, it's very tough. The toughest stone surfacing material so far.
+
+## Know Quartz Stone To Better Know The Sintered Stone
+
+Before inventing the engineered stone, we used natural stones for surfacing and decorating applications.
+
+The quartz surface was invented in 1960 to provide a better stone surfacing solution. It doesn't need to apply sealant every year to extend the lifespan, and it also doesn't need hassle maintenance to keep it beautiful. Quartz surface covers up most of the disadvantages of natural stones. But, it also has a weakness.
 
 The resin that bonds the quartz surface ingredients will cause discolouration if exposed to direct sunlight (UV Ray). The colour of the quartz surface might become lighter or darker.
 
-Anyhow, It's still a perfect stone solution for the indoor countertop, especially for kitchen top application. Because it's:-
+Anyhow, It's still a perfect stone solution for the indoor countertop, especially for kitchen top application. Because its:-
 
 - Acid-resistance
 - Bacteria-resistance (Non-porous material)
@@ -31,20 +37,34 @@ Anyhow, It's still a perfect stone solution for the indoor countertop, especiall
 - Stain-resistance (0.02% water absorption rate)
 - Zero maintenance (No sealant or polish needed)
 
-The sintered stone was invented around 2012 (to be confirmed, no information available yet) to provide an even better solution.
+## Is there a better solution to cover up the UV light weakness?
 
-Sintered stone has all the quartz stone benefits shown above but with higher heat resistance up to 300°C.
+The sintered stone was invented around 2012 (to be confirmed, no information available yet. We see Dekton by Cosentino promote sintered on the year) to provide a better solution.
+
+Sintered stone has all the quartz stone advantages above but with higher heat resistance up to 300°C.
 
 It's invulnerable to sunlight (UV Ray) and can use for outdoor purposes like porcelain tiles we often use.
 
-Since it looks like porcelain and some manufacturing technologies are overlapping, people often called it porcelain slab. Some companies called it an ultra-compact stone or compact stone.
+Since it looks like porcelain and some manufacturing technologies are overlapping, people often call it porcelain slab. Some companies call it an ultra-compact stone or compact stone.
 
-Is the sintered stone the perfect stone solution for home improvement applications?
+We name it Moca Compact stone [link]
 
-Still, the sintered stone has its disadvantages.
+## Is the sintered stone the perfect stone solution?
 
-The main concern of using sintered stone is crackable if hit by a heavy item fall from a 4 feet height, unlike quartz stone which is just dent or chip-off and still repairable. Repairing cracked sintered stone is very expensive.
+Still, the sintered stone has a disadvantage.
+
+It is too hard.
+
+The main concern of using sintered stone is crackable if hit by a heavy item fall from a 4 feet height, unlike quartz stone which is just dent or scratch which still repairable.
+
+There is no way to repair a cracked sintered stone. Even glue it back, and you can still see the glue line very obvious.
+
+## Conclusion
 
 Shall you use quartz stone or sintered stone?
 
-For the indoor kitchen, there is no good or bad using quartz stone or sintered stone. Both stone materials eliminate 98% of your hassle using as a kitchen top. Choose the one your home chef like the most. It'll increase the happiness of cooking in the kitchen.
+For the indoor kitchen, there is no good or bad using quartz stone or sintered stone.
+
+Both stone materials eliminate 98% of your hassle using as a kitchen top. You should choose the colours, shades, textures, and finishes you like the most for your kitchen top.
+
+For outdoor purposes, go sintered stone.
