@@ -1,4 +1,4 @@
-import { Email, Facebook } from "@mui/icons-material";
+import { Email, Facebook, Policy } from "@mui/icons-material";
 import { Box, Stack, Typography } from "@mui/material";
 
 const Footer = () => {
@@ -22,6 +22,13 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <Email fontSize="large" />
+        </Box>
+        <Box
+          component="a"
+          sx={{ textDecoration: "none", color: "common.white" }}
+          href="/privacy-apolicy"
+        >
+          <Policy fontSize="large" />
         </Box>
       </Stack>
       <Typography align="center" color="common.white">
