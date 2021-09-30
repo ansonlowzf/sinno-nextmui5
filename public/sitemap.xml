@@ -40,17 +40,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.stoneinnovations.com.my/posts/sintered-stone-vs-quartz-stone</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.stoneinnovations.com.my/posts/test-quartz-stone</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.stoneinnovations.com.my/posts/warranty</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.stoneinnovations.com.my/posts/what-is-sintered-stone</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
