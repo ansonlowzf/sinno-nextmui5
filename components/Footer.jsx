@@ -26,7 +26,7 @@ const Footer = () => {
         <Box
           component="a"
           sx={{ textDecoration: "none", color: "common.white" }}
-          href="/privacy-apolicy"
+          href="/privacy-policy"
         >
           <Policy fontSize="large" />
         </Box>
