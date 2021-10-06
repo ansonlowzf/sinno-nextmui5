@@ -1,18 +1,16 @@
+import { Box, Container, Grid } from "@mui/material";
+import Image from "next/image";
 import {
-  DisplayStone,
-  SubNavbar,
   ColourWarning,
+  DisplayStone,
+  MetaSEO,
   PriceTerm,
   SectionContact,
-  MetaSEO,
 } from "../../components";
-import { SectionWrapper, Heading3 } from "../../element";
-import { ssRoutes } from "../../const/nav-links";
-import { Box, Grid, Container } from "@mui/material";
-import Image from "next/image";
 import { moca } from "../../const/pricing";
+import { Heading3, SectionWrapper } from "../../element";
 
-const { small, big } = moca;
+const { big } = moca;
 
 const MocaPage = () => {
   return (
@@ -45,16 +43,6 @@ const MocaPage = () => {
         <Container maxWidth="lg">
           <Grid container spacing={2} justifyContent="center">
             <DisplayStone
-              imgSrc="/moca/pss/qp02.png"
-              stoneName="QP 02 (11mm) Smooth Matt"
-              price={small}
-            />
-            <DisplayStone
-              imgSrc="/moca/pss/qp03.png"
-              stoneName="QP 03 (11mm) Smooth Matt"
-              price={small}
-            />
-            <DisplayStone
               imgSrc="/moca/pss/qp07.png"
               stoneName="QP 07 (12mm) Smooth Matt"
               price={big}
@@ -63,11 +51,6 @@ const MocaPage = () => {
               imgSrc="/moca/pss/qp12.png"
               stoneName="QP 12 (12mm) Smooth Matt"
               price={big}
-            />
-            <DisplayStone
-              imgSrc="/moca/pss/qp104.png"
-              stoneName="QP 104 (11mm) Smooth Matt"
-              price={small}
             />
             <DisplayStone
               imgSrc="/moca/pss/qp2013.png"
