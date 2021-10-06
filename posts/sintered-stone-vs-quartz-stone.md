@@ -19,7 +19,7 @@ Before inventing the engineered stone, we used natural stones for surfacing and 
 
 The quartz surface was invented in 1960 to provide a better stone surfacing solution. It doesn't need to apply sealant every year to extend the lifespan, and it also doesn't need hassle maintenance to keep it beautiful. Quartz surface covers up most of the disadvantages of natural stones. But, it also has a weakness.
 
-The resin that bonds the quartz surface ingredients will cause discolouration if exposed to direct sunlight (UV Ray). The colour of the quartz surface might become lighter or darker.
+The resin that bonds the quartz surface ingredients will cause discolouration if exposed to direct sunlight (UV Ray). The UV light will speed up the fair wear and tear process, and the quartz stone will become lighter or darker faster than usual.
 
 Anyhow, It's still a perfect stone solution for the indoor countertop, especially for kitchen top application. Because its:-
 
@@ -39,15 +39,17 @@ Anyhow, It's still a perfect stone solution for the indoor countertop, especiall
 
 ## Is there a better solution to cover up the UV light weakness?
 
-The sintered stone was invented around 2012 (to be confirmed, no information available yet. We see Dekton by Cosentino promote sintered on the year) to provide a better solution.
+The sintered stone was invented around 2012 (to be confirmed, no information available yet) to provide a better solution.
 
-Sintered stone has all the quartz stone advantages above but with higher heat resistance up to 300°C.
-
-It's invulnerable to sunlight (UV Ray) and can use for outdoor purposes like porcelain tiles we often use.
+Sintered stone has all the quartz stone advantages above and It's invulnerable to sunlight (UV Ray) and can use for outdoor purposes like porcelain tiles we often use.
 
 Since it looks like porcelain and some manufacturing technologies are overlapping, people often call it porcelain slab. Some companies call it an ultra-compact stone or compact stone.
 
 We name it Moca Compact stone [link]
+
+## The sintered stone heat resistance
+
+Sintered stone can resist heat up to 300 degree celsius.
 
 ## Is the sintered stone the perfect stone solution?
 
