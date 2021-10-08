@@ -10,9 +10,7 @@ coverImage: "/blog/warranty/cover.png"
 The warranty starts from the date of installation.
 
 - Caesarstone Quartz Surface - 10 Years
-- Silestone Quartz Surface - 25 Years
 - Zenstone Quartz Surface - 10 Years
-- Dekton Ultra-Compact Stone - 25 Years
 - Granite - No Warranty
 - Marble - No Warranty
 - Workmanship - 2 Years
