@@ -356,13 +356,7 @@ const QuartzStone = () => {
             allowFullScreen
             sx={{ position: `relative`, width: `100%`, height: 300, mb: 2 }}
           />
-          <Typography
-            component="p"
-            variant="h6"
-            color="primary"
-            paragraph
-            sx={{ mt: 5 }}
-          >
+          <Typography component="p" variant="h6" paragraph sx={{ mt: 5 }}>
             Is this the quartz stone quality that meets your requirement?
           </Typography>
         </Container>
@@ -398,7 +392,7 @@ const QuartzStone = () => {
           <Typography
             paragraph
             sx={{ mt: 2 }}
-          >{`The stone surface is also full of tiny holes like orange skin, but we can't see it with our eyes. We called it porous`}</Typography>
+          >{`The stone surface is also full of tiny holes (porous) like orange skin, but we can't see it with our eyes. We called it porous`}</Typography>
           <Typography paragraph>
             According to our manufacturer test report (technical sheet) as
             below:
@@ -469,7 +463,10 @@ const QuartzStone = () => {
             Low Maintenance
           </Typography>
           <Typography paragraph>
-            {`Non-porous and stain resistance makes quartz stone no need to apply any sealant every few years to protect the surface. Use it as it is. No extra maintenance is needed.`}
+            Non-porous and stain resistance makes quartz stone{" "}
+            <strong>no need to apply any sealant</strong> every few years to
+            protect the surface. Use it as it is. No extra maintenance is
+            needed.
           </Typography>
           <Typography paragraph>
             {`Unlike we use natural stone as kitchen top, it requires multiple sealants to maintain lustre, extend the lifetime of its beautiful surface and increase its stain resistance level.`}
@@ -490,11 +487,11 @@ const QuartzStone = () => {
             point to grip on the surface.
           </Typography>
           <Typography paragraph>
-            Just imagine our hand try to grip the floor while a giant cloth is
-            wiping us away, and we have no resistance at all.
+            Imagine a giant cloth wiping us away, but there is no supporting
+            point for us to grip.
           </Typography>
           <Typography paragraph>
-            The same situation happens to the sticky oil.
+            The same situation applies to sticky oil.
           </Typography>
 
           <Typography
@@ -538,7 +535,7 @@ const QuartzStone = () => {
             sx={{ position: `relative`, width: `100%`, height: 300, mb: 2 }}
           />
           <Typography paragraph>
-            Wow~ The video shows that quartz stone can resist heat over 150°C.
+            The video shows that quartz stone can resist heat over 150°C.
             However, we highly encourage you to use a trivet to put hot
             cookware.
           </Typography>
