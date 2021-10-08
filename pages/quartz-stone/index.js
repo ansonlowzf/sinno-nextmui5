@@ -356,7 +356,7 @@ const QuartzStone = () => {
             allowFullScreen
             sx={{ position: `relative`, width: `100%`, height: 300, mb: 2 }}
           />
-          <Typography component="p" variant="h6" paragraph sx={{ mt: 5 }}>
+          <Typography component="p" variant="h6" paragraph sx={{ mt: 2 }}>
             Is this the quartz stone quality that meets your requirement?
           </Typography>
         </Container>
@@ -369,7 +369,7 @@ const QuartzStone = () => {
             fontWeight="bold"
             gutterBottom
           >
-            {`The Quartz Stone Benefit`}
+            {`The Quartz Stone Benefits`}
           </Typography>
 
           <Typography
@@ -495,8 +495,8 @@ const QuartzStone = () => {
           </Typography>
 
           <Typography
-            component="h3"
-            variant="h5"
+            component="h2"
+            variant="h4"
             color="primary"
             fontWeight="bold"
             gutterBottom
