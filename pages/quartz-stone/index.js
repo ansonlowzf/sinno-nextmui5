@@ -31,7 +31,6 @@ const QuartzStone = () => {
 
       <SectionWrapper styles={{ mt: { xs: 15, sm: 20 } }}>
         <Container maxWidth="sm">
-          {`  `}
           <Typography
             component="h2"
             variant="h4"
@@ -88,19 +87,28 @@ const QuartzStone = () => {
             For more information about Mohs Hardness Scale, visit:
           </Typography>
           <Typography paragraph>
-            <a href="https://geology.com/minerals/mohs-hardness-scale.shtml">
-              https://geology.com/minerals/mohs-hardness-scale.shtml
-            </a>
+            <MuiNextLink
+              href="https://geology.com/minerals/mohs-hardness-scale.shtml"
+              underline="none"
+            >
+              Geology.com
+            </MuiNextLink>
           </Typography>
           <Typography paragraph>
-            <a href="https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness">
-              https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness
-            </a>
+            <MuiNextLink
+              href="https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness"
+              underline="none"
+            >
+              Wikipedia
+            </MuiNextLink>
           </Typography>
           <Typography paragraph>
-            <a href="https://www.nps.gov/articles/mohs-hardness-scale.htm">
-              https://www.nps.gov/articles/mohs-hardness-scale.htm
-            </a>
+            <MuiNextLink
+              href="https://www.nps.gov/articles/mohs-hardness-scale.htm"
+              underline="none"
+            >
+              National Park Service
+            </MuiNextLink>
           </Typography>
           <Typography paragraph>Quartz is scale 7 in the chart.</Typography>
           <Typography
