@@ -16,10 +16,6 @@ export * from "./PriceTerm";
 export * from "./DisplayStone";
 export * from "./MetaSEO";
 
-export * from "./QuartzStone/SectionP";
-export * from "./QuartzStone/SectionA";
-export * from "./QuartzStone/SectionS";
-export * from "./QuartzStone/SectionBenefit";
 export * from "./QuartzStone/SectionWarranty";
 
 export * from "./Caesarstone/ColourPricing";
