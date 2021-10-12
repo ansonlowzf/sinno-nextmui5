@@ -23,8 +23,7 @@ Yes, it's selling like a hot cake. We not sure why people don't care about the b
 
 Recently, we started to see people posting the problems of on Facebook.
 
-The link below is one of the cases people share on Facebook.
-https://www.facebook.com/SinnoENT/posts/2716981901875182
+The link below is one of the cases people share on [Facebook](https://www.facebook.com/SinnoENT/posts/2716981901875182).
 
 We're sure that you can find out more similar post on Facebook.
 
