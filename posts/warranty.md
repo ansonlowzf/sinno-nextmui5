@@ -24,7 +24,7 @@ The warranty starts from the date of installation.
 
 ## Terms & conditions
 
-- We highly advise the client to follow the care & maintenance guide. Please read here
+- We highly advise the client to follow the care & maintenance guide. Please read [here](https://stoneinnovations.com.my/blog/care-and-maintenance).
 - All quartz stone countertops installed by Stone Innovations Enterprise are entitled to this warranty automatically.
 - The client is required to cooperate with our service team to inspect and assist us in efforts to perform our obligations under warranty.
 
