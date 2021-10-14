@@ -531,7 +531,7 @@ const QuartzStone = () => {
           >{`Let's make it simple by focusing on the boiling water test for now. We need 100 °C to boil the water, which means this heat does not affect quartz stone.`}</Typography>
           <Typography
             paragraph
-          >{`This YouTube's guy tested the heat on quartz stone from 200°C to 600°C. Could quartz stone survive?`}</Typography>
+          >{`This YouTube's guy tested the heat on quartz stone from 200°C to 580°C. Could quartz stone survive?`}</Typography>
           <Typography paragraph>Watch it on YouTube:</Typography>
           <Box
             component="iframe"
@@ -544,8 +544,8 @@ const QuartzStone = () => {
           />
           <Typography paragraph>
             The video shows that quartz stone can resist heat over 150°C.
-            However, we highly encourage you to use a trivet to put hot
-            cookware.
+            However, we DO NOT encourage you to use the quartz stone top without
+            a trivet to put hot cookware.
           </Typography>
         </Container>
       </SectionWrapper>
