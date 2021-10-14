@@ -7,9 +7,11 @@ import {
   SectionContact,
   SectionWarranty,
   SubNavbar,
+  FaqAccordion,
 } from "../../components";
 import { qsRoutes } from "../../const/nav-links";
-import { SectionWrapper } from "../../element";
+import { SectionWrapper, Heading3 } from "../../element";
+import { faqQuartzStone } from "../../const/faq";
 
 const QuartzStone = () => {
   return (
@@ -547,6 +549,85 @@ const QuartzStone = () => {
             However, we DO NOT encourage you to use the quartz stone top without
             a trivet to put hot cookware.
           </Typography>
+
+          <Typography
+            component="h2"
+            variant="h4"
+            color="primary"
+            fontWeight="bold"
+            gutterBottom
+          >
+            Repairable Up To Certain Extent
+          </Typography>
+          <Typography paragraph>
+            We rarely repair a quartz stone top, and since 2013, we did repair a
+            quartz stone top for a site, and it is the only repair record we
+            have had.
+          </Typography>
+
+          <Typography
+            component="h2"
+            variant="h4"
+            color="primary"
+            fontWeight="bold"
+            gutterBottom
+          >
+            Wide Range Of Colour
+          </Typography>
+          <Typography paragraph>
+            We could provide 91 colour and shades options
+          </Typography>
+
+          <Typography
+            component="h2"
+            variant="h4"
+            color="primary"
+            fontWeight="bold"
+            gutterBottom
+          >
+            Colour Consistency
+          </Typography>
+          <Typography paragraph>
+            Quartz stone is excellent for large scale cladding, and the
+            manufacturer can produce a uniform appearance of quartz stone.
+          </Typography>
+          <Typography paragraph>
+            Said you want the whole corridor to have the same quartz stone
+            colour, and quartz stone can satisfy your need.
+          </Typography>
+
+          <Typography
+            component="h2"
+            variant="h4"
+            color="primary"
+            fontWeight="bold"
+            gutterBottom
+          >
+            Quartz Stone Applications?
+          </Typography>
+          <Typography paragraph>
+            {`Quartz stone's advantages make it a perfect indoor kitchen top solution.`}
+          </Typography>
+          <Typography paragraph>Quartz stone is suitable for:</Typography>
+          <Typography component="ol" paragraph>
+            <li>Kitchen Top</li>
+            <li>Island Top</li>
+            <li>Vanity Top</li>
+            <li>Pantry Top</li>
+            <li>Kitchen Shelves</li>
+            <li>Backsplash</li>
+            <li>TV Cabinet Wall Cladding</li>
+            <li>TV Cabinet Top</li>
+            <li>Bar Countertop</li>
+            <li>Breakfast Countertop</li>
+            <li>Custom Made Dining Table Top</li>
+            <li>Custom Made Coffee Table Top</li>
+            <li>Custom Made Side Table Top</li>
+            <li>Cashier Countertop</li>
+            <li>Sauces Countertop</li>
+            <li>Wall Cladding</li>
+            <li>Other Top &amp; Cladding Purposes</li>
+          </Typography>
         </Container>
       </SectionWrapper>
 
@@ -555,6 +636,17 @@ const QuartzStone = () => {
       <SectionWrapper>
         <SectionContact stone="Quartz Stone" />
       </SectionWrapper>
+
+      <Container maxWidth="lg" sx={{ mt: 10 }}>
+        <Heading3>Frequently Ask Question</Heading3>
+        <SectionWrapper>
+          <Container maxWidth="sm">
+            {faqQuartzStone.map(({ question, answer, id }) => (
+              <FaqAccordion key={id} question={question} answer={answer} />
+            ))}
+          </Container>
+        </SectionWrapper>
+      </Container>
     </>
   );
 };
