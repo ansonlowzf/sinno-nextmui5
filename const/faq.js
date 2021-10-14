@@ -50,17 +50,17 @@ export const faqQuartzStone = [
   {
     id: 2,
     question: `All quartz stone is made with quartz material. Why there is a price difference dramatically?`,
-    answer: `Good question. Besides quartz material. The price also includes the composition of quartz stone, R&D, materials origin, the challenge to produce and others. `,
+    answer: `Good question! Besides quartz material. The price also includes the composition of quartz stone, R&D, materials origin, the challenge to produce, the fabrication machines, installer's skill, techniques and experiences`,
   },
   {
     id: 3,
     question: `Is there a different grade of quartz stone?`,
-    answer: `Yes, the market is complicated now. There is genuine quartz stone, compressed marble sell as quartz stone and artificial quartz stone with low-grade composition.`,
+    answer: `Yes, the market is complicated. There is genuine quartz stone, compressed marble sell as quartz stone and artificial quartz stone with low-grade composition.`,
   },
   {
     id: 4,
     question: `How to avoid buying compressed marble as quartz stone or artificial quartz stone?`,
-    answer: `Drip a drop of Harpic Black or Acid on the surface, and genuine quartz stone has no chemical reaction.`,
+    answer: `Drip a drop of Harpic black or household's acid on the surface, and genuine quartz stone has no chemical reaction.`,
   },
   {
     id: 5,

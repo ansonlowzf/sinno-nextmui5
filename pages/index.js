@@ -1,8 +1,15 @@
 import { Container, Typography, Grid, Button } from "@mui/material";
 import Image from "next/image";
-import { Hero, MetaSEO, SectionContact, SectionImage } from "../components";
+import {
+  Hero,
+  MetaSEO,
+  SectionContact,
+  SectionImage,
+  FaqAccordion,
+} from "../components";
 import { Heading2, Heading3, SectionWrapper, TextWrapper } from "../element";
 import { MuiNextLink } from "../components";
+import { faqCompany } from "../const/faq";
 
 const Homepage = () => {
   return (
@@ -88,20 +95,26 @@ const Homepage = () => {
             </Typography>
           </TextWrapper>
           <Typography
-            component="ul"
+            component="ol"
             sx={{ width: `fit-content`, marginInline: `auto` }}
           >
             <li>Kitchen Top</li>
             <li>Island Top</li>
             <li>Vanity Top</li>
             <li>Pantry Top</li>
+            <li>Kitchen Shelves</li>
+            <li>Backsplash</li>
+            <li>TV Cabinet Wall Cladding</li>
             <li>TV Cabinet Top</li>
-            <li>Dining Table Top</li>
-            <li>Coffee Table Top</li>
+            <li>Bar Countertop</li>
+            <li>Breakfast Countertop</li>
+            <li>Custom Made Dining Table Top</li>
+            <li>Custom Made Coffee Table Top</li>
+            <li>Custom Made Side Table Top</li>
             <li>Cashier Countertop</li>
+            <li>Sauces Countertop</li>
             <li>Wall Cladding</li>
-            <li>Stone Shelves</li>
-            <li>And More</li>
+            <li>Other Top &amp; Cladding Purposes</li>
           </Typography>
         </Container>
       </SectionWrapper>
@@ -170,6 +183,20 @@ const Homepage = () => {
       <SectionWrapper>
         <SectionContact stone="Stone" />
       </SectionWrapper>
+
+      <Container maxWidth="lg" sx={{ mt: 10 }}>
+        <Heading3>Frequently Ask Questions</Heading3>
+        <Typography component="p" variant="h5" align="center" sx={{ mb: 2 }}>
+          Company/Factory/Warehouse
+        </Typography>
+        <SectionWrapper>
+          <Container maxWidth="sm">
+            {faqCompany.map(({ question, answer, id }) => (
+              <FaqAccordion key={id} question={question} answer={answer} />
+            ))}
+          </Container>
+        </SectionWrapper>
+      </Container>
     </>
   );
 };
