@@ -1,5 +1,4 @@
 export * from "./MuiNextLink";
-export * from "./Hero";
 export * from "./SectionAbout";
 export * from "./SectionContact";
 export * from "./SectionImage";
@@ -14,7 +13,6 @@ export * from "./SlabDisplay";
 export * from "./ColourWarning";
 export * from "./PriceTerm";
 export * from "./DisplayStone";
-export * from "./MetaSEO";
 
 export * from "./QuartzStone/SectionWarranty";
 

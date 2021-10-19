@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import { ArrowDownward } from "@mui/icons-material";
 import Image from "next/image";
 
-export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
+const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
     <Grid
       container
@@ -72,3 +72,5 @@ export const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
     </Grid>
   );
 };
+
+export default Hero;

@@ -1,12 +1,8 @@
 import { Container, Typography, Grid, Button } from "@mui/material";
 import Image from "next/image";
-import {
-  Hero,
-  MetaSEO,
-  SectionContact,
-  SectionImage,
-  FaqAccordion,
-} from "../components";
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { SectionContact, SectionImage, FaqAccordion } from "../components";
 import { Heading2, Heading3, SectionWrapper, TextWrapper } from "../element";
 import { MuiNextLink } from "../components";
 import { faqCompany } from "../const/faq";
