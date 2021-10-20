@@ -1,6 +1,6 @@
 import { Button, Container, Grid, Typography } from "@mui/material";
 import { MuiNextLink } from "../components";
-import { Heading3 } from "../element";
+import { Heading3 } from "../elements";
 
 export const SectionContact = ({ stone }) => (
   <Container maxWidth="sm">

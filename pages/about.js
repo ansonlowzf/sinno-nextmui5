@@ -1,10 +1,11 @@
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { Heading3 } from "@elements/Heading";
+import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
-import { Hero, MetaSEO } from "../components";
-import { Heading3, SectionWrapper } from "../element";
-
-import QsSlab from "../public/about/qs-slab.png";
 import KitchenTop from "../public/about/kitchen-top.png";
+import QsSlab from "../public/about/qs-slab.png";
 
 const AboutPage = () => {
   return (

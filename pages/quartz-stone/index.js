@@ -1,17 +1,18 @@
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { Heading3 } from "@elements/Heading";
+import { SectionWrapper } from "@elements/Wrapper";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import {
-  Hero,
-  MetaSEO,
+  FaqAccordion,
   MuiNextLink,
   SectionContact,
   SectionWarranty,
   SubNavbar,
-  FaqAccordion,
 } from "../../components";
-import { qsRoutes } from "../../const/nav-links";
-import { SectionWrapper, Heading3 } from "../../element";
 import { faqQuartzStone } from "../../const/faq";
+import { qsRoutes } from "../../const/nav-links";
 
 const QuartzStone = () => {
   return (

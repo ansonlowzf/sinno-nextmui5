@@ -8,7 +8,7 @@ import {
   SectionContact,
 } from "../../components";
 import { moca } from "../../const/pricing";
-import { Heading3, SectionWrapper } from "../../element";
+import { Heading3, SectionWrapper } from "../../elements";
 
 const { big } = moca;
 

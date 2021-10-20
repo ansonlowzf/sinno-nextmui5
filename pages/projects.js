@@ -1,8 +1,8 @@
 import { Container, Grid, Typography } from "@mui/material";
 import MetaSEO from "@components/MetaSEO";
 import Hero from "@components/Hero";
-import { SectionWrapper } from "@elements/Wrapper";
-import { Heading2, Heading3 } from "@elements/Heading";
+import { SectionWrapper } from "elements/Wrapper";
+import { Heading2, Heading3 } from "elements/Heading";
 import Image from "next/image";
 
 const Project = () => {

@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { TextWrapper } from "../../element";
+import { TextWrapper } from "../../elements";
 // Change to blog
 export const Commitment = () => {
   return (

@@ -1,7 +1,9 @@
 import { Box, Container, Grid, IconButton, Typography } from "@mui/material";
 import { Smartphone, WhatsApp, EmailOutlined } from "@mui/icons-material";
-import { SectionWrapper, Heading2, Heading3, TextWrapper } from "../../element";
-import { Hero, MetaSEO } from "../../components";
+import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
+import { Heading2, Heading3 } from "@elements/Heading";
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
 
 const ContactGranite = () => {
   return (
