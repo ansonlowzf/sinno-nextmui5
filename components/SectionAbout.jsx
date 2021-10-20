@@ -2,7 +2,7 @@ import { Button, Container, Grid, Typography } from "@mui/material";
 import * as React from "react";
 import Image from "next/image";
 import { MuiNextLink } from "../components";
-import { Heading3 } from "../element";
+import { Heading3 } from "../elements";
 
 export const SectionAbout = () => {
   return (

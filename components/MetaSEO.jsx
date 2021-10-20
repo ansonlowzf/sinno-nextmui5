@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export const MetaSEO = ({ pageTitle, pageDesc, pagePath, metaImg }) => {
+const MetaSEO = ({ pageTitle, pageDesc, pagePath, metaImg }) => {
   return (
     <Head>
       <title>{pageTitle} | Stone Innovations Enterprise</title>
@@ -24,3 +24,5 @@ export const MetaSEO = ({ pageTitle, pageDesc, pagePath, metaImg }) => {
     </Head>
   );
 };
+
+export default MetaSEO;

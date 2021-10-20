@@ -1,15 +1,14 @@
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { Heading3 } from "@elements/Heading";
+import { SectionWrapper } from "@elements/Wrapper";
+import { Box, Container, Grid } from "@mui/material";
 import {
-  SubNavbar,
-  Hero,
-  DisplayStone,
   ColourWarning,
+  DisplayStone,
   PriceTerm,
   SectionContact,
-  MetaSEO,
 } from "../../components";
-import { graniteRoutes } from "../../const/nav-links";
-import { Box, Container, Grid } from "@mui/material";
-import { SectionWrapper, Heading3 } from "../../element";
 
 const GranitePage = () => {
   return (

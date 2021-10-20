@@ -1,6 +1,7 @@
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Typography } from "@mui/material";
-import { Hero, MetaSEO } from "../components";
-import { Heading2, Heading3, SectionWrapper } from "../element";
 
 const Privacy = () => {
   return (

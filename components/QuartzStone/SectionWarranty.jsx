@@ -1,4 +1,4 @@
-import { SectionWrapper, Heading3, TextWrapper } from "../../element";
+import { SectionWrapper, Heading3, TextWrapper } from "../../elements";
 import { SinnoButton } from "../../components";
 import { Typography } from "@mui/material";
 

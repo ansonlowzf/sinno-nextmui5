@@ -1,4 +1,4 @@
-import { Heading3, TextWrapper } from "../element";
+import { Heading3, TextWrapper } from "../elements";
 import { Typography } from "@mui/material";
 
 export const PriceTerm = () => {

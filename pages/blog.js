@@ -1,10 +1,11 @@
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Typography } from "@mui/material";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import { Hero, MetaSEO } from "../components";
 import Post from "../components/Post";
-import { SectionWrapper } from "../element";
 import { sortByDate } from "../utils/index";
 
 const BlogPage = ({ posts }) => {

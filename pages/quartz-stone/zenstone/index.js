@@ -1,20 +1,20 @@
-import { Container, Grid, Typography } from "@mui/material";
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { ZenstoneClassic } from "@components/Zenstone/Classic";
+import { ZenstoneMarble } from "@components/Zenstone/Marble";
+import { ZenstoneNoble } from "@components/Zenstone/Noble";
+import { ZenstonePremium } from "@components/Zenstone/Premium";
+import { Grid, Typography } from "@mui/material";
+import { Heading2 } from "elements/Heading";
+import { SectionWrapper, TextWrapper } from "elements/Wrapper";
 import Image from "next/image";
 import {
   ColourWarning,
-  Hero,
   PriceTerm,
   SectionContact,
-  SlabDisplay,
   SubNavbar,
-  ZenstoneDisplay,
-  MetaSEO,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
-import { zenstone } from "../../../const/pricing";
-import { Heading3, SectionWrapper, TextWrapper } from "../../../element";
-
-const { classic, premium, noble, marble } = zenstone;
 
 const ZenstonePage = () => {
   return (
@@ -61,241 +61,11 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading3>Colour &amp; Shades</Heading3>
-        <SectionWrapper>
-          <Container maxWidth="lg">
-            <Grid container justifyContent="center" spacing={1}>
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101503.png"
-                stoneName="Smoothie White"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101506.png"
-                stoneName="Smoothie Grey"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101508.png"
-                stoneName="Smoothie Beige"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101509.png"
-                stoneName="Red Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101510.png"
-                stoneName="Brown Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101511.png"
-                stoneName="Blue Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101512.png"
-                stoneName="Purple Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101513.png"
-                stoneName="Orange Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101521.png"
-                stoneName="White Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101522.png"
-                stoneName="Black Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101523.png"
-                stoneName="Snow White"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101524.png"
-                stoneName="Grey Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101525.png"
-                stoneName="Beige Mirror"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101526.png"
-                stoneName="Crystal White"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101527.png"
-                stoneName="White Planet"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q101528.png"
-                stoneName="Icy White"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q3015.png"
-                stoneName="Shell King"
-                price={classic}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q201501.png"
-                stoneName="Brown Cream"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q201502.png"
-                stoneName="Yellow Hill"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q201503.png"
-                stoneName="England Coffee"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q201505.png"
-                stoneName="Pure Black"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q201506.png"
-                stoneName="Grey Forest"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q202032.png"
-                stoneName="Pure Grey"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q4015.png"
-                stoneName="Purple Galaxy"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601501.png"
-                stoneName="Blue Sapphire"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601502.png"
-                stoneName="Beige Gold"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601503.png"
-                stoneName="White Gold"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601504.png"
-                stoneName="Cameo"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601505.png"
-                stoneName="Black Gold"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601506.png"
-                stoneName="White Gold Sand"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601507.png"
-                stoneName="Beige Gold Medium"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601508.png"
-                stoneName="Coffee Gold Sand"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q601509.png"
-                stoneName="Golden Coffee"
-                price={premium}
-              />
-              <ZenstoneDisplay
-                imgSrc="/zenstone/qs/Q201541.png"
-                stoneName="Super White"
-                price={noble}
-              />
-            </Grid>
-          </Container>
-        </SectionWrapper>
-
-        <Container maxWidth="lg">
-          <Grid container spacing={1} justifyContent="center">
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q801501slab.jpg"
-              stoneName="Cararra White"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q801534.jpg"
-              stoneName="Black Ice Bloom"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q801535.jpg"
-              stoneName="Black Marquina S"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q802021.jpg"
-              stoneName="Snow Flower"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q802023.jpg"
-              stoneName="Arabescato Corchia"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q802025.jpeg"
-              stoneName="Black Marquina"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q802026.jpg"
-              stoneName="Fabricator White"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q802027.jpg"
-              stoneName="Staturio White"
-              price={marble}
-            />
-
-            <SlabDisplay
-              imgSrc="/zenstone/qs/Q802031-slab.jpg"
-              stoneName="Calacatta Venato"
-              price={marble}
-            />
-          </Grid>
-        </Container>
+        <Heading2>Colour &amp; Shades</Heading2>
+        <ZenstoneClassic />
+        <ZenstonePremium />
+        <ZenstoneNoble />
+        <ZenstoneMarble />
       </SectionWrapper>
 
       <SectionWrapper>

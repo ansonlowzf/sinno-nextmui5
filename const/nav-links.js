@@ -3,6 +3,7 @@ export const mainRoutes = [
   { name: "quartz stone", path: "/quartz-stone" },
   { name: "sintered stone", path: "/sintered-stone" },
   { name: "granite", path: "/granite" },
+  { name: "projects", path: "/projects" },
   { name: "blog", path: "/blog" },
   { name: "faq", path: "/faq" },
   { name: "contact us", path: "/contact" },

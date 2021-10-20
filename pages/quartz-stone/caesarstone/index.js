@@ -1,16 +1,17 @@
-import { Typography, Grid } from "@mui/material";
+import Hero from "@components/Hero";
+import MetaSEO from "@components/MetaSEO";
+import { Heading3 } from "@elements/Heading";
+import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
+import { Grid, Typography } from "@mui/material";
+import Image from "next/image";
 import {
   ColourPricing,
   ColourWarning,
-  Hero,
+  PriceTerm,
   SectionContact,
   SubNavbar,
-  PriceTerm,
-  MetaSEO,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
-import { Heading3, SectionWrapper, TextWrapper } from "../../../element";
-import Image from "next/image";
 
 const CaesarstonePage = () => {
   return (

@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import marked from "marked";
 import path from "path";
 import { MuiNextLink } from "../../components";
-import { SectionWrapper } from "../../element";
+import { SectionWrapper } from "@elements/Wrapper";
 import Image from "next/image";
 
 const PostPage = ({

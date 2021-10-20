@@ -3,12 +3,13 @@ import Image from "next/image";
 import {
   ColourWarning,
   DisplayStone,
-  MetaSEO,
   PriceTerm,
   SectionContact,
 } from "../../components";
+import MetaSEO from "@components/MetaSEO";
 import { moca } from "../../const/pricing";
-import { Heading3, SectionWrapper } from "../../element";
+import { SectionWrapper } from "@elements/Wrapper";
+import { Heading3 } from "@elements/Heading";
 
 const { big } = moca;
 
