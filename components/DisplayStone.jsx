@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
-export const DisplayStone = ({ imgSrc, stoneName, price }) => {
+const DisplayStone = ({ imgSrc, stoneName, price }) => {
   return (
     <Grid item xs={12} md={6}>
       <Image src={imgSrc} alt={stoneName} width={620} height={350} />
@@ -20,3 +20,5 @@ export const DisplayStone = ({ imgSrc, stoneName, price }) => {
     </Grid>
   );
 };
+
+export default DisplayStone;

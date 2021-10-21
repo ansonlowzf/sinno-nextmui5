@@ -1,21 +1,14 @@
-import { Container, Grid, Typography } from "@mui/material";
+import CollectionTitle from "@components/CollectionTitle";
 import { ZenstoneDisplay } from "@components/ZenstoneDisplay";
+import { Container, Grid } from "@mui/material";
 import { zenstone } from "const/pricing";
 
 const { premium } = zenstone;
 
-export const ZenstonePremium = () => {
+const ZenstonePremium = () => {
   return (
     <Container maxWidth="lg">
-      <Typography
-        component="h3"
-        variant="h5"
-        fontWeight="bold"
-        align="center"
-        sx={{ bgcolor: "primary.main", mb: 2, py: 2 }}
-      >
-        Premium Series
-      </Typography>
+      <CollectionTitle>Premium Series</CollectionTitle>
       <Grid container justifyContent="center" spacing={1}>
         <ZenstoneDisplay
           imgSrc="/zenstone/qs/Q201501.png"
@@ -86,3 +79,5 @@ export const ZenstonePremium = () => {
     </Container>
   );
 };
+
+export default ZenstonePremium;

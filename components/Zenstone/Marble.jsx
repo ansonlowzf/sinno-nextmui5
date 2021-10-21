@@ -1,21 +1,14 @@
-import { Container, Grid, Typography } from "@mui/material";
+import CollectionTitle from "@components/CollectionTitle";
 import { SlabDisplay } from "@components/SlabDisplay";
+import { Container, Grid } from "@mui/material";
 import { zenstone } from "const/pricing";
 
 const { marble } = zenstone;
 
-export const ZenstoneMarble = () => {
+const ZenstoneMarble = () => {
   return (
     <Container maxWidth="lg">
-      <Typography
-        component="h3"
-        variant="h5"
-        fontWeight="bold"
-        align="center"
-        sx={{ bgcolor: "primary.main", mb: 2, py: 2 }}
-      >
-        Marble Series
-      </Typography>
+      <CollectionTitle>Marble Series</CollectionTitle>
       <Grid container justifyContent="center" spacing={1}>
         <SlabDisplay
           imgSrc="/zenstone/qs/Q801501slab.jpg"
@@ -74,3 +67,5 @@ export const ZenstoneMarble = () => {
     </Container>
   );
 };
+
+export default ZenstoneMarble;
