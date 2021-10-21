@@ -1,5 +1,6 @@
-import { Container, Grid, Typography } from "@mui/material";
+import CollectionTitle from "@components/CollectionTitle";
 import { ZenstoneDisplay } from "@components/ZenstoneDisplay";
+import { Container, Grid } from "@mui/material";
 import { zenstone } from "const/pricing";
 
 const { classic } = zenstone;
@@ -7,15 +8,8 @@ const { classic } = zenstone;
 const ZenstoneClassic = () => {
   return (
     <Container maxWidth="lg">
-      <Typography
-        component="h3"
-        variant="h5"
-        fontWeight="bold"
-        align="center"
-        sx={{ bgcolor: "primary.main", mb: 2, py: 2 }}
-      >
-        Classic Series
-      </Typography>
+      <CollectionTitle>Classic Series</CollectionTitle>
+
       <Grid container justifyContent="center" spacing={1}>
         <ZenstoneDisplay
           imgSrc="/zenstone/qs/Q101503.png"

@@ -10,7 +10,6 @@ export * from "./SinnoButton";
 export * from "./FaqAccordion";
 export * from "./ColourWarning";
 export * from "./PriceTerm";
-export * from "./DisplayStone";
 
 export * from "./SlabDisplay";
 export * from "./ZenstoneDisplay";

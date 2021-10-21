@@ -2,16 +2,24 @@ import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
 import { Heading3 } from "@elements/Heading";
 import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
-import { Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import {
-  ColourPricing,
   ColourWarning,
   PriceTerm,
   SectionContact,
   SubNavbar,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
+import CaesarstoneStandard from "@components/Caesarstone/Standard";
+import CaesarstoneStandardJumbo from "@components/Caesarstone/StandardJumbo";
+import CaesarstoneDeluxe from "@components/Caesarstone/Deluxe";
+import CaesarstoneDeluxeJumbo from "@components/Caesarstone/DeluxeJumbo";
+import CaesarstonePremium from "@components/Caesarstone/Premium";
+import CaesarstoneSupernatural from "@components/Caesarstone/Supernatural";
+import CaesarstoneSupernaturalJumbo from "@components/Caesarstone/SupernaturalJumbo";
+import CaesarstoneSupernaturalUltra from "@components/Caesarstone/SupernaturalUltra";
+import CaesarstoneSupernaturalUltraJumbo from "@components/Caesarstone/SupernaturalUltraJumbo";
 
 const CaesarstonePage = () => {
   return (
@@ -85,7 +93,17 @@ const CaesarstonePage = () => {
             10% lower price.
           </Typography>
         </TextWrapper>
-        <ColourPricing />
+        <Container maxWidth="lg">
+          <CaesarstoneStandard />
+          <CaesarstoneStandardJumbo />
+          <CaesarstoneDeluxe />
+          <CaesarstoneDeluxeJumbo />
+          <CaesarstonePremium />
+          <CaesarstoneSupernatural />
+          <CaesarstoneSupernaturalJumbo />
+          <CaesarstoneSupernaturalUltra />
+          <CaesarstoneSupernaturalUltraJumbo />
+        </Container>
       </SectionWrapper>
 
       <SectionWrapper>
