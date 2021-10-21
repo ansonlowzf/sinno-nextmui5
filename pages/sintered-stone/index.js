@@ -1,11 +1,7 @@
 import { Box, Container, Grid } from "@mui/material";
 import Image from "next/image";
-import {
-  ColourWarning,
-  DisplayStone,
-  PriceTerm,
-  SectionContact,
-} from "../../components";
+import { ColourWarning, PriceTerm, SectionContact } from "../../components";
+import DisplayStone from "@components/DisplayStone";
 import MetaSEO from "@components/MetaSEO";
 import { moca } from "../../const/pricing";
 import { SectionWrapper } from "@elements/Wrapper";
