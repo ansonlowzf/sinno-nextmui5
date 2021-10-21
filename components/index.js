@@ -21,5 +21,4 @@ export * from "./Zenstone/Marble";
 
 export * from "./QuartzStone/SectionWarranty";
 
-export * from "./Caesarstone/ColourPricing";
 export * from "./Caesarstone/Commitment";

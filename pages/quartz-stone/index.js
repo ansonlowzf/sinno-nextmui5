@@ -35,6 +35,10 @@ const QuartzStone = () => {
       <SectionWrapper styles={{ mt: { xs: 15, sm: 20 } }}>
         <Container maxWidth="sm">
           <Typography
+            color="error.main"
+            paragraph
+          >{`If you're looking for durable kitchen top for your home. This article will tell why quartz stone is your best option.`}</Typography>
+          <Typography
             component="h2"
             variant="h4"
             color="primary"
