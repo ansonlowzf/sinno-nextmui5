@@ -4,7 +4,7 @@ import { zenstone } from "const/pricing";
 
 const { marble } = zenstone;
 
-export const ZenstoneMarble = () => {
+const ZenstoneMarble = () => {
   return (
     <Container maxWidth="lg">
       <Typography
@@ -74,3 +74,5 @@ export const ZenstoneMarble = () => {
     </Container>
   );
 };
+
+export default ZenstoneMarble;

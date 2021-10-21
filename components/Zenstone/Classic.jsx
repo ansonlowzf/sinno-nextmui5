@@ -4,7 +4,7 @@ import { zenstone } from "const/pricing";
 
 const { classic } = zenstone;
 
-export const ZenstoneClassic = () => {
+const ZenstoneClassic = () => {
   return (
     <Container maxWidth="lg">
       <Typography
@@ -106,3 +106,5 @@ export const ZenstoneClassic = () => {
     </Container>
   );
 };
+
+export default ZenstoneClassic;

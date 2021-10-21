@@ -1,9 +1,9 @@
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
-import { ZenstoneClassic } from "@components/Zenstone/Classic";
-import { ZenstoneMarble } from "@components/Zenstone/Marble";
-import { ZenstoneNoble } from "@components/Zenstone/Noble";
-import { ZenstonePremium } from "@components/Zenstone/Premium";
+import ZenstoneClassic from "@components/Zenstone/Classic";
+import ZenstoneMarble from "@components/Zenstone/Marble";
+import ZenstoneNoble from "@components/Zenstone/Noble";
+import ZenstonePremium from "@components/Zenstone/Premium";
 import { Grid, Typography } from "@mui/material";
 import { Heading2 } from "elements/Heading";
 import { SectionWrapper, TextWrapper } from "elements/Wrapper";
