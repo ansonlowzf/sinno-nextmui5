@@ -3,12 +3,8 @@ import MetaSEO from "@components/MetaSEO";
 import { Heading3 } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
 import { Box, Container, Grid } from "@mui/material";
-import {
-  ColourWarning,
-  DisplayStone,
-  PriceTerm,
-  SectionContact,
-} from "../../components";
+import { ColourWarning, PriceTerm, SectionContact } from "../../components";
+import DisplayStone from "@components/DisplayStone";
 
 const GranitePage = () => {
   return (
