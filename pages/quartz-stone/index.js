@@ -37,7 +37,7 @@ const QuartzStone = () => {
           <Typography
             color="error.main"
             paragraph
-          >{`If you're looking for durable kitchen top for your home. This article will tell why quartz stone is your best option.`}</Typography>
+          >{`If you're looking for durable kitchen top for your home. This article will tell why quartz stone is one of the best option.`}</Typography>
           <Typography
             component="h2"
             variant="h4"

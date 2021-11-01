@@ -6,6 +6,7 @@ import path from "path";
 import { MuiNextLink } from "../../components";
 import { SectionWrapper } from "@elements/Wrapper";
 import Image from "next/image";
+import Head from "next/head";
 
 const PostPage = ({
   frontmatter: { title, date, coverImage, imgAlt },
@@ -14,6 +15,9 @@ const PostPage = ({
 }) => {
   return (
     <>
+      <Head>
+        <title>{title}</title>
+      </Head>
       <SectionWrapper>
         <Container maxWidth="sm" sx={{ mt: 10 }}>
           <MuiNextLink href="/blog#blog" underline="none">
