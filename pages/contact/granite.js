@@ -9,7 +9,7 @@ const ContactGranite = () => {
   return (
     <>
       <MetaSEO
-        pageTitle="Contact us"
+        pageTitle="Contact us | Granite"
         pageDesc="Don't hesitate to contact us by Call, SMS, WhatsApp or Email for any stone countertop inquires."
         pagePath="contact"
         metaImg="/contact/hero.png"
