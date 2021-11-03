@@ -10,48 +10,6 @@ export const caesarstone20 = {
   supernaturalUltraJumbo: "RM 1250 /FR or RM 750 /SF",
 };
 
-export const silestonePricing12 = {
-  group1: "RM 390 /FR or RM 195 /SF",
-  group2: "RM 431 /FR or RM 215 /SF",
-  group3: "RM 472 /FR or RM 236 /SF",
-  group4: "RM 533 /FR or RM 267 /SF",
-  group5: "RM 718 /FR or RM 359 /SF",
-};
-
-export const silestonePricing20 = {
-  group1: "RM 431 /FR or RM 215 /SF",
-  group2: "RM 472 /FR or RM 236 /SF",
-  group3: "RM 513 /FR or RM 256 /SF",
-  group4: "RM 656 /FR or RM 328 /SF",
-  group5: "RM 718 /FR or RM 359 /SF",
-};
-
-export const silestoneJumboPricing12 = {
-  group1: "RM 431 /FR or RM 215 /SF",
-  group2: "RM 472 /FR or RM 236 /SF",
-  group3: "RM 492 /FR or RM 246 /SF",
-  group4: "RM 574 /FR or RM 287 /SF",
-  group5: "RM 615 /FR or RM 308 /SF",
-  group6: "RM 779 /FR or RM 390 /SF",
-};
-
-export const silestoneJumboPricing20 = {
-  group1: "RM 472 /FR or RM 236 /SF",
-  group2: "RM 533 /FR or RM 267 /SF",
-  group3: "RM 554 /FR or RM 277 /SF",
-  group4: "RM 718 /FR or RM 359 /SF",
-  group5: "RM 779 /FR or RM 390 /SF",
-  group6: "RM 923 /FR or RM 461 /SF",
-};
-
-export const dekton12 = {
-  group0: "RM 431 /FR or RM 215 /SF",
-  group1: "RM 492 /FR or RM 246 /SF",
-  group2: "RM 554 /FR or RM 277 /SF",
-  group3: "RM 615 /FR or RM 308 /SF",
-  group4: "RM 697 /FR or RM 349 /SF",
-};
-
 export const zenstone = {
   classic: "RM 220 /FR or RM 120 /SF",
   premium: "RM 250 /FR or RM 135 /SF",
@@ -60,6 +18,7 @@ export const zenstone = {
 };
 
 export const moca = {
-  small: "RM 200 /FR or RM 110 /SF",
-  big: "RM 300 /FR or RM 160 /SF",
+  small: "RM 220 /FR or RM 120 /SF",
+  medium: "240 / FR or RM 130 / SF",
+  big: "RM 310 /FR or RM 166 /SF",
 };
