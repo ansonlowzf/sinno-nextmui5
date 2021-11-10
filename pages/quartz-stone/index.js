@@ -266,7 +266,7 @@ const QuartzStone = () => {
           <Typography paragraph>
             Repair or polish could not solve the problem. The same problem will
             keep repeating because the actual problem is the quartz stone
-            quality itself.
+            material itself.
           </Typography>
 
           <Typography
