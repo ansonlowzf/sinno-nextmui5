@@ -1,5 +1,4 @@
 export * from "./MuiNextLink";
-export * from "./SectionAbout";
 export * from "./SectionContact";
 export * from "./SectionImage";
 export * from "./SectionProduct";
