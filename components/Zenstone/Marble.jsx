@@ -29,12 +29,6 @@ const ZenstoneMarble = () => {
         />
 
         <SlabDisplay
-          imgSrc="/zenstone/qs/Q802021.jpg"
-          stoneName="Snow Flower"
-          price={marble}
-        />
-
-        <SlabDisplay
           imgSrc="/zenstone/qs/Q802023.jpg"
           stoneName="Arabescato Corchia"
           price={marble}
