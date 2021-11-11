@@ -23,10 +23,10 @@ const ZenstonePage = () => {
         pageTitle="Zenstone Quartz Surface"
         pageDesc="The main distributor of Zenstone quartz surface. We fabricate, supply &amp; install Zenstone Kitchen Top"
         pagePath="quartz-stone/zenstone"
-        metaImg="/zenstone/hero.png"
+        metaImg="/zenstone/hero.jpg"
       />
       <Hero
-        imgSrc="/zenstone/hero.png"
+        imgSrc="/zenstone/hero.jpg"
         imgText="Zenstone Calacatta Black"
         title="Zenstone Malaysia"
         subtitle="Malaysia's Brand OEM China Genuine Quartz Stone"
