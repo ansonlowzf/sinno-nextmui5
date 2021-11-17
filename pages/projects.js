@@ -488,6 +488,94 @@ const Project = () => {
           <Grid container spacing={0.5}>
             <Grid item xs={12} md={4}>
               <Image
+                src="/project/cs/baskin-robin/1.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/2.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/3.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/4.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/5.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/6.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/7.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/8.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+          </Grid>
+          <Container maxWidth="sm" sx={{ my: 5 }}>
+            <Typography fontWeight="bold" gutterBottom>
+              Work Description:
+            </Typography>
+            <Typography paragraph>
+              Supply &amp; install Caesarstone Quartz Surface Ice Cream
+              Countertop
+            </Typography>
+            <Typography fontWeight="bold" gutterBottom>
+              Location:
+            </Typography>
+            <Typography paragraph>Baskin Robin Outlet</Typography>
+          </Container>
+          <hr />
+          <Grid container spacing={0.5}>
+            <Grid item xs={12} md={4}>
+              <Image
                 src="/project/klia2/1.png"
                 layout="responsive"
                 alt="quartz stone dining table top"
