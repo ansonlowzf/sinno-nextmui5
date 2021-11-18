@@ -11,6 +11,7 @@ The warranty starts from the date of installation.
 
 - Caesarstone Quartz Surface - 10 Years
 - Zenstone Quartz Surface - 10 Years
+- Moca Compact Stone - 10 Years
 - Granite - No Warranty
 - Marble - No Warranty
 - Workmanship - 2 Years
@@ -21,6 +22,7 @@ The warranty starts from the date of installation.
 - Discolouration without any factors
 - Scratches without any impacts
 - Crack without any impacts
+- Chip-off without any impacts
 
 ## Terms & Conditions
 
