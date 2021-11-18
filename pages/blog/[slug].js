@@ -1,7 +1,7 @@
 import { Button, Container, Typography } from "@mui/material";
 import fs from "fs";
 import matter from "gray-matter";
-import marked from "marked";
+import { marked } from "marked";
 import path from "path";
 import { MuiNextLink } from "../../components";
 import { SectionWrapper } from "@elements/Wrapper";
@@ -43,7 +43,9 @@ const PostPage = ({
           <Typography component="p" variant="subtitle1 " sx={{ mb: 5 }}>
             Posted on {date}
           </Typography>
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+          <div
+            dangerouslySetInnerHTML={{ __html: marked.parse(content) }}
+          ></div>
           <MuiNextLink href="/blog#blog" underline="none">
             <Button variant="outlined" sx={{ mt: 5 }}>
               Go Back
