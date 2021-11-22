@@ -2,7 +2,7 @@ import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
 import { Heading3 } from "@elements/Heading";
 import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography, Button } from "@mui/material";
 import Image from "next/image";
 import {
   ColourWarning,
@@ -59,27 +59,52 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading3>Caesarstone Quartz Surface</Heading3>
+        <Heading3>Distributor</Heading3>
+        <TextWrapper>
+          <Typography>
+            We, Stone Innovations Enterprise is one of the Caesarstone
+            distributor in Malaysia. We distribute Caesarstone slabs or
+            fabricate, supply &amp; install Caesarstone quartz surface kitchen
+            top, island top, vanity top and wall cladding.
+          </Typography>
+        </TextWrapper>
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <Heading3>The Vendor Website</Heading3>
         <TextWrapper>
           <Typography paragraph>
-            Caesarstone is one of the highest quality quartz stone you could
-            find in the market right now.
+            Caesarstone has more than 60 colours worldwide. However, only 32
+            colours are available in Malaysia.
           </Typography>
           <Typography paragraph>
-            {` It's designed to mimic the colour of natural stone while maintaining
-            the benefit of quartz stone and providing a natural and premium
-            feeling to your home design.`}
+            This Caesarstone web page will only show you the colour selling in
+            Malaysia and its pricing, respectively.
           </Typography>
           <Typography paragraph>
-            Imagine you have a beautiful kitchen top which no need to worry
-            about scratches, heat burnt mark, and so easy to maintain. Cooking
-            feels so accessible now.
+            For more information, supporting documents and product certificates,
+            design inspiration, feel free to visit:-
+          </Typography>
+        </TextWrapper>
+        <Grid container justifyContent="center" sx={{ my: 5 }}>
+          <Button
+            href="https://www.caesarstone.sg/"
+            size="large"
+            variant="contained"
+            target="_blank"
+          >
+            Caesarstone Singapore
+          </Button>
+        </Grid>
+        <TextWrapper>
+          <Typography paragraph>
+            {`If you happen to visit Caesarstone US and Caesarstone Australia's website, which contains the full range of colour options, please ignore and refer to this web page when you're choosing the colour.`}
           </Typography>
           <Typography>
-            {`Stone Innovations Enterprise is Caesarstone Malaysia's distributor.
-            We distribute Caesarstone slabs and fabricate, supply &amp; install
-            Caesarstone products such as kitchen top, island top, vanity top and
-            wall cladding.`}
+            Again, to avoid choosing the not available colour and for more
+            Caesarstone information, we highly recommend you visit the
+            Caesarstone Singapore website, where the information and colour
+            range is simultaneous.
           </Typography>
         </TextWrapper>
       </SectionWrapper>
@@ -88,7 +113,7 @@ const CaesarstonePage = () => {
         <Heading3>Colour &amp; Pricing</Heading3>
         <TextWrapper>
           <Typography align="center" sx={{ mb: 5 }}>
-            The price shown below is for all the 34 Caesarstone colours
+            The price shown below is for all the 32 Caesarstone colours
             available in Malaysia in 20mm thick. 13mm is also available for a
             10% lower price.
           </Typography>
