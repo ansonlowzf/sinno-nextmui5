@@ -77,7 +77,7 @@ const GranitePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Granite" />
+        <SectionContact stone="Granite" href="/contact/granite" />
       </SectionWrapper>
     </>
   );

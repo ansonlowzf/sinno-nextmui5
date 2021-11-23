@@ -250,7 +250,10 @@ const MocaPage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Moca Compact Stone" />
+        <SectionContact
+          stone="Moca Compact Stone"
+          href="/contact/moca-compact"
+        />
       </SectionWrapper>
     </>
   );

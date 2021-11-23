@@ -639,7 +639,7 @@ const QuartzStone = () => {
       <SectionWarranty />
 
       <SectionWrapper>
-        <SectionContact stone="Quartz Stone" />
+        <SectionContact stone="Quartz Stone" href="/contact/quartz-stone" />
       </SectionWrapper>
 
       <Container maxWidth="lg" sx={{ mt: 10 }}>

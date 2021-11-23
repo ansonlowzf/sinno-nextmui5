@@ -140,7 +140,7 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Caesarstone" />
+        <SectionContact stone="Caesarstone" href="/contact/caesarstone" />
       </SectionWrapper>
     </>
   );

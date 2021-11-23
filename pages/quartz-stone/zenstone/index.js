@@ -77,7 +77,7 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Zenstone" />
+        <SectionContact stone="Zenstone" href="/contact/zenstone" />
       </SectionWrapper>
     </>
   );
