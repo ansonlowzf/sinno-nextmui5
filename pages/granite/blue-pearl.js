@@ -7,26 +7,28 @@ import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
 
 const images = [
-  { url: "/granite/emerald-pearl/1.jpg" },
-  { url: "/granite/emerald-pearl/2.jpg" },
-  { url: "/granite/emerald-pearl/3.jpg" },
+  { url: "/granite/blue-pearl/1.jpg" },
+  { url: "/granite/blue-pearl/2.jpg" },
+  { url: "/granite/blue-pearl/3.jpg" },
+  { url: "/granite/blue-pearl/4.jpg" },
+  { url: "/granite/blue-pearl/5.jpg" },
 ];
 
-const EmeraldPearl = () => {
+const BluePearl = () => {
   return (
     <>
       <MetaSEO
-        pageTitle="Emerald Pearl | Granite"
-        pageDesc="Supply &amp; install granite Emerald Pearl kitchen top."
-        pagePath="granite/emerald-pearl"
-        metaImg="/granite/colour/emerald-pearl.png"
+        pageTitle="Blue Pearl | Granite"
+        pageDesc="Supply &amp; install granite Blue Pearl kitchen top."
+        pagePath="granite/blue-pearl"
+        metaImg="/granite/colour/blue-pearl.png"
       />
-      <BackNextPanel BackTo="/granite/blue-pearl" NextTo="/granite" />
+      <BackNextPanel BackTo="/granite" NextTo="/granite/emerald-pearl" />
       <Container maxWidth="md" sx={{ mb: 10 }}>
         <Grid container item justifyContent="center">
           <Image
-            src="/granite/colour/emerald-pearl.png"
-            alt="granite emerald pearl"
+            src="/granite/colour/blue-pearl.png"
+            alt="granite blue pearl"
             width={620}
             height={350}
           />
@@ -42,7 +44,7 @@ const EmeraldPearl = () => {
           loop={true}
         />
       </Container>
-      <BackNextPanel BackTo="/granite/blue-pearl" NextTo="/granite" />
+      <BackNextPanel BackTo="/granite" NextTo="/granite/emerald-pearl" />
 
       <SectionWrapper>
         <SectionContact stone="Granite" href="/contact/granite" />
@@ -51,4 +53,4 @@ const EmeraldPearl = () => {
   );
 };
 
-export default EmeraldPearl;
+export default BluePearl;
