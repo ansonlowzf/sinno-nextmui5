@@ -1,12 +1,12 @@
 import MetaSEO from "@components/MetaSEO";
 import { Container, Grid, Typography } from "@mui/material";
-import Image from "next/image";
+import NextImage from "next/image";
 import BackNextPanel from "@components/BackNextPanel";
 import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
-import ImageSlider from "@components/ImageSlider";
+import ImageSwiper from "@components/ImageSwiper";
 
-const images = [
+const imageLinks = [
   { imgSrc: "/granite/black-galaxy/1.jpg", imgAlt: "Black Galaxy Kitchen Top" },
   { imgSrc: "/granite/black-galaxy/2.jpg", imgAlt: "Black Galaxy Kitchen Top" },
   { imgSrc: "/granite/black-galaxy/3.jpg", imgAlt: "Black Galaxy Kitchen Top" },
@@ -25,7 +25,7 @@ const BluePearl = () => {
       <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
       <Container maxWidth="md" sx={{ mb: 10 }}>
         <Grid container item justifyContent="center">
-          <Image
+          <NextImage
             src="/granite/colour/black-galaxy.png"
             alt="granite black galaxy"
             width={620}
@@ -46,7 +46,7 @@ const BluePearl = () => {
         </Grid>
       </Container>
       <Container maxWidth="md" sx={{ mb: 10 }}>
-        <ImageSlider imageLinks={images} />
+        <ImageSwiper imageLinks={imageLinks} />
       </Container>
       <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
 

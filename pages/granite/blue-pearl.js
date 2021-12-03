@@ -4,13 +4,29 @@ import Image from "next/image";
 import BackNextPanel from "@components/BackNextPanel";
 import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
+import ImageSwiper from "@components/ImageSwiper";
 
-const images = [
-  { url: "/granite/blue-pearl/1.jpg" },
-  { url: "/granite/blue-pearl/2.jpg" },
-  { url: "/granite/blue-pearl/3.jpg" },
-  { url: "/granite/blue-pearl/4.jpg" },
-  { url: "/granite/blue-pearl/5.jpg" },
+const imageLinks = [
+  {
+    imgSrc: "/granite/blue-pearl/1.jpg",
+    imgAlt: "Granite Blue Pearl Kitchen Top",
+  },
+  {
+    imgSrc: "/granite/blue-pearl/2.jpg",
+    imgAlt: "Granite Blue Pearl Kitchen Top",
+  },
+  {
+    imgSrc: "/granite/blue-pearl/3.jpg",
+    imgAlt: "Granite Blue Pearl Kitchen Top",
+  },
+  {
+    imgSrc: "/granite/blue-pearl/4.jpg",
+    imgAlt: "Granite Blue Pearl Kitchen Top",
+  },
+  {
+    imgSrc: "/granite/blue-pearl/5.jpg",
+    imgAlt: "Granite Blue Pearl Kitchen Top",
+  },
 ];
 
 const BluePearl = () => {
@@ -34,7 +50,7 @@ const BluePearl = () => {
         </Grid>
       </Container>
       <Container maxWidth="md" sx={{ mb: 10 }}>
-        {/* Add Swiper */}
+        <ImageSwiper imageLinks={imageLinks} />
       </Container>
       <BackNextPanel BackTo="/granite" NextTo="/granite/emerald-pearl" />
 
