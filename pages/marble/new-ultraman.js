@@ -5,19 +5,19 @@ import { SectionWrapper } from "@elements/Wrapper";
 import MarbleDisclaimer from "@components/marble-disclaimer";
 import ContactMarble from "@components/ContactMarble";
 
-const MarbleDyno = () => {
+const NewUltraman = () => {
   return (
     <>
       <MetaSEO
-        pageTitle="Dyno Beige | Marble"
-        pageDesc="Supply only / Supply &amp; Install Dyno Beige Marble for flooring &amp; wall cladding application"
-        pagePath="marble/dyno"
-        metaImg="/marble/dyno/1.jpg"
+        pageTitle="New Ultraman | Marble"
+        pageDesc="Supply only / Supply &amp; Install New Ultraman Beige Marble for flooring &amp; wall cladding application"
+        pagePath="marble/new-ultraman"
+        metaImg="/marble/new-ultraman/1.jpg"
       />
       <Container maxWidth="md" sx={{ my: 10 }}>
         <Image
-          src="/marble/dyno/1.jpg"
-          alt="Marble Dyno Beige"
+          src="/marble/new-ultraman/1.jpg"
+          alt="Marble New Ultraman"
           width={800}
           height={600}
         />
@@ -28,7 +28,7 @@ const MarbleDyno = () => {
           gutterBottom
           sx={{ mt: 2 }}
         >
-          Dyno Beige
+          New Ultraman Beige
         </Typography>
         <Typography align="center">
           Suitable for flooring and wall cladding applications
@@ -38,10 +38,10 @@ const MarbleDyno = () => {
         <MarbleDisclaimer />
       </SectionWrapper>
       <SectionWrapper>
-        <ContactMarble stone="Dyno Beige" href="/contact/marble" />
+        <ContactMarble stone="New Ultraman Beige" href="/contact/marble" />
       </SectionWrapper>
     </>
   );
 };
 
-export default MarbleDyno;
+export default NewUltraman;

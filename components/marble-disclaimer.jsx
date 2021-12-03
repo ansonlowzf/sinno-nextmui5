@@ -6,7 +6,7 @@ const MarbleDisclaimer = () => {
       <Typography component="h3" variant="h6" align="center" color="error">
         Disclaimer
       </Typography>
-      <Typography variant="body2" align="center">
+      <Typography component="p" variant="body2" align="center" color="error">
         The above image is a display sample. Every batch of marble is different
         in vein, texture and pattern. Please visit our warehouse to see the
         latest batch.
