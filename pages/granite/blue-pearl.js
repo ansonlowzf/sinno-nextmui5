@@ -1,7 +1,6 @@
 import MetaSEO from "@components/MetaSEO";
 import { Container, Grid } from "@mui/material";
 import Image from "next/image";
-import SimpleImageSlider from "react-simple-image-slider";
 import BackNextPanel from "@components/BackNextPanel";
 import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
@@ -35,14 +34,7 @@ const BluePearl = () => {
         </Grid>
       </Container>
       <Container maxWidth="md" sx={{ mb: 10 }}>
-        <SimpleImageSlider
-          width={852}
-          height={511}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-          loop={true}
-        />
+        {/* Add Swiper */}
       </Container>
       <BackNextPanel BackTo="/granite" NextTo="/granite/emerald-pearl" />
 
