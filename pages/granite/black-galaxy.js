@@ -1,16 +1,16 @@
 import MetaSEO from "@components/MetaSEO";
 import { Container, Grid, Typography } from "@mui/material";
-import Image from "next/image";
-import SimpleImageSlider from "react-simple-image-slider";
+import NextImage from "next/image";
 import BackNextPanel from "@components/BackNextPanel";
 import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
+import ImageSwiper from "@components/ImageSwiper";
 
-const images = [
-  { url: "/granite/black-galaxy/1.jpg" },
-  { url: "/granite/black-galaxy/2.jpg" },
-  { url: "/granite/black-galaxy/3.jpg" },
-  { url: "/granite/black-galaxy/4.jpg" },
+const imageLinks = [
+  { imgSrc: "/granite/black-galaxy/1.jpg", imgAlt: "Black Galaxy Kitchen Top" },
+  { imgSrc: "/granite/black-galaxy/2.jpg", imgAlt: "Black Galaxy Kitchen Top" },
+  { imgSrc: "/granite/black-galaxy/3.jpg", imgAlt: "Black Galaxy Kitchen Top" },
+  { imgSrc: "/granite/black-galaxy/4.jpg", imgAlt: "Black Galaxy Kitchen Top" },
 ];
 
 const BluePearl = () => {
@@ -25,7 +25,7 @@ const BluePearl = () => {
       <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
       <Container maxWidth="md" sx={{ mb: 10 }}>
         <Grid container item justifyContent="center">
-          <Image
+          <NextImage
             src="/granite/colour/black-galaxy.png"
             alt="granite black galaxy"
             width={620}
@@ -46,14 +46,7 @@ const BluePearl = () => {
         </Grid>
       </Container>
       <Container maxWidth="md" sx={{ mb: 10 }}>
-        <SimpleImageSlider
-          width={852}
-          height={511}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-          loop={true}
-        />
+        <ImageSwiper imageLinks={imageLinks} />
       </Container>
       <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
 

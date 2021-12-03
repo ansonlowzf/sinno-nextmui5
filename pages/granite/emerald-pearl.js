@@ -1,15 +1,24 @@
+import BackNextPanel from "@components/BackNextPanel";
+import ImageSwiper from "@components/ImageSwiper";
 import MetaSEO from "@components/MetaSEO";
+import { SectionContact } from "@components/SectionContact";
+import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Grid } from "@mui/material";
 import Image from "next/image";
-import SimpleImageSlider from "react-simple-image-slider";
-import BackNextPanel from "@components/BackNextPanel";
-import { SectionWrapper } from "@elements/Wrapper";
-import { SectionContact } from "@components/SectionContact";
 
-const images = [
-  { url: "/granite/emerald-pearl/1.jpg" },
-  { url: "/granite/emerald-pearl/2.jpg" },
-  { url: "/granite/emerald-pearl/3.jpg" },
+const imageLinks = [
+  {
+    imgSrc: "/granite/emerald-pearl/1.jpg",
+    imgAlt: "Granite Emerald Pearl Kitchen Top",
+  },
+  {
+    imgSrc: "/granite/emerald-pearl/2.jpg",
+    imgAlt: "Granite Emerald Pearl Kitchen Top",
+  },
+  {
+    imgSrc: "/granite/emerald-pearl/3.jpg",
+    imgAlt: "Granite Emerald Pearl Kitchen Top",
+  },
 ];
 
 const EmeraldPearl = () => {
@@ -32,16 +41,11 @@ const EmeraldPearl = () => {
           />
         </Grid>
       </Container>
+
       <Container maxWidth="md" sx={{ mb: 10 }}>
-        <SimpleImageSlider
-          width={852}
-          height={511}
-          images={images}
-          showBullets={true}
-          showNavs={true}
-          loop={true}
-        />
+        <ImageSwiper imageLinks={imageLinks} />
       </Container>
+
       <BackNextPanel BackTo="/granite/blue-pearl" NextTo="/granite" />
 
       <SectionWrapper>
