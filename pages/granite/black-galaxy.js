@@ -4,12 +4,13 @@ import Image from "next/image";
 import BackNextPanel from "@components/BackNextPanel";
 import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
+import ImageSlider from "@components/ImageSlider";
 
 const images = [
-  { url: "/granite/black-galaxy/1.jpg" },
-  { url: "/granite/black-galaxy/2.jpg" },
-  { url: "/granite/black-galaxy/3.jpg" },
-  { url: "/granite/black-galaxy/4.jpg" },
+  { imgSrc: "/granite/black-galaxy/1.jpg", imgAlt: "Black Galaxy Kitchen Top" },
+  { imgSrc: "/granite/black-galaxy/2.jpg", imgAlt: "Black Galaxy Kitchen Top" },
+  { imgSrc: "/granite/black-galaxy/3.jpg", imgAlt: "Black Galaxy Kitchen Top" },
+  { imgSrc: "/granite/black-galaxy/4.jpg", imgAlt: "Black Galaxy Kitchen Top" },
 ];
 
 const BluePearl = () => {
@@ -45,7 +46,7 @@ const BluePearl = () => {
         </Grid>
       </Container>
       <Container maxWidth="md" sx={{ mb: 10 }}>
-        {/* Add Swiper */}
+        <ImageSlider imageLinks={images} />
       </Container>
       <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
 
