@@ -1,8 +1,15 @@
-import { Button, Container, Grid } from "@mui/material";
+import { Button, Container, Grid, Typography } from "@mui/material";
 import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import { MuiNextLink } from "@components/MuiNextLink";
 
-const BackNextPanel = ({ BackTo, NextTo }) => {
+const BackNextPanel = ({
+  BackTo,
+  BackToStone,
+  stoneMenu,
+  stoneMenuLink,
+  NextTo,
+  NextToStone,
+}) => {
   return (
     <Container maxWidth="md" sx={{ my: 10 }}>
       <Grid container>
@@ -13,10 +20,11 @@ const BackNextPanel = ({ BackTo, NextTo }) => {
           justifyContent="center"
           alignContent="center"
         >
-          <MuiNextLink href={BackTo}>
+          <MuiNextLink href={BackTo} underline="none">
             <Button>
               <ArrowBack fontSize="large" />
             </Button>
+            <Typography align="center">{BackToStone}</Typography>
           </MuiNextLink>
         </Grid>
         <Grid
@@ -26,8 +34,8 @@ const BackNextPanel = ({ BackTo, NextTo }) => {
           justifyContent="center"
           alignContent="center"
         >
-          <MuiNextLink href="/granite">
-            <Button variant="contained">Back To Granite</Button>
+          <MuiNextLink href={stoneMenuLink}>
+            <Button variant="contained">Back To {stoneMenu}</Button>
           </MuiNextLink>
         </Grid>
         <Grid
@@ -37,10 +45,11 @@ const BackNextPanel = ({ BackTo, NextTo }) => {
           justifyContent="center"
           alignContent="center"
         >
-          <MuiNextLink href={NextTo}>
+          <MuiNextLink href={NextTo} underline="none">
             <Button>
               <ArrowForward fontSize="large" />
             </Button>
+            <Typography align="center">{NextToStone}</Typography>
           </MuiNextLink>
         </Grid>
       </Grid>

@@ -14,7 +14,7 @@ const Homepage = () => {
       <MetaSEO
         pageTitle="Home"
         pageDesc="We're a stonemason and factory that fabricate, supply and install stone surfacing products for residential and commercial use."
-        pagePath="home"
+        pagePath="/home"
         metaImg="/home/hero.jpg"
       />
       <SectionWrapper>

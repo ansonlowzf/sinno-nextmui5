@@ -27,7 +27,7 @@ const EmeraldPearl = () => {
       <MetaSEO
         pageTitle="Emerald Pearl | Granite"
         pageDesc="Supply &amp; install granite Emerald Pearl kitchen top."
-        pagePath="granite/emerald-pearl"
+        pagePath="/granite/emerald-pearl"
         metaImg="/granite/colour/emerald-pearl.png"
       />
       <BackNextPanel BackTo="/granite/blue-pearl" NextTo="/granite" />

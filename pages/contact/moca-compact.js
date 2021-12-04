@@ -11,7 +11,7 @@ const ContactMoca = () => {
       <MetaSEO
         pageTitle="Contact us | Moca Compact"
         pageDesc="Don't hesitate to contact us by Call, SMS, WhatsApp or Email for any stone countertop inquires."
-        pagePath="contact"
+        pagePath="/contact/moca-compact"
         metaImg="/contact/hero.png"
       />
       <SectionWrapper>

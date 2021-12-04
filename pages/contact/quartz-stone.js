@@ -11,7 +11,7 @@ const ContactCaesarstone = () => {
       <MetaSEO
         pageTitle="Contact us | Quartz Stone"
         pageDesc="Don't hesitate to contact us by Call, SMS, WhatsApp or Email for any stone countertop inquires."
-        pagePath="contact"
+        pagePath="contact/quartz-stone"
         metaImg="/contact/hero.png"
       />
       <SectionWrapper>

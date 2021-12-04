@@ -11,7 +11,7 @@ const Project = () => {
       <MetaSEO
         pageTitle="Project"
         pageDesc="We completed the following residential and commercial project with quartz stone, sintered stone, granite, marble and other stone."
-        pagePath="project"
+        pagePath="/project"
         metaImg="/project/hero.png"
       />
       <Hero

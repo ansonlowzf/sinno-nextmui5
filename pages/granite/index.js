@@ -12,7 +12,7 @@ const GranitePage = () => {
       <MetaSEO
         pageTitle="Granite"
         pageDesc="Supply &amp; install granite kitchen top. There are seven colour and shades options."
-        pagePath="granite"
+        pagePath="/granite"
         metaImg="/granite/hero.jpg"
       />
       <Hero

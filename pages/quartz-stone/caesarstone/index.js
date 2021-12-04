@@ -27,7 +27,7 @@ const CaesarstonePage = () => {
       <MetaSEO
         pageTitle="Caesarstone Quartz Surface"
         pageDesc="We are one of the Caesarstone distributor in Malaysia. We fabricate, supply &amp; install Caesarstone Kitchen Top"
-        pagePath="quartz-stone/caesarstone"
+        pagePath="/quartz-stone/caesarstone"
         metaImg="/caesarstone/hero.png"
       />
       <Hero

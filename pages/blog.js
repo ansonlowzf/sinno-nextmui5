@@ -14,7 +14,7 @@ const BlogPage = ({ posts }) => {
       <MetaSEO
         pageTitle="Blog"
         pageDesc="Articles about custom-made stone countertops. These articles help you make the right decision to custom made your stone countertop without hesitation."
-        pagePath="blog"
+        pagePath="/blog"
         metaImg="/blog/hero.jpg"
       />
       <Hero

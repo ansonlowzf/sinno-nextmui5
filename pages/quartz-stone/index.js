@@ -20,7 +20,7 @@ const QuartzStone = () => {
       <MetaSEO
         pageTitle="Quartz Stone"
         pageDesc="We distribute, fabricate, supply &amp; install all kinds of Caesarstone &amp; Zenstone Quartz Surfaces' countertops."
-        pagePath="quartz-stone"
+        pagePath="/quartz-stone"
         metaImg="/quartz-stone/4735.jpg"
       />
       <Hero

@@ -35,7 +35,7 @@ const BluePearl = () => {
       <MetaSEO
         pageTitle="Blue Pearl | Granite"
         pageDesc="Supply &amp; install granite Blue Pearl kitchen top."
-        pagePath="granite/blue-pearl"
+        pagePath="/granite/blue-pearl"
         metaImg="/granite/colour/blue-pearl.png"
       />
       <BackNextPanel BackTo="/granite" NextTo="/granite/emerald-pearl" />
