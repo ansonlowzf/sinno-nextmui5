@@ -1,6 +1,6 @@
 import MetaSEO from "@components/MetaSEO";
 import { Container, Grid, Typography } from "@mui/material";
-import NextImage from "next/image";
+import Image from "next/image";
 import BackNextPanel from "@components/BackNextPanel";
 import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
@@ -25,7 +25,7 @@ const BluePearl = () => {
       <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
       <Container maxWidth="md" sx={{ mb: 10 }}>
         <Grid container item justifyContent="center">
-          <NextImage
+          <Image
             src="/granite/colour/black-galaxy.png"
             alt="granite black galaxy"
             width={620}

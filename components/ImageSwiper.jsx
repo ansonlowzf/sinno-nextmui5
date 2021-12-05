@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Navigation } from "swiper";
-import NextImage from "Next/image";
+import Image from "next/image";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -18,7 +18,7 @@ const ImageSwiper = ({ imageLinks }) => {
     >
       {imageLinks.map(({ imgSrc, imgAlt }, i) => (
         <SwiperSlide key={i}>
-          <NextImage
+          <Image
             src={imgSrc}
             alt={imgAlt}
             layout="responsive"
