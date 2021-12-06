@@ -22,8 +22,8 @@ const BluePearl = () => {
         pagePath="/granite/black-galaxy"
         metaImg="/granite/colour/black-galaxy.png"
       />
-      <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
-      <Container maxWidth="md" sx={{ mb: 10 }}>
+
+      <Container maxWidth="md" sx={{ my: 10 }}>
         <Grid container item justifyContent="center">
           <Image
             src="/granite/colour/black-galaxy.png"
@@ -48,7 +48,14 @@ const BluePearl = () => {
       <Container maxWidth="md" sx={{ mb: 10 }}>
         <ImageSwiper imageLinks={imageLinks} />
       </Container>
-      <BackNextPanel BackTo="/granite" NextTo="/granite/blue-pearl" />
+      <BackNextPanel
+        backTo="/granite/emerald-pearl"
+        backToStone="Emerald Pearl"
+        stoneMenuLink="/granite"
+        stoneMenu="Menu"
+        nextTo="/granite/blue-pearl"
+        nextToStone="Blue Pearl"
+      />
 
       <SectionWrapper>
         <SectionContact stone="Granite" href="/contact/granite" />

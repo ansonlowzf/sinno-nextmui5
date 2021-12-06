@@ -3,12 +3,12 @@ import { ArrowBack, ArrowForward } from "@mui/icons-material";
 import { MuiNextLink } from "@components/MuiNextLink";
 
 const BackNextPanel = ({
-  BackTo,
-  BackToStone,
+  backTo,
+  backToStone,
   stoneMenu,
   stoneMenuLink,
-  NextTo,
-  NextToStone,
+  nextTo,
+  nextToStone,
 }) => {
   return (
     <Container maxWidth="md" sx={{ my: 10 }}>
@@ -20,11 +20,11 @@ const BackNextPanel = ({
           justifyContent="center"
           alignContent="center"
         >
-          <MuiNextLink href={BackTo} underline="none">
+          <MuiNextLink href={backTo} underline="none">
             <Button>
               <ArrowBack fontSize="large" />
             </Button>
-            <Typography align="center">{BackToStone}</Typography>
+            <Typography align="center">{backToStone}</Typography>
           </MuiNextLink>
         </Grid>
         <Grid
@@ -45,11 +45,11 @@ const BackNextPanel = ({
           justifyContent="center"
           alignContent="center"
         >
-          <MuiNextLink href={NextTo} underline="none">
+          <MuiNextLink href={nextTo} underline="none">
             <Button>
               <ArrowForward fontSize="large" />
             </Button>
-            <Typography align="center">{NextToStone}</Typography>
+            <Typography align="center">{nextToStone}</Typography>
           </MuiNextLink>
         </Grid>
       </Grid>

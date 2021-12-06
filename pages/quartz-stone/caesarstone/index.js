@@ -110,7 +110,7 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading3>Colour &amp; Pricing</Heading3>
+        <Heading3>Caesarstone Colour &amp; Pricing</Heading3>
         <TextWrapper>
           <Typography align="center" sx={{ mb: 5 }}>
             The price shown below is for all the 32 Caesarstone colours

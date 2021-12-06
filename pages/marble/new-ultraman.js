@@ -39,12 +39,12 @@ const NewUltraman = () => {
 
       <SectionWrapper>
         <BackNextPanel
-          BackTo="/marble/dyno"
-          BackToStone="Dyno Beige"
-          stoneMenu="Marble"
+          backTo="/marble/dyno"
+          backToStone="Dyno Beige"
           stoneMenuLink="/marble"
-          NextTo="/marble"
-          NextToStone="Marble"
+          stoneMenu="Marble"
+          nextTo="/marble"
+          nextToStone="Marble"
         />
       </SectionWrapper>
 

@@ -32,18 +32,19 @@ const MarbleDyno = () => {
           Dyno Beige
         </Typography>
         <Typography align="center">
-          Suitable for flooring and wall cladding applications
+          Supply only / Supply &amp; install Marble New Ultraman for flooring
+          and wall cladding applications
         </Typography>
       </Container>
 
       <SectionWrapper>
         <BackNextPanel
-          BackTo="/marble"
-          BackToStone="Marble"
-          stoneMenu="Marble"
+          backTo="/marble"
+          backToStone="Marble"
           stoneMenuLink="/marble"
-          NextTo="/marble/new-ultraman"
-          NextToStone="New Ultraman"
+          stoneMenu="Marble"
+          nextTo="/marble/new-ultraman"
+          nextToStone="New Ultraman"
         />
       </SectionWrapper>
 

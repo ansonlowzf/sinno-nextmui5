@@ -30,8 +30,8 @@ const EmeraldPearl = () => {
         pagePath="/granite/emerald-pearl"
         metaImg="/granite/colour/emerald-pearl.png"
       />
-      <BackNextPanel BackTo="/granite/blue-pearl" NextTo="/granite" />
-      <Container maxWidth="md" sx={{ mb: 10 }}>
+
+      <Container maxWidth="md" sx={{ my: 10 }}>
         <Grid container item justifyContent="center">
           <Image
             src="/granite/colour/emerald-pearl.png"
@@ -46,7 +46,14 @@ const EmeraldPearl = () => {
         <ImageSwiper imageLinks={imageLinks} />
       </Container>
 
-      <BackNextPanel BackTo="/granite/blue-pearl" NextTo="/granite" />
+      <BackNextPanel
+        backTo="/granite/blue-pearl"
+        backToStone="Blue Pearl"
+        stoneMenuLink="/granite"
+        stoneMenu="Granite"
+        nextTo="/granite/black-galaxy"
+        nextToStone="Black Galaxy"
+      />
 
       <SectionWrapper>
         <SectionContact stone="Granite" href="/contact/granite" />

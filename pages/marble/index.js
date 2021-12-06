@@ -5,6 +5,7 @@ import { SectionWrapper } from "@elements/Wrapper";
 import Image from "next/image";
 import ContactMarble from "@components/ContactMarble";
 import { MuiNextLink } from "@components/MuiNextLink";
+import { Heading2 } from "@elements/Heading";
 
 const Marble = () => {
   return (
@@ -26,6 +27,7 @@ const Marble = () => {
 
       <SectionWrapper>
         <Container maxWidth="lg">
+          <Heading2>Marble Colour</Heading2>
           <Grid container spacing={2} justifyContent="center">
             <Grid item xs={12} md={6}>
               <Image

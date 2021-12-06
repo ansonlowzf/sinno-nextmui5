@@ -61,7 +61,7 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Colour &amp; Shades</Heading2>
+        <Heading2>Zenstone Colour &amp; Pricing</Heading2>
         <ZenstoneClassic />
         <ZenstonePremium />
         <ZenstoneNoble />

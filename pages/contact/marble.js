@@ -13,6 +13,7 @@ const ContactGranite = () => {
         pagePath="/contact/marble"
         metaImg="/contact/hero.png"
       />
+
       <ContactHero />
 
       <CompanyInfo />
