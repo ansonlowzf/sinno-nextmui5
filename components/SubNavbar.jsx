@@ -1,5 +1,5 @@
 import { AppBar, Container, Grid, Typography } from "@mui/material";
-import { MuiNextLink } from ".";
+import { MuiNextLink } from "./MuiNextLink";
 
 export const SubNavbar = ({ routes }) => {
   return (
