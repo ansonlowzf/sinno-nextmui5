@@ -10,6 +10,6 @@ export const mainRoutes = [
 ];
 
 export const qsRoutes = [
-  { name: "caesarstone", path: "/quartz-stone/caesarstone" },
-  { name: "zenstone", path: "/quartz-stone/zenstone" },
+  { name: "caesarstone quartz surface", path: "/quartz-stone/caesarstone" },
+  { name: "zenstone quartz surface", path: "/quartz-stone/zenstone" },
 ];
