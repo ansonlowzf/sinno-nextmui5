@@ -5,7 +5,7 @@ import { MuiNextLink } from "@components/MuiNextLink";
 const BackNextPanel = ({
   backTo,
   backToStone,
-  stoneMenu,
+  stoneMenu = "Menu",
   stoneMenuLink,
   nextTo,
   nextToStone,
@@ -35,7 +35,7 @@ const BackNextPanel = ({
           alignContent="center"
         >
           <MuiNextLink href={stoneMenuLink}>
-            <Button variant="contained">Back To {stoneMenu}</Button>
+            <Button variant="outlined">Back To {stoneMenu}</Button>
           </MuiNextLink>
         </Grid>
         <Grid
