@@ -52,7 +52,7 @@ const BluePearl = () => {
         backTo="/granite/emerald-pearl"
         backToStone="Emerald Pearl"
         stoneMenuLink="/granite"
-        stoneMenu="Menu"
+        stoneMenu="granite"
         nextTo="/granite/blue-pearl"
         nextToStone="Blue Pearl"
       />

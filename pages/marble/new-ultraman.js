@@ -31,9 +31,16 @@ const NewUltraman = () => {
         >
           New Ultraman Beige
         </Typography>
-        <Typography align="center">
-          Supply only / Supply &amp; install Marble New Ultraman for flooring
-          and wall cladding applications
+
+        <Typography align="center" paragraph>
+          Supply Marble New Ultraman slab
+        </Typography>
+        <Typography align="center" paragraph>
+          Supply Marble New Ultraman cut to size
+        </Typography>
+        <Typography align="center" paragraph>
+          Supply &amp; install Marble New Ultraman for flooring and wall
+          cladding applications
         </Typography>
       </Container>
 
@@ -43,8 +50,8 @@ const NewUltraman = () => {
           backToStone="Dyno Beige"
           stoneMenuLink="/marble"
           stoneMenu="Marble"
-          nextTo="/marble"
-          nextToStone="Marble"
+          nextTo="/marble/dyno"
+          nextToStone="Dyno Beige"
         />
       </SectionWrapper>
 

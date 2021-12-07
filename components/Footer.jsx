@@ -31,6 +31,7 @@ const Footer = () => {
           <Policy fontSize="large" />
         </Box>
       </Stack>
+      {/* TODO: add footer navigation */}
       <Typography align="center" color="common.white">
         © 2013 - {new Date().getFullYear()}, Stone Innovations Enterprise
       </Typography>
