@@ -18,7 +18,7 @@ const MetaSEO = ({ pageTitle, pageDesc, pagePath, metaImg }) => {
       />
       <meta
         property="og:url"
-        content={`https://www.stoneinnovations.com.my/${pagePath}`}
+        content={`https://www.stoneinnovations.com.my${pagePath}`}
       />
       <meta property="og:image" content={metaImg} />
     </Head>

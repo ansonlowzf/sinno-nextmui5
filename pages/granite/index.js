@@ -2,9 +2,10 @@ import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
 import { Heading3 } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
-import { Box, Container, Grid } from "@mui/material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import { ColourWarning, PriceTerm, SectionContact } from "../../components";
 import DisplayStone from "@components/DisplayStone";
+import { MuiNextLink } from "@components/MuiNextLink";
 
 const GranitePage = () => {
   return (
@@ -12,7 +13,7 @@ const GranitePage = () => {
       <MetaSEO
         pageTitle="Granite"
         pageDesc="Supply &amp; install granite kitchen top. There are seven colour and shades options."
-        pagePath="granite"
+        pagePath="/granite"
         metaImg="/granite/hero.jpg"
       />
       <Hero
@@ -22,9 +23,12 @@ const GranitePage = () => {
         subtitle="Granite Kitchen Top"
       />
 
-      <Box sx={{ my: { xs: 15, sm: 20 } }}>
-        <Heading3>Colour &amp; Pricing</Heading3>
-      </Box>
+      <Container maxWidth="lg" sx={{ my: { xs: 15, sm: 20 } }}>
+        <Heading3>Granite Colour &amp; Pricing</Heading3>
+        <MuiNextLink href="/granite/black-galaxy" underline="none">
+          <Typography align="center">View Album</Typography>
+        </MuiNextLink>
+      </Container>
 
       <SectionWrapper>
         <Container maxWidth="lg">
@@ -77,7 +81,7 @@ const GranitePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Granite" />
+        <SectionContact stone="Granite" href="/contact/granite" />
       </SectionWrapper>
     </>
   );

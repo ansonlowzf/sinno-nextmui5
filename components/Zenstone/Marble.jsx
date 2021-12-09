@@ -11,7 +11,7 @@ const ZenstoneMarble = () => {
       <CollectionTitle>Marble Series</CollectionTitle>
       <Grid container justifyContent="center" spacing={1}>
         <SlabDisplay
-          imgSrc="/zenstone/qs/Q801501slab.jpg"
+          imgSrc="/zenstone/qs/Q801501.jpg"
           stoneName="Cararra White"
           price={marble}
         />
@@ -53,7 +53,7 @@ const ZenstoneMarble = () => {
         />
 
         <SlabDisplay
-          imgSrc="/zenstone/qs/Q802031-slab.jpg"
+          imgSrc="/zenstone/qs/Q802031.jpg"
           stoneName="Calacatta Venato"
           price={marble}
         />

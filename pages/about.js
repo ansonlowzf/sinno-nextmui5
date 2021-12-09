@@ -13,7 +13,7 @@ const AboutPage = () => {
       <MetaSEO
         pageTitle="About Us"
         pageDesc="We're a stonemason and factory that fabricate, custom-made, supply and install quartz stone, sintered stone and granite countertops for the kitchen."
-        pagePath="about"
+        pagePath="/about"
         metaImg="/about/hero.jpg"
       />
       <SectionWrapper>

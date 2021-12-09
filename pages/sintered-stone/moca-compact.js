@@ -16,7 +16,7 @@ const MocaPage = () => {
       <MetaSEO
         pageTitle="Moca-Compact"
         pageDesc="We are the distributor of Moca Compact Stone in Malaysia. We fabricate, supply &amp; install Moca Compact Stone Kitchen Top"
-        pagePath="sintered-stone"
+        pagePath="/sintered-stone"
         metaImg="/moca/logo.png"
       />
       <SectionWrapper>
@@ -250,7 +250,10 @@ const MocaPage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Moca Compact Stone" />
+        <SectionContact
+          stone="Moca Compact Stone"
+          href="/contact/moca-compact"
+        />
       </SectionWrapper>
     </>
   );

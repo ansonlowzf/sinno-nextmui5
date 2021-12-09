@@ -7,7 +7,7 @@ export const SectionWrapper = ({ children, styles }) => (
 );
 
 export const TextWrapper = ({ children }) => (
-  <Container component="article" maxWidth="sm">
+  <Container component="article" maxWidth="sm" fixed>
     {children}
   </Container>
 );

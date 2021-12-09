@@ -19,8 +19,8 @@ const QuartzStone = () => {
     <>
       <MetaSEO
         pageTitle="Quartz Stone"
-        pageDesc="We distribute, fabricate, supply &amp; install all kinds of Caesarstone &amp; Zenstone Quartz Surfaces' countertops."
-        pagePath="quartz-stone"
+        pageDesc="We fabricate, supply &amp; install Caesarstone &amp; Zenstone Quartz Surfaces' countertops."
+        pagePath="/quartz-stone"
         metaImg="/quartz-stone/4735.jpg"
       />
       <Hero
@@ -639,7 +639,7 @@ const QuartzStone = () => {
       <SectionWarranty />
 
       <SectionWrapper>
-        <SectionContact stone="Quartz Stone" />
+        <SectionContact stone="Quartz Stone" href="/contact/quartz-stone" />
       </SectionWrapper>
 
       <Container maxWidth="lg" sx={{ mt: 10 }}>

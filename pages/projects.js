@@ -11,7 +11,7 @@ const Project = () => {
       <MetaSEO
         pageTitle="Project"
         pageDesc="We completed the following residential and commercial project with quartz stone, sintered stone, granite, marble and other stone."
-        pagePath="project"
+        pagePath="/project"
         metaImg="/project/hero.png"
       />
       <Hero
@@ -336,7 +336,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/1.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Marble Flooring"
               width={800}
               height={600}
             />
@@ -345,7 +345,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/2.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Marble Flooring"
               width={800}
               height={600}
             />
@@ -354,7 +354,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/3.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Marble Flooring"
               width={800}
               height={600}
             />
@@ -363,7 +363,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/4.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Marble Flooring"
               width={800}
               height={600}
             />
@@ -372,7 +372,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/5.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Marble Flooring"
               width={800}
               height={600}
             />
@@ -381,7 +381,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/6.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Marble Flooring"
               width={800}
               height={600}
             />
@@ -390,7 +390,7 @@ const Project = () => {
             <Image
               src="/project/crema-marfil/7.png"
               layout="responsive"
-              alt="volakas marble countertop"
+              alt="Sintered Coffee Table"
               width={800}
               height={600}
             />
@@ -403,6 +403,73 @@ const Project = () => {
           <Typography paragraph>
             Supply &amp; install marble Creme Marfil living hall flooring.
           </Typography>
+        </Container>
+        <hr />
+
+        <Grid container spacing={0.5} sx={{ mt: 5 }}>
+          <Grid item xs={12} md={4}>
+            <Image
+              src="/project/moca/coffee-table/1.jpg"
+              layout="responsive"
+              alt="Sintered Coffee Table"
+              width={800}
+              height={600}
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Image
+              src="/project/moca/coffee-table/2.jpg"
+              layout="responsive"
+              alt="Sintered Coffee Table"
+              width={800}
+              height={600}
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Image
+              src="/project/moca/coffee-table/3.jpg"
+              layout="responsive"
+              alt="Sintered Coffee Table"
+              width={800}
+              height={600}
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Image
+              src="/project/moca/coffee-table/4.jpg"
+              layout="responsive"
+              alt="Sintered Coffee Table"
+              width={800}
+              height={600}
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Image
+              src="/project/moca/coffee-table/5.jpg"
+              layout="responsive"
+              alt="Sintered Coffee Table"
+              width={800}
+              height={600}
+            />
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Image
+              src="/project/moca/coffee-table/6.jpg"
+              layout="responsive"
+              alt="Sintered Coffee Table"
+              width={800}
+              height={600}
+            />
+          </Grid>
+        </Grid>
+        <Container maxWidth="sm" sx={{ my: 5 }}>
+          <Typography fontWeight="bold" gutterBottom>
+            Work Description:
+          </Typography>
+          <Typography paragraph>
+            Supply &amp; install Moca Compact Stone as coffee table top.
+          </Typography>
+          <Typography>Supply the stainless steel table leg</Typography>
         </Container>
 
         <Container maxWidth="sm" sx={{ my: 5 }}>
@@ -418,6 +485,94 @@ const Project = () => {
         <SectionWrapper>
           <Heading2>Commercial Projects</Heading2>
 
+          <Grid container spacing={0.5}>
+            <Grid item xs={12} md={4}>
+              <Image
+                src="/project/cs/baskin-robin/1.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/2.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/3.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/4.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/5.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/6.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/7.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/cs/baskin-robin/8.jpg"
+                layout="responsive"
+                alt="caesarstone baskin robin countertop"
+                width={800}
+                height={600}
+              />
+            </Grid>
+          </Grid>
+          <Container maxWidth="sm" sx={{ my: 5 }}>
+            <Typography fontWeight="bold" gutterBottom>
+              Work Description:
+            </Typography>
+            <Typography paragraph>
+              Supply &amp; install Caesarstone Quartz Surface Ice Cream
+              Countertop
+            </Typography>
+            <Typography fontWeight="bold" gutterBottom>
+              Location:
+            </Typography>
+            <Typography paragraph>Baskin Robin Outlet</Typography>
+          </Container>
+          <hr />
           <Grid container spacing={0.5}>
             <Grid item xs={12} md={4}>
               <Image
@@ -580,7 +735,7 @@ const Project = () => {
               <Image
                 src="/project/volakas-marble/1.png"
                 layout="responsive"
-                alt="volakas marble countertop"
+                alt="Sintered Coffee Table"
                 width={800}
                 height={600}
               />
@@ -589,7 +744,7 @@ const Project = () => {
               <Image
                 src="/project/volakas-marble/2.png"
                 layout="responsive"
-                alt="volakas marble countertop"
+                alt="Sintered Coffee Table"
                 width={800}
                 height={600}
               />

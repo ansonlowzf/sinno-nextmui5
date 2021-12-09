@@ -22,7 +22,7 @@ const ZenstonePage = () => {
       <MetaSEO
         pageTitle="Zenstone Quartz Surface"
         pageDesc="The main distributor of Zenstone quartz surface. We fabricate, supply &amp; install Zenstone Kitchen Top"
-        pagePath="quartz-stone/zenstone"
+        pagePath="/quartz-stone/zenstone"
         metaImg="/zenstone/hero.jpg"
       />
       <Hero
@@ -61,7 +61,7 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading2>Colour &amp; Shades</Heading2>
+        <Heading2>Zenstone Colour &amp; Pricing</Heading2>
         <ZenstoneClassic />
         <ZenstonePremium />
         <ZenstoneNoble />
@@ -77,7 +77,7 @@ const ZenstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <SectionContact stone="Zenstone" />
+        <SectionContact stone="Zenstone" href="/contact/zenstone" />
       </SectionWrapper>
     </>
   );

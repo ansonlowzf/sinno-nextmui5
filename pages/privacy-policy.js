@@ -9,7 +9,7 @@ const Privacy = () => {
       <MetaSEO
         pageTitle="Privacy Policy"
         pageDesc="This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website."
-        pagePath="privacy-policy"
+        pagePath="/privacy-policy"
         metaImg="/privacy-policy.jpg"
       />
       <SectionWrapper>

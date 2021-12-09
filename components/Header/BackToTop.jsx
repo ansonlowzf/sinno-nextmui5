@@ -24,8 +24,8 @@ const BackToTop = ({ children }) => {
         sx={{
           position: "fixed",
           zIndex: 999,
-          bottom: { xs: 16, md: 48 },
-          right: { xs: 16, md: 48 },
+          bottom: { xs: 48, md: 48 },
+          right: { xs: 24, md: 48 },
         }}
       >
         {children}
