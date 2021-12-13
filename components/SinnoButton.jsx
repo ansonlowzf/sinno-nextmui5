@@ -1,5 +1,5 @@
 import { Grid, Button } from "@mui/material";
-import { MuiNextLink } from "../components";
+import { MuiNextLink } from "./MuiNextLink";
 
 export const SinnoButton = ({ linkUrl, btnText }) => {
   return (

@@ -1,6 +1,6 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import Image from "next/image";
-import { MuiNextLink } from ".";
+import { MuiNextLink } from "./MuiNextLink";
 
 const Post = ({ post }) => {
   return (
