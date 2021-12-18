@@ -13,6 +13,31 @@ import {
 } from "../../components";
 import { faqQuartzStone } from "../../const/faq";
 import { qsRoutes } from "../../const/nav-links";
+import ImageSwiper from "@components/ImageSwiper";
+
+const imagesLinks = [
+  {
+    imgSrc: "/defectqs/burnt-by-oil.jpg",
+    imgAlt: "quartz stone with oil burnt mark",
+  },
+  { imgSrc: "/defectqs/chemical.jpg", imgAlt: "discolouration by chemical" },
+  { imgSrc: "/defectqs/chip-off.jpg", imgAlt: "quartz stone chip off" },
+  {
+    imgSrc: "/defectqs/low-end-materials.jpg",
+    imgAlt: "quartz stone with low end materials",
+  },
+  { imgSrc: "/defectqs/scratches.jpg", imgAlt: "quartz stone with scratches" },
+  {
+    imgSrc: "/defectqs/discolouration.jpg",
+    imgAlt: "quartz stone discolouration",
+  },
+  { imgSrc: "/defectqs/stain.jpg", imgAlt: "quartz stone with stain" },
+  { imgSrc: "/defectqs/stain2.jpg", imgAlt: "quartz stone with stain" },
+  {
+    imgSrc: "/defectqs/burnt-mark.jpg",
+    imgAlt: "quartz stone with burnt mark",
+  },
+];
 
 const QuartzStone = () => {
   return (
@@ -163,91 +188,10 @@ const QuartzStone = () => {
           </Typography>
         </Container>
 
-        <Container maxWidth="lg">
-          <Grid container spacing={1}>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/burnt-by-oil.jpg"
-                alt="quartz stone with oil burnt mark"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/chemical.jpg"
-                alt="discolouration by chemical"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/chip-off.jpg"
-                alt="quartz stone chip off"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/low-end-materials.jpg"
-                alt="quartz stone with low end materials"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/scratches.jpg"
-                alt="quartz stone with scratches"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/discolouration.jpg"
-                alt="quartz stone discolouration"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/stain.jpg"
-                alt="quartz stone with stain"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/stain2.jpg"
-                alt="quartz stone with stain"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <Image
-                src="/defectqs/burnt-mark.jpg"
-                alt="quartz stone with burnt mark"
-                layout="responsive"
-                width={960}
-                height={720}
-              />
-            </Grid>
-          </Grid>
+        <Container maxWidth="md" sx={{ mb: 10 }}>
+          <ImageSwiper imageLinks={imagesLinks} />
         </Container>
+
         <Container maxWidth="sm" sx={{ mt: 5 }}>
           <Typography
             component="h3"
