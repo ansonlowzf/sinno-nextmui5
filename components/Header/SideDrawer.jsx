@@ -23,25 +23,30 @@ const SideDrawer = () => {
   const list = (anchor) => (
     <Box
       sx={{ width: 250, marginTop: `auto`, marginBottom: `auto` }}
-      role="presentation"
+      role="side navigation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      {mainRoutes.map(({ name, path }, i) => (
-        <Typography
-          variannt="button"
-          key={`${name}${i}`}
-          sx={{
-            ml: (theme) => theme.spacing(5),
-            my: (theme) => theme.spacing(2),
-            textTransform: `uppercase`,
-          }}
-        >
-          <MuiNextLink color="primary" underline="none" href={path}>
-            {name}
-          </MuiNextLink>
-        </Typography>
-      ))}
+      <MainList pageName="home" pageUrl="/" />
+
+      <MainList pageName="quartz stone" pageUrl="/quartz-stone" />
+      <SubList pageName="caesarstone" pageUrl="/quartz-stone/caesarstone" />
+      <SubList pageName="zenstone" pageUrl="/quartz-stone/zenstone" />
+
+      <MainList
+        pageName="sintered stone"
+        pageUrl="/sintered-stone/moca-compact"
+      />
+
+      <MainList pageName="granite" pageUrl="/granite" />
+
+      <MainList pageName="marble" pageUrl="/marble" />
+
+      <MainList pageName="projects" pageUrl="/projects" />
+
+      <MainList pageName="blog" pageUrl="/blog" />
+
+      <MainList pageName="contact us" pageUrl="/contact" />
     </Box>
   );
 
@@ -75,3 +80,35 @@ const SideDrawer = () => {
 };
 
 export default SideDrawer;
+
+const MainList = ({ pageName, pageUrl }) => {
+  return (
+    <Typography
+      variannt="button"
+      sx={{
+        ml: (theme) => theme.spacing(5),
+        my: (theme) => theme.spacing(3),
+        textTransform: `uppercase`,
+      }}
+    >
+      <MuiNextLink color="primary" underline="none" href={pageUrl}>
+        {pageName}
+      </MuiNextLink>
+    </Typography>
+  );
+};
+
+const SubList = ({ pageName, pageUrl }) => (
+  <Typography
+    variannt="button"
+    sx={{
+      ml: (theme) => theme.spacing(8),
+      my: (theme) => theme.spacing(3),
+      textTransform: `uppercase`,
+    }}
+  >
+    <MuiNextLink color="primary" underline="none" href={pageUrl}>
+      {pageName}
+    </MuiNextLink>
+  </Typography>
+);
