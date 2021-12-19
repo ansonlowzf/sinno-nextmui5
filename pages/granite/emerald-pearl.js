@@ -3,7 +3,7 @@ import ImageSwiper from "@components/ImageSwiper";
 import MetaSEO from "@components/MetaSEO";
 import { SectionContact } from "@components/SectionContact";
 import { SectionWrapper } from "@elements/Wrapper";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
 const imageLinks = [
@@ -31,18 +31,17 @@ const EmeraldPearl = () => {
         metaImg="/granite/colour/emerald-pearl.png"
       />
 
-      <Container maxWidth="md" sx={{ my: 10 }}>
-        <Grid container item justifyContent="center">
-          <Image
-            src="/granite/colour/emerald-pearl.png"
-            alt="granite emerald pearl"
-            width={620}
-            height={350}
-          />
-        </Grid>
-      </Container>
+      <Typography
+        variant="h1"
+        color="primary"
+        fontWeight="bold"
+        align="center"
+        sx={{ my: 5 }}
+      >
+        Emerald Pearl
+      </Typography>
 
-      <Container maxWidth="md" sx={{ mb: 10 }}>
+      <Container maxWidth="md" sx={{ my: 5 }}>
         <ImageSwiper imageLinks={imageLinks} />
       </Container>
 
@@ -54,6 +53,29 @@ const EmeraldPearl = () => {
         nextTo="/granite/black-galaxy"
         nextToStone="Black Galaxy"
       />
+
+      <Container maxWidth="md" sx={{ mb: 5 }}>
+        <Grid container item justifyContent="center">
+          <Image
+            src="/granite/colour/emerald-pearl.png"
+            alt="granite emerald pearl"
+            width={620}
+            height={350}
+          />
+          <Grid container item justifyContent="center" sx={{ my: 2 }}>
+            <Grid item xs={12} sm={6}>
+              <Typography component="p" variant="subtitle2" align="center">
+                Emerald Pearl
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              <Typography component="p" variant="subtitle2" align="center">
+                RM 250/FR or RM 135/SF
+              </Typography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Container>
 
       <SectionWrapper>
         <SectionContact stone="Granite" href="/contact/granite" />

@@ -1,11 +1,11 @@
+import DisplayStone from "@components/DisplayStone";
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
+import { MuiNextLink } from "@components/MuiNextLink";
 import { Heading3 } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import { ColourWarning, PriceTerm, SectionContact } from "../../components";
-import DisplayStone from "@components/DisplayStone";
-import { MuiNextLink } from "@components/MuiNextLink";
 
 const GranitePage = () => {
   return (
