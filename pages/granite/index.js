@@ -25,8 +25,10 @@ const GranitePage = () => {
 
       <Container maxWidth="lg" sx={{ my: { xs: 15, sm: 20 } }}>
         <Heading3>Granite Colour &amp; Pricing</Heading3>
-        <MuiNextLink href="/granite/black-galaxy" underline="none">
-          <Typography align="center">View Album</Typography>
+        <MuiNextLink href="/granite/black-galaxy">
+          <Typography component="p" variant="h5" align="center">
+            View Album
+          </Typography>
         </MuiNextLink>
       </Container>
 
