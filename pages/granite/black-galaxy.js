@@ -47,8 +47,10 @@ const BluePearl = () => {
       />
 
       <Container maxWidth="md" sx={{ mb: 5 }}>
-        Custom made, supply and install granite black galaxy for kitchen top
-        application.
+        <Typography component="h2" variant="h6" color="primary" align="center">
+          Custom made, supply and install granite black galaxy for kitchen top
+          application.
+        </Typography>
       </Container>
 
       <Container maxWidth="md" sx={{ mb: 5 }}>

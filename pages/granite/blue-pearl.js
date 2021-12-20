@@ -63,6 +63,13 @@ const BluePearl = () => {
       />
 
       <Container maxWidth="md" sx={{ mb: 5 }}>
+        <Typography component="h2" variant="h6" color="primary" align="center">
+          Custom made, supply and install granite blue pearl for kitchen top
+          application.
+        </Typography>
+      </Container>
+
+      <Container maxWidth="md" sx={{ mb: 5 }}>
         <Grid container item justifyContent="center">
           <Image
             src="/granite/colour/blue-pearl.png"
