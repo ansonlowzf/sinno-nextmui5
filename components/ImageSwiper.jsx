@@ -23,7 +23,7 @@ const ImageSwiper = ({ imageLinks }) => {
             alt={imgAlt}
             layout="responsive"
             width={800}
-            height={600}
+            height={450}
           />
         </SwiperSlide>
       ))}

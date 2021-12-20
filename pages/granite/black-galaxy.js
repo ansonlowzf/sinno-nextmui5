@@ -23,7 +23,37 @@ const BluePearl = () => {
         metaImg="/granite/colour/black-galaxy.png"
       />
 
-      <Container maxWidth="md" sx={{ my: 10 }}>
+      <Typography
+        variant="h1"
+        color="primary"
+        fontWeight="bold"
+        align="center"
+        sx={{ my: 5 }}
+      >
+        Black Galaxy
+      </Typography>
+
+      <Container maxWidth="md" sx={{ mb: 5 }}>
+        <ImageSwiper imageLinks={imageLinks} />
+      </Container>
+
+      <BackNextPanel
+        backTo="/granite/emerald-pearl"
+        backToStone="Emerald Pearl"
+        stoneMenuLink="/granite"
+        stoneMenu="granite"
+        nextTo="/granite/blue-pearl"
+        nextToStone="Blue Pearl"
+      />
+
+      <Container maxWidth="md" sx={{ mb: 5 }}>
+        <Typography component="h2" variant="h6" color="primary" align="center">
+          Custom made, supply and install granite black galaxy for kitchen top
+          application.
+        </Typography>
+      </Container>
+
+      <Container maxWidth="md" sx={{ mb: 5 }}>
         <Grid container item justifyContent="center">
           <Image
             src="/granite/colour/black-galaxy.png"
@@ -45,17 +75,6 @@ const BluePearl = () => {
           </Grid>
         </Grid>
       </Container>
-      <Container maxWidth="md" sx={{ mb: 10 }}>
-        <ImageSwiper imageLinks={imageLinks} />
-      </Container>
-      <BackNextPanel
-        backTo="/granite/emerald-pearl"
-        backToStone="Emerald Pearl"
-        stoneMenuLink="/granite"
-        stoneMenu="granite"
-        nextTo="/granite/blue-pearl"
-        nextToStone="Blue Pearl"
-      />
 
       <SectionWrapper>
         <SectionContact stone="Granite" href="/contact/granite" />
