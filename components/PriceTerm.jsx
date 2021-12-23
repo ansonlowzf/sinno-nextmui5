@@ -35,7 +35,7 @@ export const PriceTerm = () => {
           </li>
         </Typography>
         <Typography component="p" variant="h6">
-          {`Terms and Conditions: -`}
+          Terms and Conditions: -
         </Typography>
         <Typography component="ul">
           <li>Final quotation price is based on on-site measurement.</li>

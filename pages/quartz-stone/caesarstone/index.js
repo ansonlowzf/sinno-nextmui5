@@ -11,15 +11,14 @@ import {
   SubNavbar,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
-import CaesarstoneStandard from "@components/Caesarstone/Standard";
-import CaesarstoneStandardJumbo from "@components/Caesarstone/StandardJumbo";
-import CaesarstoneDeluxe from "@components/Caesarstone/Deluxe";
-import CaesarstoneDeluxeJumbo from "@components/Caesarstone/DeluxeJumbo";
-import CaesarstonePremium from "@components/Caesarstone/Premium";
-import CaesarstoneSupernatural from "@components/Caesarstone/Supernatural";
-import CaesarstoneSupernaturalJumbo from "@components/Caesarstone/SupernaturalJumbo";
-import CaesarstoneSupernaturalUltra from "@components/Caesarstone/SupernaturalUltra";
-import CaesarstoneSupernaturalUltraJumbo from "@components/Caesarstone/SupernaturalUltraJumbo";
+import Standard from "@components/Caesarstone/Standard";
+import Deluxe from "@components/Caesarstone/Deluxe";
+import Premium from "@components/Caesarstone/Premium";
+import Supernatural from "@components/Caesarstone/Supernatural";
+import SupernaturalJumbo from "@components/Caesarstone/SupernaturalJumbo";
+import SupernaturalPremium from "@components/Caesarstone/SupernaturalPremium";
+import SupernaturalPremiumJumbo from "@components/Caesarstone/SupernaturalPremiumJumbo";
+import Outdoor from "@components/Caesarstone/Outdoor";
 
 const CaesarstonePage = () => {
   return (
@@ -36,9 +35,7 @@ const CaesarstonePage = () => {
         title="Caesarstone Malaysia"
         subtitle="Caesarstone Quartz Surface Kitchen Top"
       />
-
       <SubNavbar routes={qsRoutes} />
-
       <SectionWrapper>
         <Grid
           container
@@ -69,7 +66,6 @@ const CaesarstonePage = () => {
           </Typography>
         </TextWrapper>
       </SectionWrapper>
-
       <SectionWrapper>
         <Heading3>The Vendor Website</Heading3>
         <TextWrapper>
@@ -101,36 +97,30 @@ const CaesarstonePage = () => {
             {`If you happen to visit Caesarstone US and Caesarstone Australia's website, which contains the full range of colour options, please ignore and refer to this web page when you're choosing the colour.`}
           </Typography>
           <Typography>
-            Again, to avoid choosing the not available colour and for more
-            Caesarstone information, we highly recommend you visit the
-            Caesarstone Singapore website, where the information and colour
-            range is simultaneous.
+            Again, to avoid choosing the not available colour in Malaysia,
+            different naming or for more Caesarstone information, we highly
+            recommend you visit the Caesarstone Singapore website, where the
+            information, naming and colour range is simultaneous.
           </Typography>
         </TextWrapper>
       </SectionWrapper>
-
-      <SectionWrapper>
-        <Heading3>Caesarstone Colour &amp; Pricing</Heading3>
-        <TextWrapper>
-          <Typography align="center" sx={{ mb: 5 }}>
-            The price shown below is for all the 32 Caesarstone colours
-            available in Malaysia in 20mm thick. 13mm is also available for a
-            10% lower price.
-          </Typography>
-        </TextWrapper>
-        <Container maxWidth="lg">
-          <CaesarstoneStandard />
-          <CaesarstoneStandardJumbo />
-          <CaesarstoneDeluxe />
-          <CaesarstoneDeluxeJumbo />
-          <CaesarstonePremium />
-          <CaesarstoneSupernatural />
-          <CaesarstoneSupernaturalJumbo />
-          <CaesarstoneSupernaturalUltra />
-          <CaesarstoneSupernaturalUltraJumbo />
-        </Container>
-      </SectionWrapper>
-
+      <Heading3>Caesarstone Colour &amp; Pricing</Heading3>
+      <TextWrapper>
+        <Typography align="center" sx={{ mb: 2 }}>
+          The price below all the Caesarstone colours available in Malaysia in
+          20mm thick. 13mm is also available for a 10% lower price.
+        </Typography>
+      </TextWrapper>
+      <Container maxWidth="lg">
+        <Standard />
+        <Deluxe />
+        <Premium />
+        <Supernatural />
+        <SupernaturalJumbo />
+        <SupernaturalPremium />
+        <SupernaturalPremiumJumbo />
+        <Outdoor />
+      </Container>
       <SectionWrapper>
         <ColourWarning />
       </SectionWrapper>
