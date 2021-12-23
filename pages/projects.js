@@ -484,6 +484,169 @@ const Project = () => {
       <Container maxWidth="lg" sx={{ mt: 15 }}>
         <SectionWrapper>
           <Heading2>Commercial Projects</Heading2>
+          <Grid container spacing={0.5}>
+            <Grid item xs={12} md={4}>
+              <Image
+                src="/project/lavendar/cs/1.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/2.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/5.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/6.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/7.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/9.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/10.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/cs/12.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <Image
+                src="/project/lavendar/zs/13.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/14.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/15.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/16.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/17.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/18.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/19.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+            <Grid item xs={12} lg={4}>
+              <Image
+                src="/project/lavendar/zs/21.jpg"
+                layout="responsive"
+                alt="Caesarstone Countertop Lavendar Bakery"
+                width={800}
+                height={600}
+              />
+            </Grid>
+          </Grid>
+          <Container maxWidth="sm" sx={{ my: 5 }}>
+            <Typography fontWeight="bold" gutterBottom>
+              Work Description:
+            </Typography>
+            <Typography paragraph>
+              Supply &amp; install Caesarstone Oyster &amp; Zenstone Fabricator
+              White Quartz Surface Bakery Countertop, Pantry Top, Cashier Top,
+              Vanity Top &amp; Worktop
+            </Typography>
+            <Typography fontWeight="bold" gutterBottom>
+              Location:
+            </Typography>
+            <Typography paragraph>
+              Lavendar Bakery Pavilion Bukit Jalil
+            </Typography>
+          </Container>
+          <hr />
 
           <Grid container spacing={0.5}>
             <Grid item xs={12} md={4}>
@@ -564,8 +727,8 @@ const Project = () => {
               Work Description:
             </Typography>
             <Typography paragraph>
-              Supply &amp; install Caesarstone Quartz Surface Ice Cream
-              Countertop
+              Supply &amp; install Caesarstone Raw Concrete Quartz Surface Ice
+              Cream &amp; Cashier Countertop
             </Typography>
             <Typography fontWeight="bold" gutterBottom>
               Location:
@@ -634,7 +797,7 @@ const Project = () => {
               Work Description:
             </Typography>
             <Typography paragraph>
-              Supply &amp; install Zenstone quartz surfaces Smoothie White long
+              Supply &amp; install Zenstone Smoothie White quartz surfaces long
               dining &amp; round dining table top. (client supply the table
               legs)
             </Typography>
@@ -687,7 +850,7 @@ const Project = () => {
               Work Description:
             </Typography>
             <Typography paragraph>
-              Supply &amp; install Zenstone quartz surfaces Smoothie White
+              Supply &amp; install Zenstone Smoothie White quartz surfaces
               counter, saucer and cashier top.
             </Typography>
             <Typography paragraph>
@@ -724,7 +887,7 @@ const Project = () => {
               Work Description:
             </Typography>
             <Typography paragraph>
-              Supply &amp; install Caesarstone quartz surface Oyster security
+              Supply &amp; install Caesarstone Oyster quartz surface security
               countertop.
             </Typography>
           </Container>
@@ -755,7 +918,7 @@ const Project = () => {
               Work Description:
             </Typography>
             <Typography paragraph>
-              Supply &amp; install Volakas marble reception countertop. (Not
+              Supply &amp; install marble Volakas reception countertop. (Not
               recommend, client accept the disadvantages of the marble to
               exchange of the beauty.)
             </Typography>
