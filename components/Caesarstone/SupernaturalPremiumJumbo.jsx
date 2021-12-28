@@ -12,12 +12,12 @@ const SupernaturalPremiumJumbo = () => {
 
       <Grid container spacing={1} justifyContent="center">
         <DisplayStone
-          imgSrc="/caesarstone/cs/4735.png"
+          imgSrc="/caesarstone/4735.jpg"
           stoneName="4735 Oxidian (Natural)"
           price={supernaturalUltraJumbo}
         />
         <DisplayStone
-          imgSrc="/caesarstone/cs/5151.png"
+          imgSrc="/caesarstone/5151.jpg"
           stoneName="5151 Empira White (Polished)"
           price={supernaturalUltraJumbo}
         />
