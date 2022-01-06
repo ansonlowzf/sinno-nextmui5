@@ -1,8 +1,9 @@
 import Hero from "@components/Hero";
+import ImageSwiper from "@components/ImageSwiper";
 import MetaSEO from "@components/MetaSEO";
 import { Heading3 } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import Image from "next/image";
 import {
   FaqAccordion,
@@ -13,7 +14,6 @@ import {
 } from "../../components";
 import { faqQuartzStone } from "../../const/faq";
 import { qsRoutes } from "../../const/nav-links";
-import ImageSwiper from "@components/ImageSwiper";
 
 const imagesLinks = [
   {
@@ -43,8 +43,8 @@ const QuartzStone = () => {
   return (
     <>
       <MetaSEO
-        pageTitle="Quartz Stone"
-        pageDesc="We fabricate, supply &amp; install Caesarstone &amp; Zenstone Quartz Surfaces' countertops."
+        pageTitle="Quartz Stone Malaysia"
+        pageDesc="We distribute, fabricate, supply &amp; install all kinds of quartz stone kitchen top, vanity top, tabletop, benchtop or countertop."
         pagePath="/quartz-stone"
         metaImg="/quartz-stone/4735.jpg"
       />

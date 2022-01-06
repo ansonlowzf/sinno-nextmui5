@@ -16,7 +16,7 @@ const ZenstoneNoble = () => {
           price={noble}
         />
         <ZenstoneDisplay
-          imgSrc="/zenstone/qs/Q202032.png"
+          imgSrc="/zenstone/qs/Q202032.jpg"
           stoneName="Pure Grey"
           price={noble}
         />
