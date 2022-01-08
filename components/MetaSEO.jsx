@@ -4,7 +4,7 @@ const MetaSEO = ({ pageTitle, pageDesc, pagePath, metaImg }) => {
   return (
     <Head>
       <title>{pageTitle} | Stone Innovations Enterprise</title>
-      <meta name="description" content={pageDesc} />
+      <meta name="description" content={pageDesc} key="desc" />
       <meta property="og:type" content="website" />
       <meta
         name="og:title"
