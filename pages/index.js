@@ -17,104 +17,100 @@ const Homepage = () => {
         pagePath="/home"
         metaImg="/home/hero.jpg"
       />
-      <SectionWrapper>
-        <Hero
-          imgSrc="/image-home/hero.jpg"
-          imgAlt="factory entrance"
-          title="Stone Innovations Enterprise"
-          subtitle="Specializing in Stone Surfacing Products"
-        />
-      </SectionWrapper>
+      <Hero
+        imgSrc="/image-home/hero.jpg"
+        imgAlt="factory entrance"
+        title="Stone Innovations Enterprise"
+        subtitle="Specializing in Stone Surfacing Products"
+      />
 
-      <SectionWrapper>
-        <Container>
-          <Heading2>What Is A Stone Surfacing Specialist?</Heading2>
-          <TextWrapper>
-            <Typography
-              component="p"
-              variant="h6"
-              textAlign="center"
-              sx={{ mb: 2.5 }}
-            >
-              Mountain Quarry &gt; Stone Block &gt; Natural Stone Slab
-            </Typography>
-          </TextWrapper>
-
-          <Image
-            src="/image-home/marble-block.jpg"
-            alt="marble block"
-            layout="responsive"
-            width={960}
-            height={540}
-          />
-          <TextWrapper>
-            <Typography gutterBottom sx={{ my: 5 }}>
-              For natural stone, the quarry factory mine from a stone mountain
-              and cut to a stone block. They either sell the stone block or cut
-              it again and sell it as an 11mm - 30mm stone slab.
-            </Typography>
-          </TextWrapper>
+      <Container>
+        <Heading2>What Is A Stone Surfacing Specialist?</Heading2>
+        <TextWrapper>
           <Typography
             component="p"
             variant="h6"
             textAlign="center"
             sx={{ mb: 2.5 }}
           >
-            Minerals + Ingredients &gt; Manufactory &gt; Engineered Stone Slab
+            Mountain Quarry &gt; Stone Block &gt; Natural Stone Slab
           </Typography>
-          <Image
-            src="/image-home/stone-manufactory.jpg"
-            alt="stone manufactory"
-            layout="responsive"
-            width={960}
-            height={540}
-          />
-          <Typography
-            component="p"
-            variant="h6"
-            textAlign="center"
-            sx={{ mt: 5, mb: 2.5 }}
-          >
-            The typical size of the engineered stone slab
+        </TextWrapper>
+
+        <Image
+          src="/image-home/marble-block.jpg"
+          alt="marble block"
+          layout="responsive"
+          width={960}
+          height={540}
+        />
+        <TextWrapper>
+          <Typography gutterBottom sx={{ my: 5 }}>
+            For natural stone, the quarry factory mine from a stone mountain and
+            cut to a stone block. They either sell the stone block or cut it
+            again and sell it as an 11mm - 30mm stone slab.
           </Typography>
-          <Image
-            src="/image-home/stone-surfacing.jpg"
-            alt="stone surfacing"
-            layout="responsive"
-            width={960}
-            height={540}
-          />
-          <TextWrapper>
-            <Typography sx={{ my: 5 }}>
-              Stone Surfacing Specialist is a fabrication company which take the
-              stone slab then cut, polish, edging, detailing and turn into stone
-              surfacing products such as:-
-            </Typography>
-          </TextWrapper>
-          <Typography
-            component="ol"
-            sx={{ width: `fit-content`, marginInline: `auto` }}
-          >
-            <li>Kitchen Top</li>
-            <li>Island Top</li>
-            <li>Vanity Top</li>
-            <li>Pantry Top</li>
-            <li>Kitchen Shelves</li>
-            <li>Backsplash</li>
-            <li>TV Cabinet Wall Cladding</li>
-            <li>TV Cabinet Top</li>
-            <li>Bar Countertop</li>
-            <li>Breakfast Countertop</li>
-            <li>Custom Made Dining Table Top</li>
-            <li>Custom Made Coffee Table Top</li>
-            <li>Custom Made Side Table Top</li>
-            <li>Cashier Countertop</li>
-            <li>Sauces Countertop</li>
-            <li>Wall Cladding</li>
-            <li>Other Top &amp; Cladding Purposes</li>
+        </TextWrapper>
+        <Typography
+          component="p"
+          variant="h6"
+          textAlign="center"
+          sx={{ mb: 2.5 }}
+        >
+          Minerals + Ingredients &gt; Manufactory &gt; Engineered Stone Slab
+        </Typography>
+        <Image
+          src="/image-home/stone-manufactory.jpg"
+          alt="stone manufactory"
+          layout="responsive"
+          width={960}
+          height={540}
+        />
+        <Typography
+          component="p"
+          variant="h6"
+          textAlign="center"
+          sx={{ mt: 5, mb: 2.5 }}
+        >
+          The typical size of the engineered stone slab
+        </Typography>
+        <Image
+          src="/image-home/stone-surfacing.jpg"
+          alt="stone surfacing"
+          layout="responsive"
+          width={960}
+          height={540}
+        />
+        <TextWrapper>
+          <Typography sx={{ my: 5 }}>
+            Stone Surfacing Specialist is a fabrication company which take the
+            stone slab then cut, polish, edging, detailing and turn into stone
+            surfacing products such as:-
           </Typography>
-        </Container>
-      </SectionWrapper>
+        </TextWrapper>
+        <Typography
+          component="ol"
+          sx={{ width: `fit-content`, marginInline: `auto` }}
+        >
+          <li>Kitchen Top</li>
+          <li>Island Top</li>
+          <li>Vanity Top</li>
+          <li>Pantry Top</li>
+          <li>Kitchen Shelves</li>
+          <li>Backsplash</li>
+          <li>TV Cabinet Wall Cladding</li>
+          <li>TV Cabinet Top</li>
+          <li>Bar Countertop</li>
+          <li>Breakfast Countertop</li>
+          <li>Custom Made Dining Table Top</li>
+          <li>Custom Made Coffee Table Top</li>
+          <li>Custom Made Side Table Top</li>
+          <li>Cashier Countertop</li>
+          <li>Sauces Countertop</li>
+          <li>Wall Cladding</li>
+          <li>Other Top &amp; Cladding Purposes</li>
+        </Typography>
+      </Container>
 
       <SectionWrapper>
         <Container>

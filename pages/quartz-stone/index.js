@@ -55,10 +55,9 @@ const QuartzStone = () => {
         title="Quartz Stone Countertop Malaysia"
         subtitle="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
       />
-
       <SubNavbar routes={qsRoutes} />
 
-      <SectionWrapper styles={{ mt: { xs: 5, sm: 10, md: 15, lg: 20 } }}>
+      <SectionWrapper>
         <Container maxWidth="sm">
           <Typography paragraph>
             If you already know about the quartz stone and are looking for our
@@ -96,7 +95,7 @@ const QuartzStone = () => {
           <ArticleHeading2>Firstly, What is Quartz Stone?</ArticleHeading2>
           <Typography
             paragraph
-          >{`To be accurate, we shall call it quartz surface. In Malaysia, we often use the term "quartz stone". Hence, we'll also use the same word in this article.`}</Typography>
+          >{`To be accurate, we shall call it quartz surface. In Malaysia, we often use the term "quartz stone". Hence, we'll also use the same word for this article.`}</Typography>
           <Typography paragraph>
             Depending on the design composition, quartz stone is an engineered
             stone made with quartz, polymeric, crushed marble, ceramic, silica,
@@ -220,10 +219,7 @@ const QuartzStone = () => {
             In other words, quartz stone is 99.95% water cannot penetrate the
             surface.
           </Typography>
-          <Typography paragraph>
-            The result is less than 0.05% and less than 0.049%. What does it
-            mean?
-          </Typography>
+
           <Typography paragraph>
             If water has difficulty, go in the surface, not to mention curry
             powder, turmeric powder, coffee powder, chilli sauce, curry sauce,
@@ -526,11 +522,60 @@ const QuartzStone = () => {
           </Typography>
 
           <ArticleHeading3>Crack and Chip-off Resistance</ArticleHeading3>
+          <Typography paragraph>
+            One of the key ingredients in quartz stone is{" "}
+            <MuiNextLink href="https://en.wikipedia.org/wiki/Resin">
+              resin
+            </MuiNextLink>{" "}
+            - a highly viscous plant substance used to bond quartz stone
+            ingredients.{" "}
+          </Typography>
+          <Typography paragraph>
+            It makes quartz stone a hard material while maintaining some
+            flexibility.
+          </Typography>
+          <Typography paragraph>
+            This flexibility is needed to fight against thermal expansion to
+            avoid cracking.
+          </Typography>
+          <Typography paragraph>
+            And also, because of the resin, quartz stone rarely chip-off.
+          </Typography>
+          <Typography paragraph>
+            However, the resin also brings a disadvantage to quartz stone.
+          </Typography>
+
+          <ArticleHeading2>The Quartz Stone Disadvantage</ArticleHeading2>
+          <Typography paragraph>
+            Yep, quartz stone is not a perfect stone. Every type of stone has
+            its advantages and disadvantages.
+          </Typography>
+          <Typography paragraph>
+            Quartz stone is not suitable for outdoor usage especially exposed to
+            direct sunlight. The UV ray of the sun affect the resin and slowly
+            cause discolouration.
+          </Typography>
+          <Typography
+            paragraph
+          >{`Based on our test, we installed a quartz stone countertop on one of our staff's apartments next to the window without a blind in the year 2016. The countertop exposes to evening sunlight.`}</Typography>
+          <Typography paragraph></Typography>
 
           <ArticleHeading2>Conclusion</ArticleHeading2>
           <Typography paragraph>
-            The benefits of quartz stone make it a virtually worry-free surface.
+            The benefits of quartz stone make it a virtually worry-free surface,
+            especially for indoor countertop applications.
           </Typography>
+          <Typography paragraph>
+            No need to pay extra attention to take care of and maintain it.
+          </Typography>
+
+          <ArticleHeading2>Who Are We?</ArticleHeading2>
+          <Typography paragraph>
+            Stone Innovations Enterprise is a stonemason company specialising in
+            quartz stone countertops.
+          </Typography>
+
+          <ArticleHeading2></ArticleHeading2>
         </Container>
 
         <Container maxWidth="sm">
@@ -544,26 +589,26 @@ const QuartzStone = () => {
             Quartz Stone Applications?
           </Typography>
           <Typography paragraph>
-            {`Quartz stone's advantages make it a perfect indoor kitchen top solution.`}
+            {`Although, we only talk about countertop in the article. With Quartz
+            stone advantages mentioned above, it's also well suited to be custom
+            made as:-`}
           </Typography>
-          <Typography paragraph>Quartz stone is suitable for:</Typography>
           <Typography component="ol" paragraph>
-            <li>Kitchen Top</li>
-            <li>Island Top</li>
             <li>Vanity Top</li>
-            <li>Pantry Top</li>
+            <li>Kitchen Backsplash</li>
             <li>Kitchen Shelves</li>
-            <li>Backsplash</li>
+            <li>Pantry Top</li>
             <li>TV Cabinet Wall Cladding</li>
             <li>TV Cabinet Top</li>
             <li>Bar Countertop</li>
             <li>Breakfast Countertop</li>
-            <li>Custom Made Dining Table Top</li>
-            <li>Custom Made Coffee Table Top</li>
-            <li>Custom Made Side Table Top</li>
+            <li>Dining Table Top</li>
+            <li>Coffee Table Top</li>
+            <li>Side Table Top</li>
             <li>Cashier Countertop</li>
             <li>Sauces Countertop</li>
             <li>Wall Cladding</li>
+            <li>Flooring</li>
             <li>Other Top &amp; Cladding Purposes</li>
           </Typography>
         </Container>
