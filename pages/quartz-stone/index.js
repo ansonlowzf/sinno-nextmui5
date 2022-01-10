@@ -75,27 +75,18 @@ const QuartzStone = () => {
             </li>
           </Typography>
           <Typography paragraph>
-            If you are unsure whether quartz stone is suitable for your kitchen
-            application or looking for more in-depth information about quartz
-            stone countertops.
+            If you are unsure whether quartz stone is suitable for countertops
+            or looking for more in-depth information.
           </Typography>
           <Typography paragraph>
-            This article can definitely help you understand genuine quartz
-            stones advantages for your countertop.
+            This article can help you understand the genuine quartz stone and
+            its advantages for countertops.
           </Typography>
-          <Typography paragraph>
-            Genuine quartz stone? Quartz stone got different quality?
-          </Typography>
-          <Typography paragraph>
-            {`If you would like to find out, we recommend reading this article. [Quartz Stone Chaos Market]`}
-          </Typography>
+
+          <ArticleHeading2>First, What is Quartz Stone?</ArticleHeading2>
           <Typography
             paragraph
-          >{`Let's focus on the main topic today- a custom-made quartz stone countertop.`}</Typography>
-          <ArticleHeading2>Firstly, What is Quartz Stone?</ArticleHeading2>
-          <Typography
-            paragraph
-          >{`To be accurate, we shall call it quartz surface. In Malaysia, we often use the term "quartz stone". Hence, we'll also use the same word for this article.`}</Typography>
+          >{`To be accurate, we shall call it quartz surface. In Malaysia, we often use the term "quartz stone". We'll use the same word for this article.`}</Typography>
           <Typography paragraph>
             Depending on the design composition, quartz stone is an engineered
             stone made with quartz, polymeric, crushed marble, ceramic, silica,
@@ -120,19 +111,21 @@ const QuartzStone = () => {
             width={800}
             height={450}
           />
-          <Typography
-            paragraph
-            sx={{ mt: 2 }}
-          >{`It's a horizontal surface built for work in the kitchen or a flat surface for food preparation.`}</Typography>
-          <Typography paragraph>
-            If you want to know more details, you could read the{" "}
-            <MuiNextLink href="https://en.wikipedia.org/wiki/Countertop">
-              Wikipedia - Countertop article.
+          <Typography paragraph sx={{ mt: 2 }}>
+            <MuiNextLink
+              href="https://en.wikipedia.org/wiki/Countertop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The countertop
             </MuiNextLink>
+            {` `}is a horizontal surface built for work in the kitchen or a flat
+            surface for food preparation.
           </Typography>
+
           <Typography
             paragraph
-          >{`A gentle reminder, we'll use the term "countertop" across the article. It refers to the kitchen and island top - a flat surface top for cooking and food preparation.`}</Typography>
+          >{`A gentle reminder, we'll use the term "countertop" across the article.`}</Typography>
           <ArticleHeading2>
             What Is The World Best Countertop be like?
           </ArticleHeading2>
@@ -147,16 +140,14 @@ const QuartzStone = () => {
           </Typography>
           <Typography
             paragraph
-          >{`Hey~ We go too far. Let's back to reality.`}</Typography>
+          >{`Ops~ We go too far. Let's back to reality.`}</Typography>
           <Typography
             paragraph
           >{`We humans can't manufacture and fabricate such stone material, especially with current technology.`}</Typography>
           <Typography
             paragraph
           >{`If we could invent it, will be for the planet Mars migration purposes first.`}</Typography>
-          <Typography
-            paragraph
-          >{`Enough~ Sorry about the cold jokes`}</Typography>
+          <Typography paragraph>{`Enough cold jokes`}</Typography>
           <ArticleHeading2>
             So, Is Quartz Stone The Best Option?
           </ArticleHeading2>
@@ -166,10 +157,8 @@ const QuartzStone = () => {
           </Typography>
           <Typography
             paragraph
-          >{`Indoor countertop only? Yes, one of the essential materials in quartz stone makes it unsuitable for outdoor application. We'll discuss it later.`}</Typography>
-          <Typography
-            paragraph
-          >{`Let's see the quartz stone features and why it is the best option for a countertop.`}</Typography>
+          >{`How about the outdoor application like BBQ pits and an open roof wet kitchen?`}</Typography>
+          <Typography paragraph>{`We'll discuss it later.`}</Typography>
           <ArticleHeading2>
             The Most Important Feature Of Quartz Stone
           </ArticleHeading2>
@@ -183,11 +172,14 @@ const QuartzStone = () => {
             height={600}
           />
           <Typography paragraph sx={{ mt: 2 }}>
-            Full of tiny hole ya?
+            See the tiny hole?
           </Typography>
           <Typography
             paragraph
-          >{`The stone surface also has tiny holes similar to the orange skin. We called this cannot be seen by human eyes' hole - porous.`}</Typography>
+          >{`The stone surface also has tiny holes like this. We called this cannot be seen by human eyes' hole - porous.`}</Typography>
+          <ArticleHeading3>
+            How To Determine Quartz Stone Is A Non-porous Material?
+          </ArticleHeading3>
           <Typography paragraph>
             {`According to our manufacturers' test report (technical sheet),`}
           </Typography>
@@ -226,10 +218,6 @@ const QuartzStone = () => {
             red wine, etc.
           </Typography>
           <Typography paragraph>
-            This result determines quartz stone is a{" "}
-            <strong>non-porous material</strong>.
-          </Typography>
-          <Typography paragraph>
             {`What if we leave the foods and drinks on the quartz stone's surface
             for a long time, said 30 days?`}
           </Typography>
@@ -237,12 +225,12 @@ const QuartzStone = () => {
             {`Yep, there is a 0.05% rate and that causes a permanent stain.`}
           </Typography>
           <Typography paragraph>
-            {`How about leaving turmeric for 7 days? Said turmeric. We can still remove the turmeric's stain based on our in-house test, but it's hard, take time and also requires a special cleaning method to remove it.`}
+            {`How about leaving turmeric for 7 days? We can still remove the turmeric's stain based on our in-house test.`}
           </Typography>
+          <Typography paragraph>{`Let's watch a video,`}</Typography>
           <Typography
             paragraph
-          >{`We use a highlight pen and a permanent marker to simulate the stain in this video. Frankly speaking, the permanent marker (the boss) is hard to clean. It takes time, but we clean it with the CIF cleaning foam.`}</Typography>
-          <Typography paragraph>{`Let's watch and see yourself,`}</Typography>
+          >{`We use a highlight pen and a permanent marker to simulate the stain. Frankly speaking, the permanent marker (the stain's boss like turmeric) is hard to clean. It takes time, but we clean it with the CIF cleaning foam.`}</Typography>
           <Box
             component="iframe"
             title="test quartz stone stain resistance"
@@ -265,19 +253,31 @@ const QuartzStone = () => {
             Non-porous is an essential feature of quartz stone. It solves many
             hygiene issues.
           </Typography>
-          <Typography
-            paragraph
-          >{`Bacteria need space & moisture to grow a colony. Water is hard to penetrate the quartz stone's porous, not to mention bacteria. No room for bacteria and its best friend mildew to grow. `}</Typography>
           <Typography paragraph>
-            {`That's why quartz stone is a`}{" "}
-            <strong>bacteria-resistance</strong> &amp;{" "}
-            <strong>mildew-resistance</strong> material thanks to its non-porous
-            feature.
+            {`Bacteria need space & moisture to grow a colony. Water is hard to penetrate the quartz stone's porous, not to mention bacteria. There is no room for bacteria and mildew to grow`}{" "}
+            - <strong>bacteria resistance</strong> &amp; mildew resistance
+            <strong>mildew resistance</strong>.
           </Typography>
+
           <ArticleHeading3>Safe For Food Preparation</ArticleHeading3>
           <Typography
             paragraph
-          >{`You can knead the pizza dough and bread on the surface directly without worrying about bacteria, mildew, and other harmful germs. They can't grow, as mentioned above.`}</Typography>
+          >{`You can knead the pizza dough and bread on the surface directly without worrying about bacteria, mildew, and other harmful germs.`}</Typography>
+          <Typography
+            paragraph
+          >{`The dough and powder also can't go inside the porous.`}</Typography>
+          <Typography paragraph>
+            Quartz stone is{" "}
+            <MuiNextLink
+              href="https://www.nsf.org/knowledge-library/nsf-ansi-51-and-nsf-ansi-61-product-certifications-for-food-and-drinking-wa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NSF 51 certified
+            </MuiNextLink>{" "}
+            and well suited for food preparation.
+          </Typography>
+
           <ArticleHeading3>Not Damage By Acidic Foods</ArticleHeading3>
           <Typography paragraph>
             Acidic foods such as lemon juice or lime juice do not affect or dim
@@ -287,12 +287,13 @@ const QuartzStone = () => {
           <ArticleHeading3>Easy Cleaning</ArticleHeading3>
           <Typography
             paragraph
-          >{`A home chef biggest problem is the sticky oil. It's hard to clean it. The home chef often needs to wipe the entire surface a few times to get rip-off the sticky oil.`}</Typography>
+          >{`The most annoying thing in the kitchen is the sticky oil. It's hard to clean it. The home chef often needs to wipe the entire surface a few times to clean the sticky oil.`}</Typography>
           <Typography paragraph>
             The quartz stone non-porous feature makes the stubborn oil have no
             supporting point to grip. Hence, the sticky oil can be cleaned with
             ease.
           </Typography>
+
           <ArticleHeading3>Low Maintenance</ArticleHeading3>
           <Typography paragraph>
             You will not have feelings about maintenance issues if you have not
@@ -303,7 +304,7 @@ const QuartzStone = () => {
             sealants to maintain lustre, extend the lifetime of its beautiful
             surface and increase its stain resistance level every few years.
           </Typography>
-          <Typography paragraph>How about quartz stone?</Typography>
+          <Typography paragraph>How about quartz stone maintenance?</Typography>
           <Typography
             paragraph
           >{`Quartz stone is polished surface as it is, no need to apply sealant and extra maintenance.`}</Typography>
@@ -328,10 +329,10 @@ const QuartzStone = () => {
           >{`Let's make it simple by focusing on the boiling water test only. The test report indicates "no effect". What does it mean?`}</Typography>
           <Typography
             paragraph
-          >{`We need 100°C heat to boil the water. The test report said it 100°C caused "no effect" on the quartz stone.`}</Typography>
+          >{`We need 100°C heat to boil the water. It means 100°C caused "no effect" on the quartz stone.`}</Typography>
           <Typography
             paragraph
-          >{`Let's see one of our video tests:-`}</Typography>
+          >{`Let's see one of our video tests,`}</Typography>
           <Box
             component="iframe"
             title="test quartz stone heat resistance"
@@ -344,7 +345,7 @@ const QuartzStone = () => {
           <ArticleHeading3>How About Extreme Heat?</ArticleHeading3>
           <Typography
             paragraph
-          >{`We don't have the equipment to get the extreme heat. But, we found a YouTube guy who tested the heat on quartz stone from 200°C to 600°C.`}</Typography>
+          >{`We don't have the equipment to get the extreme heat. But, we found a stonemason from YouTube who tested the heat on quartz stone from 200°C to 600°C.`}</Typography>
           <Typography paragraph>{`Let's watch it,`}</Typography>
           <Box
             component="iframe"
@@ -356,18 +357,16 @@ const QuartzStone = () => {
             sx={{ position: `relative`, width: `100%`, height: 300, mb: 2 }}
           />
           <Typography paragraph>
-            What surprised us is he tested on one of the popular colours similar
-            to our Zenstone Quartz Surface White Mirror.
+            What surprised us is he tested on one of our popular colours -
+            Zenstone Quartz Surface White Mirror.
           </Typography>
           <Typography paragraph>
             The video shows that quartz stone can resist heat over 150°C.
             However, we DO NOT encourage putting hot cookware on the quartz
             stone countertop top without a trivet.
           </Typography>
-          <ArticleHeading2>{`Let's Torture Quartz Stone`}</ArticleHeading2>
-          <Typography
-            paragraph
-          >{`Let's watch how we torture in the video`}</Typography>
+          <ArticleHeading2>{`Torture The Quartz Stone`}</ArticleHeading2>
+          <Typography paragraph>{`Let's watch how we torture it,`}</Typography>
           <Box
             component="iframe"
             title="test quartz stone scratch resistance"
@@ -379,10 +378,10 @@ const QuartzStone = () => {
           />
           <Typography
             paragraph
-          >{`As shown in the video, why can't we scratch the quartz stone with a heavy cutter?`}</Typography>
+          >{`Why can't the heavy cutter scratch the quartz stone?`}</Typography>
           <Typography
             paragraph
-          >{`According to the US National Park Service's Mohs Hardness Scale, quartz's hardness is scale 7. See below,`}</Typography>
+          >{`According to the US National Park Service's Mohs Hardness Scale, quartz's hardness is scale 7.`}</Typography>
           <Box sx={{ mb: 2 }}>
             <Image
               src="/mohs.jpg"
@@ -394,13 +393,16 @@ const QuartzStone = () => {
           </Box>
           <Typography
             paragraph
-          >{`Knife with lower hardness (scale 5.5) can't scratch quartz stone.`}</Typography>
-          <ArticleHeading2>
+          >{`Knife with lower hardness scale 5.5 can't scratch higher hardness scale 7 material - quartz stone.`}</Typography>
+          <ArticleHeading3>
             What is the Mohs Hardness Scale in short?
-          </ArticleHeading2>
+          </ArticleHeading3>
           <Typography paragraph>
             It is a hardness test to scratch among 2 specimens to determine
             which material is harder.
+          </Typography>
+          <Typography paragraph>
+            The harder the material, the higher it can resist scratch.
           </Typography>
           <Typography paragraph>
             For more information about Mohs Hardness Scale, visit:
@@ -408,7 +410,8 @@ const QuartzStone = () => {
           <Typography paragraph>
             <MuiNextLink
               href="https://geology.com/minerals/mohs-hardness-scale.shtml"
-              underline="none"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Geology.com
             </MuiNextLink>
@@ -416,7 +419,8 @@ const QuartzStone = () => {
           <Typography paragraph>
             <MuiNextLink
               href="https://en.wikipedia.org/wiki/Mohs_scale_of_mineral_hardness"
-              underline="none"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Wikipedia
             </MuiNextLink>
@@ -424,7 +428,8 @@ const QuartzStone = () => {
           <Typography paragraph>
             <MuiNextLink
               href="https://www.nps.gov/articles/mohs-hardness-scale.htm"
-              underline="none"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               National Park Service
             </MuiNextLink>
@@ -433,25 +438,38 @@ const QuartzStone = () => {
             Why is Quartz Stone Hardness Important?
           </ArticleHeading2>
           <Typography paragraph>
-            Quartz stone with scale 7 hardness, the highest hardness in the
-            kitchen environment, makes sure no kitchen item, cookware or utensil
-            can scratch it so easily. Hence, it could maintain its appearance
-            for a long time.
+            Quartz stone is the highest hardness in the kitchen environment
+            makes sure no kitchen item, cookware or utensil can scratch it so
+            easily. Hence, it could maintain its appearance for a long time.
           </Typography>
           <Typography paragraph sx={{ mb: 2 }}>
-            This feature makes quartz stone a high{" "}
-            <strong>scratch-resistant</strong> surfacing product.
+            This hardness makes quartz stone a high{" "}
+            <strong>scratch-resistant</strong> surfacing product in the kitchen.
           </Typography>
           <ArticleHeading2>
-            Are you satisfied with the quartz stone quality?
+            Are You Satisfied With Genuine Quartz Stone Quality?
           </ArticleHeading2>
-          <Typography paragraph>
-            Stain resistance, scratch resistance, bacteria resistance, mildew
-            resistance, acidic resistance, heat resistance,{" "}
+          <Typography component="ol" paragraph>
+            <li>Non-Porous Material</li>
+            <li>Stain resistance</li>
+            <li>Scratch resistance</li>
+            <li>Bacteria resistance</li>
+            <li>Mildew resistance</li>
+            <li>Heat resistance</li>
+            <li>Acidic resistance</li>
+            <li>Low maintenance</li>
+            <li>Easy to clean</li>
+            <li>Safe for food preparation</li>
           </Typography>
-          <Typography paragraph>{`It's doesn't stop here.`}</Typography>
+
+          <SectionWrapper>
+            <SectionContact stone="Quartz Stone" href="/contact/quartz-stone" />
+          </SectionWrapper>
+
+          <Typography paragraph></Typography>
+
           <ArticleHeading2>
-            Genuine Quartz Stone Sas More Benefits.
+            We Are Not Done Yet. Genuine Quartz Stone Has More Benefits
           </ArticleHeading2>
           <ArticleHeading3>Non-Flammable Material</ArticleHeading3>
           <Typography
@@ -492,10 +510,10 @@ const QuartzStone = () => {
           </Typography>
           <Typography
             paragraph
-          >{`Please note that we can't repair or polish 100% back to its original status. Similar to granite and marble, repair or polish spot is noticeable.`}</Typography>
+          >{`Minor scratches can still be polished. Please note that we can't polish 100% back to its original status. Similar to granite and marble, the polish spot is noticeable.`}</Typography>
           <Typography
             paragraph
-          >{`Since we started selling quartz stone in 2013 (from day one), the good news is that we haven't needed to repair a quartz stone top.`}</Typography>
+          >{`Since we started selling quartz stone in 2013 (from day one), the good news is that we haven't needed to repair or polish a quartz stone top.`}</Typography>
 
           <ArticleHeading3>Colour Consistency</ArticleHeading3>
           <Typography paragraph>
@@ -516,9 +534,21 @@ const QuartzStone = () => {
 
           <ArticleHeading3>Chemical Resistance</ArticleHeading3>
           <Typography paragraph>
-            Whether natural stone or engineered stone, it does not seem afraid
-            of the household dishwasher at all. If a dishwasher is so powerful
-            that it damages the stone, it definitely hurts your hand first.
+            Either a natural stone or engineered stone is not afraid of the
+            household dishwasher. If a dishwasher is so powerful that it damages
+            the stone, it definitely hurts your hand first.
+          </Typography>
+          <Typography
+            paragraph
+          >{`To check whether the quartz stone is chemical resistant, use lacquer thinner; It's corrosive. You could buy a lacquer thinner from a hardware shop pour it on the quartz stone.`}</Typography>
+          <Typography paragraph>
+            If you see the surface become matt. It is not chemical resistance.
+          </Typography>
+          {/* image of matt quartz stone */}
+          <Typography paragraph>
+            In fact, lacquer thinner does not affect genuine quartz stone at
+            all. We often use it to clean the remaining sticker glue on the
+            surface.
           </Typography>
 
           <ArticleHeading3>Crack and Chip-off Resistance</ArticleHeading3>
@@ -535,7 +565,7 @@ const QuartzStone = () => {
             flexibility.
           </Typography>
           <Typography paragraph>
-            This flexibility is needed to fight against thermal expansion to
+            This flexibility is needed to fight against thermal expansion and
             avoid cracking.
           </Typography>
           <Typography paragraph>
@@ -547,8 +577,7 @@ const QuartzStone = () => {
 
           <ArticleHeading2>The Quartz Stone Disadvantage</ArticleHeading2>
           <Typography paragraph>
-            Yep, quartz stone is not a perfect stone. Every type of stone has
-            its advantages and disadvantages.
+            Every type of stone has its advantages and disadvantages.
           </Typography>
           <Typography paragraph>
             Quartz stone is not suitable for outdoor usage especially exposed to
@@ -558,7 +587,19 @@ const QuartzStone = () => {
           <Typography
             paragraph
           >{`Based on our test, we installed a quartz stone countertop on one of our staff's apartments next to the window without a blind in the year 2016. The countertop exposes to evening sunlight.`}</Typography>
-          <Typography paragraph></Typography>
+          <Typography paragraph>
+            {`We started to notice the discolouration in the third
+            year (2019) and remain the same discolouration until 2022.`}
+          </Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/uv-light.jpg"
+              layout="responsive"
+              alt="mohs hardness scale"
+              width={800}
+              height={600}
+            />
+          </Box>
 
           <ArticleHeading2>Conclusion</ArticleHeading2>
           <Typography paragraph>
@@ -572,25 +613,13 @@ const QuartzStone = () => {
           <ArticleHeading2>Who Are We?</ArticleHeading2>
           <Typography paragraph>
             Stone Innovations Enterprise is a stonemason company specialising in
-            quartz stone countertops.
+            quartz stone countertops since 2013.
           </Typography>
 
-          <ArticleHeading2></ArticleHeading2>
-        </Container>
-
-        <Container maxWidth="sm">
-          <Typography
-            component="h2"
-            variant="h4"
-            color="primary"
-            fontWeight="bold"
-            gutterBottom
-          >
-            Quartz Stone Applications?
-          </Typography>
+          <ArticleHeading2>Quartz Stone Applications</ArticleHeading2>
           <Typography paragraph>
             {`Although, we only talk about countertop in the article. With Quartz
-            stone advantages mentioned above, it's also well suited to be custom
+            stone advantages, it's also well suited to be custom
             made as:-`}
           </Typography>
           <Typography component="ol" paragraph>
