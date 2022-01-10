@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import { ArrowDownward } from "@mui/icons-material";
 import Image from "next/image";
 
-const Hero = ({ imgSrc, imgAlt, title, subtitle, withMB }) => {
+const Hero = ({ imgSrc, imgAlt, title, subtitle, noMB }) => {
   return (
     <Grid
       container
@@ -13,7 +13,7 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle, withMB }) => {
         width: `100%`,
         overflow: `hidden`,
         zIndex: "-100",
-        mb: withMB ? { xs: 5, sm: 10, md: 15, lg: 20 } : 0,
+        mb: noMB ? 0 : { xs: 5, sm: 10, md: 15, lg: 20 },
       }}
     >
       <Image src={imgSrc} alt={imgAlt} layout="fill" objectFit="cover" />

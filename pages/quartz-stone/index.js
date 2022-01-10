@@ -54,6 +54,7 @@ const QuartzStone = () => {
         imgAlt="Caesarstone Oxidian"
         title="Quartz Stone Countertop Malaysia"
         subtitle="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
+        noMB
       />
       <SubNavbar routes={qsRoutes} />
 

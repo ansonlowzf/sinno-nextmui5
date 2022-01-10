@@ -16,14 +16,12 @@ const Marble = () => {
         pagePath="/marble"
         metaImg="/marble/hero.jpg"
       />
-      <SectionWrapper>
-        <Hero
-          imgSrc="/marble/hero.jpg"
-          imgAlt="marble floor"
-          title="Marble"
-          subtitle="Supply &amp; Install Marble For Flooring Application"
-        />
-      </SectionWrapper>
+      <Hero
+        imgSrc="/marble/hero.jpg"
+        imgAlt="marble floor"
+        title="Marble"
+        subtitle="Supply &amp; Install Marble For Flooring Application"
+      />
 
       <SectionWrapper>
         <Container maxWidth="lg">

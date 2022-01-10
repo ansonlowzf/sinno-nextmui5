@@ -30,6 +30,7 @@ const ZenstonePage = () => {
         imgText="Zenstone Calacatta Black"
         title="Zenstone Malaysia"
         subtitle="Malaysia's Brand OEM China Genuine Quartz Stone"
+        noMB
       />
 
       <SubNavbar routes={qsRoutes} />

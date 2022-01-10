@@ -34,6 +34,7 @@ const CaesarstonePage = () => {
         imgText="Caesarstone Empira White"
         title="Caesarstone Malaysia"
         subtitle="Caesarstone Quartz Surface Kitchen Top"
+        noMB
       />
       <SubNavbar routes={qsRoutes} />
       <SectionWrapper>
