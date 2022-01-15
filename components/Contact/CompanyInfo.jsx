@@ -14,9 +14,9 @@ const CompanyInfo = () => {
           201603220786 (002560776-H)
         </Typography>
         <Typography align="center" color="error" fontWeight="bold">
-          Please make an appointment before visiting the sales office or
-          warehouse. Apology for any inconvenience caused, we have to control
-          the numbers of visitors due to the pandemic of COVID-19.
+          Please contact us before visiting the sales office. We have to control
+          the numbers of visitors due to the pandemic of COVID-19. Apology for
+          any inconvenience caused
         </Typography>
       </Container>
     </SectionWrapper>
