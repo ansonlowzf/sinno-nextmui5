@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 
 SwiperCore.use([Pagination, Navigation]);
 
-const ImageSwiper = ({ imageLinks }) => {
+const ImageSwiper = ({ imagesLinks }) => {
   return (
     <Swiper
       pagination={{
@@ -16,7 +16,7 @@ const ImageSwiper = ({ imageLinks }) => {
       }}
       navigation
     >
-      {imageLinks.map(({ imgSrc, imgAlt }, i) => (
+      {imagesLinks.map(({ imgSrc, imgAlt }, i) => (
         <SwiperSlide key={i}>
           <Image
             src={imgSrc}

@@ -596,7 +596,7 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/uv-light.jpg"
               layout="responsive"
-              alt="mohs hardness scale"
+              alt="UV ligth dim quartz stone countertop"
               width={800}
               height={600}
             />
@@ -640,6 +640,155 @@ const QuartzStone = () => {
             <li>Wall Cladding</li>
             <li>Flooring</li>
             <li>Other Top &amp; Cladding Purposes</li>
+          </Typography>
+
+          <ArticleHeading2>
+            A Sad News About Quartz Stone Market
+          </ArticleHeading2>
+          <Typography paragraph>
+            Malaysia quartz stone market is bloated with many different
+            qualities and grades.
+          </Typography>
+          <Typography paragraph>
+            Many house owners caught up the trouble,
+          </Typography>
+          <Typography paragraph>
+            House owners sent the following photo to us,
+          </Typography>
+          <ImageSwiper imagesLinks={imagesLinks} />
+          <Typography paragraph sx={{ mt: 2 }}>
+            Facebook also has similar posts, especially in the renovation,
+            interior design and construction groups.
+          </Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-problems-fb/1.jpg"
+              layout="responsive"
+              alt="quartz stone countertop reported on Facebook"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-problems-fb/2.jpg"
+              layout="responsive"
+              alt="quartz stone countertop reported on Facebook"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-problems-fb/3.jpg"
+              layout="responsive"
+              alt="quartz stone countertop reported on Facebook"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Typography paragraph>
+            This is just the tip of the iceberg. We believe there are many cases
+            out there.
+          </Typography>
+
+          <ArticleHeading2>Why Are These Happening?</ArticleHeading2>
+          <Typography paragraph>There are 2 reasons:</Typography>
+
+          <ArticleHeading3>{`First, Low Quartz Content's Quartz Stone`}</ArticleHeading3>
+          <Typography paragraph>
+            Suppose quartz stone needs 85-93% quartz content to have all the
+            benefits.
+          </Typography>
+          <Typography paragraph>
+            Suppose quartz stone needs 85-93% quartz content to have all the
+            benefits.
+          </Typography>
+          <Typography paragraph>
+            The lower the percentage of the quartz content, the more benefits
+            will be sacrificed, example:
+          </Typography>
+          <Typography component="ol" paragraph>
+            <li>
+              The lower the quartz content, the lower the Mohs Hardness Scale;
+              The easier the stone can be scratched.
+            </li>
+            <li>
+              The bigger the porous, the easier the stone can be stained.{" "}
+            </li>
+            <li>
+              The more the stone powder, the easier the acidic foods can damage
+              the stone.
+            </li>
+            <li>Lacquer thinner damages the stone easily.</li>
+          </Typography>
+
+          <ArticleHeading3>
+            Second, The Worst Material For Countertop
+          </ArticleHeading3>
+          <Typography paragraph>
+            The low content quartz stone still can hold up to a certain extent.
+            The problem might occur a few months later.
+          </Typography>
+          <Typography paragraph>
+            The worst countertop material you might get is a compressed marble
+            countertop.
+          </Typography>
+          <Typography paragraph>
+            This stone initially is made for budget wall cladding. But, it looks
+            similar to natural marble at a significantly low price.
+          </Typography>
+          <Typography paragraph>
+            But if custom-made for countertop application, the countertop
+            problems happen as soon as you use it or sometime before you use it.{" "}
+          </Typography>
+
+          <ArticleHeading3>What Is Compressed Marble In Short?</ArticleHeading3>
+          <Typography paragraph>
+            The manufacturer used recycled crushed marble mixed with pigment,
+            colouring, lime powder, and glass powder and used compressed
+            technology to make it a marble slab again.
+          </Typography>
+          <Typography paragraph>
+            {`After that, using a stone print technology to print marble's
+            texture, vein, and pattern on the surface.`}
+          </Typography>
+
+          <ArticleHeading2>Low Price Close Deal Easily</ArticleHeading2>
+          <Typography paragraph>
+            Genuine quartz stone prices scared many owners away.
+          </Typography>
+          <Typography
+            paragraph
+          >{`Compressed marble looks like marble, and its lower price is easy to close a deal. The house owner is not a stone expert. They wouldn't know in-depth about a stone.`}</Typography>
+          <Typography paragraph>
+            At this point, those suppliers make a final blow and say it is
+            marble-effect quartz stone. Bang, close deal and the owner tragedy
+            begin.
+          </Typography>
+
+          <ArticleHeading2>Quotation Blind Test</ArticleHeading2>
+          <Typography paragraph>Which quotation would you pick? </Typography>
+          <Typography paragraph>Supplier A</Typography>
+          <Typography paragraph>
+            Supply &amp; Install Marble Collection Quartz Stone
+          </Typography>
+          <Typography paragraph>20 FR x RM 310 = RM 6200</Typography>
+          <br />
+          <Typography paragraph>Supplier B</Typography>
+          <Typography paragraph>
+            Supply &amp; Install Marble Collection Quartz Stone
+          </Typography>
+          <Typography paragraph>20 FR x RM 200 = RM 4000</Typography>
+          <br />
+          <Typography paragraph>Supplier C</Typography>
+          <Typography paragraph>
+            Supply &amp; Install Marble Collection Quartz Stone
+          </Typography>
+          <Typography paragraph>20 FR x RM 120 = RM 2400</Typography>
+          <Typography paragraph>
+            Which is genuine quartz stone, low content quartz stone or
+            compressed marble?
           </Typography>
         </Container>
       </SectionWrapper>
