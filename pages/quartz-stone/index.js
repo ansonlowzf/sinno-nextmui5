@@ -642,9 +642,7 @@ const QuartzStone = () => {
             <li>Other Top &amp; Cladding Purposes</li>
           </Typography>
 
-          <ArticleHeading2>
-            A Sad News About Quartz Stone Market
-          </ArticleHeading2>
+          <ArticleHeading2>Quartz Stone Market in Chaos</ArticleHeading2>
           <Typography paragraph>
             Malaysia quartz stone market is bloated with many different
             qualities and grades.
@@ -790,6 +788,234 @@ const QuartzStone = () => {
             Which is genuine quartz stone, low content quartz stone or
             compressed marble?
           </Typography>
+
+          <ArticleHeading2>{`We Willing To Help But Can't`}</ArticleHeading2>
+          <Typography paragraph>
+            Owners find us online and hope we can help repair or polish.
+          </Typography>
+          <Typography
+            paragraph
+          >{`We're willing to help, but repair or polish could not solve the problem.`}</Typography>
+          <Typography paragraph>
+            The same situation will keep happening because the actual problem is
+            the stone quality itself.
+          </Typography>
+          <Typography paragraph>
+            How much money and time do you expect to spend on the polishing?
+          </Typography>
+
+          <ArticleHeading2>
+            Why Do Owners Not Contact Their Ex-Supplier?
+          </ArticleHeading2>
+          <Typography
+            paragraph
+          >{`We asked: "why not call back their supplier to touch up?"`}</Typography>
+          <Typography paragraph>{`The owners' reply was sad.`}</Typography>
+          <Typography
+            paragraph
+          >{`After telling the supplier about the problems, the supplier no longer picks up the phone calls.`}</Typography>
+          <Typography paragraph>
+            What is even worst is some suppliers blocked their contact.
+          </Typography>
+
+          <ArticleHeading2>{`It's Hassle, Waste Of Money & Time`}</ArticleHeading2>
+          <Typography paragraph>
+            Mr/Mrs owner, what if this tragedy happens to you?
+          </Typography>
+          <Typography paragraph>
+            Would you close your eyes and let the problem keep getting serious?
+            Or take the hassle and money to make a new countertop?
+          </Typography>
+
+          <ArticleHeading2>Why Those Suppliers Ignore Owner?</ArticleHeading2>
+          <Typography
+            paragraph
+          >{`We guess the supplier sell very low price. The touch-up cost can't cover their losses. Ignore owner at least can maintain the small profit margin.`}</Typography>
+          <Typography paragraph>
+            Or the supplier knows the product is low content quartz stone or
+            compressed marble that touch up is useless to solve the problem.
+          </Typography>
+
+          <ArticleHeading2>Profit Or Reputation?</ArticleHeading2>
+          <Typography paragraph>
+            Why do those suppliers not maintain their reputation?
+          </Typography>
+          <Typography paragraph>
+            The answer is simple - custom-making stone countertop is not a
+            repetitive business. Custom made one set, last for a decade.
+          </Typography>
+          <Typography paragraph>
+            The owner will not custom made a second set so soon anyway. Plus,
+            even you want to custom made a second set after a decade, the
+            possibility you can remember the supplier is low.
+          </Typography>
+          <Typography paragraph>
+            For short sighter suppliers, what is reputation? Can feed the
+            hunger?
+          </Typography>
+
+          <ArticleHeading2>Business Ethics</ArticleHeading2>
+          <Typography paragraph>
+            Some suppliers will directly tell the low content quartz stone or
+            compressed marble.
+          </Typography>
+          <Typography paragraph>
+            They also emphasize the disadvantages. Let the owner decide to use
+            it or not.
+          </Typography>
+          <Typography
+            paragraph
+          >{`Don't expect all suppliers to practice business ethics.`}</Typography>
+
+          <ArticleHeading2>{`The Article's Mission`}</ArticleHeading2>
+          <Typography
+            paragraph
+          >{`We are not here to defame competitors and talk like you must buy from us. We're the only genuine quartz stone supplier in Malaysia.`}</Typography>
+          <Typography paragraph>
+            This article is to provide in-depth information about quartz stone
+            and quartz-stone countertops.
+          </Typography>
+          <Typography
+            paragraph
+          >{`We might not have the colour and shade you're looking for.`}</Typography>
+          <Typography paragraph>
+            There are many genuine suppliers out there.
+          </Typography>
+          <Typography paragraph>
+            We have a few tips to provide and help you avoid buying unwanted
+            stones:-
+          </Typography>
+          <Typography component="ol" paragraph>
+            <li>
+              Choose quartz stone with warranty. Quartz stone often comes with
+              10 years of material warranty.
+            </li>
+            <li>
+              Choose quartz stone with a brand. Usually, the vendor would keep
+              the reputation and not risk by importing low content quartz stone.
+            </li>
+            <li>
+              Request a sample you confirm, test it with the below method before
+              placing an order.
+            </li>
+          </Typography>
+
+          <ArticleHeading2>{`Test & Check Method`}</ArticleHeading2>
+          <Typography
+            paragraph
+          >{`Let's see the quartz stone below,`}</Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-test/1.jpg"
+              layout="responsive"
+              alt="low content quartz stone sample"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Typography paragraph>
+            Translate the sticker, this quartz stone uses some kinds of
+            nano-technology, diamond quality, stain and crack resistance.
+          </Typography>
+          <Typography
+            paragraph
+          >{`Is it a good quality quartz stone? Let's test and see,`}</Typography>
+          <Typography
+            paragraph
+          >{`We'll use Harpic 10x for this test.`}</Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-test/2.jpg"
+              layout="responsive"
+              alt="low content quartz stone sample"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Typography
+            paragraph
+          >{`Let's pour on the surface, wait for 10-15 min and see`}</Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-test/3.jpg"
+              layout="responsive"
+              alt="low content quartz stone sample"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-test/4.jpg"
+              layout="responsive"
+              alt="low content quartz stone sample"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Typography paragraph>
+            Bubble reaction? Why does this happen?
+          </Typography>
+          <Typography paragraph>
+            This stone contains too much stone or lime powder and causes a
+            chemical reaction.
+          </Typography>
+          <Typography paragraph>
+            Second, this stone was coated with a sealant on the surface to make
+            it shiny.
+          </Typography>
+          <Typography paragraph>After wiping the Harpic,</Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-test/5.jpg"
+              layout="responsive"
+              alt="low content quartz stone sample"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Typography component="ol" paragraph>
+            <li>A layer of sealant is gone</li>
+            <li>Become rough surface, tiny hole can see by human eyes now</li>
+            <li>Colour faded</li>
+            <li>Discolouration</li>
+          </Typography>
+          <Typography paragraph>
+            This kinds of quality quartz stone give the house owner many
+            unnecessary troubles.
+          </Typography>
+          <Typography paragraph>What result should you seek?</Typography>
+          <Box sx={{ mb: 2 }}>
+            <Image
+              src="/quartz-stone/qs-test/6.jpg"
+              layout="responsive"
+              alt="low content quartz stone sample"
+              width={800}
+              height={600}
+            />
+          </Box>
+          <Typography paragraph>
+            This is the result you should aim for. No chemical or bubble
+            reaction on genuine quartz stone.
+          </Typography>
+          <Typography paragraph>
+            Hope this tip can help you filter out most unwanted quartz stones.
+          </Typography>
+          <Typography paragraph color="error" fontWeight="bold">
+            Disclaimer
+          </Typography>
+          <Typography paragraph>
+            This method cannot guarantee you find genuine quartz stone.
+          </Typography>
+          <Typography paragraph>
+            But definitely can help to filter most of the unwanted quality
+            quartz stone.
+          </Typography>
+          <Typography paragraph>
+            We are not sure what material the manufacturer adds, but some low
+            content quartz stones can resist Harpic 10x up to 30 min or more.
+          </Typography>
+          <Typography paragraph></Typography>
         </Container>
       </SectionWrapper>
 
