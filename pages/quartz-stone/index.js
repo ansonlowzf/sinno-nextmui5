@@ -62,10 +62,10 @@ const QuartzStone = () => {
         <Container maxWidth="sm">
           <Typography paragraph>
             If you already know about the quartz stone and are looking for our
-            available colour, vein and pattern options, please click the two
-            brands above.
+            available colour, vein and pattern options, please have a look at
+            the two brands we distribute in Malaysia above:
           </Typography>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>
               <strong>Caesarstone</strong> is the international top 1 quartz
               stone brand.
@@ -75,28 +75,25 @@ const QuartzStone = () => {
               quartz stone.
             </li>
           </Typography>
-          <Typography paragraph>
-            If you are unsure whether quartz stone is suitable for countertops
-            or looking for more in-depth information.
-          </Typography>
-          <Typography paragraph>
-            This article can help you understand the genuine quartz stone and
-            its advantages for countertops.
-          </Typography>
-
-          <ArticleHeading2>First, What is Quartz Stone?</ArticleHeading2>
           <Typography
             paragraph
-          >{`To be accurate, we shall call it quartz surface. In Malaysia, we often use the term "quartz stone". We'll use the same word for this article.`}</Typography>
+          >{`If you're looking for more in-depth information about quartz stone and countertops, here is the "Complete Guide To Select Genuine Quartz Stone For Countertops."`}</Typography>
+
+          <ArticleHeading2>What is Quartz Stone?</ArticleHeading2>
+          <Typography
+            paragraph
+          >{`To be accurate, we shall call it quartz surface. In Malaysia, we often use the term "quartz stone". Hence, we'll use the same word for this article.`}</Typography>
+          <Typography
+            paragraph
+          >{`Depending on the design composition, quartz stone is an engineered stone made with quartz, polymeric, crushed marble, ceramic, silica, glass, mirror chip, and many others materials. Then use resin to bond all materials together and make it a slab form.`}</Typography>
           <Typography paragraph>
-            Depending on the design composition, quartz stone is an engineered
-            stone made with quartz, polymeric, crushed marble, ceramic, silica,
-            glass, mirror chip, and many others materials. Then use resin to
-            bond all materials together and make it a slab form.
+            It must contain enough quartz sand (85 - 93%) to gain all the
+            benefits discussed below.
           </Typography>
           <Typography
             paragraph
           >{`Quartz stone looks, touch and feels like a stone, and it's manufactured to achieve advantages beyond natural stone.`}</Typography>
+
           <ArticleHeading2>What Is A Quartz Stone Countertop?</ArticleHeading2>
           <Typography
             paragraph
@@ -108,7 +105,7 @@ const QuartzStone = () => {
           <Image
             src="/quartz-stone/countertop.jpg"
             layout="responsive"
-            alt="Quartz Stone Countertop"
+            alt="type of quartz stone countertop"
             width={800}
             height={450}
           />
@@ -126,11 +123,12 @@ const QuartzStone = () => {
 
           <Typography
             paragraph
-          >{`A gentle reminder, we'll use the term "countertop" across the article.`}</Typography>
+          >{`We'll use the term "countertop" across the article.`}</Typography>
+
           <ArticleHeading2>
-            What Is The World Best Countertop be like?
+            What Is The World Best Countertop Be Like?
           </ArticleHeading2>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>Indestructible</li>
             <li>Unbreakable</li>
             <li>Forever remain the same colour</li>
@@ -149,17 +147,19 @@ const QuartzStone = () => {
             paragraph
           >{`If we could invent it, will be for the planet Mars migration purposes first.`}</Typography>
           <Typography paragraph>{`Enough cold jokes`}</Typography>
+
           <ArticleHeading2>
             So, Is Quartz Stone The Best Option?
           </ArticleHeading2>
           <Typography paragraph>
             Our answer is yes, quartz stone is the best stone material for
-            countertop application by far.
+            indoor countertop application by far.
           </Typography>
           <Typography
             paragraph
-          >{`How about the outdoor application like BBQ pits and an open roof wet kitchen?`}</Typography>
-          <Typography paragraph>{`We'll discuss it later.`}</Typography>
+          >{`But it's unsuitable for an outdoor countertop like BBQ pits and an open roof wet kitchen.`}</Typography>
+          <Typography paragraph>{`Why? We'll discuss it later.`}</Typography>
+
           <ArticleHeading2>
             The Most Important Feature Of Quartz Stone
           </ArticleHeading2>
@@ -167,7 +167,7 @@ const QuartzStone = () => {
           <Typography paragraph>Please have a look at orange skin.</Typography>
           <Image
             src="/quartz-stone/orange-skin.png"
-            alt="orange skin"
+            alt="orange with close up view"
             layout="responsive"
             width={800}
             height={600}
@@ -177,7 +177,7 @@ const QuartzStone = () => {
           </Typography>
           <Typography
             paragraph
-          >{`The stone surface also has tiny holes like this. We called this cannot be seen by human eyes' hole - porous.`}</Typography>
+          >{`The stone surface has similar tiny holes. We called this "cannot be seen by human eyes' hole" - porous`}</Typography>
           <ArticleHeading3>
             How To Determine Quartz Stone Is A Non-porous Material?
           </ArticleHeading3>
@@ -187,7 +187,7 @@ const QuartzStone = () => {
           <Box sx={{ my: 2 }}>
             <Image
               src="/quartz-stone/test-report2.png"
-              alt="orange skin"
+              alt="caesarstone test report"
               layout="responsive"
               width={800}
               height={600}
@@ -195,29 +195,27 @@ const QuartzStone = () => {
           </Box>
           <Image
             src="/quartz-stone/test-report1.png"
-            alt="orange skin"
+            alt="quartz stone test report in chinese"
             layout="responsive"
             width={800}
             height={600}
           />
           <Typography paragraph sx={{ mt: 2 }}>
-            The result is less than 0.05% and less than 0.049%. What does it
-            mean?
+            The result is less than 0.05%. What does it mean?
           </Typography>
           <Typography paragraph>
-            The lab people put water on the quartz stone and checked the water
-            penetration rate.
+            In other words, 99.95% of water cannot penetrate the surface.
           </Typography>
           <Typography paragraph>
-            In other words, quartz stone is 99.95% water cannot penetrate the
-            surface.
+            This feature determines quartz stone as a non-porous material.
           </Typography>
 
-          <Typography paragraph>
-            If water has difficulty, go in the surface, not to mention curry
-            powder, turmeric powder, coffee powder, chilli sauce, curry sauce,
-            red wine, etc.
-          </Typography>
+          <ArticleHeading2>
+            Non-Porous Make Quartz Stone Stain Resistance
+          </ArticleHeading2>
+          <Typography
+            paragraph
+          >{`If water has difficulty, go in the surface, not to mention curry powder, curry sauce, turmeric powder, coffee powder, chilli sauce, red wine, etc.`}</Typography>
           <Typography paragraph>
             {`What if we leave the foods and drinks on the quartz stone's surface
             for a long time, said 30 days?`}
@@ -226,12 +224,12 @@ const QuartzStone = () => {
             {`Yep, there is a 0.05% rate and that causes a permanent stain.`}
           </Typography>
           <Typography paragraph>
-            {`How about leaving turmeric for 7 days? We can still remove the turmeric's stain based on our in-house test.`}
+            {`How about leaving turmeric for 7 days? We can still remove the stain based on our in-house test.`}
           </Typography>
           <Typography paragraph>{`Let's watch a video,`}</Typography>
           <Typography
             paragraph
-          >{`We use a highlight pen and a permanent marker to simulate the stain. Frankly speaking, the permanent marker (the stain's boss like turmeric) is hard to clean. It takes time, but we clean it with the CIF cleaning foam.`}</Typography>
+          >{`We use a highlight pen and a permanent marker to simulate the stain. The permanent marker (the stain's boss like turmeric) is hard to clean. It takes time, but we still can clean it with the CIF cleaning foam.`}</Typography>
           <Box
             component="iframe"
             title="test quartz stone stain resistance"
@@ -249,24 +247,24 @@ const QuartzStone = () => {
             The best practice is to clean the surface after cooking to maintain
             the beauty of the surface for a longer time.
           </Typography>
-          <ArticleHeading3>More Non-porous Important Features</ArticleHeading3>
+
+          <ArticleHeading2>More Non-porous Important Features</ArticleHeading2>
           <Typography paragraph>
             Non-porous is an essential feature of quartz stone. It solves many
             hygiene issues.
           </Typography>
+          <ArticleHeading3>{`Bacteria & Mildew Resistance`}</ArticleHeading3>
           <Typography paragraph>
-            {`Bacteria need space & moisture to grow a colony. Water is hard to penetrate the quartz stone's porous, not to mention bacteria. There is no room for bacteria and mildew to grow`}{" "}
-            - <strong>bacteria resistance</strong> &amp; mildew resistance
-            <strong>mildew resistance</strong>.
+            {`Bacteria need space & moisture to grow a colony. Non-porous leave no room for bacteria and mildew to grow.`}
           </Typography>
 
           <ArticleHeading3>Safe For Food Preparation</ArticleHeading3>
           <Typography
             paragraph
-          >{`You can knead the pizza dough and bread on the surface directly without worrying about bacteria, mildew, and other harmful germs.`}</Typography>
+          >{`Non-porous also leave no space for food residue.`}</Typography>
           <Typography
             paragraph
-          >{`The dough and powder also can't go inside the porous.`}</Typography>
+          >{`Perfect for kneading the pizza dough and bread on the surface directly without worrying about bacteria, mildew, food residue and other harmful germs.`}</Typography>
           <Typography paragraph>
             Quartz stone is{" "}
             <MuiNextLink
@@ -279,36 +277,32 @@ const QuartzStone = () => {
             and well suited for food preparation.
           </Typography>
 
-          <ArticleHeading3>Not Damage By Acidic Foods</ArticleHeading3>
+          <ArticleHeading2>Resist Acidic Foods</ArticleHeading2>
           <Typography paragraph>
             Acidic foods such as lemon juice or lime juice do not affect or dim
             the surface - <strong>acidic resistance</strong>.
           </Typography>
-          {/* Acid Test Video */}
-          <ArticleHeading3>Easy Cleaning</ArticleHeading3>
+          <Typography paragraph>(Video Coming Soon!)</Typography>
+
+          <ArticleHeading2>Easy Cleaning</ArticleHeading2>
           <Typography
             paragraph
-          >{`The most annoying thing in the kitchen is the sticky oil. It's hard to clean it. The home chef often needs to wipe the entire surface a few times to clean the sticky oil.`}</Typography>
+          >{`Non-porous leave no supporting point for oil to stick.`}</Typography>
           <Typography paragraph>
-            The quartz stone non-porous feature makes the stubborn oil have no
-            supporting point to grip. Hence, the sticky oil can be cleaned with
-            ease.
+            This makes quartz stone easy to clean. Say bye-bye to sticky oil.
           </Typography>
 
-          <ArticleHeading3>Low Maintenance</ArticleHeading3>
+          <ArticleHeading2>Low Maintenance</ArticleHeading2>
           <Typography paragraph>
-            You will not have feelings about maintenance issues if you have not
-            used marble before.
+            Unlike natural stone like marble which needs to apply sealants to
+            maintain lustre, extend the lifetime of its beautiful surface and
+            increase its stain resistance level every few years.
           </Typography>
           <Typography paragraph>
-            If you do, you might be annoyed by needing to apply multiple
-            sealants to maintain lustre, extend the lifetime of its beautiful
-            surface and increase its stain resistance level every few years.
+            Quartz stone does not require much maintenance because non-porous
+            eliminate most of the hassle.
           </Typography>
-          <Typography paragraph>How about quartz stone maintenance?</Typography>
-          <Typography
-            paragraph
-          >{`Quartz stone is polished surface as it is, no need to apply sealant and extra maintenance.`}</Typography>
+
           <ArticleHeading2>Does Quartz Stone Resist Heat?</ArticleHeading2>
           <Typography
             paragraph
@@ -316,7 +310,7 @@ const QuartzStone = () => {
           <Box sx={{ my: 2 }}>
             <Image
               src="/quartz-stone/heat-test.png"
-              alt="technical spec sheet"
+              alt="quartz stone technical spec sheet"
               layout="responsive"
               width={800}
               height={600}
@@ -327,13 +321,13 @@ const QuartzStone = () => {
           >{`So many alien words (jargon code),`}</Typography>
           <Typography
             paragraph
-          >{`Let's make it simple by focusing on the boiling water test only. The test report indicates "no effect". What does it mean?`}</Typography>
+          >{`Let's make it simple by focusing on the boiling water test. The test report indicates "no effect". What does it mean?`}</Typography>
           <Typography
             paragraph
-          >{`We need 100°C heat to boil the water. It means 100°C caused "no effect" on the quartz stone.`}</Typography>
+          >{`We need 100°C heat to boil the water. It means 100°C caused "no effect" on quartz stone.`}</Typography>
           <Typography
             paragraph
-          >{`Let's see one of our video tests,`}</Typography>
+          >{`Let's watch one of the test videos,`}</Typography>
           <Box
             component="iframe"
             title="test quartz stone heat resistance"
@@ -387,7 +381,7 @@ const QuartzStone = () => {
             <Image
               src="/mohs.jpg"
               layout="responsive"
-              alt="mohs hardness scale"
+              alt="mohs hardness scale chart"
               width={800}
               height={600}
             />
@@ -450,7 +444,7 @@ const QuartzStone = () => {
           <ArticleHeading2>
             Are You Satisfied With Genuine Quartz Stone Quality?
           </ArticleHeading2>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>Non-Porous Material</li>
             <li>Stain resistance</li>
             <li>Scratch resistance</li>
@@ -480,7 +474,7 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/fire-test.jpg"
               layout="responsive"
-              alt="mohs hardness scale"
+              alt="quartz stone technical spec sheet"
               width={800}
               height={600}
             />
@@ -596,7 +590,7 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/uv-light.jpg"
               layout="responsive"
-              alt="UV ligth dim quartz stone countertop"
+              alt="UV light dim quartz stone countertop"
               width={800}
               height={600}
             />
@@ -623,7 +617,7 @@ const QuartzStone = () => {
             stone advantages, it's also well suited to be custom
             made as:-`}
           </Typography>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>Vanity Top</li>
             <li>Kitchen Backsplash</li>
             <li>Kitchen Shelves</li>
@@ -662,7 +656,7 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/qs-problems-fb/1.jpg"
               layout="responsive"
-              alt="quartz stone countertop reported on Facebook"
+              alt="quartz stone countertop problem reported on Facebook"
               width={800}
               height={600}
             />
@@ -671,7 +665,7 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/qs-problems-fb/2.jpg"
               layout="responsive"
-              alt="quartz stone countertop reported on Facebook"
+              alt="quartz stone countertop problem reported on Facebook"
               width={800}
               height={600}
             />
@@ -680,7 +674,7 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/qs-problems-fb/3.jpg"
               layout="responsive"
-              alt="quartz stone countertop reported on Facebook"
+              alt="quartz stone countertop problem reported on Facebook"
               width={800}
               height={600}
             />
@@ -699,21 +693,15 @@ const QuartzStone = () => {
             benefits.
           </Typography>
           <Typography paragraph>
-            Suppose quartz stone needs 85-93% quartz content to have all the
-            benefits.
-          </Typography>
-          <Typography paragraph>
             The lower the percentage of the quartz content, the more benefits
             will be sacrificed, example:
           </Typography>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>
-              The lower the quartz content, the lower the Mohs Hardness Scale;
-              The easier the stone can be scratched.
+              The lower the quartz content, the lower the hardness; The easier
+              the stone can be scratched.
             </li>
-            <li>
-              The bigger the porous, the easier the stone can be stained.{" "}
-            </li>
+            <li>The bigger the porous, the easier the stone can be stained.</li>
             <li>
               The more the stone powder, the easier the acidic foods can damage
               the stone.
@@ -752,41 +740,19 @@ const QuartzStone = () => {
             texture, vein, and pattern on the surface.`}
           </Typography>
 
-          <ArticleHeading2>Low Price Close Deal Easily</ArticleHeading2>
+          <ArticleHeading2>Low Price Close Deal Easier</ArticleHeading2>
           <Typography paragraph>
             Genuine quartz stone prices scared many owners away.
           </Typography>
           <Typography
             paragraph
-          >{`Compressed marble looks like marble, and its lower price is easy to close a deal. The house owner is not a stone expert. They wouldn't know in-depth about a stone.`}</Typography>
+          >{`Compressed marble looks like marble and is low price.`}</Typography>
+          <Typography
+            paragraph
+          >{`The house owners are not a stone expert. They wouldn't know in-depth about a stone`}</Typography>
           <Typography paragraph>
-            At this point, those suppliers make a final blow and say it is
-            marble-effect quartz stone. Bang, close deal and the owner tragedy
-            begin.
-          </Typography>
-
-          <ArticleHeading2>Quotation Blind Test</ArticleHeading2>
-          <Typography paragraph>Which quotation would you pick? </Typography>
-          <Typography paragraph>Supplier A</Typography>
-          <Typography paragraph>
-            Supply &amp; Install Marble Collection Quartz Stone
-          </Typography>
-          <Typography paragraph>20 FR x RM 310 = RM 6200</Typography>
-          <br />
-          <Typography paragraph>Supplier B</Typography>
-          <Typography paragraph>
-            Supply &amp; Install Marble Collection Quartz Stone
-          </Typography>
-          <Typography paragraph>20 FR x RM 200 = RM 4000</Typography>
-          <br />
-          <Typography paragraph>Supplier C</Typography>
-          <Typography paragraph>
-            Supply &amp; Install Marble Collection Quartz Stone
-          </Typography>
-          <Typography paragraph>20 FR x RM 120 = RM 2400</Typography>
-          <Typography paragraph>
-            Which is genuine quartz stone, low content quartz stone or
-            compressed marble?
+            Those suppliers make a final blow and say it is marble-effect quartz
+            stone. Bang, close deal and the owner tragedy begin.
           </Typography>
 
           <ArticleHeading2>{`We Willing To Help But Can't`}</ArticleHeading2>
@@ -801,7 +767,8 @@ const QuartzStone = () => {
             the stone quality itself.
           </Typography>
           <Typography paragraph>
-            How much money and time do you expect to spend on the polishing?
+            How much money and time do you plan to keep spending on the
+            polishing?
           </Typography>
 
           <ArticleHeading2>
@@ -810,27 +777,25 @@ const QuartzStone = () => {
           <Typography
             paragraph
           >{`We asked: "why not call back their supplier to touch up?"`}</Typography>
-          <Typography paragraph>{`The owners' reply was sad.`}</Typography>
           <Typography
             paragraph
-          >{`After telling the supplier about the problems, the supplier no longer picks up the phone calls.`}</Typography>
-          <Typography paragraph>
-            What is even worst is some suppliers blocked their contact.
-          </Typography>
+          >{`The owners' replied: "after telling the supplier about the problems, the supplier no longer picks up the call."`}</Typography>
+          <Typography
+            paragraph
+          >{`What is even worst is some suppliers block contact.`}</Typography>
 
           <ArticleHeading2>{`It's Hassle, Waste Of Money & Time`}</ArticleHeading2>
           <Typography paragraph>
-            Mr/Mrs owner, what if this tragedy happens to you?
+            {`Mr/Mrs owner, what if this tragedy happens to you?`}
           </Typography>
-          <Typography paragraph>
-            Would you close your eyes and let the problem keep getting serious?
-            Or take the hassle and money to make a new countertop?
-          </Typography>
+          <Typography
+            paragraph
+          >{`Would you close your eyes and let the problem keep getting serious? Or take the hassle and money to find a new supplier to custom make a new countertop?`}</Typography>
 
           <ArticleHeading2>Why Those Suppliers Ignore Owner?</ArticleHeading2>
           <Typography
             paragraph
-          >{`We guess the supplier sell very low price. The touch-up cost can't cover their losses. Ignore owner at least can maintain the small profit margin.`}</Typography>
+          >{`We guess the supplier sell very low price. The touch-up cost can't cover their losses. Ignore owner at least can maintain some small profit margin.`}</Typography>
           <Typography paragraph>
             Or the supplier knows the product is low content quartz stone or
             compressed marble that touch up is useless to solve the problem.
@@ -872,9 +837,12 @@ const QuartzStone = () => {
             paragraph
           >{`We are not here to defame competitors and talk like you must buy from us. We're the only genuine quartz stone supplier in Malaysia.`}</Typography>
           <Typography paragraph>
-            This article is to provide in-depth information about quartz stone
-            and quartz-stone countertops.
+            This article is to provide in-depth information about quartz stone,
+            quartz-stone countertops and quartz stone market.
           </Typography>
+          <Typography paragraph>We have no defamatory intention.</Typography>
+
+          <ArticleHeading2>Few Tips Select Quartz Stone</ArticleHeading2>
           <Typography
             paragraph
           >{`We might not have the colour and shade you're looking for.`}</Typography>
@@ -882,10 +850,10 @@ const QuartzStone = () => {
             There are many genuine suppliers out there.
           </Typography>
           <Typography paragraph>
-            We have a few tips to provide and help you avoid buying unwanted
-            stones:-
+            We would like to share a few tips on how to choose genuine quartz
+            stone:-
           </Typography>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>
               Choose quartz stone with warranty. Quartz stone often comes with
               10 years of material warranty.
@@ -895,8 +863,8 @@ const QuartzStone = () => {
               the reputation and not risk by importing low content quartz stone.
             </li>
             <li>
-              Request a sample you confirm, test it with the below method before
-              placing an order.
+              Request a sample you would like to confirm, test it with the below
+              method before placing an order.
             </li>
           </Typography>
 
@@ -927,19 +895,20 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/qs-test/2.jpg"
               layout="responsive"
-              alt="low content quartz stone sample"
+              alt="Harpic 10x"
               width={800}
               height={600}
             />
           </Box>
-          <Typography
-            paragraph
-          >{`Let's pour on the surface, wait for 10-15 min and see`}</Typography>
+          <Typography paragraph>{`Let's pour on the surface,`}</Typography>
+          <Typography paragraph>
+            Keep staring and wait for 10 - 15 min,
+          </Typography>
           <Box sx={{ mb: 2 }}>
             <Image
               src="/quartz-stone/qs-test/3.jpg"
               layout="responsive"
-              alt="low content quartz stone sample"
+              alt="bubble reaction on low content quartz stone"
               width={800}
               height={600}
             />
@@ -948,33 +917,40 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/qs-test/4.jpg"
               layout="responsive"
-              alt="low content quartz stone sample"
+              alt="bubble reaction on low content quartz stone"
               width={800}
               height={600}
             />
           </Box>
+          <Typography
+            paragraph
+          >{`During the test, you should not go away. By the time you come back, the bubble reaction might already be over.`}</Typography>
           <Typography paragraph>
             Bubble reaction? Why does this happen?
           </Typography>
           <Typography paragraph>
-            This stone contains too much stone or lime powder and causes a
-            chemical reaction.
+            This stone does not have enough quartz content and contains too much
+            stone or lime powder. The more it had, the faster you could see the
+            bubble reaction.
           </Typography>
           <Typography paragraph>
             Second, this stone was coated with a sealant on the surface to make
-            it shiny.
+            it shiny. It will create a bubble reaction too.
           </Typography>
+          <Typography
+            paragraph
+          >{`Either one, it is not the quartz stone you're seeking for,`}</Typography>
           <Typography paragraph>After wiping the Harpic,</Typography>
           <Box sx={{ mb: 2 }}>
             <Image
               src="/quartz-stone/qs-test/5.jpg"
               layout="responsive"
-              alt="low content quartz stone sample"
+              alt="low content quartz stone test result"
               width={800}
               height={600}
             />
           </Box>
-          <Typography component="ol" paragraph>
+          <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
             <li>A layer of sealant is gone</li>
             <li>Become rough surface, tiny hole can see by human eyes now</li>
             <li>Colour faded</li>
@@ -989,17 +965,17 @@ const QuartzStone = () => {
             <Image
               src="/quartz-stone/qs-test/6.jpg"
               layout="responsive"
-              alt="low content quartz stone sample"
+              alt="no bubble reaction on genuine quartz stone"
               width={800}
               height={600}
             />
           </Box>
           <Typography paragraph>
-            This is the result you should aim for. No chemical or bubble
-            reaction on genuine quartz stone.
+            This is the result you should look for. No chemical or bubble
+            reaction on quartz stone.
           </Typography>
           <Typography paragraph>
-            Hope this tip can help you filter out most unwanted quartz stones.
+            We hope this tip can help you filter out the unwanted quartz stones.
           </Typography>
           <Typography paragraph color="error" fontWeight="bold">
             Disclaimer
@@ -1008,12 +984,8 @@ const QuartzStone = () => {
             This method cannot guarantee you find genuine quartz stone.
           </Typography>
           <Typography paragraph>
-            But definitely can help to filter most of the unwanted quality
-            quartz stone.
-          </Typography>
-          <Typography paragraph>
-            We are not sure what material the manufacturer adds, but some low
-            content quartz stones can resist Harpic 10x up to 30 min or more.
+            Some low content quartz stones can resist Harpic 10x up to 30 min or
+            more.
           </Typography>
           <Typography paragraph></Typography>
         </Container>
