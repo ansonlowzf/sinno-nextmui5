@@ -77,7 +77,7 @@ const QuartzStone = () => {
           </Typography>
           <Typography
             paragraph
-          >{`If you're looking for more in-depth information about quartz stone and countertops, here is the "Complete Guide To Select Genuine Quartz Stone For Countertops."`}</Typography>
+          >{`If you're looking for in-depth information about quartz stone, quartz stone countertops, and the quartz stone market, here is the "Complete Guide To Select Genuine Quartz Stone For Countertops."`}</Typography>
 
           <ArticleHeading2>What is Quartz Stone?</ArticleHeading2>
           <Typography
