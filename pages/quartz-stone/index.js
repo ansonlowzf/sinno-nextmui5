@@ -47,11 +47,11 @@ const QuartzStone = () => {
         pageTitle="Quartz Stone Countertop Malaysia"
         pageDesc="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
         pagePath="/quartz-stone"
-        metaImg="/quartz-stone/4735.jpg"
+        metaImg="/quartz-stone/hero.jpg"
       />
       <Hero
-        imgSrc="/quartz-stone/4735.jpg"
-        imgAlt="Caesarstone Oxidian"
+        imgSrc="/quartz-stone/hero.jpg"
+        imgAlt="quartz stone countertops"
         title="Quartz Stone Countertop Malaysia"
         subtitle="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
         noMB
