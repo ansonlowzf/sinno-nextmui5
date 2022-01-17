@@ -12,7 +12,6 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle, noMB }) => {
         height: "calc(100vh - 64px)",
         width: `100%`,
         overflow: `hidden`,
-        zIndex: "-100",
         mb: noMB ? 0 : { xs: 5, sm: 10, md: 15, lg: 20 },
       }}
     >
@@ -34,10 +33,7 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle, noMB }) => {
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
-          xs={12}
-          sm={10}
-          md={8}
-          sx={{ zIndex: "101" }}
+          sm={9}
         >
           <Typography
             variant="h1"
@@ -46,7 +42,6 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle, noMB }) => {
             color="primary"
             sx={{
               fontWeight: 400,
-              zIndex: "102",
             }}
           >
             {title}
@@ -58,7 +53,6 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle, noMB }) => {
             color="common.white"
             sx={{
               mb: 10,
-              zIndex: "102",
             }}
           >
             {subtitle}
