@@ -16,7 +16,7 @@ import {
 import { faqQuartzStone } from "../../const/faq";
 import { qsRoutes } from "../../const/nav-links";
 
-const imagesLinks = [
+const imageLinks = [
   {
     imgSrc: "/defectqs/burnt-by-oil.jpg",
     imgAlt: "quartz stone with oil burnt mark",
@@ -647,7 +647,7 @@ const QuartzStone = () => {
           <Typography paragraph>
             House owners sent the following photo to us,
           </Typography>
-          <ImageSwiper imagesLinks={imagesLinks} />
+          <ImageSwiper imageLinks={imageLinks} />
           <Typography paragraph sx={{ mt: 2 }}>
             Facebook also has similar posts, especially in the renovation,
             interior design and construction groups.

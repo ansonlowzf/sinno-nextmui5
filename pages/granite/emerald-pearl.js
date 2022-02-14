@@ -6,7 +6,7 @@ import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
-const imagesLinks = [
+const imageLinks = [
   {
     imgSrc: "/granite/emerald-pearl/1.jpg",
     imgAlt: "Granite Emerald Pearl Kitchen Top",
@@ -42,7 +42,7 @@ const EmeraldPearl = () => {
       </Typography>
 
       <Container maxWidth="md" sx={{ my: 5 }}>
-        <ImageSwiper imagesLinks={imagesLinks} />
+        <ImageSwiper imageLinks={imageLinks} />
       </Container>
 
       <BackNextPanel

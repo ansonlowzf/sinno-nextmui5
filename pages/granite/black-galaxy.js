@@ -6,7 +6,7 @@ import { SectionWrapper } from "@elements/Wrapper";
 import { SectionContact } from "@components/SectionContact";
 import ImageSwiper from "@components/ImageSwiper";
 
-const imagesLinks = [
+const imageLinks = [
   { imgSrc: "/granite/black-galaxy/1.jpg", imgAlt: "Black Galaxy Kitchen Top" },
   { imgSrc: "/granite/black-galaxy/2.jpg", imgAlt: "Black Galaxy Kitchen Top" },
   { imgSrc: "/granite/black-galaxy/3.jpg", imgAlt: "Black Galaxy Kitchen Top" },
@@ -34,7 +34,7 @@ const BluePearl = () => {
       </Typography>
 
       <Container maxWidth="md" sx={{ mb: 5 }}>
-        <ImageSwiper imagesLinks={imagesLinks} />
+        <ImageSwiper imageLinks={imageLinks} />
       </Container>
 
       <BackNextPanel
