@@ -1,22 +1,25 @@
+import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Navigation } from "swiper";
-import Image from "next/image";
+
+import { Pagination, Navigation } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-SwiperCore.use([Pagination, Navigation]);
+import Image from "next/image";
 
-const ImageSwiper = ({ imagesLinks }) => {
+const ImageSwiper = ({ imageLinks }) => {
   return (
     <Swiper
       pagination={{
         type: "fraction",
       }}
-      navigation
+      navigation={true}
+      modules={[Pagination, Navigation]}
+      className="mySwiper"
     >
-      {imagesLinks.map(({ imgSrc, imgAlt }, i) => (
+      {imageLinks.map(({ imgSrc, imgAlt }, i) => (
         <SwiperSlide key={i}>
           <Image
             src={imgSrc}
