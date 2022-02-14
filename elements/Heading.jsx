@@ -38,10 +38,24 @@ export const Heading2 = ({ children }) => (
   </Typography>
 );
 
-export const Heading3 = ({ children }) => (
+export const Heading2s = ({ children }) => (
   <Typography
     component="h2"
-    variant="h4"
+    variant="h3"
+    color="primary"
+    align="center"
+    sx={{
+      fontWeight: "bold",
+      mb: 5,
+    }}
+  >
+    {children}
+  </Typography>
+);
+
+export const Heading3 = ({ children }) => (
+  <Typography
+    variant="h3"
     color="primary"
     align="center"
     sx={{
