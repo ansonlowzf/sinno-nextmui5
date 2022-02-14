@@ -1,6 +1,6 @@
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
-import { Heading3 } from "@elements/Heading";
+import { Heading2s, Heading3 } from "@elements/Heading";
 import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
 import { Container, Grid, Typography, Button } from "@mui/material";
 import Image from "next/image";
@@ -57,15 +57,13 @@ const CaesarstonePage = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <Heading3>Distributor</Heading3>
-        <TextWrapper>
-          <Typography>
-            We, Stone Innovations Enterprise is one of the Caesarstone
-            distributor in Malaysia. We distribute Caesarstone slabs or
-            fabricate, supply &amp; install Caesarstone quartz surface kitchen
-            top, island top, vanity top and wall cladding.
-          </Typography>
-        </TextWrapper>
+        <Heading2s>{`Caesarstone Malaysia's Distributor`}</Heading2s>
+        <Typography
+          paragraph
+        >{`Stone Innovations Enterprise is one of the Caesarstone distributors in Malaysia.`}</Typography>
+        <Typography
+          paragraph
+        >{`We distribute Caesarstone slabs or fabricate, supply & install Caesarstone quartz surfaces for countertops, wall cladding and other surface decorative applications.`}</Typography>
       </SectionWrapper>
       <SectionWrapper>
         <Heading3>The Vendor Website</Heading3>
