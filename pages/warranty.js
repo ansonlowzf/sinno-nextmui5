@@ -8,7 +8,7 @@ const Warranty = () => {
   return (
     <>
       <Grid container justifyContent="center" sx={{ my: 10 }}>
-        <Grid item xs={6}>
+        <Grid item xs={10} sm={8} lg={6}>
           <Paper>
             <Image
               layout="responsive"

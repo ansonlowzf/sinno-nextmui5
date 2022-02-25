@@ -19,6 +19,7 @@ import SupernaturalJumbo from "@components/Caesarstone/SupernaturalJumbo";
 import SupernaturalPremium from "@components/Caesarstone/SupernaturalPremium";
 import SupernaturalPremiumJumbo from "@components/Caesarstone/SupernaturalPremiumJumbo";
 import Outdoor from "@components/Caesarstone/Outdoor";
+import MainSection from "@components/MainSection";
 
 const CaesarstonePage = () => {
   return (
@@ -37,7 +38,8 @@ const CaesarstonePage = () => {
         noMB
       />
       <SubNavbar routes={qsRoutes} />
-      <SectionWrapper>
+
+      <MainSection>
         <Grid
           container
           justifyContent="center"
@@ -54,9 +56,7 @@ const CaesarstonePage = () => {
             />
           </Grid>
         </Grid>
-      </SectionWrapper>
 
-      <SectionWrapper>
         <Heading2s>{`Caesarstone Malaysia's Distributor`}</Heading2s>
         <Typography
           paragraph
@@ -64,23 +64,20 @@ const CaesarstonePage = () => {
         <Typography
           paragraph
         >{`We distribute Caesarstone slabs or fabricate, supply & install Caesarstone quartz surfaces for countertops, wall cladding and other surface decorative applications.`}</Typography>
-      </SectionWrapper>
-      <SectionWrapper>
-        <Heading3>The Vendor Website</Heading3>
-        <TextWrapper>
-          <Typography paragraph>
-            Caesarstone has more than 60 colours worldwide. However, only 32
-            colours are available in Malaysia.
-          </Typography>
-          <Typography paragraph>
-            This Caesarstone web page will only show you the colour selling in
-            Malaysia and its pricing, respectively.
-          </Typography>
-          <Typography paragraph>
-            For more information, supporting documents and product certificates,
-            design inspiration, feel free to visit:-
-          </Typography>
-        </TextWrapper>
+
+        <Heading2s>The Vendor Website</Heading2s>
+        <Typography paragraph>
+          Caesarstone has more than 60 colours worldwide. However, only 32
+          colours are available in Malaysia.
+        </Typography>
+        <Typography paragraph>
+          This Caesarstone web page will only show you the colour selling in
+          Malaysia and its pricing, respectively.
+        </Typography>
+        <Typography paragraph>
+          For more information, supporting documents and product certificates,
+          design inspiration, feel free to visit:-
+        </Typography>
         <Grid container justifyContent="center" sx={{ my: 5 }}>
           <Button
             href="https://www.caesarstone.sg/"
@@ -91,25 +88,23 @@ const CaesarstonePage = () => {
             Caesarstone Singapore
           </Button>
         </Grid>
-        <TextWrapper>
-          <Typography paragraph>
-            {`If you happen to visit Caesarstone US and Caesarstone Australia's website, which contains the full range of colour options, please ignore and refer to this web page when you're choosing the colour.`}
-          </Typography>
-          <Typography>
-            Again, to avoid choosing the not available colour in Malaysia,
-            different naming or for more Caesarstone information, we highly
-            recommend you visit the Caesarstone Singapore website, where the
-            information, naming and colour range is simultaneous.
-          </Typography>
-        </TextWrapper>
-      </SectionWrapper>
-      <Heading3>Caesarstone Colour &amp; Pricing</Heading3>
-      <TextWrapper>
+        <Typography paragraph>
+          {`If you happen to visit Caesarstone US and Caesarstone Australia's website, which contains the full range of colour options, please ignore and refer to this web page when you're choosing the colour.`}
+        </Typography>
+        <Typography>
+          Again, to avoid choosing the not available colour in Malaysia,
+          different naming or for more Caesarstone information, we highly
+          recommend you visit the Caesarstone Singapore website, where the
+          information, naming and colour range is simultaneous.
+        </Typography>
+
+        <Heading2s>Caesarstone Colour &amp; Pricing</Heading2s>
         <Typography align="center" sx={{ mb: 2 }}>
           The price below all the Caesarstone colours available in Malaysia in
           20mm thick. 13mm is also available for a 10% lower price.
         </Typography>
-      </TextWrapper>
+      </MainSection>
+
       <Container maxWidth="lg">
         <Standard />
         <Deluxe />
@@ -120,6 +115,7 @@ const CaesarstonePage = () => {
         <SupernaturalPremiumJumbo />
         <Outdoor />
       </Container>
+
       <SectionWrapper>
         <ColourWarning />
       </SectionWrapper>

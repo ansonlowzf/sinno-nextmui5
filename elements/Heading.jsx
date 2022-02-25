@@ -46,7 +46,7 @@ export const Heading2s = ({ children }) => (
     align="center"
     sx={{
       fontWeight: "bold",
-      mb: 5,
+      my: 2.5,
     }}
   >
     {children}
