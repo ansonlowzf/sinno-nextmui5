@@ -22,7 +22,7 @@ const StsDisplay = ({
       </Grid>
       <Grid container item xs={12} md={6} sx={{ paddingLeft: 5 }}>
         <Grid item xs={12}>
-          <Typography variant="h3" color="primary">
+          <Typography variant="h3" color="primary" fontWeight="bold">
             {stoneName}
           </Typography>
         </Grid>
@@ -43,7 +43,7 @@ const StsDisplay = ({
           <Typography fontWeight="bold">{slabSize}</Typography>
         </Grid>
         <Grid item xs={12} alignSelf="center">
-          <Typography component="p" variant="h4">
+          <Typography component="p" variant="h4" sx={{ mt: { xs: 2 } }}>
             RM 310/FR or RM 165/SF
           </Typography>
         </Grid>
