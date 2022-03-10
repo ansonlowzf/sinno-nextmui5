@@ -43,7 +43,12 @@ const StsDisplay = ({
           <Typography fontWeight="bold">{slabSize}</Typography>
         </Grid>
         <Grid item xs={12} alignSelf="center">
-          <Typography component="p" variant="h4" sx={{ mt: { xs: 2 } }}>
+          <Typography
+            component="p"
+            variant="h4"
+            fontWeight="bold"
+            sx={{ mt: { xs: 1, md: 0 }, mb: { xs: 3, md: 0 } }}
+          >
             RM 310/FR or RM 165/SF
           </Typography>
         </Grid>

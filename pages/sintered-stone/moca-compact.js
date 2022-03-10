@@ -57,9 +57,9 @@ const MocaPage = () => {
         </Container>
       </SectionWrapper>
 
-      <Box sx={{ my: { xs: 10, sm: 15 } }}>
+      <Container sx={{ my: { xs: 5, sm: 15 } }}>
         <Heading3>Colour Catalogue &amp; Pricing</Heading3>
-      </Box>
+      </Container>
 
       <Container maxWidth="lg">
         <Grid container spacing={2.5}>
