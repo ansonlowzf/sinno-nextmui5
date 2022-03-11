@@ -7,7 +7,7 @@ const CollectionTitle = ({ children }) => {
       variant="h5"
       fontWeight="bold"
       align="center"
-      sx={{ bgcolor: "primary.main", mb: 2, py: 2 }}
+      sx={{ bgcolor: "primary.main", my: 2, py: 2 }}
     >
       {children}
     </Typography>

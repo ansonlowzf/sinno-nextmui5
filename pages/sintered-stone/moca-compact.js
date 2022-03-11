@@ -65,7 +65,15 @@ const MocaPage = () => {
         <Grid container spacing={2.5}>
           {sinteredStone.map(
             (
-              { stoneName, materialCode, finish, thickness, slabSize, imgSrc },
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                price,
+                imgSrc,
+              },
               i
             ) => (
               <StsDisplay
@@ -75,6 +83,7 @@ const MocaPage = () => {
                 finish={finish}
                 thickness={thickness}
                 slabSize={slabSize}
+                price={price}
                 imgSrc={imgSrc}
               />
             )

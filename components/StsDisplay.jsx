@@ -8,6 +8,7 @@ const StsDisplay = ({
   thickness,
   slabSize,
   imgSrc,
+  price,
 }) => {
   return (
     <>
@@ -49,7 +50,7 @@ const StsDisplay = ({
             fontWeight="bold"
             sx={{ mt: { xs: 1, md: 0 }, mb: { xs: 3, md: 0 } }}
           >
-            RM 310/FR or RM 165/SF
+            {price}
           </Typography>
         </Grid>
       </Grid>

@@ -5,6 +5,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp12g.jpg",
   },
   {
@@ -13,6 +14,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp12sm.jpg",
   },
   {
@@ -21,6 +23,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp1212g.jpg",
   },
   {
@@ -29,6 +32,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp1501sm.jpg",
   },
   {
@@ -37,6 +41,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp1502sm.jpg",
   },
   {
@@ -45,6 +50,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2013sm.jpg",
   },
   {
@@ -53,6 +59,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2031sm.jpg",
   },
   {
@@ -61,6 +68,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2032sm.jpg",
   },
   {
@@ -69,6 +77,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2033g.jpg",
   },
   {
@@ -77,6 +86,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2034sm.jpg",
   },
   {
@@ -85,6 +95,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2035sm.jpg",
   },
   {
@@ -93,6 +104,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2036g.jpg",
   },
   {
@@ -101,6 +113,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp2036sm.jpg",
   },
   {
@@ -109,6 +122,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp25g.jpg",
   },
   {
@@ -117,6 +131,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp28g.jpg",
   },
   {
@@ -125,6 +140,7 @@ export const sinteredStone = [
     finish: "Rough",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp507sm.jpg",
   },
   {
@@ -133,6 +149,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp264sm.jpg",
   },
   {
@@ -141,6 +158,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp383sm.jpg",
   },
   {
@@ -149,6 +167,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp445sm.jpg",
   },
   {
@@ -157,6 +176,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp455sm.jpg",
   },
   {
@@ -165,6 +185,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp501sm.jpg",
   },
   {
@@ -173,6 +194,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp502g.jpg",
   },
   {
@@ -181,6 +203,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp503sm.jpg",
   },
   {
@@ -189,6 +212,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp504sm.jpg",
   },
   {
@@ -197,6 +221,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp508sm.jpg",
   },
   {
@@ -205,6 +230,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp512sm.jpg",
   },
   {
@@ -213,6 +239,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp518sm.jpg",
   },
   {
@@ -221,6 +248,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp526g.jpg",
   },
   {
@@ -229,6 +257,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "2700x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp60g.jpg",
   },
   {
@@ -237,6 +266,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp603g.jpg",
   },
   {
@@ -245,6 +275,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp687g.jpg",
   },
   {
@@ -253,6 +284,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp693g.jpg",
   },
   {
@@ -261,6 +293,7 @@ export const sinteredStone = [
     finish: "Smooth Matt",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp769sm.jpg",
   },
   {
@@ -269,6 +302,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp826g.jpg",
   },
   {
@@ -277,6 +311,7 @@ export const sinteredStone = [
     finish: "Gloss",
     thickness: "12mm",
     slabSize: "3200x1600mm",
+    price: "RM310/FR or RM 165/SF",
     imgSrc: "/moca/sts/qp828g.jpg",
   },
 ];

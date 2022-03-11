@@ -1,8 +1,21 @@
+import CollectionTitle from "@components/CollectionTitle";
 import Hero from "@components/Hero";
+import MainSection from "@components/MainSection";
 import MetaSEO from "@components/MetaSEO";
-import { Heading2s, Heading3 } from "@elements/Heading";
-import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
-import { Container, Grid, Typography, Button } from "@mui/material";
+import StsDisplay from "@components/StsDisplay";
+import { Heading2s } from "@elements/Heading";
+import { SectionWrapper } from "@elements/Wrapper";
+import { Button, Container, Grid, Typography } from "@mui/material";
+import {
+  caesarstoneStandard,
+  caesarstoneDeluxe,
+  caesarstonePremium,
+  caesarstoneSupernatural,
+  caesarstoneSupernaturalJumbo,
+  caesarstoneSupernaturalPremium,
+  caesarstoneSupernaturalPremiumJumbo,
+  caesarstoneOutdoor,
+} from "const/caesarstone-data";
 import Image from "next/image";
 import {
   ColourWarning,
@@ -11,15 +24,6 @@ import {
   SubNavbar,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
-import Standard from "@components/Caesarstone/Standard";
-import Deluxe from "@components/Caesarstone/Deluxe";
-import Premium from "@components/Caesarstone/Premium";
-import Supernatural from "@components/Caesarstone/Supernatural";
-import SupernaturalJumbo from "@components/Caesarstone/SupernaturalJumbo";
-import SupernaturalPremium from "@components/Caesarstone/SupernaturalPremium";
-import SupernaturalPremiumJumbo from "@components/Caesarstone/SupernaturalPremiumJumbo";
-import Outdoor from "@components/Caesarstone/Outdoor";
-import MainSection from "@components/MainSection";
 
 const CaesarstonePage = () => {
   return (
@@ -98,7 +102,7 @@ const CaesarstonePage = () => {
           information, naming and colour range is simultaneous.
         </Typography>
 
-        <Heading2s>Caesarstone Colour &amp; Pricing</Heading2s>
+        <Heading2s>Caesarstone Catalogue &amp; Pricing</Heading2s>
         <Typography align="center" sx={{ mb: 2 }}>
           The price below all the Caesarstone colours available in Malaysia in
           20mm thick. 13mm is also available for a 10% lower price.
@@ -106,14 +110,237 @@ const CaesarstonePage = () => {
       </MainSection>
 
       <Container maxWidth="lg">
-        <Standard />
-        <Deluxe />
-        <Premium />
-        <Supernatural />
-        <SupernaturalJumbo />
-        <SupernaturalPremium />
-        <SupernaturalPremiumJumbo />
-        <Outdoor />
+        <CollectionTitle>Standard Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneStandard.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Deluxe Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneDeluxe.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Premium Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstonePremium.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Supernatural Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneSupernatural.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Supernatural Jumbo Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneSupernaturalJumbo.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Supernatural Premium Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneSupernaturalPremium.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Supernatural Premium Jumbo Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneSupernaturalPremiumJumbo.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Outdoor Collection</CollectionTitle>
+        <Grid container spacing={2.5}>
+          {caesarstoneOutdoor.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <StsDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
       </Container>
 
       <SectionWrapper>
