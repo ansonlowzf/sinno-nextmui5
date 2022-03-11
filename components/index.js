@@ -19,5 +19,3 @@ export * from "./Zenstone/Noble";
 export * from "./Zenstone/Marble";
 
 export * from "./QuartzStone/SectionWarranty";
-
-export * from "./Caesarstone/Commitment";

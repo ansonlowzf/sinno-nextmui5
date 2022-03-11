@@ -1,4 +1,5 @@
 import CollectionTitle from "@components/CollectionTitle";
+import FrSf from "@components/FrSf";
 import Hero from "@components/Hero";
 import MainSection from "@components/MainSection";
 import MetaSEO from "@components/MetaSEO";
@@ -103,10 +104,7 @@ const CaesarstonePage = () => {
         </Typography>
 
         <Heading2s>Caesarstone Catalogue &amp; Pricing</Heading2s>
-        <Typography align="center" sx={{ mb: 2 }}>
-          The price below all the Caesarstone colours available in Malaysia in
-          20mm thick. 13mm is also available for a 10% lower price.
-        </Typography>
+        <FrSf />
       </MainSection>
 
       <Container maxWidth="lg">
