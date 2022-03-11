@@ -111,7 +111,7 @@ const CaesarstonePage = () => {
 
       <Container maxWidth="lg">
         <CollectionTitle>Standard Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneStandard.map(
             (
               {
@@ -140,7 +140,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Deluxe Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneDeluxe.map(
             (
               {
@@ -169,7 +169,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Premium Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstonePremium.map(
             (
               {
@@ -198,7 +198,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Supernatural Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneSupernatural.map(
             (
               {
@@ -227,7 +227,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Supernatural Jumbo Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneSupernaturalJumbo.map(
             (
               {
@@ -256,7 +256,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Supernatural Premium Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneSupernaturalPremium.map(
             (
               {
@@ -285,7 +285,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Supernatural Premium Jumbo Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneSupernaturalPremiumJumbo.map(
             (
               {
@@ -314,7 +314,7 @@ const CaesarstonePage = () => {
         </Grid>
 
         <CollectionTitle>Outdoor Collection</CollectionTitle>
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {caesarstoneOutdoor.map(
             (
               {

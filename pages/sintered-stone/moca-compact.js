@@ -62,7 +62,7 @@ const MocaPage = () => {
       </Container>
 
       <Container maxWidth="lg">
-        <Grid container spacing={2.5}>
+        <Grid container spacing={2}>
           {sinteredStone.map(
             (
               {
