@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Card, CardContent, Grid, Typography, Paper } from "@mui/material";
 import Image from "next/image";
 
 const TwoColumnDisplay = ({
@@ -12,34 +12,52 @@ const TwoColumnDisplay = ({
   price,
 }) => {
   return (
-    <Grid container spacing={2}>
-      <Grid container item xs={12} sm={6}>
-        <Grid item xs={6}>
-          {/* <Image imgSrc={imgSrc} alt={stoneName} width={600} height={600} /> */}
-          image
-        </Grid>
-        <Grid item xs={6}>
-          <Typography>{stoneName}</Typography>
-          <Typography color="text.secondary">Code</Typography>
-          <Typography>{materialCode}</Typography>
-          <Typography color="text.secondary">Finish</Typography>
-          <Typography>{finish}</Typography>
-          <Typography color="text.secondary">Thickness</Typography>
-          <Typography>{thickness}</Typography>
-          <Typography color="text.secondary">Series</Typography>
-          <Typography>{series}</Typography>
-          <Typography color="text.secondary">Slab Size</Typography>
-          <Typography>{slabSize}</Typography>
-          <Typography>{price}</Typography>
-        </Grid>
+    <Grid container item xs={12} md={6}>
+      <Grid item xs={12} sm={12} md={6}>
+        <Image src={imgSrc} alt={stoneName} width={600} height={600} />
       </Grid>
-      <Grid container item xs={12} sm={6}>
-        <Grid item xs={6}>
-          Image
-        </Grid>
-        <Grid item xs={6}>
-          Description
-        </Grid>
+      <Grid container item xs={12} sm={12} md={6} alignItems="center">
+        <Card sx={{ minWidth: "100%" }}>
+          <CardContent>
+            <Typography
+              component="h3"
+              variant="h4"
+              color="primary"
+              fontWeight="bold"
+              gutterBottom
+            >
+              {stoneName}
+            </Typography>
+            <Typography gutterBottom>
+              {`Code: `}
+              <strong>{materialCode}</strong>
+            </Typography>
+            <Typography gutterBottom>
+              {`Finish: `}
+              <strong>{finish}</strong>
+            </Typography>
+            <Typography gutterBottom>
+              {`Thickness: `}
+              <strong>{thickness}</strong>
+            </Typography>
+            <Typography gutterBottom>
+              {`Series: `}
+              <strong>{series}</strong>
+            </Typography>
+            <Typography gutterBottom>
+              {`Slab Size: `}
+              <strong>{slabSize}</strong>
+            </Typography>
+            <Typography
+              component="p"
+              variant="h6"
+              color="text.secondary"
+              fontWeight="bold"
+            >
+              {price}
+            </Typography>
+          </CardContent>
+        </Card>
       </Grid>
     </Grid>
   );

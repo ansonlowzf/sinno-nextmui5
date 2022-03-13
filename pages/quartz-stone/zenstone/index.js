@@ -12,6 +12,13 @@ import {
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
 import TwoColumnDisplay from "@components/TwoColumnDisplay";
+import {
+  zenstoneClassic,
+  zenstonePremium,
+  zenstoneNoble,
+  zenstoneMarbleQuartz,
+} from "const/zenstone-data";
+import CollectionTitle from "@components/CollectionTitle";
 
 const ZenstonePage = () => {
   return (
@@ -60,7 +67,67 @@ const ZenstonePage = () => {
 
       <Heading2>Zenstone Colour &amp; Pricing</Heading2>
       <Container maxWidth="lg">
-        <TwoColumnDisplay />
+        <CollectionTitle>Classic Collection</CollectionTitle>
+        <Grid container>
+          {zenstoneClassic.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                series,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <TwoColumnDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                series={series}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Premium Collection</CollectionTitle>
+        <Grid container>
+          {zenstonePremium.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                series,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <TwoColumnDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                series={series}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
       </Container>
 
       <SectionWrapper>
