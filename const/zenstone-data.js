@@ -387,7 +387,7 @@ export const zenstoneNoble = [
   },
 ];
 
-export const zenstoneMableQuartz = [
+export const zenstoneMarbleQuartz = [
   {
     stoneName: "Black Marquina",
     materialCode: "MS-2866",

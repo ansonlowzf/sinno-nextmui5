@@ -19,6 +19,7 @@ import {
   zenstoneMarbleQuartz,
 } from "const/zenstone-data";
 import CollectionTitle from "@components/CollectionTitle";
+import FrSf from "@components/FrSf";
 
 const ZenstonePage = () => {
   return (
@@ -65,8 +66,12 @@ const ZenstonePage = () => {
         </TextWrapper>
       </SectionWrapper>
 
-      <Heading2>Zenstone Colour &amp; Pricing</Heading2>
-      <Container maxWidth="lg">
+      <Container maxWidth="sm">
+        <Heading2>Zenstone Catalogue &amp; Pricing</Heading2>
+        <FrSf />
+      </Container>
+
+      <Container maxWidth="md">
         <CollectionTitle>Classic Collection</CollectionTitle>
         <Grid container>
           {zenstoneClassic.map(
@@ -101,6 +106,68 @@ const ZenstonePage = () => {
         <CollectionTitle>Premium Collection</CollectionTitle>
         <Grid container>
           {zenstonePremium.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                series,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <TwoColumnDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                series={series}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Noble Collection</CollectionTitle>
+        <Grid container>
+          {zenstoneNoble.map(
+            (
+              {
+                stoneName,
+                materialCode,
+                finish,
+                thickness,
+                slabSize,
+                series,
+                imgSrc,
+                price,
+              },
+              i
+            ) => (
+              <TwoColumnDisplay
+                key={i}
+                stoneName={stoneName}
+                materialCode={materialCode}
+                finish={finish}
+                thickness={thickness}
+                series={series}
+                slabSize={slabSize}
+                imgSrc={imgSrc}
+                price={price}
+              />
+            )
+          )}
+        </Grid>
+
+        <CollectionTitle>Marble Quartz Collection</CollectionTitle>
+        <Grid container>
+          {zenstoneMarbleQuartz.map(
             (
               {
                 stoneName,
