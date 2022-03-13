@@ -6,6 +6,7 @@ import { SectionWrapper } from "@elements/Wrapper";
 import { Heading3 } from "@elements/Heading";
 import { sinteredStone } from "const/sintered-stone";
 import StsDisplay from "@components/StsDisplay";
+import FrSf from "@components/FrSf";
 
 const MocaPage = () => {
   return (
@@ -57,8 +58,9 @@ const MocaPage = () => {
         </Container>
       </SectionWrapper>
 
-      <Container sx={{ my: { xs: 5, sm: 15 } }}>
+      <Container maxWidth="sm" sx={{ my: { xs: 5, sm: 10 } }}>
         <Heading3>Colour Catalogue &amp; Pricing</Heading3>
+        <FrSf />
       </Container>
 
       <Container maxWidth="lg">

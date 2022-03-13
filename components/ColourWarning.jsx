@@ -3,14 +3,30 @@ import { Container, Typography } from "@mui/material";
 export const ColourWarning = () => {
   return (
     <Container maxWidth="xs">
-      <Typography component="p" variant="h6" paragraph color="error">
+      <Typography component="p" variant="h6" color="error" gutterBottom>
         Important
       </Typography>
       <Typography component="p" variant="subtitle2" paragraph color="error">
-        {`Please note that the colour samples shown on the website are in digital format. Due to the variable of monitor screen and specs. The digital colour might differ from the actual colour. Please insist to see the actual colour before making your final decision.`}
+        {`Caesarstone consists of natural quartz stone. Therefore
+subject to variation in shade, veining and colour. Thus,
+no absolute resemblance and no consistency can be
+guaranteed.`}
       </Typography>
-      <Typography component="p" variant="subtitle2" color="error">
-        {`Quartz stone consists of natural quartz stone and therefore are subject to variation in shade, veining and colours, thus not absolute resemblance and no consistency can be guaranteed.`}
+      <Typography color="error" gutterBottom>
+        <strong>
+          Kindly insist on seeing the actual stone sample or slab before
+          proceeding with your order because:-
+        </strong>
+      </Typography>
+      <Typography component="ul" variant="subtitle2" paragraph color="error">
+        <li>{`Due to the colour setting and variation of the devices'
+screen, the colour you see in this catalogue might not
+be exact compared to the actual.
+`}</li>
+        <li>{`Processing the photos with an app or software, lighting,
+scaling up or down the images, close up shots, photo
+cropping, and zooming might affect the colour, pigment,
+vein, and texture is different from the actual.`}</li>
       </Typography>
     </Container>
   );
