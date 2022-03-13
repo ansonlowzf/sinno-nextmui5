@@ -1,10 +1,6 @@
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
-import ZenstoneClassic from "@components/Zenstone/Classic";
-import ZenstoneMarble from "@components/Zenstone/Marble";
-import ZenstoneNoble from "@components/Zenstone/Noble";
-import ZenstonePremium from "@components/Zenstone/Premium";
-import { Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import { Heading2 } from "elements/Heading";
 import { SectionWrapper, TextWrapper } from "elements/Wrapper";
 import Image from "next/image";
@@ -15,6 +11,7 @@ import {
   SubNavbar,
 } from "../../../components";
 import { qsRoutes } from "../../../const/nav-links";
+import TwoColumnDisplay from "@components/TwoColumnDisplay";
 
 const ZenstonePage = () => {
   return (
@@ -61,13 +58,10 @@ const ZenstonePage = () => {
         </TextWrapper>
       </SectionWrapper>
 
-      <SectionWrapper>
-        <Heading2>Zenstone Colour &amp; Pricing</Heading2>
-        <ZenstoneClassic />
-        <ZenstonePremium />
-        <ZenstoneNoble />
-        <ZenstoneMarble />
-      </SectionWrapper>
+      <Heading2>Zenstone Colour &amp; Pricing</Heading2>
+      <Container maxWidth="lg">
+        <TwoColumnDisplay />
+      </Container>
 
       <SectionWrapper>
         <ColourWarning />
