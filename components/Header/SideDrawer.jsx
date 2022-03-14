@@ -1,8 +1,8 @@
-import { Box, Typography, Drawer, IconButton } from "@mui/material";
 import { Menu } from "@mui/icons-material";
+import { Box, Drawer, IconButton } from "@mui/material";
 import * as React from "react";
-import { mainRoutes } from "../../const/nav-links";
-import { MuiNextLink } from "../../components";
+import MainList from "@components/Header/MainList";
+import SubList from "@components/Header/SubList";
 
 const SideDrawer = () => {
   const [state, setState] = React.useState({
@@ -80,35 +80,3 @@ const SideDrawer = () => {
 };
 
 export default SideDrawer;
-
-const MainList = ({ pageName, pageUrl }) => {
-  return (
-    <Typography
-      variannt="button"
-      sx={{
-        ml: (theme) => theme.spacing(5),
-        my: (theme) => theme.spacing(3),
-        textTransform: `uppercase`,
-      }}
-    >
-      <MuiNextLink color="primary" underline="none" href={pageUrl}>
-        {pageName}
-      </MuiNextLink>
-    </Typography>
-  );
-};
-
-const SubList = ({ pageName, pageUrl }) => (
-  <Typography
-    variannt="button"
-    sx={{
-      ml: (theme) => theme.spacing(8),
-      my: (theme) => theme.spacing(3),
-      textTransform: `uppercase`,
-    }}
-  >
-    <MuiNextLink color="primary" underline="none" href={pageUrl}>
-      {pageName}
-    </MuiNextLink>
-  </Typography>
-);
