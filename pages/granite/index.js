@@ -23,13 +23,8 @@ const GranitePage = () => {
         subtitle="Granite Kitchen Top"
       />
 
-      <Container maxWidth="lg" sx={{ my: { xs: 15, sm: 20 } }}>
+      <Container maxWidth="lg" sx={{ my: { xs: 5, sm: 10 } }}>
         <Heading3>Granite Colour &amp; Pricing</Heading3>
-        <MuiNextLink href="/granite/black-galaxy">
-          <Typography component="p" variant="h5" align="center">
-            View Album
-          </Typography>
-        </MuiNextLink>
       </Container>
 
       <SectionWrapper>

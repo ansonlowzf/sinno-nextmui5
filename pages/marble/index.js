@@ -1,11 +1,10 @@
-import { Container, Grid, Typography } from "@mui/material";
+import ContactMarble from "@components/ContactMarble";
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
-import { SectionWrapper } from "@elements/Wrapper";
-import Image from "next/image";
-import ContactMarble from "@components/ContactMarble";
-import { MuiNextLink } from "@components/MuiNextLink";
 import { Heading3 } from "@elements/Heading";
+import { SectionWrapper } from "@elements/Wrapper";
+import { Container, Grid, Typography } from "@mui/material";
+import Image from "next/image";
 
 const Marble = () => {
   return (
@@ -35,11 +34,9 @@ const Marble = () => {
                 width={620}
                 height={350}
               />
-              <MuiNextLink href="/marble/dyno" underline="none">
-                <Typography align="center" sx={{ mt: 2 }}>
-                  Dyno Beige
-                </Typography>
-              </MuiNextLink>
+              <Typography align="center" sx={{ mt: 2 }}>
+                Dyno Beige
+              </Typography>
             </Grid>
             <Grid item xs={12} md={6}>
               <Image
@@ -49,11 +46,9 @@ const Marble = () => {
                 width={620}
                 height={350}
               />
-              <MuiNextLink href="/marble/new-ultraman" underline="none">
-                <Typography align="center" sx={{ mt: 2 }}>
-                  New Ultraman
-                </Typography>
-              </MuiNextLink>
+              <Typography align="center" sx={{ mt: 2 }}>
+                New Ultraman
+              </Typography>
             </Grid>
           </Grid>
         </Container>
