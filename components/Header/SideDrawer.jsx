@@ -1,32 +1,46 @@
-import { Menu } from "@mui/icons-material";
-import { Box, Drawer, IconButton } from "@mui/material";
+import { Menu, KeyboardArrowUp } from "@mui/icons-material";
+import {
+  AppBar,
+  Box,
+  Grid,
+  Drawer,
+  IconButton,
+  Toolbar,
+  Typography,
+  Fab,
+} from "@mui/material";
 import * as React from "react";
 import MainList from "@components/Header/MainList";
 import SubList from "@components/Header/SubList";
+import BackToTop from "./BackToTop";
+import { MuiNextLink } from "..";
+import Image from "next/image";
+import SinnoLogo from "../../public/favicon.png";
 
-const SideDrawer = () => {
-  const [state, setState] = React.useState({
-    right: false,
-  });
+const drawerWidth = 250;
 
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
+const SideDrawer = (props) => {
+  const { window } = props;
+  const [mobileOpen, setMobileOpen] = React.useState(false);
 
-    setState({ ...state, [anchor]: open });
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
   };
 
-  const list = (anchor) => (
-    <Box
-      sx={{ width: 250, marginTop: `auto`, marginBottom: `auto` }}
-      role="side navigation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
+  const list = (
+    <Box sx={{ bgcolor: "secondary" }}>
+      <Grid container item justifyContent="center" sx={{ my: 5 }}>
+        <MuiNextLink href="/">
+          <IconButton aria-label="home">
+            <Image
+              src={SinnoLogo}
+              alt="Stone Innovations Enterprise Logo"
+              width={64}
+              height={64}
+            />
+          </IconButton>
+        </MuiNextLink>
+      </Grid>
       <MainList pageName="home" pageUrl="/" />
 
       <MainList pageName="quartz stone" pageUrl="/quartz-stone" />
@@ -50,32 +64,97 @@ const SideDrawer = () => {
     </Box>
   );
 
+  const container =
+    window !== undefined ? () => window().document.body : undefined;
+
   return (
-    <React.Fragment>
-      <IconButton
-        edge="start"
-        aria-label="menu"
-        onClick={toggleDrawer("right", true)}
+    <Box sx={{ display: "flex" }}>
+      <AppBar
+        color="secondary"
+        position="fixed"
         sx={{
-          color: `common.white`,
-          display: { lg: `none` },
+          width: { sm: `calc(100% - ${drawerWidth}px)` },
+          ml: { sm: `${drawerWidth}px` },
         }}
       >
-        <Menu fontSize="large" />
-      </IconButton>
-      <Drawer
-        anchor="right"
-        open={state.right}
-        onClose={toggleDrawer("right", false)}
+        <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ mr: 2, display: { sm: "none" } }}
+          >
+            <Menu />
+          </IconButton>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            color="primary"
+            sx={{ textTransform: "uppercase", letterSpacing: 1 }}
+          >
+            Stone Innovations Enterprise
+          </Typography>
+        </Toolbar>
+      </AppBar>
+      <Box
+        component="nav"
         sx={{
-          ".MuiDrawer-paper": {
-            bgcolor: "secondary.main",
-          },
+          width: { sm: drawerWidth },
+          flexShrink: { sm: 0 },
+        }}
+        aria-label="main navigation"
+      >
+        <Drawer
+          container={container}
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{ keepMounted: true }}
+          sx={{
+            display: {
+              xs: "block",
+              sm: "none",
+              "& .MuiDrawer-paper": {
+                boxSizing: "border-box",
+                width: drawerWidth,
+              },
+            },
+          }}
+        >
+          {list}
+        </Drawer>
+        <Drawer
+          variant="permanent"
+          sx={{
+            display: { xs: "none", sm: "block" },
+            "& .MuiDrawer-paper": {
+              bgcolor: "secondary.main",
+              boxSizing: "border-box",
+              width: drawerWidth,
+            },
+          }}
+          open
+        >
+          {list}
+        </Drawer>
+      </Box>
+      <Box
+        component="main"
+        sx={{
+          flexGrow: 1,
+          width: { sm: `calc(100% - ${drawerWidth}px)` },
         }}
       >
-        {list("right")}
-      </Drawer>
-    </React.Fragment>
+        {props.children}
+      </Box>
+      <BackToTop>
+        <Fab color="primary" size="large" aria-label="back to top">
+          <KeyboardArrowUp />
+        </Fab>
+      </BackToTop>
+    </Box>
   );
 };
 

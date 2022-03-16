@@ -42,7 +42,6 @@ const CaesarstonePage = () => {
         subtitle="Caesarstone Quartz Surface Kitchen Top"
         noMB
       />
-      <SubNavbar routes={qsRoutes} />
 
       <MainSection>
         <Grid

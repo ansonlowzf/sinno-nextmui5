@@ -1,20 +1,16 @@
-import * as React from "react";
-import PropTypes from "prop-types";
-import Head from "next/head";
-import { ThemeProvider } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-
+import SideDrawer from "@components/Header/SideDrawer";
 import { CacheProvider } from "@emotion/react";
+import CssBaseline from "@mui/material/CssBaseline";
+import { ThemeProvider } from "@mui/material/styles";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import PropTypes from "prop-types";
+import * as React from "react";
+import Footer from "../components/Footer";
+import * as gtag from "../lib/gtag";
 import createEmotionCache from "../styles/createEmotionCache";
-
 import theme from "../styles/theme";
 import "/styles/globals.css";
-
-import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
-
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -44,8 +40,9 @@ export default function MyApp(props) {
 
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Header />
-        <Component {...pageProps} />
+        <SideDrawer>
+          <Component {...pageProps} />
+        </SideDrawer>
         <Footer />
       </ThemeProvider>
     </CacheProvider>

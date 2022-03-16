@@ -38,8 +38,6 @@ const ZenstonePage = () => {
         noMB
       />
 
-      <SubNavbar routes={qsRoutes} />
-
       <SectionWrapper>
         <Grid container justifyContent="center" sx={{ mt: 15 }}>
           <Grid item xs={10} md={2}>

@@ -1,8 +1,7 @@
 import Hero from "@components/Hero";
 import ImageSwiper from "@components/ImageSwiper";
 import MetaSEO from "@components/MetaSEO";
-import { ArticleHeading3 } from "@elements/Heading";
-import { Heading3, ArticleHeading2 } from "@elements/Heading";
+import { ArticleHeading2, ArticleHeading3, Heading3 } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
 import { Box, Container, Typography } from "@mui/material";
 import Image from "next/image";
@@ -11,10 +10,8 @@ import {
   MuiNextLink,
   SectionContact,
   SectionWarranty,
-  SubNavbar,
 } from "../../components";
 import { faqQuartzStone } from "../../const/faq";
-import { qsRoutes } from "../../const/nav-links";
 
 const imageLinks = [
   {
@@ -56,7 +53,6 @@ const QuartzStone = () => {
         subtitle="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
         noMB
       />
-      <SubNavbar routes={qsRoutes} />
 
       <SectionWrapper>
         <Container maxWidth="sm">
