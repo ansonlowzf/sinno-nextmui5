@@ -44,8 +44,14 @@ const SideDrawer = (props) => {
       <MainList pageName="home" pageUrl="/" />
 
       <MainList pageName="quartz stone" pageUrl="/quartz-stone" />
-      <SubList pageName="caesarstone" pageUrl="/quartz-stone/caesarstone" />
-      <SubList pageName="zenstone" pageUrl="/quartz-stone/zenstone" />
+      <SubList
+        pageName="caesarstone quartz surfaces"
+        pageUrl="/quartz-stone/caesarstone"
+      />
+      <SubList
+        pageName="zenstone quartz surfaces"
+        pageUrl="/quartz-stone/zenstone"
+      />
 
       <MainList
         pageName="sintered stone"
@@ -88,13 +94,19 @@ const SideDrawer = (props) => {
             <Menu />
           </IconButton>
           <Typography
+            component="div"
             variant="h6"
             noWrap
-            component="div"
             color="primary"
-            sx={{ textTransform: "uppercase", letterSpacing: 1 }}
+            sx={{
+              textTransform: "uppercase",
+              letterSpacing: 1,
+              "& :hover": { color: "white" },
+            }}
           >
-            Stone Innovations Enterprise
+            <MuiNextLink href="/" underline="none">
+              Stone Innovations Enterprise
+            </MuiNextLink>
           </Typography>
         </Toolbar>
       </AppBar>
