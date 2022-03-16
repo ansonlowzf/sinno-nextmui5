@@ -1,25 +1,19 @@
+import CollectionTitle from "@components/CollectionTitle";
+import FrSf from "@components/FrSf";
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
+import TwoColumnDisplay from "@components/TwoColumnDisplay";
 import { Container, Grid, Typography } from "@mui/material";
+import {
+  zenstoneClassic,
+  zenstoneMarbleQuartz,
+  zenstoneNoble,
+  zenstonePremium,
+} from "const/zenstone-data";
 import { Heading2 } from "elements/Heading";
 import { SectionWrapper, TextWrapper } from "elements/Wrapper";
 import Image from "next/image";
-import {
-  ColourWarning,
-  PriceTerm,
-  SectionContact,
-  SubNavbar,
-} from "../../../components";
-import { qsRoutes } from "../../../const/nav-links";
-import TwoColumnDisplay from "@components/TwoColumnDisplay";
-import {
-  zenstoneClassic,
-  zenstonePremium,
-  zenstoneNoble,
-  zenstoneMarbleQuartz,
-} from "const/zenstone-data";
-import CollectionTitle from "@components/CollectionTitle";
-import FrSf from "@components/FrSf";
+import { ColourWarning, PriceTerm, SectionContact } from "../../../components";
 
 const ZenstonePage = () => {
   return (
