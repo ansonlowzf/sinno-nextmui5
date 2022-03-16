@@ -4,7 +4,6 @@ import { KeyboardArrowUp } from "@mui/icons-material";
 import { MuiNextLink } from "../../components";
 import BackToTop from "./BackToTop";
 import HideOnScroll from "./HideOnScroll";
-import MainNav from "./MainNav";
 import SideDrawer from "./SideDrawer";
 import SinnoLogo from "../../public/favicon.png";
 import Image from "next/image";
@@ -31,7 +30,6 @@ const Header = () => {
                   />
                 </IconButton>
               </MuiNextLink>
-              <MainNav />
               <SideDrawer />
             </Container>
           </Toolbar>
