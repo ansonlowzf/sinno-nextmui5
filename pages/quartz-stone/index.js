@@ -13,30 +13,6 @@ import {
 } from "../../components";
 import { faqQuartzStone } from "../../const/faq";
 
-const imageLinks = [
-  {
-    imgSrc: "/defectqs/burnt-by-oil.jpg",
-    imgAlt: "quartz stone with oil burnt mark",
-  },
-  { imgSrc: "/defectqs/chemical.jpg", imgAlt: "discolouration by chemical" },
-  { imgSrc: "/defectqs/chip-off.jpg", imgAlt: "quartz stone chip off" },
-  {
-    imgSrc: "/defectqs/low-end-materials.jpg",
-    imgAlt: "quartz stone with low end materials",
-  },
-  { imgSrc: "/defectqs/scratches.jpg", imgAlt: "quartz stone with scratches" },
-  {
-    imgSrc: "/defectqs/discolouration.jpg",
-    imgAlt: "quartz stone discolouration",
-  },
-  { imgSrc: "/defectqs/stain.jpg", imgAlt: "quartz stone with stain" },
-  { imgSrc: "/defectqs/stain2.jpg", imgAlt: "quartz stone with stain" },
-  {
-    imgSrc: "/defectqs/burnt-mark.jpg",
-    imgAlt: "quartz stone with burnt mark",
-  },
-];
-
 const QuartzStone = () => {
   return (
     <>
@@ -72,7 +48,6 @@ const QuartzStone = () => {
         <Typography
           paragraph
         >{`This is an in-depth aritlce about quartz stone, quartz stone countertops, and the quartz stone market."`}</Typography>
-
         <ArticleHeading2>What is Quartz Stone?</ArticleHeading2>
         <Typography
           paragraph
@@ -84,7 +59,6 @@ const QuartzStone = () => {
         <Typography
           paragraph
         >{`Quartz stone looks, touch and feels like a stone, and it's manufactured to achieve advantages beyond natural stone.`}</Typography>
-
         <ArticleHeading2>What Is A Quartz Stone Countertop?</ArticleHeading2>
         <Typography
           paragraph
@@ -111,7 +85,6 @@ const QuartzStone = () => {
           {` `}is a horizontal surface built for work in the kitchen or a flat
           surface for food preparation.
         </Typography>
-
         <ArticleHeading2>
           What Is The World Best Countertop Be Like?
         </ArticleHeading2>
@@ -134,7 +107,6 @@ const QuartzStone = () => {
           paragraph
         >{`If we could invent it, will be for the planet Mars migration purposes first.`}</Typography>
         <Typography paragraph>{`Enough cold jokes`}</Typography>
-
         <ArticleHeading2>So, Is Quartz Stone The Best Option?</ArticleHeading2>
         <Typography paragraph>
           Our answer is yes, quartz stone is the best stone material for indoor
@@ -230,7 +202,6 @@ const QuartzStone = () => {
           The best practice is to clean the surface after cooking to maintain
           the beauty of the surface for a longer time.
         </Typography>
-
         <ArticleHeading2>More Non-porous Important Features</ArticleHeading2>
         <Typography paragraph>
           Non-porous is an essential feature of quartz stone. It solves many
@@ -240,7 +211,6 @@ const QuartzStone = () => {
         <Typography paragraph>
           {`Bacteria need space & moisture to grow a colony. Non-porous leave no room for bacteria and mildew to grow.`}
         </Typography>
-
         <ArticleHeading3>Safe For Food Preparation</ArticleHeading3>
         <Typography
           paragraph
@@ -259,14 +229,12 @@ const QuartzStone = () => {
           </MuiNextLink>{" "}
           and well suited for food preparation.
         </Typography>
-
         <ArticleHeading2>Resist Acidic Foods</ArticleHeading2>
         <Typography paragraph>
           Acidic foods such as lemon juice or lime juice do not affect or dim
           the surface - <strong>acidic resistance</strong>.
         </Typography>
         <Typography paragraph>(Video Coming Soon!)</Typography>
-
         <ArticleHeading2>Easy Cleaning</ArticleHeading2>
         <Typography
           paragraph
@@ -274,7 +242,6 @@ const QuartzStone = () => {
         <Typography paragraph>
           This makes quartz stone easy to clean. Say bye-bye to sticky oil.
         </Typography>
-
         <ArticleHeading2>Low Maintenance</ArticleHeading2>
         <Typography paragraph>
           Unlike natural stone like marble which needs to apply sealants to
@@ -411,7 +378,6 @@ const QuartzStone = () => {
             National Park Service
           </MuiNextLink>
         </Typography>
-
         <ArticleHeading2>
           Why is Quartz Stone Hardness Important?
         </ArticleHeading2>
@@ -424,7 +390,6 @@ const QuartzStone = () => {
           This hardness makes quartz stone a high{" "}
           <strong>scratch-resistant</strong> surfacing product in the kitchen.
         </Typography>
-
         <ArticleHeading2>
           Are You Satisfied With Genuine Quartz Stone Quality?
         </ArticleHeading2>
@@ -440,11 +405,9 @@ const QuartzStone = () => {
           <li>Easy to clean</li>
           <li>Safe for food preparation</li>
         </Typography>
-
         <SectionWrapper>
           <SectionContact stone="Quartz Stone" href="/contact/quartz-stone" />
         </SectionWrapper>
-
         <ArticleHeading2>
           We Are Not Done Yet. Genuine Quartz Stone Has More Benefits
         </ArticleHeading2>
@@ -477,7 +440,6 @@ const QuartzStone = () => {
           </MuiNextLink>
           .
         </Typography>
-
         <ArticleHeading3>Repairable Up To Certain Extent</ArticleHeading3>
         <Typography paragraph>
           Unlike engineered stone using printing technology which has 1-2mm
@@ -489,7 +451,6 @@ const QuartzStone = () => {
         <Typography
           paragraph
         >{`Since we started selling quartz stone in 2013 (from day one), the good news is that we haven't needed to repair or polish a quartz stone top.`}</Typography>
-
         <ArticleHeading3>Colour Consistency</ArticleHeading3>
         <Typography paragraph>
           Quartz stone is excellent for large scale cladding, and the
@@ -499,14 +460,12 @@ const QuartzStone = () => {
           Said you want the whole corridor wall to have the same colour, veins
           and pattern. Quartz stone can satisfy your needs.
         </Typography>
-
         <ArticleHeading3>Wide Range Of Colour</ArticleHeading3>
         <Typography paragraph>
           With 35 Caesarstone colours and 55 Zenstone colours, We could provide
           more than 90 colour and shade options. Terrazzo, granite, jade, pure
           and marble series to match your kitchen design.
         </Typography>
-
         <ArticleHeading3>Chemical Resistance</ArticleHeading3>
         <Typography paragraph>
           Either a natural stone or engineered stone is not afraid of the
@@ -524,7 +483,6 @@ const QuartzStone = () => {
           In fact, lacquer thinner does not affect genuine quartz stone at all.
           We often use it to clean the remaining sticker glue on the surface.
         </Typography>
-
         <ArticleHeading3>Crack and Chip-off Resistance</ArticleHeading3>
         <Typography paragraph>
           One of the key ingredients in quartz stone is{" "}
@@ -548,7 +506,6 @@ const QuartzStone = () => {
         <Typography paragraph>
           However, the resin also brings a disadvantage to quartz stone.
         </Typography>
-
         <ArticleHeading2>The Quartz Stone Disadvantage</ArticleHeading2>
         <Typography paragraph>
           Every type of stone has its advantages and disadvantages.
@@ -574,7 +531,6 @@ const QuartzStone = () => {
             height={600}
           />
         </Box>
-
         <ArticleHeading2>Conclusion</ArticleHeading2>
         <Typography paragraph>
           The benefits of quartz stone make it a virtually worry-free surface,
@@ -583,13 +539,11 @@ const QuartzStone = () => {
         <Typography paragraph>
           No need to pay extra attention to take care of and maintain it.
         </Typography>
-
         <ArticleHeading2>About Us</ArticleHeading2>
         <Typography paragraph>
           Stone Innovations Enterprise is a stonemason company specialising in
           quartz stone countertops since 2013.
         </Typography>
-
         <ArticleHeading2>Quartz Stone Applications</ArticleHeading2>
         <Typography paragraph>
           {`Although, we only talk about countertop in the article. With Quartz
@@ -614,7 +568,6 @@ const QuartzStone = () => {
           <li>Flooring</li>
           <li>Other Top &amp; Cladding Purposes</li>
         </Typography>
-
         <ArticleHeading2>Quartz Stone Market in Chaos</ArticleHeading2>
         <Typography paragraph>
           Malaysia quartz stone market is bloated with many different qualities
@@ -626,6 +579,428 @@ const QuartzStone = () => {
         <Typography paragraph>
           House owners sent the following photo to us,
         </Typography>
+        {/* TODO: add photo swiper got probelm*/}
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/burnt-by-oil.jpg"
+            layout="responsive"
+            alt="quartz stone with oil burnt mark"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/chemical.jpg"
+            layout="responsive"
+            alt="discolouration by chemical"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/chip-off.jpg"
+            layout="responsive"
+            alt="quartz stone chip off"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/low-end-materials.jpg"
+            layout="responsive"
+            alt="quartz stone with low end materials"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/scratches.jpg"
+            layout="responsive"
+            alt="quartz stone with scratches"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/discolouration.jpg"
+            layout="responsive"
+            alt="quartz stone discolouration"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/stain.jpg"
+            layout="responsive"
+            alt="quartz stone with stain"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/stain2.jpg"
+            layout="responsive"
+            alt="quartz stone with stain"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/defectqs/burnt-mark.jpg"
+            layout="responsive"
+            alt="quartz stone with burnt mark"
+            width={800}
+            height={600}
+          />
+        </Box>
+
+        <Typography paragraph sx={{ mt: 2 }}>
+          There are also similar posts reported on Facebook especially in the
+          renovation, interior design and construction groups.
+        </Typography>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-problems-fb/1.jpg"
+            layout="responsive"
+            alt="quartz stone countertop problem reported on Facebook"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-problems-fb/2.jpg"
+            layout="responsive"
+            alt="quartz stone countertop problem reported on Facebook"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-problems-fb/3.jpg"
+            layout="responsive"
+            alt="quartz stone countertop problem reported on Facebook"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Typography paragraph>
+          This is just the tip of the iceberg. We believe there are many cases
+          out there.
+        </Typography>
+        <ArticleHeading2>Why Are These Happening?</ArticleHeading2>
+        <Typography paragraph>There are 2 reasons:</Typography>
+        <ArticleHeading3>{`First, Low Quartz Content's Quartz Stone`}</ArticleHeading3>
+        <Typography paragraph>
+          Suppose quartz stone needs 85-93% quartz content to have all the
+          benefits.
+        </Typography>
+        <Typography paragraph>
+          The lower the percentage of the quartz content, the more benefits will
+          be sacrificed, example:
+        </Typography>
+        <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
+          <li>
+            The lower the quartz content, the lower the hardness; The easier the
+            stone can be scratched.
+          </li>
+          <li>The bigger the porous, the easier the stone can be stained.</li>
+          <li>
+            The more the stone powder, the easier the acidic foods can damage
+            the stone.
+          </li>
+          <li>Lacquer thinner damages the stone easily.</li>
+        </Typography>
+        <ArticleHeading3>
+          Second, The Worst Material For Countertop
+        </ArticleHeading3>
+        <Typography paragraph>
+          The low content quartz stone still can hold up to a certain extent.
+          The problem might occur a few months later.
+        </Typography>
+        <Typography paragraph>
+          The worst countertop material you might get is a compressed marble
+          countertop.
+        </Typography>
+        <Typography paragraph>
+          This stone initially is made for budget wall cladding. But, it looks
+          similar to natural marble at a significantly low price.
+        </Typography>
+        <Typography paragraph>
+          But if custom-made for countertop application, the countertop problems
+          happen as soon as you use it or sometime before you use it.{" "}
+        </Typography>
+        <ArticleHeading3>What Is Compressed Marble In Short?</ArticleHeading3>
+        <Typography paragraph>
+          The manufacturer used recycled crushed marble mixed with pigment,
+          colouring, lime powder, and glass powder and used compressed
+          technology to make it a marble slab again.
+        </Typography>
+        <Typography paragraph>
+          {`After that, using a stone print technology to print marble's
+            texture, vein, and pattern on the surface.`}
+        </Typography>
+        <ArticleHeading2>Low Price Close Deal Easier</ArticleHeading2>
+        <Typography paragraph>
+          Genuine quartz stone prices scared many owners away.
+        </Typography>
+        <Typography
+          paragraph
+        >{`Compressed marble looks like marble and is low price.`}</Typography>
+        <Typography
+          paragraph
+        >{`The house owners are not a stone expert. They wouldn't know in-depth about a stone`}</Typography>
+        <Typography paragraph>
+          Those suppliers make a final blow and say it is marble-effect quartz
+          stone. Bang, close deal and the owner tragedy begin.
+        </Typography>
+        <ArticleHeading2>{`We Willing To Help But Can't`}</ArticleHeading2>
+        <Typography paragraph>
+          Owners find us online and hope we can help repair or polish.
+        </Typography>
+        <Typography
+          paragraph
+        >{`We're willing to help, but repair or polish could not solve the problem.`}</Typography>
+        <Typography paragraph>
+          The same situation will keep happening because the actual problem is
+          the stone quality itself.
+        </Typography>
+        <Typography paragraph>
+          How much money and time do you plan to keep spending on the polishing?
+        </Typography>
+        <ArticleHeading2>
+          Why Do Owners Not Contact Their Ex-Supplier?
+        </ArticleHeading2>
+        <Typography
+          paragraph
+        >{`We asked: "why not call back their supplier to touch up?"`}</Typography>
+        <Typography
+          paragraph
+        >{`The owners' replied: "after telling the supplier about the problems, the supplier no longer picks up the call."`}</Typography>
+        <Typography
+          paragraph
+        >{`What is even worst is some suppliers block contact.`}</Typography>
+        <ArticleHeading2>{`It's Hassle, Waste Of Money & Time`}</ArticleHeading2>
+        <Typography paragraph>
+          {`Mr/Mrs owner, what if this tragedy happens to you?`}
+        </Typography>
+        <Typography
+          paragraph
+        >{`Would you close your eyes and let the problem keep getting serious? Or take the hassle and money to find a new supplier to custom make a new countertop?`}</Typography>
+        <ArticleHeading2>Why Those Suppliers Ignore Owner?</ArticleHeading2>
+        <Typography
+          paragraph
+        >{`We guess the supplier sell very low price. The touch-up cost can't cover their losses. Ignore owner at least can maintain some small profit margin.`}</Typography>
+        <Typography paragraph>
+          Or the supplier knows the product is low content quartz stone or
+          compressed marble that touch up is useless to solve the problem.
+        </Typography>
+        <ArticleHeading2>Profit Or Reputation?</ArticleHeading2>
+        <Typography paragraph>
+          Why do those suppliers not maintain their reputation?
+        </Typography>
+        <Typography paragraph>
+          The answer is simple - custom-making stone countertop is not a
+          repetitive business. Custom made one set, last for a decade.
+        </Typography>
+        <Typography paragraph>
+          The owner will not custom made a second set so soon anyway. Plus, even
+          you want to custom made a second set after a decade, the possibility
+          you can remember the supplier is low.
+        </Typography>
+        <Typography paragraph>
+          For short sighter suppliers, what is reputation? Can feed the hunger?
+        </Typography>
+        <ArticleHeading2>Business Ethics</ArticleHeading2>
+        <Typography paragraph>
+          Some suppliers will directly tell the low content quartz stone or
+          compressed marble.
+        </Typography>
+        <Typography paragraph>
+          They also emphasize the disadvantages. Let the owner decide to use it
+          or not.
+        </Typography>
+        <Typography
+          paragraph
+        >{`Don't expect all suppliers to practice business ethics.`}</Typography>
+        <ArticleHeading2>{`The Article's Mission`}</ArticleHeading2>
+        <Typography
+          paragraph
+        >{`We are not here to defame competitors and talk like you must buy from us. We're the only genuine quartz stone supplier in Malaysia.`}</Typography>
+        <Typography paragraph>
+          This article is to provide in-depth information about quartz stone,
+          quartz-stone countertops and quartz stone market.
+        </Typography>
+        <Typography paragraph>We have no defamatory intention.</Typography>
+        <ArticleHeading2>Few Tips Select Quartz Stone</ArticleHeading2>
+        <Typography
+          paragraph
+        >{`We might not have the colour and shade you're looking for.`}</Typography>
+        <Typography paragraph>
+          There are many genuine suppliers out there.
+        </Typography>
+        <Typography paragraph>
+          We would like to share a few tips on how to choose genuine quartz
+          stone:-
+        </Typography>
+        <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
+          <li>
+            Choose quartz stone with warranty. Quartz stone often comes with 10
+            years of material warranty.
+          </li>
+          <li>
+            Choose quartz stone with a brand. Usually, the vendor would keep the
+            reputation and not risk by importing low content quartz stone.
+          </li>
+          <li>
+            Request a sample you would like to confirm, test it with the below
+            method before placing an order.
+          </li>
+        </Typography>
+        <ArticleHeading2>{`Test & Check Method`}</ArticleHeading2>
+        <Typography paragraph>{`Let's see the quartz stone below,`}</Typography>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-test/1.jpg"
+            layout="responsive"
+            alt="low content quartz stone sample"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Typography paragraph>
+          Translate the sticker, this quartz stone uses some kinds of
+          nano-technology, diamond quality, stain and crack resistance.
+        </Typography>
+        <Typography
+          paragraph
+        >{`Is it a good quality quartz stone? Let's test and see,`}</Typography>
+        <Typography
+          paragraph
+        >{`We'll use Harpic 10x for this test.`}</Typography>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-test/2.jpg"
+            layout="responsive"
+            alt="Harpic 10x"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Typography paragraph>{`Let's pour on the surface,`}</Typography>
+        <Typography paragraph>
+          Keep staring and wait for 10 - 15 min,
+        </Typography>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-test/3.jpg"
+            layout="responsive"
+            alt="bubble reaction on low content quartz stone"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-test/4.jpg"
+            layout="responsive"
+            alt="bubble reaction on low content quartz stone"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Typography
+          paragraph
+        >{`During the test, you should not go away. By the time you come back, the bubble reaction might already be over.`}</Typography>
+        <Typography paragraph>
+          Bubble reaction? Why does this happen?
+        </Typography>
+        <Typography paragraph>
+          This stone does not have enough quartz content and contains too much
+          stone or lime powder. The more it had, the faster you could see the
+          bubble reaction.
+        </Typography>
+        <Typography paragraph>
+          Second, this stone was coated with a sealant on the surface to make it
+          shiny. It will create a bubble reaction too.
+        </Typography>
+        <Typography
+          paragraph
+        >{`Either one, it is not the quartz stone you're seeking for,`}</Typography>
+        <Typography paragraph>After wiping the Harpic,</Typography>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-test/5.jpg"
+            layout="responsive"
+            alt="low content quartz stone test result"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
+          <li>A layer of sealant is gone</li>
+          <li>Become rough surface, tiny hole can see by human eyes now</li>
+          <li>Colour faded</li>
+          <li>Discolouration</li>
+        </Typography>
+        <Typography paragraph>
+          This kinds of quality quartz stone give the house owner many
+          unnecessary troubles.
+        </Typography>
+        <Typography paragraph>What result should you seek?</Typography>
+        <Box sx={{ mb: 2 }}>
+          <Image
+            src="/quartz-stone/qs-test/6.jpg"
+            layout="responsive"
+            alt="no bubble reaction on genuine quartz stone"
+            width={800}
+            height={600}
+          />
+        </Box>
+        <Typography paragraph>
+          This is the result you should look for. No chemical or bubble reaction
+          on quartz stone.
+        </Typography>
+        <Typography paragraph>
+          We hope this tip can help you filter out the unwanted quartz stones.
+        </Typography>
+        <Typography paragraph color="error" fontWeight="bold">
+          Disclaimer
+        </Typography>
+        <Typography paragraph>
+          This method cannot guarantee you find genuine quartz stone.
+        </Typography>
+        <Typography paragraph>
+          Some low content quartz stones can resist Harpic 10x up to 30 min or
+          more.
+        </Typography>
+        <Typography paragraph></Typography>
+      </Container>
+
+      <SectionWarranty />
+
+      <SectionWrapper>
+        <SectionContact stone="Quartz Stone" href="/contact/quartz-stone" />
+      </SectionWrapper>
+
+      <Container maxWidth="lg" sx={{ mt: 10 }}>
+        <Heading3>Frequently Ask Question</Heading3>
+        <SectionWrapper>
+          <Container maxWidth="sm">
+            {faqQuartzStone.map(({ question, answer, id }) => (
+              <FaqAccordion key={id} question={question} answer={answer} />
+            ))}
+          </Container>
+        </SectionWrapper>
       </Container>
     </>
   );
