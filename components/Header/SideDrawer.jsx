@@ -128,10 +128,11 @@ const SideDrawer = (props) => {
             display: {
               xs: "block",
               sm: "none",
-              "& .MuiDrawer-paper": {
-                boxSizing: "border-box",
-                width: drawerWidth,
-              },
+            },
+            "& .MuiDrawer-paper": {
+              bgcolor: "secondary.main",
+              boxSizing: "border-box",
+              width: drawerWidth,
             },
           }}
         >
