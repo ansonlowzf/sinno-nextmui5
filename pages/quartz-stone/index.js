@@ -1,5 +1,4 @@
 import Hero from "@components/Hero";
-import ImageSwiper from "@components/ImageSwiper";
 import MetaSEO from "@components/MetaSEO";
 import { ArticleHeading2, ArticleHeading3, Heading3 } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
