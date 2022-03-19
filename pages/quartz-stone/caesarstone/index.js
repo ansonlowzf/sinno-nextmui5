@@ -8,23 +8,17 @@ import { Heading2s } from "@elements/Heading";
 import { SectionWrapper } from "@elements/Wrapper";
 import { Button, Container, Grid, Typography } from "@mui/material";
 import {
-  caesarstoneStandard,
   caesarstoneDeluxe,
+  caesarstoneOutdoor,
   caesarstonePremium,
+  caesarstoneStandard,
   caesarstoneSupernatural,
   caesarstoneSupernaturalJumbo,
   caesarstoneSupernaturalPremium,
   caesarstoneSupernaturalPremiumJumbo,
-  caesarstoneOutdoor,
 } from "const/caesarstone-data";
 import Image from "next/image";
-import {
-  ColourWarning,
-  PriceTerm,
-  SectionContact,
-  SubNavbar,
-} from "../../../components";
-import { qsRoutes } from "../../../const/nav-links";
+import { ColourWarning, PriceTerm, SectionContact } from "../../../components";
 
 const CaesarstonePage = () => {
   return (
