@@ -4,6 +4,7 @@ import Hero from "@components/Hero";
 import { SectionWrapper } from "elements/Wrapper";
 import { Heading2, Heading3 } from "elements/Heading";
 import Image from "next/image";
+import ProjectImage from "@components/ProjectImage";
 
 const Project = () => {
   return (
@@ -25,52 +26,26 @@ const Project = () => {
         <Heading2>Residential Projects</Heading2>
 
         <Grid container spacing={0.5}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/aura15/1.png"
-              layout="responsive"
-              alt="caesarstone aura15 kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/aura15/2.png"
-              layout="responsive"
-              alt="caesarstone aura15 kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/aura15/3.png"
-              layout="responsive"
-              alt="caesarstone aura15 kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/aura15/4.png"
-              layout="responsive"
-              alt="caesarstone aura15 kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/aura15/5.png"
-              layout="responsive"
-              alt="caesarstone aura15 kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/aura15/1.png"
+            imgAlt="caesarstone aura15 kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/aura15/2.png"
+            imgAlt="caesarstone aura15 kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/aura15/3.png"
+            imgAlt="caesarstone aura15 kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/aura15/4.png"
+            imgAlt="caesarstone aura15 kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/aura15/5.png"
+            imgAlt="caesarstone aura15 kitchen top"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -81,27 +56,18 @@ const Project = () => {
             kitchen wall cladding
           </Typography>
         </Container>
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/calacatta-nuvo/1.png"
-              layout="responsive"
-              alt="caesarstone calacatta nuvo kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/calacatta-nuvo/2.png"
-              layout="responsive"
-              alt="caesarstone calacatta nuvo kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/calacatta-nuvo/1.png"
+            imgAlt="caesarstone calacatta nuvo kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/calacatta-nuvo/2.png"
+            imgAlt="caesarstone calacatta nuvo kitchen top"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -112,45 +78,26 @@ const Project = () => {
             kitchen top
           </Typography>
         </Container>
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/raven/1.png"
-              layout="responsive"
-              alt="caesarstone raven kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/raven/2.png"
-              layout="responsive"
-              alt="caesarstone raven kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/raven/3.png"
-              layout="responsive"
-              alt="caesarstone raven kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/raven/4.png"
-              layout="responsive"
-              alt="caesarstone raven kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/raven/1.png"
+            imgAlt="caesarstone raven kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/raven/2.png"
+            imgAlt="caesarstone raven kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/raven/3.png"
+            imgAlt="caesarstone raven kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/raven/4.png"
+            imgAlt="caesarstone raven kitchen top"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -164,33 +111,18 @@ const Project = () => {
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/black-mirror/1.png"
-              layout="responsive"
-              alt="zenstone black mirror kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/black-mirror/2.png"
-              layout="responsive"
-              alt="zenstone black mirror kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/black-mirror/3.png"
-              layout="responsive"
-              alt="zenstone black mirror kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/black-mirror/1.png"
+            imgAlt="zenstone black mirror kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/black-mirror/2.png"
+            imgAlt="zenstone black mirror kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/black-mirror/3.png"
+            imgAlt="zenstone black mirror kitchen top"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -208,60 +140,30 @@ const Project = () => {
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/pure-grey/1.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/pure-grey/2.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/pure-grey/3.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/pure-grey/4.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/pure-grey/5.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/pure-grey/6.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/pure-grey/1.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/pure-grey/2.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/pure-grey/3.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/pure-grey/4.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/pure-grey/5.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/pure-grey/6.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -275,51 +177,26 @@ const Project = () => {
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/blue-pearl/1.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/blue-pearl/2.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/blue-pearl/3.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/blue-pearl/4.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/blue-pearl/5.png"
-              layout="responsive"
-              alt="caesarstone pure grey kitchen top"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/blue-pearl/1.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/blue-pearl/2.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/blue-pearl/3.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/blue-pearl/4.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
+          <ProjectImage
+            imgSrc="/project/blue-pearl/5.png"
+            imgAlt="caesarstone pure grey kitchen top"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -332,69 +209,34 @@ const Project = () => {
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/1.png"
-              layout="responsive"
-              alt="Marble Flooring"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/2.png"
-              layout="responsive"
-              alt="Marble Flooring"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/3.png"
-              layout="responsive"
-              alt="Marble Flooring"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/4.png"
-              layout="responsive"
-              alt="Marble Flooring"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/5.png"
-              layout="responsive"
-              alt="Marble Flooring"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/6.png"
-              layout="responsive"
-              alt="Marble Flooring"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/crema-marfil/7.png"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/crema-marfil/1.png"
+            imgAlt="Marble Flooring"
+          />
+          <ProjectImage
+            imgSrc="/project/crema-marfil/2.png"
+            imgAlt="Marble Flooring"
+          />
+          <ProjectImage
+            imgSrc="/project/crema-marfil/3.png"
+            imgAlt="Marble Flooring"
+          />
+          <ProjectImage
+            imgSrc="/project/crema-marfil/4.png"
+            imgAlt="Marble Flooring"
+          />
+          <ProjectImage
+            imgSrc="/project/crema-marfil/5.png"
+            imgAlt="Marble Flooring"
+          />
+          <ProjectImage
+            imgSrc="/project/crema-marfil/6.png"
+            imgAlt="Marble Flooring"
+          />
+          <ProjectImage
+            imgSrc="/project/crema-marfil/7.png"
+            imgAlt="Marble Flooring"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -407,60 +249,30 @@ const Project = () => {
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/moca/coffee-table/1.jpg"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/moca/coffee-table/2.jpg"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/moca/coffee-table/3.jpg"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/moca/coffee-table/4.jpg"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/moca/coffee-table/5.jpg"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Image
-              src="/project/moca/coffee-table/6.jpg"
-              layout="responsive"
-              alt="Sintered Coffee Table"
-              width={800}
-              height={600}
-            />
-          </Grid>
+          <ProjectImage
+            imgSrc="/project/moca/coffee-table/1.jpg"
+            imgAlt="Sintered Coffee Table"
+          />
+          <ProjectImage
+            imgSrc="/project/moca/coffee-table/2.jpg"
+            imgAlt="Sintered Coffee Table"
+          />
+          <ProjectImage
+            imgSrc="/project/moca/coffee-table/3.jpg"
+            imgAlt="Sintered Coffee Table"
+          />
+          <ProjectImage
+            imgSrc="/project/moca/coffee-table/4.jpg"
+            imgAlt="Sintered Coffee Table"
+          />
+          <ProjectImage
+            imgSrc="/project/moca/coffee-table/5.jpg"
+            imgAlt="Sintered Coffee Table"
+          />
+          <ProjectImage
+            imgSrc="/project/moca/coffee-table/6.jpg"
+            imgAlt="Sintered Coffee Table"
+          />
         </Grid>
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Typography fontWeight="bold" gutterBottom>
@@ -485,150 +297,46 @@ const Project = () => {
         <SectionWrapper>
           <Heading2>Commercial Projects</Heading2>
           <Grid container spacing={0.5}>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/lavendar/cs/1.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/2.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/5.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/6.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/7.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/9.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/10.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/cs/12.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/lavendar/zs/13.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/14.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/15.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/16.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/17.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/18.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/19.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/lavendar/zs/21.jpg"
-                layout="responsive"
-                alt="Caesarstone Countertop Lavendar Bakery"
-                width={800}
-                height={600}
-              />
-            </Grid>
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/1.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/2.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/5.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/6.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/7.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/9.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/10.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/12.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/13.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
+            <ProjectImage
+              imgSrc="/project/lavendar/cs/15.jpg"
+              imgAlt="Caesarstone Countertop Lavendar Bakery"
+            />
           </Grid>
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Typography fontWeight="bold" gutterBottom>
@@ -649,78 +357,38 @@ const Project = () => {
           <hr />
 
           <Grid container spacing={0.5}>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/cs/baskin-robin/1.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/2.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/3.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/4.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/5.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/6.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/7.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/cs/baskin-robin/8.jpg"
-                layout="responsive"
-                alt="caesarstone baskin robin countertop"
-                width={800}
-                height={600}
-              />
-            </Grid>
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/1.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/2.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/3.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/4.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/5.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/6.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/7.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
+            <ProjectImage
+              imgSrc="/project/cs/baskin-robin/8.jpg"
+              imgAlt="caesarstone baskin robin countertop"
+            />
           </Grid>
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Typography fontWeight="bold" gutterBottom>
@@ -736,61 +404,32 @@ const Project = () => {
             <Typography paragraph>Baskin Robin Outlet</Typography>
           </Container>
           <hr />
+
           <Grid container spacing={0.5}>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/klia2/1.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/klia2/2.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/klia2/3.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/klia2/4.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/klia2/5.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/klia2/6.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
+            <ProjectImage
+              imgSrc="/project/klia2/1.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/klia2/2.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/klia2/3.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/klia2/4.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/klia2/5.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/klia2/6.png"
+              imgAlt="quartz stone dining table top"
+            />
           </Grid>
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Typography fontWeight="bold" gutterBottom>
@@ -807,43 +446,24 @@ const Project = () => {
             <Typography paragraph>A lounge in KLIA2</Typography>
           </Container>
           <hr />
+
           <Grid container spacing={0.5} sx={{ mt: 5 }}>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/yogu/1.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/yogu/2.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/yogu/3.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/yogu/4.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
+            <ProjectImage
+              imgSrc="/project/yogu/1.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/yogu/2.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/yogu/3.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/yogu/4.png"
+              imgAlt="quartz stone dining table top"
+            />
           </Grid>
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Typography fontWeight="bold" gutterBottom>
@@ -862,25 +482,16 @@ const Project = () => {
             <Typography paragraph>Paradigm Mall</Typography>
           </Container>
           <hr />
+
           <Grid container spacing={0.5} sx={{ mt: 5 }}>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/oyster/1.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} lg={4}>
-              <Image
-                src="/project/oyster/2.png"
-                layout="responsive"
-                alt="quartz stone dining table top"
-                width={800}
-                height={600}
-              />
-            </Grid>
+            <ProjectImage
+              imgSrc="/project/oyster/1.png"
+              imgAlt="quartz stone dining table top"
+            />
+            <ProjectImage
+              imgSrc="/project/oyster/2.png"
+              imgAlt="quartz stone dining table top"
+            />
           </Grid>
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Typography fontWeight="bold" gutterBottom>
@@ -894,24 +505,14 @@ const Project = () => {
           <hr />
 
           <Grid container spacing={0.5} sx={{ mt: 5 }}>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/volakas-marble/1.png"
-                layout="responsive"
-                alt="Sintered Coffee Table"
-                width={800}
-                height={600}
-              />
-            </Grid>
-            <Grid item xs={12} md={4}>
-              <Image
-                src="/project/volakas-marble/2.png"
-                layout="responsive"
-                alt="Sintered Coffee Table"
-                width={800}
-                height={600}
-              />
-            </Grid>
+            <ProjectImage
+              imgSrc="/project/volakas-marble/1.png"
+              imgAlt="Sintered Coffee Table"
+            />
+            <ProjectImage
+              imgSrc="/project/volakas-marble/2.png"
+              imgAlt="Sintered Coffee Table"
+            />
           </Grid>
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Typography fontWeight="bold" gutterBottom>
