@@ -8,8 +8,3 @@ export const mainRoutes = [
   { name: "blog", path: "/blog" },
   { name: "contact us", path: "/contact" },
 ];
-
-export const qsRoutes = [
-  { name: "caesarstone quartz surface", path: "/quartz-stone/caesarstone" },
-  { name: "zenstone quartz surface", path: "/quartz-stone/zenstone" },
-];
