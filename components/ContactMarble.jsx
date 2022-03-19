@@ -9,11 +9,15 @@ const ContactMarble = ({ stone, href }) => (
       Marble {stone}
     </Typography>
     <Grid container item justifyContent="center" alignItems="center">
-      <MuiNextLink href={`${href}`} underline="none">
-        <Button variant="outlined" size="large">
-          Contact Us
-        </Button>
-      </MuiNextLink>
+      <Button
+        component={MuiNextLink}
+        variant="outlined"
+        size="large"
+        href={`${href}`}
+        underline="none"
+      >
+        Contact Us
+      </Button>
     </Grid>
   </Container>
 );
