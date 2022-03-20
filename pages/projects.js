@@ -1,10 +1,10 @@
-import { Container, Grid, Typography } from "@mui/material";
-import MetaSEO from "@components/MetaSEO";
 import Hero from "@components/Hero";
-import { SectionWrapper } from "elements/Wrapper";
-import { Heading2, Heading3 } from "elements/Heading";
-import Image from "next/image";
+import MetaSEO from "@components/MetaSEO";
 import ProjectImage from "@components/ProjectImage";
+import { Container, Grid, Typography } from "@mui/material";
+import { Heading2, Heading3 } from "elements/Heading";
+import { SectionWrapper } from "elements/Wrapper";
+import ProjectDescription from "@components/ProjectDescription";
 
 const Project = () => {
   return (
@@ -47,15 +47,12 @@ const Project = () => {
             imgAlt="caesarstone aura15 kitchen top"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install 4mm Dekton Ultra-Compact Surface Aura 15
             kitchen wall cladding
-          </Typography>
-        </Container>
+          "
+        />
 
         <hr />
 
@@ -69,15 +66,12 @@ const Project = () => {
             imgAlt="caesarstone calacatta nuvo kitchen top"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install 20mm Caesarstone quartz surfaces Calacatta Nuvo
             kitchen top
-          </Typography>
-        </Container>
+          "
+        />
 
         <hr />
 
@@ -99,15 +93,13 @@ const Project = () => {
             imgAlt="caesarstone raven kitchen top"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install 20mm Caesarstone quartz surfaces Raven kitchen
             top
-          </Typography>
-        </Container>
+          "
+        />
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -124,19 +116,13 @@ const Project = () => {
             imgAlt="zenstone black mirror kitchen top"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install 15mm Zenstone quartz surfaces Black Mirror
             kitchen &amp; breakfast island top.
-          </Typography>
-          <Typography paragraph>
-            Use the termoforming technique to bend the breakfast island front
-            edging.
-          </Typography>
-        </Container>
+          "
+        />
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -165,15 +151,13 @@ const Project = () => {
             imgAlt="caesarstone pure grey kitchen top"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install 15mm Zenstone quartz surfaces Pure Grey kitchen
             &amp; overhang island top for breakfast &amp; dining purposes.
-          </Typography>
-        </Container>
+          "
+        />
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -198,14 +182,12 @@ const Project = () => {
             imgAlt="caesarstone pure grey kitchen top"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install 15mm granite Blue Pearl kitchen top
-          </Typography>
-        </Container>
+          "
+        />
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -238,14 +220,12 @@ const Project = () => {
             imgAlt="Marble Flooring"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install marble Creme Marfil living hall flooring.
-          </Typography>
-        </Container>
+          "
+        />
+
         <hr />
 
         <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -274,15 +254,11 @@ const Project = () => {
             imgAlt="Sintered Coffee Table"
           />
         </Grid>
-        <Container maxWidth="sm" sx={{ my: 5 }}>
-          <Typography fontWeight="bold" gutterBottom>
-            Work Description:
-          </Typography>
-          <Typography paragraph>
+        <ProjectDescription
+          description="
             Supply &amp; install Moca Compact Stone as coffee table top.
-          </Typography>
-          <Typography>Supply the stainless steel table leg</Typography>
-        </Container>
+          "
+        />
 
         <Container maxWidth="sm" sx={{ my: 5 }}>
           <Heading3>More Completed Projects</Heading3>
@@ -338,22 +314,14 @@ const Project = () => {
               imgAlt="Caesarstone Countertop Lavendar Bakery"
             />
           </Grid>
-          <Container maxWidth="sm" sx={{ my: 5 }}>
-            <Typography fontWeight="bold" gutterBottom>
-              Work Description:
-            </Typography>
-            <Typography paragraph>
+          <ProjectDescription
+            description="
               Supply &amp; install Caesarstone Oyster &amp; Zenstone Fabricator
               White Quartz Surface Bakery Countertop, Pantry Top, Cashier Top,
               Vanity Top &amp; Worktop
-            </Typography>
-            <Typography fontWeight="bold" gutterBottom>
-              Location:
-            </Typography>
-            <Typography paragraph>
-              Lavendar Bakery Pavilion Bukit Jalil
-            </Typography>
-          </Container>
+            "
+          />
+
           <hr />
 
           <Grid container spacing={0.5}>
@@ -390,19 +358,13 @@ const Project = () => {
               imgAlt="caesarstone baskin robin countertop"
             />
           </Grid>
-          <Container maxWidth="sm" sx={{ my: 5 }}>
-            <Typography fontWeight="bold" gutterBottom>
-              Work Description:
-            </Typography>
-            <Typography paragraph>
+          <ProjectDescription
+            description="
               Supply &amp; install Caesarstone Raw Concrete Quartz Surface Ice
               Cream &amp; Cashier Countertop
-            </Typography>
-            <Typography fontWeight="bold" gutterBottom>
-              Location:
-            </Typography>
-            <Typography paragraph>Baskin Robin Outlet</Typography>
-          </Container>
+            "
+          />
+
           <hr />
 
           <Grid container spacing={0.5}>
@@ -431,20 +393,14 @@ const Project = () => {
               imgAlt="quartz stone dining table top"
             />
           </Grid>
-          <Container maxWidth="sm" sx={{ my: 5 }}>
-            <Typography fontWeight="bold" gutterBottom>
-              Work Description:
-            </Typography>
-            <Typography paragraph>
+          <ProjectDescription
+            description="
               Supply &amp; install Zenstone Smoothie White quartz surfaces long
               dining &amp; round dining table top. (client supply the table
               legs)
-            </Typography>
-            <Typography fontWeight="bold" gutterBottom>
-              Location:
-            </Typography>
-            <Typography paragraph>A lounge in KLIA2</Typography>
-          </Container>
+            "
+          />
+
           <hr />
 
           <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -465,22 +421,13 @@ const Project = () => {
               imgAlt="quartz stone dining table top"
             />
           </Grid>
-          <Container maxWidth="sm" sx={{ my: 5 }}>
-            <Typography fontWeight="bold" gutterBottom>
-              Work Description:
-            </Typography>
-            <Typography paragraph>
+          <ProjectDescription
+            description="
               Supply &amp; install Zenstone Smoothie White quartz surfaces
               counter, saucer and cashier top.
-            </Typography>
-            <Typography paragraph>
-              Cut the customer brand logo on quartz stone
-            </Typography>
-            <Typography fontWeight="bold" gutterBottom>
-              Location:
-            </Typography>
-            <Typography paragraph>Paradigm Mall</Typography>
-          </Container>
+            "
+          />
+
           <hr />
 
           <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -493,15 +440,13 @@ const Project = () => {
               imgAlt="quartz stone dining table top"
             />
           </Grid>
-          <Container maxWidth="sm" sx={{ my: 5 }}>
-            <Typography fontWeight="bold" gutterBottom>
-              Work Description:
-            </Typography>
-            <Typography paragraph>
+          <ProjectDescription
+            description="
               Supply &amp; install Caesarstone Oyster quartz surface security
               countertop.
-            </Typography>
-          </Container>
+            "
+          />
+
           <hr />
 
           <Grid container spacing={0.5} sx={{ mt: 5 }}>
@@ -514,16 +459,13 @@ const Project = () => {
               imgAlt="Sintered Coffee Table"
             />
           </Grid>
-          <Container maxWidth="sm" sx={{ my: 5 }}>
-            <Typography fontWeight="bold" gutterBottom>
-              Work Description:
-            </Typography>
-            <Typography paragraph>
+          <ProjectDescription
+            description="
               Supply &amp; install marble Volakas reception countertop. (Not
               recommend, client accept the disadvantages of the marble to
               exchange of the beauty.)
-            </Typography>
-          </Container>
+            "
+          />
 
           <Container maxWidth="sm" sx={{ my: 5 }}>
             <Heading3>More Completed Projects</Heading3>
