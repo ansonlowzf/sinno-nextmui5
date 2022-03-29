@@ -89,21 +89,16 @@ export const faqQuartzStone = [
   },
   {
     id: 10,
-    question: `Do you supply quartz stone in cut to size?`,
-    answer: `No, we either sell you the quartz stone slab for your stonemason to work for you or supply and install a quartz stone countertop for you.`,
-  },
-  {
-    id: 11,
     question: `White colour quartz stone yellowish?`,
     answer: `Yes, the white colour oxidises over time. Direct sunlight (UV rays) will fasten the process. It's part of fair wear and tears. `,
   },
   {
-    id: 12,
+    id: 11,
     question: `How long it takes to belong yellowish?`,
     answer: `It depends on the kitchen top environment. It might take five years to ten years. One thing for sure, you can't notice by your eyes unless you put a new batch of the same material beside it.`,
   },
   {
-    id: 13,
+    id: 12,
     question: `Could quartz stone resist chemicals?`,
     answer: `Yes, quartz stone resists most household chemicals, but not heavy duty or industrial chemicals.`,
   },
