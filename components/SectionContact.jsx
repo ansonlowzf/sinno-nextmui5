@@ -1,23 +1,23 @@
-import { Button, Container, Grid, Typography } from "@mui/material";
-import { MuiNextLink } from "./MuiNextLink";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import { Heading3 } from "../elements";
+import { MuiNextLink } from "./MuiNextLink";
 
 export const SectionContact = ({ stone, href }) => (
-  <Container maxWidth="sm">
-    <Heading3>Custom Made Your {stone} Countertop Today</Heading3>
+  <Box>
+    <Heading3>Custom Made Your {stone} Countertop</Heading3>
     <Typography component="p" variant="h6" align="center" sx={{ mb: 5 }}>
-      Get an estimate quotation for free
+      Get An Estimate Quote Today
     </Typography>
     <Grid container item justifyContent="center">
-      <MuiNextLink
-        href={`${href}`}
-        underline="none"
-        sx={{ marginLeft: "auto", marginRight: "auto" }}
-      >
-        <Button variant="outlined" size="large">
+      <Button variant="outlined" size="large">
+        <MuiNextLink
+          href={`${href}`}
+          underline="none"
+          sx={{ marginLeft: "auto", marginRight: "auto" }}
+        >
           Contact Us
-        </Button>
-      </MuiNextLink>
+        </MuiNextLink>
+      </Button>
     </Grid>
-  </Container>
+  </Box>
 );
