@@ -17,7 +17,7 @@ const QuartzStone = () => {
     <>
       <MetaSEO
         pageTitle="Quartz Stone Countertop Malaysia"
-        pageDesc="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
+        pageDesc="All You Need To Know About Custom Made, Supply &amp; Install Quartz Stone Countertop."
         pagePath="/quartz-stone"
         metaImg="/quartz-stone/hero.jpg"
       />
@@ -25,7 +25,7 @@ const QuartzStone = () => {
         imgSrc="/quartz-stone/hero.jpg"
         imgAlt="quartz stone countertops"
         title="Quartz Stone Countertop Malaysia"
-        subtitle="All You Need To Know About Custom Made (Supply &amp; Install) Quartz Stone Countertop."
+        subtitle="All You Need To Know About Custom Made, Supply &amp; Install Quartz Stone Countertop."
       />
 
       <Container maxWidth="sm">
@@ -64,7 +64,7 @@ const QuartzStone = () => {
         >{`The word "countertop" confuses many people by just reading it. People often think it's a top for the shop and office's counter. `}</Typography>
         <Typography paragraph>
           In fact, all these words countertop, worktop, benchtop, tabletop, and
-          kitchen top is referred to the same thing as shown below,
+          kitchen top refer to the same thing as below,
         </Typography>
         <Image
           src="/quartz-stone/countertop.jpg"
@@ -98,18 +98,19 @@ const QuartzStone = () => {
         </Typography>
         <Typography
           paragraph
-        >{`Ops~ We go too far. Let's back to reality.`}</Typography>
+        >{`Ops~ We go too far. Let's go back to reality.`}</Typography>
         <Typography
           paragraph
         >{`We humans can't manufacture and fabricate such stone material, especially with current technology.`}</Typography>
-        <Typography
-          paragraph
-        >{`If we could invent it, will be for the planet Mars migration purposes first.`}</Typography>
+        <Typography paragraph>
+          If we could invent it, it would be for the planet Mars migration
+          purposes first.
+        </Typography>
         <Typography paragraph>{`Enough cold jokes`}</Typography>
         <ArticleHeading2>So, Is Quartz Stone The Best Option?</ArticleHeading2>
         <Typography paragraph>
           Our answer is yes, quartz stone is the best stone material for indoor
-          countertop application by far.
+          countertop application.
         </Typography>
         <Typography
           paragraph
@@ -119,7 +120,9 @@ const QuartzStone = () => {
           The Most Important Feature Of Quartz Stone
         </ArticleHeading2>
         <ArticleHeading3>Non-Porous Material</ArticleHeading3>
-        <Typography paragraph>Please have a look at orange skin.</Typography>
+        <Typography paragraph>
+          Please have a look at the orange skin.
+        </Typography>
         <Image
           src="/quartz-stone/orange-skin.png"
           alt="orange with close up view"
@@ -169,7 +172,7 @@ const QuartzStone = () => {
         </ArticleHeading2>
         <Typography
           paragraph
-        >{`If water has difficulty, go in the surface, not to mention curry powder, curry sauce, turmeric powder, coffee powder, chilli sauce, red wine, etc.`}</Typography>
+        >{`If water has difficulty, go into the surface, not to mention curry powder, curry sauce, turmeric powder, coffee powder, chilli sauce, red wine, etc.`}</Typography>
         <Typography paragraph>
           {`What if we leave the foods and drinks on the quartz stone's surface
             for a long time, said 30 days?`}
@@ -336,9 +339,9 @@ const QuartzStone = () => {
         </Box>
         <Typography
           paragraph
-        >{`Knife with lower hardness scale 5.5 can't scratch higher hardness scale 7 material - quartz stone.`}</Typography>
+        >{`A knife with a lower hardness scale of 5.5 can't scratch a higher hardness scale 7 material - quartz stone.`}</Typography>
         <ArticleHeading3>
-          What is the Mohs Hardness Scale in short?
+          What is the Mohs Hardness Scale, in short?
         </ArticleHeading3>
         <Typography paragraph>
           It is a hardness test to scratch among 2 specimens to determine which
@@ -381,9 +384,9 @@ const QuartzStone = () => {
           Why is Quartz Stone Hardness Important?
         </ArticleHeading2>
         <Typography paragraph>
-          Quartz stone is the highest hardness in the kitchen environment makes
-          sure no kitchen item, cookware or utensil can scratch it so easily.
-          Hence, it could maintain its appearance for a long time.
+          Quartz stone is the highest hardness in the kitchen environment,
+          making sure no kitchen item, cookware or utensil can scratch it so
+          easily. Hence, it could maintain its appearance for a long time.
         </Typography>
         <Typography paragraph sx={{ mb: 2 }}>
           This hardness makes quartz stone a high{" "}
@@ -439,9 +442,9 @@ const QuartzStone = () => {
           </MuiNextLink>
           .
         </Typography>
-        <ArticleHeading3>Repairable Up To Certain Extent</ArticleHeading3>
+        <ArticleHeading3>Repairable Up To A Certain Extent</ArticleHeading3>
         <Typography paragraph>
-          Unlike engineered stone using printing technology which has 1-2mm
+          Unlike engineered stone using printing technology which has a 1-2mm
           texture on the surface, quartz stone is homogenous.
         </Typography>
         <Typography
@@ -449,7 +452,7 @@ const QuartzStone = () => {
         >{`Minor scratches can still be polished. Please note that we can't polish 100% back to its original status. Similar to granite and marble, the polish spot is noticeable.`}</Typography>
         <Typography
           paragraph
-        >{`Since we started selling quartz stone in 2013 (from day one), the good news is that we haven't needed to repair or polish a quartz stone top.`}</Typography>
+        >{`We noticed the discolouration in the third year (2019), and it remained the same discolouration until 2022.`}</Typography>
         <ArticleHeading3>Colour Consistency</ArticleHeading3>
         <Typography paragraph>
           Quartz stone is excellent for large scale cladding, and the
@@ -461,16 +464,16 @@ const QuartzStone = () => {
         </Typography>
         <ArticleHeading3>Wide Range Of Colour</ArticleHeading3>
         <Typography paragraph>
-          With 35 Caesarstone colours and 55 Zenstone colours, We could provide
-          more than 90 colour and shade options. Terrazzo, granite, jade, pure
-          and marble series to match your kitchen design.
+          With 42 Caesarstone quartz surfaces, 49 Zenstone quartz surfaces, and
+          43 Silestone quartz surfaces, We could provide more than 134 colour
+          and shade options, mimicking terrazzo, granite, jade, pure and marble
+          to match your kitchen design.{" "}
         </Typography>
+
         <ArticleHeading3>Chemical Resistance</ArticleHeading3>
-        <Typography paragraph>
-          Either a natural stone or engineered stone is not afraid of the
-          household dishwasher. If a dishwasher is so powerful that it damages
-          the stone, it definitely hurts your hand first.
-        </Typography>
+        <Typography
+          paragraph
+        >{`Either a natural stone or engineered stone is not afraid of the household dishwasher. If a dishwasher is so powerful that it damages the stone, it'll hurt your hand first.`}</Typography>
         <Typography
           paragraph
         >{`To check whether the quartz stone is chemical resistant, use lacquer thinner; It's corrosive. You could buy a lacquer thinner from a hardware shop pour it on the quartz stone.`}</Typography>
@@ -538,18 +541,20 @@ const QuartzStone = () => {
         <Typography paragraph>
           No need to pay extra attention to take care of and maintain it.
         </Typography>
+
         <ArticleHeading2>About Us</ArticleHeading2>
+        <Typography
+          paragraph
+        >{`Stone Innovations Enterprise is a stonemason company specialising in the supply & installation of natural & engineered stones.`}</Typography>
+        <Typography
+          paragraph
+        >{`We have been one of Malaysia's pioneer quartz stone suppliers, fabricators, and distributors since 2013.`}</Typography>
         <Typography paragraph>
-          Stone Innovations Enterprise is a stonemason company specialising in
-          quartz stone countertops since 2013.
-        </Typography>
-        <ArticleHeading2>Quartz Stone Applications</ArticleHeading2>
-        <Typography paragraph>
-          {`Although, we only talk about countertop in the article. With Quartz
-            stone advantages, it's also well suited to be custom
-            made as:-`}
+          {`Quartz stone is one of our essential products. We custom make, supply
+          & install genuine quartz stone for the following applications:-`}
         </Typography>
         <Typography component="ol" paragraph sx={{ lineHeight: 2 }}>
+          <li>Kitchen Top</li>
           <li>Vanity Top</li>
           <li>Kitchen Backsplash</li>
           <li>Kitchen Shelves</li>
@@ -564,8 +569,7 @@ const QuartzStone = () => {
           <li>Cashier Countertop</li>
           <li>Sauces Countertop</li>
           <li>Wall Cladding</li>
-          <li>Flooring</li>
-          <li>Other Top &amp; Cladding Purposes</li>
+          <li>{`Other surface tops, cladding & decoration purposes`}</li>
         </Typography>
         <ArticleHeading2>Quartz Stone Market in Chaos</ArticleHeading2>
         <Typography paragraph>
@@ -805,41 +809,37 @@ const QuartzStone = () => {
         </Typography>
         <ArticleHeading2>Profit Or Reputation?</ArticleHeading2>
         <Typography paragraph>
-          Why do those suppliers not maintain their reputation?
+          Why do those suppliers not think about their reputation?
         </Typography>
         <Typography paragraph>
-          The answer is simple - custom-making stone countertop is not a
+          The answer is simple - a custom-made stone countertop is not a
           repetitive business. Custom made one set, last for a decade.
         </Typography>
-        <Typography paragraph>
-          The owner will not custom made a second set so soon anyway. Plus, even
-          you want to custom made a second set after a decade, the possibility
-          you can remember the supplier is low.
-        </Typography>
+        <Typography
+          paragraph
+        >{`You will not custom made a second set so soon anyway. Plus, even you want to custom made a second set after a decade, they don't think you can remember them.`}</Typography>
         <Typography paragraph>
           For short sighter suppliers, what is reputation? Can feed the hunger?
         </Typography>
         <ArticleHeading2>Business Ethics</ArticleHeading2>
+        <Typography
+          paragraph
+        >{`Some suppliers will be honest with you and tell you the product they're selling is low content quartz stone or compressed marble.`}</Typography>
         <Typography paragraph>
-          Some suppliers will directly tell the low content quartz stone or
-          compressed marble.
-        </Typography>
-        <Typography paragraph>
-          They also emphasize the disadvantages. Let the owner decide to use it
-          or not.
+          They emphasize the disadvantages and let you decide to use or not to
+          use it.
         </Typography>
         <Typography
           paragraph
         >{`Don't expect all suppliers to practice business ethics.`}</Typography>
+
         <ArticleHeading2>{`The Article's Mission`}</ArticleHeading2>
-        <Typography
-          paragraph
-        >{`We are not here to defame competitors and talk like you must buy from us. We're the only genuine quartz stone supplier in Malaysia.`}</Typography>
         <Typography paragraph>
-          This article is to provide in-depth information about quartz stone,
+          This article is to provide in-depth information about quartz stones,
           quartz-stone countertops and quartz stone market.
         </Typography>
-        <Typography paragraph>We have no defamatory intention.</Typography>
+        <Typography paragraph>{`We've no defamatory intention.`}</Typography>
+
         <ArticleHeading2>Few Tips Select Quartz Stone</ArticleHeading2>
         <Typography
           paragraph
