@@ -12,8 +12,8 @@ const MocaPage = () => {
   return (
     <>
       <MetaSEO
-        pageTitle="Moca-Compact"
-        pageDesc="We are the distributor of Moca Compact Stone in Malaysia. We fabricate, supply &amp; install Moca Compact Stone Kitchen Top"
+        pageTitle="Sintered Stone Malaysia"
+        pageDesc="We fabricate, supply &amp; install Moca Compact sintered stone countertop in Malaysia"
         pagePath="/sintered-stone"
         metaImg="/moca/logo.png"
       />
