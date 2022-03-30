@@ -162,11 +162,6 @@ const SideDrawer = (props) => {
       >
         {props.children}
       </Box>
-      <BackToTop>
-        <Fab color="primary" size="large" aria-label="back to top">
-          <KeyboardArrowUp />
-        </Fab>
-      </BackToTop>
     </Box>
   );
 };
