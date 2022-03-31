@@ -38,14 +38,14 @@ export const Heading2 = ({ children }) => (
   </Typography>
 );
 
-export const Heading2s = ({ children }) => (
+export const Heading2s = ({ children, isCenter }) => (
   <Typography
     component="h2"
-    variant="h3"
+    variant="h4"
     color="primary"
-    align="center"
+    fontWeight="bold"
+    align={isCenter ? "center" : "null"}
     sx={{
-      fontWeight: "bold",
       my: 2.5,
     }}
   >

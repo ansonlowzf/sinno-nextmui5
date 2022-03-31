@@ -22,37 +22,35 @@ const Marble = () => {
         subtitle="Supply &amp; Install Marble For Flooring Application"
       />
 
-      <SectionWrapper>
-        <Container maxWidth="lg">
-          <Heading3>Marble Colour</Heading3>
-          <Grid container spacing={2} justifyContent="center">
-            <Grid item xs={12} md={6}>
-              <Image
-                src="/marble/colour-sample/dyno.jpg"
-                alt="Marble Dyno Beige"
-                layout="responsive"
-                width={620}
-                height={350}
-              />
-              <Typography align="center" sx={{ mt: 2 }}>
-                Dyno Beige
-              </Typography>
-            </Grid>
-            <Grid item xs={12} md={6}>
-              <Image
-                src="/marble/colour-sample/new-ultraman.jpg"
-                alt="Marble New Ultraman"
-                layout="responsive"
-                width={620}
-                height={350}
-              />
-              <Typography align="center" sx={{ mt: 2 }}>
-                New Ultraman
-              </Typography>
-            </Grid>
+      <Container maxWidth="lg">
+        <Heading3>Marble Colour</Heading3>
+        <Grid container spacing={2} justifyContent="center">
+          <Grid item xs={12} md={6}>
+            <Image
+              src="/marble/colour-sample/dyno.jpg"
+              alt="Marble Dyno Beige"
+              layout="responsive"
+              width={620}
+              height={350}
+            />
+            <Typography align="center" sx={{ mt: 2 }}>
+              Dyno Beige
+            </Typography>
           </Grid>
-        </Container>
-      </SectionWrapper>
+          <Grid item xs={12} md={6}>
+            <Image
+              src="/marble/colour-sample/new-ultraman.jpg"
+              alt="Marble New Ultraman"
+              layout="responsive"
+              width={620}
+              height={350}
+            />
+            <Typography align="center" sx={{ mt: 2 }}>
+              New Ultraman
+            </Typography>
+          </Grid>
+        </Grid>
+      </Container>
 
       <SectionWrapper>
         <ContactMarble />

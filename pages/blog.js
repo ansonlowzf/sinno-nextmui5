@@ -23,15 +23,13 @@ const BlogPage = ({ posts }) => {
         title="Blog"
         subtitle="Articles To Know More About Custom Made Your Stone Countertop"
       />
-      <Container maxWidth="md" sx={{ mt: 10 }}>
+      <Container maxWidth="md" sx={{ my: 10 }}>
         <Typography id="blog" variant="h2" align="center" sx={{ mb: 5 }}>
           Blog
         </Typography>
-        <SectionWrapper>
-          {posts.map((post, index) => (
-            <Post key={index} post={post} />
-          ))}
-        </SectionWrapper>
+        {posts.map((post, index) => (
+          <Post key={index} post={post} />
+        ))}
         {/* Previous and Next blog button */}
       </Container>
     </>

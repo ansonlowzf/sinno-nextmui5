@@ -1,4 +1,5 @@
 import CollectionTitle from "@components/CollectionTitle";
+import ColourVariation from "@components/ColourVariation";
 import FrSf from "@components/FrSf";
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
@@ -34,7 +35,7 @@ const ZenstonePage = () => {
 
       <SectionWrapper>
         <Grid container justifyContent="center" sx={{ mt: 15 }}>
-          <Grid item xs={10} md={2}>
+          <Grid item xs={10} md={6}>
             <Image
               src="/zenstone/logo.png"
               alt="zenstone logo"
@@ -190,6 +191,7 @@ const ZenstonePage = () => {
       </Container>
 
       <SectionWrapper>
+        <ColourVariation stone="Zenstone" />
         <ColourWarning />
       </SectionWrapper>
 

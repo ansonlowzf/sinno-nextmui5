@@ -7,6 +7,7 @@ import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
 import { MuiNextLink } from "../components";
 import { faqCompany } from "../const/faq";
+import MainSection from "@components/MainSection";
 
 const Homepage = () => {
   return (
@@ -21,21 +22,19 @@ const Homepage = () => {
         imgSrc="/image-home/hero.jpg"
         imgAlt="factory entrance"
         title="Stone Innovations Enterprise"
-        subtitle="Specializing in Stone Surfacing Products"
+        subtitle="Specializing in Custom Made, Supply &amp; Install Stone Surfacing Products"
       />
 
-      <Container>
+      <MainSection>
         <Heading2>What Is A Stone Surfacing Specialist?</Heading2>
-        <TextWrapper>
-          <Typography
-            component="p"
-            variant="h6"
-            textAlign="center"
-            sx={{ mb: 2.5 }}
-          >
-            Mountain Quarry &gt; Stone Block &gt; Natural Stone Slab
-          </Typography>
-        </TextWrapper>
+        <Typography
+          component="p"
+          variant="h6"
+          textAlign="center"
+          sx={{ mb: 2.5 }}
+        >
+          Mountain Quarry &gt; Stone Block &gt; Natural Stone Slab
+        </Typography>
 
         <Image
           src="/image-home/marble-block.jpg"
@@ -110,10 +109,8 @@ const Homepage = () => {
           <li>Wall Cladding</li>
           <li>Other Top &amp; Cladding Purposes</li>
         </Typography>
-      </Container>
 
-      <SectionWrapper>
-        <Container>
+        <Container sx={{ my: 15 }}>
           <Heading2>{`The Stone Slab We're Specializing In:`}</Heading2>
           <Typography
             component="ul"
@@ -127,68 +124,59 @@ const Homepage = () => {
             <li>Onyx - Natural Stone</li>
           </Typography>
         </Container>
-      </SectionWrapper>
+      </MainSection>
 
-      <SectionWrapper>
-        <SectionImage
-          imgSrc="/image-home/5101.jpg"
-          imgAlt="Caesarstone Empira Black"
-        />
-      </SectionWrapper>
+      <SectionImage
+        imgSrc="/image-home/5101.jpg"
+        imgAlt="Caesarstone Empira Black"
+      />
 
-      <SectionWrapper>
-        <Container>
-          <Grid container>
-            <Grid
-              container
-              item
-              flexDirection="column"
-              justifyContent="center"
-              alignItems="center"
-              xs={12}
-              md={6}
-              sx={{ mb: 5, px: { md: 5 } }}
-            >
-              <Heading3>Blog</Heading3>
-              <Typography textAlign="center" sx={{ mb: 5 }}>
-                Looking for more information about custom made stone kitchen
-                top?
-              </Typography>
-              <MuiNextLink href="/blog" underline="none">
-                <Button variant="outlined" size="large">
-                  Read Article
-                </Button>
-              </MuiNextLink>
-            </Grid>
-            <Grid item xs={12} md={6} sx={{ overflow: `hidden` }}>
-              <Image
-                src="/image-home/5151.jpg"
-                alt="Caesarstone white attica"
-                layout="responsive"
-                width={960}
-                height={540}
-              />
-            </Grid>
-          </Grid>
-        </Container>
-      </SectionWrapper>
+      <Grid container sx={{ my: 15 }}>
+        <Grid
+          container
+          item
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+          xs={12}
+          md={6}
+          sx={{ mb: 5, px: { md: 5 } }}
+        >
+          <Heading3>Blog</Heading3>
+          <Typography textAlign="center" sx={{ mb: 5 }}>
+            Looking for more information about custom made stone kitchen top?
+          </Typography>
+          <MuiNextLink href="/blog" underline="none">
+            <Button variant="outlined" size="large">
+              Read Article
+            </Button>
+          </MuiNextLink>
+        </Grid>
+        <Grid item xs={12} md={6} sx={{ overflow: `hidden` }}>
+          <Image
+            src="/image-home/5151.jpg"
+            alt="Caesarstone white attica"
+            layout="responsive"
+            width={960}
+            height={540}
+          />
+        </Grid>
+      </Grid>
 
       <SectionWrapper>
         <SectionContact stone="Stone" />
       </SectionWrapper>
 
-      <Container maxWidth="lg" sx={{ mt: 10 }}>
+      <Container maxWidth="lg" sx={{ my: 15 }}>
         <Heading3>Frequently Ask Questions</Heading3>
         <Typography component="p" variant="h5" align="center" sx={{ mb: 2 }}>
           Company/Factory/Warehouse
         </Typography>
-        <SectionWrapper>
-          <Container maxWidth="sm">
-            {faqCompany.map(({ question, answer, id }) => (
-              <FaqAccordion key={id} question={question} answer={answer} />
-            ))}
-          </Container>
-        </SectionWrapper>
+        <Container maxWidth="sm">
+          {faqCompany.map(({ question, answer, id }) => (
+            <FaqAccordion key={id} question={question} answer={answer} />
+          ))}
+        </Container>
       </Container>
     </>
   );

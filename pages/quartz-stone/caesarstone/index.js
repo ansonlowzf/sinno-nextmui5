@@ -1,4 +1,5 @@
 import CollectionTitle from "@components/CollectionTitle";
+import ColourVariation from "@components/ColourVariation";
 import FrSf from "@components/FrSf";
 import Hero from "@components/Hero";
 import MainSection from "@components/MainSection";
@@ -33,7 +34,7 @@ const CaesarstonePage = () => {
         imgSrc="/caesarstone/hero.png"
         imgText="Caesarstone Empira White"
         title="Caesarstone Malaysia"
-        subtitle="Caesarstone Quartz Surface Kitchen Top"
+        subtitle="Supply &amp; Install Caesarstone Quartz Surface Countertop"
         noMB
       />
 
@@ -335,6 +336,7 @@ const CaesarstonePage = () => {
       </Container>
 
       <SectionWrapper>
+        <ColourVariation stone="Caesarstone" />
         <ColourWarning />
       </SectionWrapper>
 

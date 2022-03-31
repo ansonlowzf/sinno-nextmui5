@@ -1,9 +1,9 @@
 import { Box, Container } from "@mui/material";
 
 export const SectionWrapper = ({ children }) => (
-  <Box component="section" sx={{ my: { xs: 5, sm: 10 } }}>
+  <Container component="section" maxWidth="sm" sx={{ my: { xs: 5, sm: 10 } }}>
     {children}
-  </Box>
+  </Container>
 );
 
 export const TextWrapper = ({ children }) => (

@@ -53,10 +53,7 @@ const SideDrawer = (props) => {
         pageUrl="/quartz-stone/zenstone"
       />
 
-      <MainList
-        pageName="sintered stone"
-        pageUrl="/sintered-stone/moca-compact"
-      />
+      <MainList pageName="sintered stone" pageUrl="/sintered-stone" />
 
       <MainList pageName="granite" pageUrl="/granite" />
 

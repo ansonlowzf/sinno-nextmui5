@@ -4,17 +4,11 @@ const FrSf = () => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <Typography
-          component="h3"
-          variant="h4"
-          fontWeight="bold"
-          gutterBottom
-        >{`Foot Run (FR) Price`}</Typography>
         <Typography>
-          <strong>Foot Run (FR) price</strong> includes:-
+          <strong>Foot Run (FR) price</strong> is for countertop with:-
         </Typography>
         <Typography component="ul" sx={{ mb: 2 }}>
-          <li>Less than or equal to 600mm depth ofthe countertop</li>
+          <li>Less than or equal to 600mm of depth</li>
           <li>
             50mm front drop/fascia/profile flat polished with a mitre joint
           </li>
@@ -22,18 +16,12 @@ const FrSf = () => {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography
-          component="h3"
-          variant="h4"
-          fontWeight="bold"
-          gutterBottom
-        >{`Square Feet (SF) Price`}</Typography>
         <Typography>
-          <strong>Foot Run (FR) price</strong> includes:-
+          <strong>Square Feet (SF) price</strong> includes:-
         </Typography>
         <Typography
           sx={{ mb: 2 }}
-        >{`Countertop exceeding the foot run total depth (700mm including backsplash and front drop) will be calculated in Square Feet price.`}</Typography>
+        >{`Countertop exceeding the foot run total depth (700mm including backsplash and front drop) will be quoted in Square Feet price.`}</Typography>
       </Grid>
     </Grid>
   );
