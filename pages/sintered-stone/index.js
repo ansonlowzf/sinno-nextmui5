@@ -1,7 +1,8 @@
 import FrSf from "@components/FrSf";
+import MainSection from "@components/MainSection";
 import MetaSEO from "@components/MetaSEO";
 import StsDisplay from "@components/StsDisplay";
-import { Heading2s, Heading3 } from "@elements/Heading";
+import { Heading2s } from "@elements/Heading";
 import MuiParagraph from "@elements/MuiParagraph";
 import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Grid } from "@mui/material";
@@ -13,7 +14,6 @@ import {
   PriceTerm,
   SectionContact,
 } from "../../components";
-import MainSection from "@components/MainSection";
 
 const MocaPage = () => {
   return (
@@ -39,24 +39,33 @@ const MocaPage = () => {
       <MainSection>
         <Heading2s>What is Sintered Stone?</Heading2s>
         <MuiParagraph>
-          Also known as porcelain slab, compact stone or ultra-compact stone.
+          {`Also known as porcelain slab, compact stone or ultra-compact stone. Sintered stone in Chinese is called "岩板".`}
         </MuiParagraph>
-        <MuiParagraph>{`It's an engineered stone combined with multiple natural ingredients and compressed with a method called the sintering process.`}</MuiParagraph>
-        <MuiParagraph>{`It's a process that mimics how nature uses high pressure to create a natural stone like granite underground.`}</MuiParagraph>
+        <MuiParagraph>{`It's an engineered stone combined with multiple natural ingredients and compressed with a high-pressure machine. This process is called the sintering process.`}</MuiParagraph>
         <MuiParagraph>
-          Sintered stone is bond without resin. Manufacturers compress the
-          sintered stone with 15000 - 28000 tons of high compact machines.
+          Now, you know how sintered stone gets his name.
         </MuiParagraph>
         <MuiParagraph>
-          Then bake with 1200℃ heat to form a solid hard stone slab material.
+          This process mimics how nature creates a natural stone like granite
+          underground.
         </MuiParagraph>
         <MuiParagraph>
-          Hence, the sintered stone is a very hard material.
+          Manufacturers compress the sintered stone with 15000 - 28000 tons of
+          high compact machines without resin. Then bake with 1200℃ heat to form
+          a solid hard stone slab material.
+        </MuiParagraph>
+        <MuiParagraph>
+          Hence, the sintered stone is a very hard material and not tolerant to
+          flexibility (this might be a disadvantage in a specific situation).
         </MuiParagraph>
         <MuiParagraph>
           {`If you want to know more in-depth about sintered stone. We recommend you read the `}
           <MuiNextLink href="/quartz-stone">{`in-depth quartz stone's article`}</MuiNextLink>
           {` before reading further. It'll help you understand sintered stone easier.`}
+        </MuiParagraph>
+        <MuiParagraph>
+          We explain some extra sintered stone advantages and disadvantages
+          compared to quartz stone below.
         </MuiParagraph>
 
         <Heading2s>Smaller Porous</Heading2s>
@@ -82,9 +91,7 @@ const MocaPage = () => {
         </MuiParagraph>
 
         <Heading2s>Lower Scratch Resistance</Heading2s>
-        <MuiParagraph>
-          Sintered Stone Mohs Hardness Scale is 6, whereas quartz stone is 7
-        </MuiParagraph>
+        <MuiParagraph>{`Sintered stone has a slightly lower Mohs Hardness Scale, 6.5, whereas quartz stone is 7. It's enough to resist scratches on 95% of the kitchen utensils.`}</MuiParagraph>
 
         <Heading2s>Finish Options</Heading2s>
         <MuiParagraph>{`The sintered stone has 2 additional finishes: high gloss and smooth matt that can't be found in quartz stone.`}</MuiParagraph>
@@ -98,16 +105,33 @@ const MocaPage = () => {
 
         <Heading2s>UV Ray Resistance</Heading2s>
         <MuiParagraph>
-          We know that quartz stone cannot use for outdoor applications. The UV
-          Ray will dim the colour of the resin, causing discolouration of quartz
-          stone.
+          {`If you read the`}{" "}
+          <MuiNextLink href="/quartz-stone">quartz stone article</MuiNextLink>{" "}
+          suggest above, you will know that quartz stone cannot use for outdoor
+          applications because of the resin.
         </MuiParagraph>
         <MuiParagraph>
-          Sintered stone is made without resin. There is no colour fading issue.
+          The UV Ray will dim the resin, causing colour fading and
+          discolouration after a few years.
         </MuiParagraph>
         <MuiParagraph>
-          Many overseas buildings started using sintered stone as facades
-          instead of outdoor paint.
+          Without resin, UV Ray will not impact sintered stone and causes colour
+          fading and discolouration like quartz stone.
+        </MuiParagraph>
+
+        <Heading2s>Sintered Stone Applications</Heading2s>
+        <MuiParagraph>
+          Without resin, sintered stone can use for outdoor applications. It can
+          be used as a countertop, wall cladding, indoor flooring and additional
+          applications as below:-
+        </MuiParagraph>
+        <MuiParagraph>
+          <ol>
+            <li>Building Facades</li>
+            <li>Car porch flooring</li>
+            <li>Outdoor barbeque pits</li>
+            <li>Gate pillar</li>
+          </ol>
         </MuiParagraph>
       </MainSection>
 
@@ -156,7 +180,7 @@ const MocaPage = () => {
 
       <SectionWrapper>
         <SectionContact
-          stone="Moca Compact Stone"
+          stone="Moca Compact Sintered Stone"
           href="/contact/moca-compact"
         />
       </SectionWrapper>
@@ -165,3 +189,5 @@ const MocaPage = () => {
 };
 
 export default MocaPage;
+
+// TODO: add keyword sintered stone applications
