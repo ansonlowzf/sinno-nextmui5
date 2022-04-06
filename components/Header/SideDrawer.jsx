@@ -1,20 +1,18 @@
-import { Menu, KeyboardArrowUp } from "@mui/icons-material";
+import MainList from "@components/Header/MainList";
+import SubList from "@components/Header/SubList";
+import { Menu } from "@mui/icons-material";
 import {
   AppBar,
   Box,
-  Grid,
   Drawer,
+  Grid,
   IconButton,
   Toolbar,
   Typography,
-  Fab,
 } from "@mui/material";
-import * as React from "react";
-import MainList from "@components/Header/MainList";
-import SubList from "@components/Header/SubList";
-import BackToTop from "./BackToTop";
-import { MuiNextLink } from "..";
 import Image from "next/image";
+import * as React from "react";
+import { MuiNextLink } from "..";
 import SinnoLogo from "../../public/favicon.png";
 
 const drawerWidth = 250;
