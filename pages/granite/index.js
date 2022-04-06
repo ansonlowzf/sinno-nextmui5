@@ -29,37 +29,37 @@ const GranitePage = () => {
       <Container maxWidth="lg">
         <Grid container spacing={2} justifyContent="center">
           <DisplayStone
-            imgSrc="/granite/colour/black-galaxy.png"
+            imgSrc="/granite/colour/black-galaxy.jpg"
             stoneName="Black Galaxy"
             price="RM 220 /FR or RM 120 /SF"
           />
           <DisplayStone
-            imgSrc="/granite/colour/blue-pearl.png"
+            imgSrc="/granite/colour/blue-pearl.jpg"
             stoneName="Blue Pearl"
             price="RM 250 /FR or RM 135 /SF"
           />
           <DisplayStone
-            imgSrc="/granite/colour/bourbon-grey.png"
+            imgSrc="/granite/colour/bourbon-grey.jpg"
             stoneName="Bourbon Grey"
             price="RM 220 /FR or RM 120 /SF"
           />
           <DisplayStone
-            imgSrc="/granite/colour/emerald-pearl.png"
+            imgSrc="/granite/colour/emerald-pearl.jpg"
             stoneName="Emerald Pearl"
             price="RM 250 /FR or RM 135 /SF"
           />
           <DisplayStone
-            imgSrc="/granite/colour/imperial-red.png"
+            imgSrc="/granite/colour/imperial-red.jpg"
             stoneName="Imperial Red"
             price="RM 340 /FR or RM 180 /SF"
           />
           <DisplayStone
-            imgSrc="/granite/colour/white-wave.png"
+            imgSrc="/granite/colour/white-wave.jpg"
             stoneName="White Wave"
             price="RM 310 /FR or RM 165 /SF"
           />
           <DisplayStone
-            imgSrc="/granite/colour/xanxi-black.png"
+            imgSrc="/granite/colour/xanxi-black.jpg"
             stoneName="Xan Xi Black"
             price="RM 310 /FR or RM 165 /SF"
           />
