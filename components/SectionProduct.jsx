@@ -1,5 +1,5 @@
 import { Container, Grid } from "@mui/material";
-import { Heading3 } from "../elements";
+import { Heading3 } from "../elements/Heading";
 import { StoneCard } from "../components";
 
 export const SectionProduct = () => {

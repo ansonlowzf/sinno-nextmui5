@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 
-const StsDisplay = ({
+const SolidSurfaceDisplay = ({
   stoneName,
   materialCode,
   finish,
@@ -17,8 +17,8 @@ const StsDisplay = ({
           src={imgSrc}
           alt={stoneName}
           layout="responsive"
-          width={640}
-          height={360}
+          width={500}
+          height={500}
         />
       </Grid>
       <Grid container item xs={12} md={6} sx={{ paddingLeft: 5 }}>
@@ -39,10 +39,7 @@ const StsDisplay = ({
           <Typography>Thickness</Typography>
           <Typography fontWeight="bold">{thickness}</Typography>
         </Grid>
-        <Grid item xs={6}>
-          <Typography>Size</Typography>
-          <Typography fontWeight="bold">{slabSize}</Typography>
-        </Grid>
+
         <Grid item xs={12} alignSelf="center">
           <Typography
             component="p"
@@ -58,4 +55,4 @@ const StsDisplay = ({
   );
 };
 
-export default StsDisplay;
+export default SolidSurfaceDisplay;

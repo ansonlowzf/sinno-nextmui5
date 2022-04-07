@@ -1,5 +1,5 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
-import { Heading3 } from "../elements";
+import { Heading3 } from "../elements/Heading";
 import { MuiNextLink } from "./MuiNextLink";
 
 export const SectionContact = ({ stone, href }) => (

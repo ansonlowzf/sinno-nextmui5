@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { Heading2s } from "../elements";
+import { Heading2s } from "../elements/Heading";
 
 export const PriceTerm = () => {
   return (

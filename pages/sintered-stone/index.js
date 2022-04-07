@@ -171,7 +171,7 @@ const MocaPage = () => {
       </Container>
 
       <SectionWrapper>
-        <ColourWarning stone="Moca Compact Sintered Stone" />
+        <ColourWarning />
       </SectionWrapper>
 
       <SectionWrapper>
@@ -181,7 +181,7 @@ const MocaPage = () => {
       <SectionWrapper>
         <SectionContact
           stone="Moca Compact Sintered Stone"
-          href="/contact/moca-compact"
+          href="/contact/sintered-stone"
         />
       </SectionWrapper>
     </>
