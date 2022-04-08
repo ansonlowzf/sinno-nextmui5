@@ -1,27 +1,28 @@
 import CollectionTitle from "@components/CollectionTitle";
+import { ColourWarning } from "@components/ColourWarning";
 import MetaSEO from "@components/MetaSEO";
+import ProjectDisplay from "@components/ProjectDisplay";
+import { SectionContact } from "@components/SectionContact";
+import SolidSurfaceDisplay from "@components/SolidSurfaceDisplay";
 import { Heading2s } from "@elements/Heading";
+import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Grid, Typography } from "@mui/material";
-import Image from "next/image";
 import {
+  comacsCasting,
   comacsClassic,
+  comacsNatural,
   comacsPremium,
   comacsSparkling,
-  comacsNatural,
-  comacsCasting,
 } from "const/comacs-data";
-import SolidSurfaceDisplay from "@components/SolidSurfaceDisplay";
-import { SectionWrapper } from "@elements/Wrapper";
-import { SectionContact } from "@components/SectionContact";
-import { ColourWarning } from "@components/ColourWarning";
-import { PriceTerm } from "@components/PriceTerm";
+import { solidSurfaceSite } from "const/solid-surface-site";
+import Image from "next/image";
 
 const SolidSurface = () => {
   return (
     <>
       <MetaSEO
         pageTitle="Solid Surface Malaysia"
-        pageDesc="We fabricate, supply &amp; install Comacs solid surface countertop in Malaysia"
+        pageDesc="We fabricate, supply &amp; install solid surface countertop in Malaysia"
         pagePath="/solid-surface"
         metaImg="/solid-surface/logo.png"
       />
@@ -39,7 +40,7 @@ const SolidSurface = () => {
 
       <Container maxWidth="md">
         <Heading2s isCenter>
-          Supply & Install Comacs Solid Surface Countertop
+          Supply & Install Solid Surface Countertop In Malaysia
         </Heading2s>
 
         <CollectionTitle>Classic</CollectionTitle>
@@ -181,6 +182,15 @@ const SolidSurface = () => {
       <SectionWrapper>
         <SectionContact stone="Solid Surface" href="/contact/solid-surface" />
       </SectionWrapper>
+
+      <Container maxWidth="md" sx={{ mb: 15 }}>
+        <Heading2s isCenter>Completed Projects</Heading2s>
+        <Grid container spacing={3}>
+          {solidSurfaceSite.map(({ imgSrc, imgAlt }, i) => (
+            <ProjectDisplay key={i} imgSrc={imgSrc} imgAlt={imgAlt} />
+          ))}
+        </Grid>
+      </Container>
     </>
   );
 };
