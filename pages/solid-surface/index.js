@@ -1,7 +1,7 @@
 import CollectionTitle from "@components/CollectionTitle";
 import MetaSEO from "@components/MetaSEO";
 import { Heading2s } from "@elements/Heading";
-import { Container, Grid } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import {
   comacsClassic,
@@ -148,7 +148,34 @@ const SolidSurface = () => {
       </SectionWrapper>
 
       <SectionWrapper>
-        <PriceTerm />
+        <Heading2s isCenter>Price Term</Heading2s>
+        <Typography component="ol">
+          <li>
+            The price include material, fabrication, installation &amp;
+            transport.
+          </li>
+          <li>Final quotation price is based on on-site measurement.</li>
+          <li>
+            Price does not include dismantle of existing kitchen top if applied.
+          </li>
+          <li>
+            Goods will be delivered and installed within 10 - 14 days or as
+            earlier as possible.
+          </li>
+          <li>
+            Subject to stock availability or installation leads might take
+            longer.
+          </li>
+          <li>
+            Minimum order 10 FR or 20 SQ.FT per order or a surcharge will be
+            applied.
+          </li>
+          <li>
+            Additional workmanship, travel cost, accommodation will be applied
+            for outstation works.
+          </li>
+          <li>The price is applicable in Malaysia only.</li>
+        </Typography>
       </SectionWrapper>
 
       <SectionWrapper>
