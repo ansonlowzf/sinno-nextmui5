@@ -75,7 +75,7 @@ export const faqQuartzStone = [
   {
     id: 7,
     question: `What is the thickness of the quartz stone you company is selling?`,
-    answer: `Quartz stone is bond by resin. It's almost impossible to crack without impact or even thermal expansion.`,
+    answer: `Zenstone Quartz Surface 15mm or 20mm, Caesarstone 13mm or 20mm, Silestone 12mm or 20mm`,
   },
   {
     id: 8,
