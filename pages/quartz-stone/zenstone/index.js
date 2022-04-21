@@ -11,7 +11,7 @@ import {
   zenstoneNoble,
   zenstonePremium,
 } from "const/zenstone-data";
-import { Heading2 } from "elements/Heading";
+import { Heading2s } from "elements/Heading";
 import { SectionWrapper, TextWrapper } from "elements/Wrapper";
 import Image from "next/image";
 import { ColourWarning, PriceTerm, SectionContact } from "../../../components";
@@ -59,10 +59,13 @@ const ZenstonePage = () => {
         </TextWrapper>
       </SectionWrapper>
 
-      <Container maxWidth="sm">
-        <Heading2>Zenstone Catalogue &amp; Pricing</Heading2>
-        <FrSf />
+      <Container maxWidth="md">
+        <Heading2s isCenter>
+          The Catalogue & Pricing Of Supply & Install Zenstone Quartz Surfaces
+          Countertop In Malaysia.
+        </Heading2s>
       </Container>
+      <FrSf />
 
       <Container maxWidth="md">
         <CollectionTitle>Classic Collection</CollectionTitle>

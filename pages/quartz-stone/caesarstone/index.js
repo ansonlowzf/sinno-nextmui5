@@ -96,10 +96,14 @@ const CaesarstonePage = () => {
           recommend you visit the Caesarstone Singapore website, where the
           information, naming and colour range is simultaneous.
         </Typography>
-
-        <Heading2s>Caesarstone Catalogue &amp; Pricing</Heading2s>
-        <FrSf />
       </MainSection>
+      <Container maxWidth="md">
+        <Heading2s isCenter>
+          The Catalogue & Pricing Of Supply & Install Caesarstone Quartz
+          Surfaces Countertop In Malaysia.
+        </Heading2s>
+      </Container>
+      <FrSf />
 
       <Container maxWidth="lg">
         <CollectionTitle>Standard Collection</CollectionTitle>

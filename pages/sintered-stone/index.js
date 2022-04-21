@@ -135,12 +135,15 @@ const MocaPage = () => {
         </MuiParagraph>
       </MainSection>
 
-      <Container maxWidth="sm" sx={{ my: { xs: 5, sm: 10 } }}>
-        <Heading2s>Colour Catalogue &amp; Pricing</Heading2s>
-        <FrSf />
+      <Container maxWidth="md" sx={{ mt: { xs: 5, sm: 10 } }}>
+        <Heading2s isCenter>
+          The Catalogue & Pricing Of Supply & Install Moca Compact Sintered
+          Stone Countertop In Malaysia.
+        </Heading2s>
       </Container>
+      <FrSf />
 
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{ mt: 5 }}>
         <Grid container spacing={2}>
           {sinteredStone.map(
             (

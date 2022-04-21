@@ -40,7 +40,8 @@ const SolidSurface = () => {
 
       <Container maxWidth="md">
         <Heading2s isCenter>
-          Supply & Install Solid Surface Countertop In Malaysia
+          The Catalogue & Pricing Of Supply & Install Solid Surface Countertop
+          In Malaysia.
         </Heading2s>
 
         <CollectionTitle>Classic</CollectionTitle>
