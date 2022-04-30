@@ -1,12 +1,12 @@
 const caesarstone20 = {
-  standard: "RM 450/FR or RM 250/SF",
-  deluxe: "RM 470/FR or RM 270/SF",
-  premium: "RM 545/FR or RM 320/SF",
-  supernatural: "RM 670/FR or RM 400/SF",
-  supernaturalJumbo: "RM 800/FR or RM 470/SF",
-  supernaturalPremium: "RM 1300/FR or RM 850/SF",
-  supernaturalPremiumJumbo: "RM 1500/FR or RM 1000/SF",
-  outdoor: "RM 1300/FR or RM 850/SF",
+  standard: "RM 450/FR or RM 270/SF",
+  deluxe: "RM 470/FR or RM 280/SF",
+  premium: "RM 545/FR or RM 340/SF",
+  supernatural: "RM 670/FR or RM 440/SF",
+  supernaturalJumbo: "RM 800/FR or RM 500/SF",
+  supernaturalPremium: "RM 1250/FR or RM 860/SF",
+  supernaturalPremiumJumbo: "RM 1500/FR or RM 1010/SF",
+  outdoor: "RM 625/FR or RM 440/SF",
 };
 
 const {
