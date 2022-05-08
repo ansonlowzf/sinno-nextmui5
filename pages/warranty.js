@@ -1,4 +1,4 @@
-import { MuiNextLink } from "@components/MuiNextLink";
+import MuiNextLink from "@components/MuiNextLink";
 import { Heading2 } from "@elements/Heading";
 import { Container, Grid, Paper, Typography } from "@mui/material";
 import Image from "next/image";

@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import * as React from "react";
-import { MuiNextLink } from "..";
+import MuiNextLink from "@components/MuiNextLink";
 import SinnoLogo from "../../public/favicon.png";
 
 const drawerWidth = 250;

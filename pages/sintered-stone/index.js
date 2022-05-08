@@ -8,12 +8,8 @@ import { SectionWrapper } from "@elements/Wrapper";
 import { Container, Grid } from "@mui/material";
 import { sinteredStone } from "const/sintered-stone";
 import Image from "next/image";
-import {
-  ColourWarning,
-  MuiNextLink,
-  PriceTerm,
-  SectionContact,
-} from "../../components";
+import { ColourWarning, PriceTerm, SectionContact } from "../../components";
+import MuiNextLink from "@components/MuiNextLink";
 
 const MocaPage = () => {
   return (

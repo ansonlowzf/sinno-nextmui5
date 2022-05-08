@@ -6,10 +6,10 @@ import { Box, Container, Typography } from "@mui/material";
 import Image from "next/image";
 import {
   FaqAccordion,
-  MuiNextLink,
   SectionContact,
   SectionWarranty,
 } from "../../components";
+import MuiNextLink from "@components/MuiNextLink";
 import { faqQuartzStone } from "../../const/faq";
 
 const QuartzStone = () => {

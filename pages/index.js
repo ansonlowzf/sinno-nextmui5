@@ -5,7 +5,7 @@ import { SectionWrapper, TextWrapper } from "@elements/Wrapper";
 import { Heading2, Heading3 } from "@elements/Heading";
 import Hero from "@components/Hero";
 import MetaSEO from "@components/MetaSEO";
-import { MuiNextLink } from "../components";
+import MuiNextLink from "@components/MuiNextLink";
 import { faqCompany } from "../const/faq";
 import MainSection from "@components/MainSection";
 

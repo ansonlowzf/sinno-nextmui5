@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@mui/material";
-import { MuiNextLink } from "../components";
+import MuiNextLink from "@components/MuiNextLink";
 
 const NotFoundPage = () => {
   return (

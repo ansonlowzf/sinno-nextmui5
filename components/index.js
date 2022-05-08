@@ -1,4 +1,3 @@
-export * from "./MuiNextLink";
 export * from "./SectionContact";
 export * from "./SectionImage";
 export * from "./SectionProduct";

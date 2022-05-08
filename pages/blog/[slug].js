@@ -3,7 +3,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import path from "path";
-import { MuiNextLink } from "../../components";
+import MuiNextLink from "@components/MuiNextLink";
 import { SectionWrapper } from "@elements/Wrapper";
 import Image from "next/image";
 import Head from "next/head";

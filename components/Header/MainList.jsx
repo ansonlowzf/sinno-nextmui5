@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { MuiNextLink } from "..";
+import MuiNextLink from "@components/MuiNextLink";
 
 const MainList = ({ pageName, pageUrl }) => {
   return (

@@ -7,7 +7,7 @@ import {
   CardContent,
   Typography,
 } from "@mui/material";
-import { MuiNextLink } from "../components";
+import MuiNextLink from "../components";
 
 export const StoneCard = ({ imgSrc, stone, desc, linkUrl }) => (
   <Card sx={{ maxWidth: 345 }}>
