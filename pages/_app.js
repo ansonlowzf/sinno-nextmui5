@@ -11,6 +11,7 @@ import * as gtag from "../lib/gtag";
 import createEmotionCache from "../styles/createEmotionCache";
 import theme from "../styles/theme";
 import "/styles/globals.css";
+import Layout from "@components/Layout";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -40,10 +41,9 @@ export default function MyApp(props) {
 
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <SideDrawer>
+        <Layout>
           <Component {...pageProps} />
-        </SideDrawer>
-        <Footer />
+        </Layout>
       </ThemeProvider>
     </CacheProvider>
   );
