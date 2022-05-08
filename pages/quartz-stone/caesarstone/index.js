@@ -20,6 +20,7 @@ import {
 } from "const/caesarstone-data";
 import Image from "next/image";
 import { ColourWarning, PriceTerm, SectionContact } from "../../../components";
+import CreditCard from "@components/CreditCard";
 
 const CaesarstonePage = () => {
   return (
@@ -338,6 +339,7 @@ const CaesarstonePage = () => {
           )}
         </Grid>
       </Container>
+      <CreditCard />
 
       <SectionWrapper>
         <ColourVariation stone="Caesarstone" />
