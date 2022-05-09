@@ -1,10 +1,11 @@
-import SideDrawer from "./Header/SideDrawer";
 import Footer from "./Footer";
+import Navbar from "./Header/Navbar";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <SideDrawer>{children}</SideDrawer>
+      <Navbar />
+      {children}
       <Footer />
     </>
   );

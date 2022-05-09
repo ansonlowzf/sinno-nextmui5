@@ -1,32 +1,33 @@
 import MainList from "@components/Header/MainList";
 import SubList from "@components/Header/SubList";
-import { Menu } from "@mui/icons-material";
-import {
-  AppBar,
-  Box,
-  Drawer,
-  Grid,
-  IconButton,
-  Toolbar,
-  Typography,
-} from "@mui/material";
+import MuiNextLink from "@components/MuiNextLink";
+import { Box, Drawer, Grid, IconButton } from "@mui/material";
 import Image from "next/image";
 import * as React from "react";
-import MuiNextLink from "@components/MuiNextLink";
 import SinnoLogo from "../../public/favicon.png";
+import Menu from "@mui/icons-material/Menu";
 
-const drawerWidth = 250;
+const SideDrawer = () => {
+  const [state, setState] = React.useState({ right: false });
 
-const SideDrawer = (props) => {
-  const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
+  const toggleDrawer = (anchor, open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
 
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
+    setState({ ...state, [anchor]: open });
   };
 
-  const list = (
-    <Box sx={{ bgcolor: "secondary" }}>
+  const list = (anchor) => (
+    <Box
+      sx={{ width: 250, my: "auto" }}
+      role=""
+      onClick={toggleDrawer(anchor, false)}
+      onKeyDown={toggleDrawer(anchor, false)}
+    >
       <Grid container item justifyContent="center" sx={{ my: 5 }}>
         <MuiNextLink href="/">
           <IconButton aria-label="home">
@@ -42,14 +43,8 @@ const SideDrawer = (props) => {
       <MainList pageName="home" pageUrl="/" />
 
       <MainList pageName="quartz stone" pageUrl="/quartz-stone" />
-      <SubList
-        pageName="caesarstone quartz surfaces"
-        pageUrl="/quartz-stone/caesarstone"
-      />
-      <SubList
-        pageName="zenstone quartz surfaces"
-        pageUrl="/quartz-stone/zenstone"
-      />
+      <SubList pageName="- caesarstone" pageUrl="/quartz-stone/caesarstone" />
+      <SubList pageName="- zenstone" pageUrl="/quartz-stone/zenstone" />
 
       <MainList pageName="sintered stone" pageUrl="/sintered-stone" />
 
@@ -67,99 +62,30 @@ const SideDrawer = (props) => {
     </Box>
   );
 
-  const container =
-    window !== undefined ? () => window().document.body : undefined;
-
   return (
-    <Box sx={{ display: "flex" }}>
-      <AppBar
-        color="secondary"
-        position="fixed"
+    <>
+      <IconButton
+        edge="end"
+        color="inherit"
+        aria-label="menu"
+        onClick={toggleDrawer("right", true)}
+        sx={{ ml: 2, display: { xs: "flex", md: "none" } }}
+      >
+        <Menu fontSize="large" />
+      </IconButton>
+      <Drawer
+        anchor="right"
+        open={state.right}
+        onClose={toggleDrawer("right", false)}
         sx={{
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
-          ml: { sm: `${drawerWidth}px` },
+          ".MuiDrawer-paper": {
+            bgcolor: "grey.900",
+          },
         }}
       >
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <Menu />
-          </IconButton>
-          <Typography
-            component="div"
-            variant="h6"
-            noWrap
-            color="primary"
-            sx={{
-              textTransform: "uppercase",
-              letterSpacing: 1,
-              "& :hover": { color: "white" },
-            }}
-          >
-            <MuiNextLink href="/" underline="none">
-              Stone Innovations Enterprise
-            </MuiNextLink>
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Box
-        component="nav"
-        sx={{
-          width: { sm: drawerWidth },
-          flexShrink: { sm: 0 },
-        }}
-        aria-label="main navigation"
-      >
-        <Drawer
-          container={container}
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{ keepMounted: true }}
-          sx={{
-            display: {
-              xs: "block",
-              sm: "none",
-            },
-            "& .MuiDrawer-paper": {
-              bgcolor: "secondary.main",
-              boxSizing: "border-box",
-              width: drawerWidth,
-            },
-          }}
-        >
-          {list}
-        </Drawer>
-        <Drawer
-          variant="permanent"
-          sx={{
-            display: { xs: "none", sm: "block" },
-            "& .MuiDrawer-paper": {
-              bgcolor: "secondary.main",
-              boxSizing: "border-box",
-              width: drawerWidth,
-            },
-          }}
-          open
-        >
-          {list}
-        </Drawer>
-      </Box>
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
-        }}
-      >
-        {props.children}
-      </Box>
-    </Box>
+        {list("right")}
+      </Drawer>
+    </>
   );
 };
 

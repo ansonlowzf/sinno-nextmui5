@@ -3,7 +3,7 @@ import { Box, Stack, Typography } from "@mui/material";
 
 const Footer = () => {
   return (
-    <Box component="footer" sx={{ py: 10, bgcolor: "secondary.main" }}>
+    <Box component="footer" sx={{ py: 10, bgcolor: "grey.900" }}>
       <Stack direction="row" justifyContent="center" spacing={4} sx={{ mb: 8 }}>
         <Box
           component="a"

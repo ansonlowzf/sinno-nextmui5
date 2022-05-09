@@ -44,7 +44,7 @@ export const Heading2s = ({ children, isCenter }) => (
     variant="h4"
     color="primary"
     fontWeight="bold"
-    align={isCenter ? "center" : "null"}
+    align={isCenter ? "center" : "inherit"}
     sx={{
       my: 2.5,
     }}

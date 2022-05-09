@@ -1,5 +1,6 @@
 import CollectionTitle from "@components/CollectionTitle";
 import ColourVariation from "@components/ColourVariation";
+import CreditCard from "@components/CreditCard";
 import FrSf from "@components/FrSf";
 import Hero from "@components/Hero";
 import MainSection from "@components/MainSection";
@@ -20,7 +21,6 @@ import {
 } from "const/caesarstone-data";
 import Image from "next/image";
 import { ColourWarning, PriceTerm, SectionContact } from "../../../components";
-import CreditCard from "@components/CreditCard";
 
 const CaesarstonePage = () => {
   return (
