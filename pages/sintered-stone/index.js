@@ -56,7 +56,9 @@ const MocaPage = () => {
         </MuiParagraph>
         <MuiParagraph>
           {`If you want to know more in-depth about sintered stone. We recommend you read the `}
-          <MuiNextLink href="/quartz-stone">{`in-depth quartz stone's article`}</MuiNextLink>
+        </MuiParagraph>
+        <MuiNextLink href="/quartz-stone">{`in-depth quartz stone's article`}</MuiNextLink>
+        <MuiParagraph>
           {` before reading further. It'll help you understand sintered stone easier.`}
         </MuiParagraph>
         <MuiParagraph>
