@@ -28,10 +28,10 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ bgcolor: "grey.900" }}>
+    <AppBar position="sticky" sx={{ bgcolor: "grey.900" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <MuiNextLink href="/" sx={{ mr: "auto" }}>
+          <MuiNextLink href="/">
             <IconButton aria-label="home">
               <Image
                 src={SinnoLogo}
@@ -43,7 +43,7 @@ const Navbar = () => {
           </MuiNextLink>
           <MuiNextLink
             href="/"
-            sx={{ flexGrow: 1, display: { xs: "none", lg: "flex" } }}
+            sx={{ mr: "auto", display: { xs: "none", lg: "flex" } }}
             underline="none"
           >
             <Typography
