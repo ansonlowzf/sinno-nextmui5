@@ -65,7 +65,6 @@ const SideDrawer = () => {
   return (
     <>
       <IconButton
-        edge="end"
         color="inherit"
         aria-label="menu"
         onClick={toggleDrawer("right", true)}
