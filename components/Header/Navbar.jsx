@@ -20,7 +20,7 @@ const Navbar = () => {
     <AppBar position="sticky" sx={{ bgcolor: "grey.900" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <MuiNextLink href="/">
+          <MuiNextLink href="/" sx={{ mr: { xs: "auto", lg: "initial" } }}>
             <IconButton aria-label="home">
               <Image
                 src={SinnoLogo}
