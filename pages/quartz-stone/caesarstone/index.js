@@ -1,6 +1,5 @@
 import CollectionTitle from "@components/CollectionTitle";
 import ColourVariation from "@components/ColourVariation";
-import CreditCard from "@components/CreditCard";
 import FrSf from "@components/FrSf";
 import Hero from "@components/Hero";
 import MainSection from "@components/MainSection";
@@ -339,7 +338,6 @@ const CaesarstonePage = () => {
           )}
         </Grid>
       </Container>
-      <CreditCard />
 
       <SectionWrapper>
         <ColourVariation stone="Caesarstone" />
