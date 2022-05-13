@@ -23,7 +23,7 @@ const Footer = () => {
           height={64}
         />
       </Grid>
-      <Stack direction="row" justifyContent="center" spacing={4} sx={{ mb: 8 }}>
+      <Stack direction="row" justifyContent="center" spacing={4} sx={{ mb: 5 }}>
         <MuiNextLink
           href="https://www.facebook.com/SinnoENT"
           target="_blank"
